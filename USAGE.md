@@ -59,6 +59,18 @@ TriOS 里「打开论坛」按钮指向官方英文论坛，对这些 mod 无效
 | 帖子头部的 ID 写错了（不是 mod_info.json 里的 id） | `{"id": "真实id", "thread": 帖子号}` |
 | 一个帖子发布多个 mod（本体 + 拓展） | 加 `"release": "拓展"`（匹配下载项名称的正则）或 `"releaseIndex": 1` |
 | 帖子没有结构化头部 | `"mode": "edited"`：用帖子最后编辑时间当版本号（作者一编辑就会提示） |
+| 匹配错了，不想用 fossic 作为这个 mod 的来源 | `{"id": "mod id", "exclude": true}` |
+| 你装的就是 fossic 汉化/搬运帖里的那份文件 | `{"id": "mod id", "trustRepost": true}` |
+
+## 来源可信度
+
+只有「Mod原创发布」区（及其已过时区）被当作 mod 的原始来源。汉化区、搬运区的帖子是转载，
+原版通常在英文论坛，转载可能更新不及时，所以默认**不使用**，报告里显示为 `repost` 并给出英文原帖提示。
+例外：本地 mod 名字是中文（说明装的是那份汉化版）且帖子版本不比本地旧，或在 mods.json 里设了 `trustRepost`。
+
+自带 Version Checker 文件的 mod（大多数英文 mod）完全不碰，TriOS 按原作者的来源检查。
+
+报告里的 `check` 表示本地版本比 fossic 新：帖子可能没及时改版本号，或作者的版本号写法特殊，需要人工确认。
 
 改完推送到 GitHub，Actions 会自动重新抓取。
 

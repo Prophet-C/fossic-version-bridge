@@ -17,6 +17,18 @@ REQUEST_DELAY = 1.0  # seconds between requests; be polite to the forum
 # Original releases, translations, reposts, and their "outdated" archives.
 # Earlier entries win when two threads claim the same mod id.
 FORUMS = [46, 60, 78, 67, 68, 79]
+# Only Mod原创发布 (and its archive) is the mod's own source. Translations
+# (汉化) and reposts (搬运) mirror a mod published elsewhere, usually the
+# English forum, and often lag behind it.
+ORIGINAL_FORUMS = {46, 67}
+
+
+def origin_of(forum):
+    return "original" if forum in ORIGINAL_FORUMS else "repost"
+
+
+def has_cjk(s):
+    return bool(re.search(r"[一-鿿]", s or ""))
 
 _last_request = 0.0
 

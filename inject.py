@@ -12,6 +12,7 @@ Re-run it after updating mods: a fresh mod folder no longer has the file.
 import argparse
 import json
 import os
+import re
 import sys
 import urllib.request
 
@@ -74,9 +75,53 @@ def inject(config, mod_dir, mod_id, name, local_version, rec):
     return wrote
 
 
+MOD_REPO = "https://raw.githubusercontent.com/wispborne/StarsectorModRepo/main/ModRepo.json"
+_english_index = None
+
+
+def english_link(name):
+    """Best-effort pointer to the mod's English source, from the catalog TriOS
+    itself uses. It has no ids or versions, so this is only a hint."""
+    global _english_index
+    if _english_index is None:
+        try:
+            req = urllib.request.Request(MOD_REPO, headers={"User-Agent": fl.USER_AGENT})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                items = json.loads(resp.read().decode("utf-8"))["items"]
+            _english_index = [(re.sub(r"[^a-z0-9]", "", (i.get("name") or "").lower()), i.get("urls", {})) for i in items]
+        except Exception:
+            _english_index = []
+    key = re.sub(r"[^a-z0-9]", "", name.lower())
+    if len(key) < 5:
+        return None
+    for n, urls in _english_index:
+        if n and (n == key or (len(n) >= 5 and (key in n or n in key))):
+            return urls.get("Forum") or urls.get("Download") or next(iter(urls.values()), None)
+    return None
+
+
+def trust(rec, rule, name, local):
+    """Is this catalog record a source we should use for the installed mod?
+    Returns (ok, reason)."""
+    if rule.get("exclude"):
+        return False, "excluded in mods.json"
+    if rec.get("source") == "mods.json" or rule.get("trustRepost"):
+        return True, None
+    if (rec.get("origin") or fl.origin_of(rec.get("forum"))) == "original":
+        return True, None
+    # A translation/repost thread. It is the real source only when the
+    # installed copy is that Chinese build and the thread is not behind it.
+    if fl.has_cjk(name) and fl.compare_versions(rec["version"], local) >= 0:
+        return True, None
+    return False, "fossic only has a translation/repost thread"
+
+
 def scan(config, catalog, mods_dir, dry_run=False, only=None, log=print):
     """Inject every eligible mod (or only the folder names in `only`).
-    Returns (rows, unknown): rows are (state, name, installed, fossic, thread)."""
+    Returns (rows, unknown): rows are (state, name, installed, fossic, link);
+    a mod with an untrusted source is reported with state "repost" and its
+    files are removed if an earlier run added them."""
+    rules = {fl.catalog_key(m["id"]): m for m in config["mods"]}
     rows, unknown = [], []
     for d in sorted(os.listdir(mods_dir)):
         if only is not None and d not in only:
@@ -95,13 +140,23 @@ def scan(config, catalog, mods_dir, dry_run=False, only=None, log=print):
         mod_id, name = info["id"], info.get("name", d)
         local = fl.version_string(info.get("version", "0"))
         rec = catalog.get(fl.catalog_key(mod_id))
+        rule = rules.get(fl.catalog_key(mod_id), {})
         if not rec:
             unknown.append(name)
+            continue
+        ok, reason = trust(rec, rule, name, local)
+        if not ok:
+            if not dry_run and is_ours(mod_dir):
+                remove(mod_dir)
+                log(f"unlinked {name}: {reason}")
+            link = english_link(name) if "repost" in reason else None
+            rows.append(("repost" if "repost" in reason else "excluded", name, local, rec["version"],
+                         f"English source: {link}" if link else rec["thread"]))
             continue
         if not dry_run and inject(config, mod_dir, mod_id, name, local, rec):
             log(f"linked {name} ({local}) to {rec['thread']}")
         cmp = fl.compare_versions(rec["version"], local)
-        state = "UPDATE" if cmp > 0 else "ok" if cmp == 0 else "local newer"
+        state = "UPDATE" if cmp > 0 else "ok" if cmp == 0 else "check"
         rows.append((state, name, local, rec["version"], rec["thread"]))
     return rows, unknown
 
@@ -131,12 +186,15 @@ def main():
     catalog = load_catalog(config, args.catalog)
     rows, unknown = scan(config, catalog, args.mods, dry_run=args.dry_run)
 
-    order = {"UPDATE": 0, "local newer": 1, "ok": 2}
-    print(f'\n{"state":12} {"mod":32} {"installed":14} {"fossic":14} thread')
+    order = {"UPDATE": 0, "check": 1, "ok": 2, "repost": 3, "excluded": 4}
+    print(f'\n{"state":10} {"mod":32} {"installed":14} {"fossic":14} thread')
     for state, name, local, remote, thread in sorted(rows, key=lambda r: (order[r[0]], r[1])):
-        print(f"{state:12} {name[:32]:32} {local:14} {remote:14} {thread}")
-    print(f"\n{len(rows)} mods {'would be ' if args.dry_run else ''}linked to fossic; "
+        print(f"{state:10} {name[:32]:32} {local:14} {remote:14} {thread}")
+    linked = [r for r in rows if r[0] in ("UPDATE", "check", "ok")]
+    print(f"\n{len(linked)} mods {'would be ' if args.dry_run else ''}linked to fossic; "
           f"{sum(r[0] == 'UPDATE' for r in rows)} have updates.")
+    print("  check    = installed is newer than fossic: the thread may be stale or the version scheme odd; verify by hand")
+    print("  repost   = fossic only mirrors this mod (汉化/搬运); not used, follow the original source instead")
     if unknown:
         print("No Version Checker file and not found on fossic: " + ", ".join(unknown))
 

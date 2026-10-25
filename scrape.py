@@ -56,6 +56,7 @@ def make_record(mod_id, tid, fid, info, picked, source):
         "edited": info["edited"],
         "version": version,
         "source": source,
+        "origin": fl.origin_of(fid),
         "aid": aid,
     }
 
@@ -115,6 +116,7 @@ def build_catalog(config, threads):
             catalog[key] = rec
 
     # Overrides always win over what the header says.
+    forum_of = {tid: fid for tid, fid in threads}
     for entry in config["mods"]:
         if not entry.get("thread"):
             continue
@@ -125,7 +127,8 @@ def build_catalog(config, threads):
         if not picked[0]:
             print(f'??   {entry["id"]}: no version in thread {entry["thread"]} with rule {entry}')
             continue
-        catalog[fl.catalog_key(entry["id"])] = make_record(entry["id"], entry["thread"], None, info, picked, "mods.json")
+        fid = forum_of.get(entry["thread"])
+        catalog[fl.catalog_key(entry["id"])] = make_record(entry["id"], entry["thread"], fid, info, picked, "mods.json")
     return catalog, cache.failed
 
 
