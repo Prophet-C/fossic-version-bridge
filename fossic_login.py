@@ -84,29 +84,109 @@ def _resolve(rec, rule, session):
         return None, "附件需要积分或其他权限"
     if not fl.publicly_downloadable(url):
         return None, "直链也需要登录，TriOS 无法下载"
-    return url, None
+    # Confirm the archive is this mod, and report the version written
+    # inside it, so an installed update matches exactly.
+    try:
+        mods = fl.inspect_archive(url, str(d.get("ext", "")) or None)
+    except Exception:
+        mods = None  # unreadable: keep the link, the version match above stands
+    if mods is not None:
+        match = next((m for m in mods if fl.catalog_key(m["id"]) == fl.catalog_key(rec["id"])), None)
+        if not match:
+            return None, f"附件里是别的 mod（{', '.join(m['id'] for m in mods)}）"
+        return {"url": url, "version": fl.normalize(match["version"])}, None
+    return {"url": url, "version": None}, None
+
+
+def _inspect(url, ext, session):
+    """Mods inside an archive; tries without the login first (what TriOS
+    will do), then with it."""
+    try:
+        return fl.inspect_archive(url, ext)
+    except Exception:
+        return fl.inspect_archive(url, ext, session=session)
+
+
+def collection_records(collections, session, log):
+    """Collection threads (mods.json "collections") ship several small mods
+    as first-post attachments, with no per-mod version anywhere but inside
+    each archive. Open every archive once (cached per attachment id), read
+    its mod_info.json files, and return catalog-style records {key: record};
+    a mod uploaded more than once takes its newest upload. Their downloads
+    are login-only, hence served locally like the rest here."""
+    cache = load_cache()
+    archives = cache.setdefault("__archives__", {})
+    records = {}
+    for col in collections:
+        tid = col["thread"]
+        content = fl.fetch(fl.thread_url(tid), session=session)
+        if re.search(r"discuz_uid = '0'", content):
+            raise fl.LoginRequired()
+        info = fl.parse_thread(content)
+        files = fl.attach_info(info["postAids"], session=session) if info["postAids"] else {}
+        for aid, d in files.items():
+            ext = str(d.get("ext", "")).lower()
+            if ext not in fl.ARCHIVE_EXTS:
+                continue
+            hit = archives.get(str(aid))
+            if hit is None:
+                hit = {"dateline": d.get("dateline") or 0, "filename": d.get("filename")}
+                try:
+                    url = fl.resolve_download(fl.BASE + d["downloadUrl"], session=session)
+                    if not url:
+                        raise ValueError("attachment needs credits or permission")
+                    hit["mods"] = _inspect(url, ext, session)
+                    hit["download"] = url if fl.publicly_downloadable(url) else None
+                except fl.LoginRequired:
+                    raise
+                except Exception as e:
+                    hit["problem"] = str(e)[:120]
+                archives[str(aid)] = hit
+                log(f"collection {tid}: {d.get('filename')} -> "
+                    f"{[m['id'] + ' ' + m['version'] for m in hit.get('mods', [])] or hit.get('problem')}")
+            for m in hit.get("mods", []):
+                key = fl.catalog_key(m["id"])
+                old = records.get(key)
+                if old and old["_dateline"] >= hit["dateline"]:
+                    continue
+                records[key] = {
+                    "id": m["id"], "thread": fl.thread_url(tid), "forum": None, "title": info["title"],
+                    "edited": info["edited"], "version": fl.normalize(m["version"]), "source": "collection",
+                    "origin": "original", "aid": int(aid), "download": None,
+                    "_local_download": hit.get("download"), "_dateline": hit["dateline"],
+                }
+    save_cache(cache)
+    return records
 
 
 def refresh(catalog, rules, keys, session, log):
     """Resolve downloads for the given catalog keys, using the cache.
 
-    Returns (downloads {key: url}, problems {key: text}, login_ok)."""
+    Returns (downloads {key: {"url", "version"}}, problems {key: text},
+    login_ok). "version" is the one inside the archive (None if unread);
+    the local server reports it instead of the thread's."""
     cache = load_cache()
     downloads, problems, login_ok = {}, {}, True
     for key in keys:
         rec = catalog.get(key)
         if not rec:
             continue
+        if rec.get("source") == "collection":
+            # Already opened by collection_records.
+            if rec.get("_local_download"):
+                downloads[key] = {"url": rec["_local_download"], "version": rec["version"]}
+            continue
         hit = cache.get(key)
         fresh = hit and hit.get("version") == rec["version"] and hit.get("thread") == rec["thread"] and (
             hit.get("download") or time.time() - hit.get("checked", 0) < RETRY_HOURS * 3600)
         if not fresh and login_ok and session:
             try:
-                url, problem = _resolve(rec, rules.get(key, {}), session)
-                hit = {"version": rec["version"], "thread": rec["thread"], "download": url,
+                found, problem = _resolve(rec, rules.get(key, {}), session)
+                hit = {"version": rec["version"], "thread": rec["thread"],
+                       "download": found and found["url"], "archiveVersion": found and found["version"],
                        "problem": problem, "checked": time.time()}
                 cache[key] = hit
-                log(f"login download for {rec['id']} {rec['version']}: {url or problem}")
+                log(f"login download for {rec['id']} {rec['version']}: {hit['download'] or problem}")
             except fl.LoginRequired:
                 login_ok = False
                 log("fossic login expired or invalid; update fossic_login.txt")
@@ -114,7 +194,7 @@ def refresh(catalog, rules, keys, session, log):
                 log(f"login download for {rec['id']} failed: {e!r}")
         if hit and hit.get("version") == rec["version"]:
             if hit.get("download"):
-                downloads[key] = hit["download"]
+                downloads[key] = {"url": hit["download"], "version": hit.get("archiveVersion")}
             elif hit.get("problem"):
                 problems[key] = hit["problem"]
     save_cache(cache)

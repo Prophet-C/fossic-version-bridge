@@ -1,6 +1,9 @@
 {
   "_comment": "Exceptions only; most mods are matched by the mod id in their fossic thread header. Fields: id = mod_info.json id, thread = fossic thread id (thread-<id>-1-1.html). Optional rule: release = regex on a release's display name or version (threads shipping several mods), releaseIndex = position in the release list, mode = \"edited\" (use the thread's last edit time), version = fixed value.",
   "rawBase": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main",
+  "collections": [
+    { "thread": 19427, "name": "一些生活质量优化mod的集中帖（没技术，是菜鸡）" }
+  ],
   "mods": [
     { "id": "ArcLightBureau", "name": "弧光设计局", "thread": 3342, "release": "本体" },
     { "id": "ArcLightBureauPlus", "name": "弧光设计局拓展", "thread": 3342, "release": "拓展" },
@@ -8,6 +11,7 @@
     { "id": "kk_kz", "name": "天工船舶拓展", "thread": 12809, "releaseIndex": 1 },
     { "id": "Hdbyunm", "name": "威胁侵染", "thread": 17204, "release": "最新本体" },
     { "id": "GalacticConstellate", "name": "星海集群", "thread": 10883, "release": "本体" },
+    { "id": "Eridani_Combine", "name": "天苑四-行星联合实业 li版（理解版）", "thread": 17742, "release": "^理解版" },
     { "id": "Templars", "name": "圣殿骑士团 Continued（必要之举维护，原作者授权）", "thread": 20970 }
   ]
 }

@@ -18,13 +18,18 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    # The first run opens every one-click archive once (later runs only new
+    # uploads), so it needs far longer than the usual ~20 minutes.
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Install 7-Zip (reads 7z/rar release archives)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq 7zip
 
       - name: Scrape
         run: python scrape.py
@@ -38,7 +43,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add versions catalog.json README.md attach_cache.json
+          git add versions catalog.json README.md attach_cache.json archive_cache.json
           git commit -m "Update fossic versions"
           # main may have moved (a config push) while this run was crawling.
           git pull --rebase -X theirs origin main

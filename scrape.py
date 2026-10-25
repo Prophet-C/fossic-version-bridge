@@ -92,8 +92,102 @@ def choose_post_archives(catalog):
             aid = fl.pick_post_archive(rec["version"], {a: cache[a] for a in aids if a in cache})
             if aid:
                 rec["aid"] = aid
+            else:
+                # No name carries the version: inspect_archives opens these
+                # archives and looks for the mod's id inside instead.
+                rec["_candidates"] = [(a, cache[a]["ext"]) for a in aids
+                                      if a in cache and str(cache[a].get("ext", "")).lower() in fl.ARCHIVE_EXTS]
+        if rec.get("aid") and rec["aid"] in cache:
+            rec["_ext"] = cache[rec["aid"]].get("ext")
     with open(ATTACH_CACHE, "w", encoding="utf-8") as f:
         json.dump({str(k): v for k, v in sorted(cache.items())}, f, ensure_ascii=False, indent=0)
+        f.write("\n")
+
+
+ARCHIVE_CACHE = os.path.join(HERE, "archive_cache.json")
+FULL_DOWNLOAD_BUDGET = 3 * 1024 ** 3  # bytes of 7z/rar per run; the rest waits for the next run
+
+
+def inspect_archives(catalog):
+    """Check one-click files against the mod_info.json inside them.
+
+    - A zip download is verified (cheap: Range requests). If it holds a
+      different mod, the link is dropped; otherwise the version TriOS sees
+      becomes the archive's own, so an installed update matches it exactly.
+    - A mod left without a download because no file name carried its
+      version gets its candidate archives opened (7z/rar in full, within a
+      per-run budget) to find the one containing its id.
+    Results are cached per attachment id in archive_cache.json: an aid's
+    file never changes."""
+    try:
+        with open(ARCHIVE_CACHE, encoding="utf-8") as f:
+            cache = json.load(f)
+    except (OSError, ValueError):
+        cache = {}
+    budget = [FULL_DOWNLOAD_BUDGET]
+
+    def mods_in(aid, ext, url, zip_only=False):
+        hit = cache.get(str(aid))
+        if hit is None:
+            if ext and ext.lower() != "zip" and (zip_only or budget[0] <= 0):
+                return None  # verifying only, or over budget: try next run
+            try:
+                hit = {"mods": fl.inspect_archive(url, ext, zip_only=zip_only)}
+            except fl.NotZip:
+                return None  # verification skips 7z/rar (whole download)
+            except Exception as e:
+                hit = {"error": str(e)[:120]}
+            if ext and ext.lower() != "zip":
+                budget[0] -= fl.MAX_FULL_DOWNLOAD // 3  # rough average size
+            cache[str(aid)] = hit
+        return hit.get("mods")
+
+    for key, rec in catalog.items():
+        candidates = rec.pop("_candidates", [])
+        ext = rec.pop("_ext", None)
+        if rec.get("download") and str(ext or "zip").lower() == "zip":
+            mods = mods_in(rec["aid"], ext, rec["download"], zip_only=True)
+            if mods is None:
+                continue
+            match = next((m for m in mods if fl.catalog_key(m["id"]) == key), None)
+            if mods and not match:
+                print(f'WRONG {rec["id"]}: archive holds {[m["id"] for m in mods]}; link dropped')
+                rec["download"] = None
+            elif match:
+                rec["version"] = fl.normalize(match["version"])
+        elif not rec.get("download") and candidates:
+            try:
+                details = fl.attach_info([a for a, _ in candidates])
+            except Exception as e:
+                print(f'ERR  attachinfo for {rec["id"]}: {e}')
+                continue
+            best = None
+            for aid, cext in candidates:
+                d = details.get(aid)
+                if not d or not d.get("downloadUrl"):
+                    continue
+                hit = cache.get(str(aid))
+                url = None
+                if hit is None:
+                    try:
+                        url = fl.resolve_download(fl.BASE + d["downloadUrl"])
+                    except fl.LoginRequired:
+                        cache[str(aid)] = {"error": "login required"}
+                        continue
+                    if not url:
+                        continue
+                mods = mods_in(aid, cext, url) if url or hit else None
+                for m in mods or []:
+                    if fl.catalog_key(m["id"]) == key and (
+                            best is None or fl.compare_versions(fl.normalize(m["version"]), best[1]) > 0):
+                        best = (aid, fl.normalize(m["version"]), url, d)
+            if best:
+                aid, version, url, d = best
+                rec["aid"], rec["version"] = aid, version
+                rec["download"] = url or fl.resolve_download(fl.BASE + d["downloadUrl"])
+                print(f'FOUND {rec["id"]} {version} by opening the archive')
+    with open(ARCHIVE_CACHE, "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(cache.items(), key=lambda kv: int(kv[0]))), f, ensure_ascii=False, indent=0)
         f.write("\n")
 
 
@@ -242,6 +336,7 @@ def main():
         catalog, _ = build_catalog(config, [(t, None) for t in args.threads])
         choose_post_archives(catalog)
         resolve_downloads(catalog, {})
+        inspect_archives(catalog)
         for r in catalog.values():
             print(f'{r["id"]:35} {r["version"]:15} {r["source"]:10} {r["title"]}\n{"":35} download: {r.get("download")}')
         return
@@ -267,6 +362,7 @@ def main():
     known = {str(r["aid"]): r["download"] for r in previous.values() if r.get("aid") and "download" in r}
     choose_post_archives(catalog)
     resolve_downloads(catalog, known)
+    inspect_archives(catalog)
 
     os.makedirs(VERSIONS_DIR, exist_ok=True)
     # Merge with the previous catalog so a mod whose thread failed to load

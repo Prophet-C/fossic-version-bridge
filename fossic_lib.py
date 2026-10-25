@@ -4,9 +4,15 @@ only, so the GitHub Action needs no dependencies."""
 
 import base64
 import html
+import io
 import json
+import os
 import re
+import shutil
+import subprocess
+import tempfile
 import time
+import zipfile
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -252,31 +258,64 @@ def pick_version(info, rule=None):
                 return normalize(r["modVersion"]), r
         return None, None
 
-    # Default: the newest of the header version and the releases for the
-    # newest game version. The header is sometimes stale and the release list
-    # sometimes lags behind, so take whichever is ahead.
-    candidates = []
+    # Default. The download block for the newest game version holds the
+    # latest files; the header states the mod's version.
     header = info["headerVersion"]
     # Some authors type the game version ("0.98") into the mod version field;
     # when a release list exists, trust it over such a header.
-    if is_version(header) and not (releases and re.match(r"^0\.9\d*a?$", header)):
-        candidates.append((normalize(header), None))
+    if not is_version(header) or (releases and re.match(r"^0\.9\d*a?$", header)):
+        header = None
+    header = normalize(header) if header else None
+    top = []
     if releases:
-        top = max(_game_rank(r) for r in releases)
-        candidates += [(normalize(r["modVersion"]), r) for r in releases if _game_rank(r) == top]
-    if not candidates:
-        return None, None
-    best = candidates[0]
-    for c in candidates[1:]:
-        # On a tie prefer the release entry, which has a download.
-        cmp = compare_versions(c[0], best[0])
-        if cmp > 0 or (cmp == 0 and best[1] is None):
-            best = c
-    version, release = best
-    if release is None:
-        # Header won; still offer the download if a release has that version.
-        release = next((r for r in releases if normalize(r["modVersion"]) == version), None)
-    return version, release
+        rank = max(_game_rank(r) for r in releases)
+        top = [r for r in releases if _game_rank(r) == rank]
+    if not top:
+        return header, None  # no download block: file-name matching may still find one
+
+    if header:
+        # An entry agrees with the header: same version, or one is a more
+        # detailed form of the other ("0.81" / "0.81 fix4").
+        same = [r for r in top if same_version(normalize(r["modVersion"]), header)]
+        if len(same) == 1:
+            r = same[0]
+            v = normalize(r["modVersion"])
+            return (header if len(header) >= len(v) else v), r
+        if len(same) > 1:
+            # Several files of this version: variants (e.g. 理解版/非理解版)
+            # or a main mod plus addons. Which one is installed is not
+            # knowable here; mods.json can pick with "release".
+            return header, None
+
+    # No entry agrees (or no header). One entry: that is the latest file.
+    # Several: the newest, when it is unambiguous; a stale header loses.
+    versions = sorted(top, key=lambda r: _VersionKey(normalize(r["modVersion"])), reverse=True)
+    newest = versions[0]
+    nv = normalize(newest["modVersion"])
+    if len(versions) > 1 and compare_versions(normalize(versions[1]["modVersion"]), nv) == 0:
+        return (header or nv), None  # tie between different files
+    if header and compare_versions(header, nv) > 0:
+        # The header is ahead of every file (block not updated yet, as in
+        # "0.1.9g" vs a "0.1.9d" entry): notify, but offer no old file.
+        return header, None
+    return nv, newest
+
+
+class _VersionKey:
+    def __init__(self, v):
+        self.v = v
+
+    def __lt__(self, other):
+        return compare_versions(self.v, other.v) < 0
+
+
+def same_version(a, b):
+    """Equal, or one extends the other at a version boundary."""
+    a, b = a.lower(), b.lower()
+    if a == b:
+        return True
+    short, long_ = sorted((a, b), key=len)
+    return long_.startswith(short) and not long_[len(short)].isdigit() and long_[len(short)] != "."
 
 
 def candidate_aids(info):
@@ -327,6 +366,7 @@ def normalize(version):
     """Canonical string form used on both the local and remote side."""
     v = str(version).strip()
     v = re.sub(r"^[vV](?=\d)", "", v)
+    v = re.sub(r"\s*(版本|版)$", "", v)  # "0.6版"
     return re.sub(r"\s+", "-", v)
 
 
@@ -431,7 +471,11 @@ def compare_versions(a, b):
 def load_json_lenient(path):
     """Read Starsector-style JSON: comments, trailing commas, bare keys."""
     with open(path, encoding="utf-8-sig") as f:
-        text = f.read()
+        return parse_json_lenient(f.read())
+
+
+def parse_json_lenient(text):
+    text = text.lstrip("﻿")
     # Drop "#", "//" and "/* */" comments that sit outside string literals.
     out, i, n, in_str = [], 0, len(text), False
     while i < n:
@@ -461,6 +505,143 @@ def load_json_lenient(path):
     text = re.sub(r",(\s*[}\]])", r"\1", text)
     text = re.sub(r'([{,]\s*)([A-Za-z_]\w*)(\s*:)', r'\1"\2"\3', text)
     return json.loads(text, strict=False)
+
+
+# --- Reading mod_info.json out of a release archive ---------------------------
+
+MAX_FULL_DOWNLOAD = 150 * 1024 * 1024  # 7z/rar must be fetched whole; skip bigger
+
+
+class _RangeFile(io.RawIOBase):
+    """Read-only, seekable view of a remote file through HTTP Range requests,
+    so zipfile can read the central directory and one member without
+    downloading the archive."""
+
+    BLOCK = 64 * 1024
+
+    def __init__(self, url, size, headers):
+        self.url, self.size, self.headers, self.pos = url, size, headers, 0
+        self._blocks = {}
+
+    def readable(self):
+        return True
+
+    def seekable(self):
+        return True
+
+    def tell(self):
+        return self.pos
+
+    def seek(self, offset, whence=io.SEEK_SET):
+        self.pos = {io.SEEK_SET: 0, io.SEEK_CUR: self.pos, io.SEEK_END: self.size}[whence] + offset
+        return self.pos
+
+    def _block(self, i):
+        if i not in self._blocks:
+            start = i * self.BLOCK
+            end = min(start + self.BLOCK, self.size) - 1
+            req = urllib.request.Request(self.url, headers=dict(self.headers, Range=f"bytes={start}-{end}"))
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                if resp.status != 206:
+                    raise OSError("server ignored the Range request")
+                self._blocks[i] = resp.read()
+        return self._blocks[i]
+
+    def readinto(self, b):
+        n = min(len(b), max(0, self.size - self.pos))
+        got = 0
+        while got < n:
+            i, off = divmod(self.pos + got, self.BLOCK)
+            chunk = self._block(i)[off:off + n - got]
+            b[got:got + len(chunk)] = chunk
+            got += len(chunk)
+        self.pos += got
+        return got
+
+
+def _seven_zip():
+    for name in ("7zz", "7z"):
+        path = shutil.which(name)
+        if path:
+            return path
+    default = r"C:\Program Files\7-Zip\7z.exe"
+    return default if os.path.exists(default) else None
+
+
+def _mod_infos_from_texts(texts):
+    mods = []
+    for text in texts:
+        try:
+            info = parse_json_lenient(text)
+            mods.append({"id": info["id"], "name": info.get("name", info["id"]),
+                         "version": version_string(info.get("version", "0"))})
+        except Exception:
+            continue
+    return mods
+
+
+class NotZip(Exception):
+    """inspect_archive(zip_only=True) met a 7z/rar file."""
+
+
+def inspect_archive(url, ext=None, session=None, zip_only=False):
+    """Return the mods inside a release archive: [{"id", "name", "version"}],
+    one per mod_info.json (an archive may hold a main mod plus addons).
+
+    zip is read through Range requests (a few KB); 7z/rar are downloaded to a
+    temporary file, read with 7-Zip, and the file is deleted right away.
+    ext None: taken from the file name the CDN reports. zip_only: raise
+    NotZip instead of downloading a 7z/rar whole. Raises on anything
+    unreadable."""
+    headers = _headers(session)
+    head = urllib.request.Request(url, method="HEAD", headers=headers)
+    with urllib.request.urlopen(head, timeout=30) as resp:
+        size = int(resp.headers.get("Content-Length") or 0)
+        ranges = "bytes" in (resp.headers.get("Accept-Ranges") or "")
+        if not ext:
+            m = re.search(r'filename="?[^";]*\.(zip|7z|rar)"?', resp.headers.get("Content-Disposition") or "", re.I)
+            ext = m.group(1) if m else "zip"
+    ext = ext.lower()
+    if zip_only and ext != "zip":
+        raise NotZip(ext)
+    if ext == "zip" and size and ranges:
+        with zipfile.ZipFile(io.BufferedReader(_RangeFile(url, size, headers), buffer_size=_RangeFile.BLOCK)) as z:
+            names = [n for n in z.namelist() if n.lower().rsplit("/", 1)[-1] == "mod_info.json"]
+            return _mod_infos_from_texts(z.read(n).decode("utf-8-sig", errors="replace") for n in names)
+    if size > MAX_FULL_DOWNLOAD:
+        raise ValueError(f"archive is {size // 1048576} MB; too big to inspect")
+    tool = _seven_zip()
+    if ext != "zip" and not tool:
+        raise ValueError("7-Zip not available for 7z/rar")
+    fd, tmp = tempfile.mkstemp(suffix="." + ext)
+    try:
+        with os.fdopen(fd, "wb") as out:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                shutil.copyfileobj(resp, out, 1024 * 1024)
+        if ext == "zip":
+            with zipfile.ZipFile(tmp) as z:
+                names = [n for n in z.namelist() if n.lower().rsplit("/", 1)[-1] == "mod_info.json"]
+                return _mod_infos_from_texts(z.read(n).decode("utf-8-sig", errors="replace") for n in names)
+        flags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
+        listing = subprocess.run([tool, "l", "-slt", "-ba", tmp], capture_output=True, timeout=120,
+                                 creationflags=flags).stdout.decode("utf-8", errors="replace")
+        names = [line[7:].strip() for line in listing.splitlines() if line.startswith("Path = ")]
+        names = [n for n in names if n.replace("\\", "/").lower().rsplit("/", 1)[-1] == "mod_info.json"]
+        texts = []
+        for n in names:
+            out = subprocess.run([tool, "e", "-so", tmp, n], capture_output=True, timeout=120,
+                                 creationflags=flags).stdout
+            texts.append(out.decode("utf-8-sig", errors="replace"))
+        return _mod_infos_from_texts(texts)
+    finally:
+        os.remove(tmp)
+
+
+def versions_match(a, b):
+    """Same version for update purposes: "0.6" = "0.6.0", "0.81" ~ "0.81 fix4"."""
+    trim = lambda v: re.sub(r"(\.0)+$", "", normalize(v).lower())
+    return same_version(trim(a), trim(b))
 
 
 def catalog_key(mod_id):

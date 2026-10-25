@@ -108,7 +108,8 @@ class LocalServer:
 
     def __init__(self, config):
         self.config = config
-        self.downloads = {}  # catalog key -> CDN url
+        self.downloads = {}  # catalog key -> {"url", "version" (inside the archive)}
+        self.synthetic = {}  # catalog key -> record of a collection-thread mod (no GitHub file)
         self._github = {}    # file name -> (fetched at, data)
         self._lock = threading.Lock()
         self.httpd = None
@@ -159,22 +160,30 @@ class LocalServer:
         return True
 
     def master(self, name):
-        with self._lock:
-            hit = self._github.get(name)
-        if not hit or time.time() - hit[0] > self.GITHUB_TTL:
-            url = f'{self.config["rawBase"].rstrip("/")}/versions/{urllib.parse.quote(name)}'
-            req = urllib.request.Request(url, headers={"User-Agent": fl.USER_AGENT})
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                hit = (time.time(), json.loads(resp.read().decode("utf-8")))
-            with self._lock:
-                self._github[name] = hit
-        data = dict(hit[1])
         key = name[: -len(".version")]
-        data["masterVersionFile"] = inject.local_master_url(key)
         with self._lock:
-            url = self.downloads.get(key)
-        if url:
-            data["directDownloadURL"] = url
+            synthetic = self.synthetic.get(key)
+            hit = self._github.get(name)
+            found = self.downloads.get(key)
+        if synthetic:
+            data = {"modName": synthetic["id"], "modVersion": fl.version_object(synthetic["version"]),
+                    "fossicThread": synthetic["thread"]}
+        else:
+            if not hit or time.time() - hit[0] > self.GITHUB_TTL:
+                url = f'{self.config["rawBase"].rstrip("/")}/versions/{urllib.parse.quote(name)}'
+                req = urllib.request.Request(url, headers={"User-Agent": fl.USER_AGENT})
+                with urllib.request.urlopen(req, timeout=30) as resp:
+                    hit = (time.time(), json.loads(resp.read().decode("utf-8")))
+                with self._lock:
+                    self._github[name] = hit
+            data = dict(hit[1])
+        data["masterVersionFile"] = inject.local_master_url(key)
+        if found:
+            data["directDownloadURL"] = found["url"]
+            if found.get("version"):
+                # The version written inside the archive, so the installed
+                # update matches exactly.
+                data["modVersion"] = fl.version_object(found["version"])
         return data
 
 
@@ -187,6 +196,25 @@ class Watcher:
         self.catalog, self.last_refresh, self.known = None, 0.0, {}
         self.last_login_check, self.login_state = 0.0, ("ok" if session else None)
         self.problems = {}
+        self.collection = {}  # mods found in mods.json "collections" threads (login only)
+
+    def merged_catalog(self):
+        # A mod's own thread wins over its copy in a collection thread.
+        return {**self.collection, **self.catalog}
+
+    def refresh_collections(self):
+        if not (self.server and self.config.get("collections")):
+            return
+        try:
+            self.collection = fossic_login.collection_records(self.config["collections"], self.session, log)
+            self.known = {}  # newly found mods may match installed folders
+        except fl.LoginRequired:
+            self.login_state = "expired"
+            log("fossic login expired or invalid; update fossic_login.txt")
+        except Exception as e:
+            log(f"collection threads failed: {e!r}")
+        with self.server._lock:
+            self.server.synthetic = {k: r for k, r in self.collection.items() if k not in self.catalog}
 
     def tick(self):
         try:
@@ -198,11 +226,14 @@ class Watcher:
                     self.known = {}  # rescan everything against the new catalog
             if self.catalog is None:
                 return
+            if self.server and time.time() - self.last_login_check > self.LOGIN_CHECK:
+                self.refresh_collections()
+            catalog = self.merged_catalog()
             sigs = signatures(self.mods_dir)
             changed = {d for d, s in sigs.items() if self.known.get(d) != s}
             use_local = self.server is not None
             if changed:
-                rows, _ = inject.scan(self.config, self.catalog, self.mods_dir, only=changed, log=log,
+                rows, _ = inject.scan(self.config, catalog, self.mods_dir, only=changed, log=log,
                                       use_local=use_local)
                 for r in rows:
                     if r["state"].startswith("UPDATE"):
@@ -211,15 +242,24 @@ class Watcher:
             if changed or time.time() - self.last_login_check > self.LOGIN_CHECK:
                 self.last_login_check = time.time()
                 # A full dry-run pass is cheap and gives the report every mod.
-                rows, unknown = inject.scan(self.config, self.catalog, self.mods_dir, dry_run=True,
+                rows, unknown = inject.scan(self.config, catalog, self.mods_dir, dry_run=True,
                                             log=lambda m: None, use_local=use_local)
                 local_downloads = {}
                 if self.server:
                     rules = {fl.catalog_key(m["id"]): m for m in self.config["mods"]}
                     keys = [r["key"] for r in rows if r["local"]]
                     local_downloads, self.problems, ok = fossic_login.refresh(
-                        self.catalog, rules, keys, self.session, log)
-                    self.login_state = "ok" if ok else "expired"
+                        catalog, rules, keys, self.session, log)
+                    if self.login_state != "expired" or ok:
+                        self.login_state = "ok" if ok else "expired"
+                    # Rows should show the version TriOS will actually see.
+                    for r in rows:
+                        v = (local_downloads.get(r["key"]) or {}).get("version")
+                        if v:
+                            r["fossic"] = v
+                            cmp = fl.compare_versions(v, r["installed"])
+                            if r["state"] in ("UPDATE", "ok", "check"):
+                                r["state"] = "UPDATE" if cmp > 0 else "ok" if cmp == 0 else "check"
                     with self.server._lock:
                         self.server.downloads = local_downloads
                 report.write(rows, unknown, local_downloads, self.problems, self.login_state)
