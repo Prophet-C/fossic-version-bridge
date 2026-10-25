@@ -279,6 +279,14 @@ def pick_version(info, rule=None):
     return version, release
 
 
+def candidate_aids(info):
+    """Attachments that may hold a thread's current archive when no release
+    entry carries exactly its version: release-list files first, then the
+    first post's."""
+    aids = [r["aid"] for r in info["releases"] if r.get("aid")]
+    return aids + [a for a in info["postAids"] if a not in aids]
+
+
 def pick_post_archive(version, files):
     """Choose the in-post attachment that is this version's archive.
 

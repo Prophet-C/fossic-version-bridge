@@ -69,9 +69,11 @@ def _resolve(rec, rule, session):
         return None, f"帖子版本已变为 {version}，等待下次抓取"
     aid = release.get("aid") if release else None
     files = {}
-    if not aid and info["postAids"]:
-        files = fl.attach_info(info["postAids"], session=session)
-        aid = fl.pick_post_archive(version, {a: d for a, d in files.items()})
+    if not aid and fl.candidate_aids(info):
+        # Same file-name matching as the crawl (scrape.choose_post_archives),
+        # but logged in, so attachments hidden from guests are visible too.
+        files = fl.attach_info(fl.candidate_aids(info), session=session)
+        aid = fl.pick_post_archive(version, files)
     if not aid:
         return None, "帖子里没有能确定对应这个版本的压缩包"
     d = files.get(aid) or fl.attach_info([aid], session=session).get(aid)

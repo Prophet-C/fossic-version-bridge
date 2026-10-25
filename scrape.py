@@ -58,9 +58,11 @@ def make_record(mod_id, tid, fid, info, picked, source):
         "source": source,
         "origin": fl.origin_of(fid),
         "aid": aid,
-        # Without a release list, look for the archive among the first
-        # post's attachments (choose_post_archives); dropped before saving.
-        "_postAids": [] if aid else info["postAids"],
+        # No release entry with exactly this version (no release list, or
+        # the header says "0.81 fix4" where the list says "0.81"): match the
+        # version against the file names of the release and first-post
+        # attachments instead (choose_post_archives); dropped before saving.
+        "_postAids": [] if aid else fl.candidate_aids(info),
     }
 
 
