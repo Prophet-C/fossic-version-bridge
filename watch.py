@@ -142,7 +142,9 @@ class LocalServer:
                     self.send_error(502, str(e)[:100])
                     return
                 self.send_response(200)
-                self.send_header("Content-Type", "application/json; charset=utf-8")
+                # text/plain like raw.githubusercontent.com: TriOS decodes an
+                # application/json body into a map, then fails expecting text.
+                self.send_header("Content-Type", "text/plain; charset=utf-8")
                 self.send_header("Content-Length", str(len(body)))
                 self.end_headers()
                 self.wfile.write(body)
