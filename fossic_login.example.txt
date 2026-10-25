@@ -1,0 +1,14 @@
+# 把这个文件复制一份，改名为 fossic_login.txt（同一个文件夹），再填下面两行。
+# fossic_login.txt 只存在你的电脑上，不会上传到 GitHub（已在 .gitignore 里）。
+# 它相当于你的登录凭据，不要发给别人。登录失效后（watch.log 会提示）重新复制一次即可。
+#
+# 怎么拿到这两个值（Chrome / Edge）：
+#   1. 用浏览器登录 https://www.fossic.org ，打开任意一个帖子页面
+#   2. 按 F12 打开开发者工具，切到「网络 / Network」，按 F5 刷新页面
+#   3. 点列表最上面那条请求（thread-xxxx 那个），在右边「请求标头 / Request Headers」里：
+#        cookie:      整行复制它的值
+#        user-agent:  整行复制它的值
+#   必须用同一个浏览器的这两个值：fossic 会核对登录信息和浏览器是否匹配。
+
+cookie: 在这里粘贴 cookie 的值
+user-agent: 在这里粘贴 user-agent 的值

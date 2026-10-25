@@ -35,7 +35,14 @@ def has_cjk(s):
 _last_request = 0.0
 
 
-def fetch(url, retries=3):
+def _headers(session):
+    """session: None for anonymous requests, or {"Cookie", "User-Agent"} from
+    the user's own browser (see fossic_login.py). Discuz validates the login
+    cookie against the browser's User-Agent, so both are sent as given."""
+    return dict(session) if session else {"User-Agent": USER_AGENT}
+
+
+def fetch(url, retries=3, session=None):
     global _last_request
     for attempt in range(retries):
         wait = REQUEST_DELAY - (time.time() - _last_request)
@@ -43,7 +50,7 @@ def fetch(url, retries=3):
             time.sleep(wait)
         _last_request = time.time()
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            req = urllib.request.Request(url, headers=_headers(session))
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return resp.read().decode("utf-8", errors="replace")
         except Exception:
@@ -63,7 +70,7 @@ _no_redirect = urllib.request.build_opener(_NoRedirect)
 ARCHIVE_EXTS = {"zip", "7z", "rar"}
 
 
-def attach_info(aids):
+def attach_info(aids, session=None):
     """fossic's own download panel asks this endpoint for attachment details:
     {aid: {"filename", "ext", "filesize", "downloadUrl", ...}}. Works without
     a login. downloadUrl is relative and carries a time-stamped hash."""
@@ -71,31 +78,50 @@ def attach_info(aids):
     aids = list(aids)
     for i in range(0, len(aids), 40):
         chunk = ",".join(str(a) for a in aids[i:i + 40])
-        data = json.loads(fetch(f"{BASE}forum.php?mod=ajax&action=attachinfo_json&aids={chunk}") or "{}")
+        data = json.loads(fetch(f"{BASE}forum.php?mod=ajax&action=attachinfo_json&aids={chunk}", session=session) or "{}")
         if isinstance(data, dict):
             result.update({int(k): v for k, v in data.items()})
     return result
 
 
-def resolve_download(attachment_url):
-    """fossic answers an anonymous attachment request with a 302 to a static
-    CDN file (stable, no expiry; the file name comes in Content-Disposition,
-    which TriOS reads). Returns that URL, or None when the attachment needs a
-    login or credits (fossic then shows an HTML notice instead)."""
+class LoginRequired(Exception):
+    """fossic answered with its "not logged in" notice."""
+
+
+def resolve_download(attachment_url, session=None):
+    """fossic answers an attachment request with a 302 to a static CDN file
+    (stable, no expiry; the file name comes in Content-Disposition, which
+    TriOS reads). Returns that URL, or None when fossic shows a notice
+    instead (credits, permissions). Raises LoginRequired for the
+    "not logged in" notice, so callers can tell an expired login apart."""
     global _last_request
     wait = REQUEST_DELAY - (time.time() - _last_request)
     if wait > 0:
         time.sleep(wait)
     _last_request = time.time()
-    req = urllib.request.Request(attachment_url, headers={"User-Agent": USER_AGENT})
+    req = urllib.request.Request(attachment_url, headers=_headers(session))
     try:
-        with _no_redirect.open(req, timeout=30):
-            return None  # 200 = notice page, not a file
+        with _no_redirect.open(req, timeout=30) as resp:
+            body = resp.read().decode("utf-8", errors="replace")
     except urllib.error.HTTPError as e:
         location = e.headers.get("Location") if e.code in (301, 302, 303, 307) else None
         if location and urllib.parse.urlparse(location).hostname not in (None, "www.fossic.org", "fossic.org"):
             return location
         return None
+    if "尚未登录" in body or "需要 登录" in body:
+        raise LoginRequired()
+    return None  # 200 = some other notice page, not a file
+
+
+def publicly_downloadable(url):
+    """TriOS downloads without the user's login, so a link resolved with it
+    is only useful if the CDN serves it anonymously."""
+    req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return resp.status == 200 and "html" not in (resp.headers.get("Content-Type") or "")
+    except Exception:
+        return False
 
 
 def thread_url(tid):

@@ -1,4 +1,4 @@
-# Set up how watch.py runs. Pick one mode; switching removes the other.
+﻿# Set up how watch.py runs. Pick one mode; switching removes the other.
 #   powershell -ExecutionPolicy Bypass -File install_autostart.ps1                          # at logon, always on
 #   powershell -ExecutionPolicy Bypass -File install_autostart.ps1 -WithTriOS <TriOS.exe>   # desktop shortcut that starts TriOS
 #   powershell -ExecutionPolicy Bypass -File install_autostart.ps1 -Uninstall               # remove both
@@ -10,6 +10,7 @@ param(
 
 $logonLink = Join-Path ([Environment]::GetFolderPath("Startup")) "fossic-version-bridge.lnk"
 $triosLink = Join-Path ([Environment]::GetFolderPath("Desktop")) "TriOS (fossic).lnk"
+$reportLink = Join-Path ([Environment]::GetFolderPath("Desktop")) "fossic 更新列表.lnk"
 
 function Stop-Watcher {
     Get-CimInstance Win32_Process -Filter "Name = 'pythonw.exe'" |
@@ -18,12 +19,12 @@ function Stop-Watcher {
 }
 
 # Any mode change starts from a clean slate.
-foreach ($l in $logonLink, $triosLink) {
+foreach ($l in $logonLink, $triosLink, $reportLink) {
     if (Test-Path -LiteralPath $l) { Remove-Item -LiteralPath $l }
 }
 Stop-Watcher
 if ($Uninstall) {
-    Write-Output "Removed autostart and TriOS shortcut; watcher stopped."
+    Write-Output "Removed autostart, TriOS and update-list shortcuts; watcher stopped."
     return
 }
 
@@ -31,6 +32,13 @@ $pythonw = (Get-Command pythonw.exe -ErrorAction Stop).Source
 $ModsDir = (Resolve-Path -LiteralPath $ModsDir).Path
 $watch = Join-Path $PSScriptRoot "watch.py"
 $shell = New-Object -ComObject WScript.Shell
+
+# The update list (updates.html), refreshed by the watcher and inject.py.
+$sc = $shell.CreateShortcut($reportLink)
+$sc.TargetPath = Join-Path $PSScriptRoot "updates.html"
+$sc.Description = "fossic mod update list"
+$sc.Save()
+Write-Output "Update list shortcut: $reportLink"
 
 if ($WithTriOS) {
     $trios = (Resolve-Path -LiteralPath $WithTriOS).Path

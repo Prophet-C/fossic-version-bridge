@@ -59,6 +59,27 @@ python inject.py --mods "E:\Recreations\Starsector_Collections\Starsector_098_RC
 TriOS 里「打开论坛」按钮指向官方英文论坛，对这些 mod 无效；帖子链接看
 `inject.py` 的输出，或 GitHub 仓库首页的 README 表格。
 
+## 更新列表网页
+
+桌面上的「fossic 更新列表」打开 `updates.html`：所有关联 fossic 的 mod、本地和 fossic 版本、能否一键更新，
+以及**可点击的帖子链接**（TriOS 自己的「打开下载页」只支持英文论坛和 Nexus，对 fossic mod 打不开）。
+watcher 每次扫描、以及手动运行 inject.py 时都会重新生成。watcher 运行时也可以打开 http://127.0.0.1:47391/ 查看。
+
+## 需要登录才能下载的 mod（可选）
+
+fossic 有些附件只给登录用户下载（Mod制作发布区全部、部分原创帖），GitHub 匿名抓取拿不到直链。
+可以用你自己的登录在本地解析：
+
+1. 复制 `fossic_login.example.txt` 为 `fossic_login.txt`，按里面的说明填入浏览器的 cookie 和 user-agent。
+   这个文件只在你电脑上，已被 `.gitignore` 排除，不会上传。
+2. 之后用「TriOS (fossic)」快捷方式启动 TriOS。watcher 会只为你**已安装**、且需要登录的 mod 解析直链，
+   确认直链不登录也能下载后，通过本机 127.0.0.1:47391 提供给 TriOS，TriOS 里就会出现一键更新。
+   解析结果缓存在 `login_cache.json`（同样不上传），版本变了才重新解析。
+3. 登录失效时 watch.log 和更新列表顶部会提示，重新复制一次即可。
+
+注意：配置了登录后，这些 mod 的版本文件指向本机服务，必须用「TriOS (fossic)」启动 TriOS，
+直接双击 TriOS.exe 时它们会显示检查失败。解析出的直链只给你自己用，不会发布到 GitHub。
+
 ## 修正匹配（mods.json）
 
 大多数 mod 按帖子头部写的 mod ID 自动匹配。以下情况要在 `mods.json` 里加一条：

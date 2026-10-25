@@ -12,8 +12,8 @@ Re-run it after updating mods: a fresh mod folder no longer has the file.
 import argparse
 import json
 import os
-import re
 import sys
+import urllib.parse
 import urllib.request
 
 import fossic_lib as fl
@@ -62,10 +62,20 @@ def _write_if_changed(path, text):
     return True
 
 
-def inject(config, mod_dir, mod_id, name, local_version, rec, with_download=False):
-    """Returns True when a file was written."""
+# The watcher serves login-resolved master files here (watch.py).
+LOCAL_PORT = 47391
+
+
+def local_master_url(key):
+    return f"http://127.0.0.1:{LOCAL_PORT}/versions/{urllib.parse.quote(fl.master_file_name(key))}"
+
+
+def inject(config, mod_dir, mod_id, name, local_version, rec, with_download=False, local=False):
+    """Returns True when a file was written. local: point TriOS at the
+    watcher's 127.0.0.1 server instead of GitHub (login-only downloads)."""
     data = {
-        "masterVersionFile": fl.master_url(config["rawBase"], mod_id, with_download),
+        "masterVersionFile": local_master_url(fl.catalog_key(mod_id)) if local
+        else fl.master_url(config["rawBase"], mod_id, with_download),
         "modName": name,
         "modVersion": fl.version_object(local_version),
         "fossicThread": rec["thread"],
@@ -75,29 +85,7 @@ def inject(config, mod_dir, mod_id, name, local_version, rec, with_download=Fals
     return wrote
 
 
-MOD_REPO = "https://raw.githubusercontent.com/wispborne/StarsectorModRepo/main/ModRepo.json"
-_english_index = None
-
-
-def english_link(name):
-    """Best-effort pointer to the mod's English source, from the catalog TriOS
-    itself uses. It has no ids or versions, so this is only a hint."""
-    global _english_index
-    if _english_index is None:
-        try:
-            req = urllib.request.Request(MOD_REPO, headers={"User-Agent": fl.USER_AGENT})
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                items = json.loads(resp.read().decode("utf-8"))["items"]
-            _english_index = [(re.sub(r"[^a-z0-9]", "", (i.get("name") or "").lower()), i.get("urls", {})) for i in items]
-        except Exception:
-            _english_index = []
-    key = re.sub(r"[^a-z0-9]", "", name.lower())
-    if len(key) < 5:
-        return None
-    for n, urls in _english_index:
-        if n and (n == key or (len(n) >= 5 and (key in n or n in key))):
-            return urls.get("Forum") or urls.get("Download") or next(iter(urls.values()), None)
-    return None
+ORDER = {"UPDATE": 0, "UPDATE*": 1, "check": 2, "ok": 3, "ok*": 4, "excluded": 5}
 
 
 def classify(rec, rule, name):
@@ -116,11 +104,14 @@ def classify(rec, rule, name):
     return "repost-dl" if rule.get("trustRepost") or fl.has_cjk(name) else "repost"
 
 
-def scan(config, catalog, mods_dir, dry_run=False, only=None, log=print):
+def scan(config, catalog, mods_dir, dry_run=False, only=None, log=print, use_local=False):
     """Inject every eligible mod (or only the folder names in `only`).
-    Returns (rows, unknown): rows are (state, name, installed, fossic, link);
-    a mod with an untrusted source is reported with state "repost" and its
-    files are removed if an earlier run added them."""
+
+    use_local: a fossic login is configured, so mods whose download fossic
+    only gives to logged-in users are pointed at the watcher's local server.
+    Returns (rows, unknown); each row is a dict with key, state, name,
+    installed, fossic, thread, local (served locally) and download (public
+    one-click link from GitHub, if any)."""
     rules = {fl.catalog_key(m["id"]): m for m in config["mods"]}
     rows, unknown = [], []
     for d in sorted(os.listdir(mods_dir)):
@@ -138,34 +129,39 @@ def scan(config, catalog, mods_dir, dry_run=False, only=None, log=print):
             log(f"  ! skipped {d}: cannot parse mod_info.json ({e})")
             continue
         mod_id, name = info["id"], info.get("name", d)
+        key = fl.catalog_key(mod_id)
         local = fl.version_string(info.get("version", "0"))
-        rec = catalog.get(fl.catalog_key(mod_id))
-        rule = rules.get(fl.catalog_key(mod_id), {})
+        rec = catalog.get(key)
+        rule = rules.get(key, {})
         if not rec:
             unknown.append(name)
             continue
+        row = {"key": key, "name": name, "installed": local, "fossic": rec["version"],
+               "thread": rec["thread"], "local": False, "download": None}
         kind = classify(rec, rule, name)
         if kind is None:
             if not dry_run and is_ours(mod_dir):
                 remove(mod_dir)
                 log(f"unlinked {name}: excluded in mods.json")
-            rows.append(("excluded", name, local, rec["version"], rec["thread"]))
+            rows.append(row | {"state": "excluded"})
             continue
         # Repost-sourced mods whose file has a download use the .dl variant
         # only when classify allows one-click updates for them.
         with_download = kind == "repost-dl" and bool(rec.get("download"))
-        if not dry_run and inject(config, mod_dir, mod_id, name, local, rec, with_download):
+        public = rec.get("download") if kind == "original" or with_download else None
+        row["download"] = public
+        # No public download, but the archive may be login-only: let the
+        # watcher resolve it with the user's login and serve it locally.
+        row["local"] = use_local and kind != "repost" and not public
+        if not dry_run and inject(config, mod_dir, mod_id, name, local, rec, with_download, row["local"]):
             log(f"linked {name} ({local}) to {rec['thread']}")
         cmp = fl.compare_versions(rec["version"], local)
         if kind == "original":
             state = "UPDATE" if cmp > 0 else "ok" if cmp == 0 else "check"
-            link = rec["thread"]
         else:
             # Fallback source: a newer local copy simply wins.
             state = "UPDATE*" if cmp > 0 else "ok*"
-            hint = english_link(name)
-            link = rec["thread"] + (f"  (English: {hint})" if hint else "")
-        rows.append((state, name, local, rec["version"], link))
+        rows.append(row | {"state": state})
     return rows, unknown
 
 
@@ -192,15 +188,25 @@ def main():
         return
 
     catalog = load_catalog(config, args.catalog)
-    rows, unknown = scan(config, catalog, args.mods, dry_run=args.dry_run)
+    import fossic_login
+    rows, unknown = scan(config, catalog, args.mods, dry_run=args.dry_run,
+                         use_local=fossic_login.load_session() is not None)
 
-    order = {"UPDATE": 0, "UPDATE*": 1, "check": 2, "ok": 3, "ok*": 4, "excluded": 5}
     print(f'\n{"state":10} {"mod":32} {"installed":14} {"fossic":14} thread')
-    for state, name, local, remote, thread in sorted(rows, key=lambda r: (order[r[0]], r[1])):
-        print(f"{state:10} {name[:32]:32} {local:14} {remote:14} {thread}")
-    linked = [r for r in rows if r[0] != "excluded"]
+    for r in sorted(rows, key=lambda r: (ORDER[r["state"]], r["name"])):
+        print(f'{r["state"]:10} {r["name"][:32]:32} {r["installed"]:14} {r["fossic"]:14} {r["thread"]}')
+    linked = [r for r in rows if r["state"] != "excluded"]
     print(f"\n{len(linked)} mods {'would be ' if args.dry_run else ''}linked to fossic; "
-          f"{sum(r[0].startswith('UPDATE') for r in rows)} have updates.")
+          f"{sum(r['state'].startswith('UPDATE') for r in rows)} have updates.")
+    if any(r["local"] for r in rows):
+        print("Mods needing a fossic login are served by the watcher: start TriOS from the TriOS (fossic) shortcut.")
+    if not args.dry_run:
+        import report
+        cache = fossic_login.load_cache()
+        local_dl = {k: v["download"] for k, v in cache.items() if v.get("download")}
+        problems = {k: v["problem"] for k, v in cache.items() if v.get("problem")}
+        report.write(rows, unknown, local_dl, problems)
+        print(f"Update list: {report.REPORT}")
     print("  *        = fallback source: fossic only mirrors this mod (汉化/搬运 thread). A newer installed copy wins;")
     print("             one-click update is offered only if the installed copy is the Chinese build (or trustRepost).")
     print("  check    = installed is newer than its original fossic thread: stale thread or odd version scheme; verify")

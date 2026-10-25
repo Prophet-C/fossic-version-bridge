@@ -14,14 +14,20 @@ time. install_autostart.ps1 creates the shortcut for either mode.
 
 import argparse
 import datetime
+import http.server
 import json
 import os
 import subprocess
 import sys
+import threading
 import time
+import urllib.parse
+import urllib.request
 
 import fossic_lib as fl
+import fossic_login
 import inject
+import report
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 LOG = os.path.join(HERE, "watch.log")
@@ -93,10 +99,94 @@ def process_running(image_name):
     return f'"{image_name.lower()}"' in out.lower()
 
 
+class LocalServer:
+    """Serves master files to TriOS on 127.0.0.1 for mods whose download
+    fossic only gives to logged-in users: the GitHub master file, plus the
+    directDownloadURL resolved with the user's login (fossic_login.py)."""
+
+    GITHUB_TTL = 600  # seconds to reuse a fetched GitHub master file
+
+    def __init__(self, config):
+        self.config = config
+        self.downloads = {}  # catalog key -> CDN url
+        self._github = {}    # file name -> (fetched at, data)
+        self._lock = threading.Lock()
+        self.httpd = None
+
+    def start(self):
+        server = self
+
+        class Handler(http.server.BaseHTTPRequestHandler):
+            def do_GET(self):
+                if self.path.split("?")[0] in ("/", "/updates"):
+                    try:
+                        with open(report.REPORT, "rb") as f:
+                            page = f.read()
+                    except OSError:
+                        self.send_error(404, "updates.html not written yet")
+                        return
+                    self.send_response(200)
+                    self.send_header("Content-Type", "text/html; charset=utf-8")
+                    self.send_header("Content-Length", str(len(page)))
+                    self.end_headers()
+                    self.wfile.write(page)
+                    return
+                name = urllib.parse.unquote(self.path.split("?")[0].rsplit("/", 1)[-1])
+                if not self.path.startswith("/versions/") or not name.endswith(".version"):
+                    self.send_error(404)
+                    return
+                try:
+                    body = json.dumps(server.master(name), ensure_ascii=False).encode("utf-8")
+                except Exception as e:
+                    self.send_error(502, str(e)[:100])
+                    return
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+
+            def log_message(self, *args):
+                pass
+
+        try:
+            self.httpd = http.server.ThreadingHTTPServer(("127.0.0.1", inject.LOCAL_PORT), Handler)
+        except OSError as e:
+            log(f"local server could not start on port {inject.LOCAL_PORT}: {e}")
+            return False
+        threading.Thread(target=self.httpd.serve_forever, daemon=True).start()
+        log(f"local server on http://127.0.0.1:{inject.LOCAL_PORT}")
+        return True
+
+    def master(self, name):
+        with self._lock:
+            hit = self._github.get(name)
+        if not hit or time.time() - hit[0] > self.GITHUB_TTL:
+            url = f'{self.config["rawBase"].rstrip("/")}/versions/{urllib.parse.quote(name)}'
+            req = urllib.request.Request(url, headers={"User-Agent": fl.USER_AGENT})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                hit = (time.time(), json.loads(resp.read().decode("utf-8")))
+            with self._lock:
+                self._github[name] = hit
+        data = dict(hit[1])
+        key = name[: -len(".version")]
+        data["masterVersionFile"] = inject.local_master_url(key)
+        with self._lock:
+            url = self.downloads.get(key)
+        if url:
+            data["directDownloadURL"] = url
+        return data
+
+
 class Watcher:
-    def __init__(self, config, mods_dir, refresh_hours):
+    LOGIN_CHECK = 3600  # seconds between login-download refreshes when nothing changed
+
+    def __init__(self, config, mods_dir, refresh_hours, server=None, session=None):
         self.config, self.mods_dir, self.refresh_hours = config, mods_dir, refresh_hours
+        self.server, self.session = server, session
         self.catalog, self.last_refresh, self.known = None, 0.0, {}
+        self.last_login_check, self.login_state = 0.0, ("ok" if session else None)
+        self.problems = {}
 
     def tick(self):
         try:
@@ -110,12 +200,29 @@ class Watcher:
                 return
             sigs = signatures(self.mods_dir)
             changed = {d for d, s in sigs.items() if self.known.get(d) != s}
+            use_local = self.server is not None
             if changed:
-                rows, _ = inject.scan(self.config, self.catalog, self.mods_dir, only=changed, log=log)
-                for state, name, local, remote, thread in rows:
-                    if state.startswith("UPDATE"):
-                        log(f"update available: {name} {local} -> {remote}  {thread}")
+                rows, _ = inject.scan(self.config, self.catalog, self.mods_dir, only=changed, log=log,
+                                      use_local=use_local)
+                for r in rows:
+                    if r["state"].startswith("UPDATE"):
+                        log(f'update available: {r["name"]} {r["installed"]} -> {r["fossic"]}  {r["thread"]}')
                 self.known = signatures(self.mods_dir)  # after our writes
+            if changed or time.time() - self.last_login_check > self.LOGIN_CHECK:
+                self.last_login_check = time.time()
+                # A full dry-run pass is cheap and gives the report every mod.
+                rows, unknown = inject.scan(self.config, self.catalog, self.mods_dir, dry_run=True,
+                                            log=lambda m: None, use_local=use_local)
+                local_downloads = {}
+                if self.server:
+                    rules = {fl.catalog_key(m["id"]): m for m in self.config["mods"]}
+                    keys = [r["key"] for r in rows if r["local"]]
+                    local_downloads, self.problems, ok = fossic_login.refresh(
+                        self.catalog, rules, keys, self.session, log)
+                    self.login_state = "ok" if ok else "expired"
+                    with self.server._lock:
+                        self.server.downloads = local_downloads
+                report.write(rows, unknown, local_downloads, self.problems, self.login_state)
         except Exception as e:
             log(f"error: {e!r}")
 
@@ -138,8 +245,15 @@ def main():
     with open(os.path.join(HERE, "mods.json"), encoding="utf-8-sig") as f:
         config = json.load(f)
 
-    watcher = Watcher(config, args.mods, args.refresh_hours)
-    log(f"started, watching {args.mods}" + (f" while {args.launch} runs" if args.launch else ""))
+    # With a fossic login configured, serve login-only downloads locally.
+    session, server = fossic_login.load_session(), None
+    if session:
+        server = LocalServer(config)
+        if not server.start():
+            server = None
+    watcher = Watcher(config, args.mods, args.refresh_hours, server, session)
+    log(f"started, watching {args.mods}" + (f" while {args.launch} runs" if args.launch else "")
+        + ("; fossic login configured" if session else ""))
     if not args.launch:
         while True:
             watcher.tick()

@@ -1,5 +1,10 @@
+.claude/
 __pycache__/
 *.pyc
 watch.log*
 watch.lock
 catalog_cache.json
+# Local login (the user's own credentials) and what was resolved with it
+fossic_login.txt
+login_cache.json
+updates.html

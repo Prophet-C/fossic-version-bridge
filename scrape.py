@@ -121,6 +121,8 @@ def resolve_downloads(catalog, known):
         else:
             try:
                 rec["download"] = fl.resolve_download(fl.BASE + d["downloadUrl"])
+            except fl.LoginRequired:
+                rec["download"] = None  # login-only; users resolve it locally (fossic_login.py)
             except Exception as e:
                 print(f'ERR  download for {rec["id"]} (aid {aid}): {e}')
                 continue  # no "download" key: retried next run
