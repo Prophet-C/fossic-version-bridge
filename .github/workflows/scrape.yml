@@ -1,0 +1,43 @@
+name: Scrape fossic
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours, off the hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["mods.json", "scrape.py", "fossic_lib.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scrape
+        run: python scrape.py
+
+      - name: Commit changes
+        run: |
+          # The README timestamp alone is not worth a commit.
+          if git diff --quiet -- versions catalog.json && [ -z "$(git status --porcelain -- versions)" ]; then
+            echo "No version changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add versions catalog.json README.md
+          git commit -m "Update fossic versions"
+          git push

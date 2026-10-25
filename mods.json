@@ -1,0 +1,12 @@
+{
+  "_comment": "Exceptions only; most mods are matched by the mod id in their fossic thread header. Fields: id = mod_info.json id, thread = fossic thread id (thread-<id>-1-1.html). Optional rule: release = regex on a release's display name or version (threads shipping several mods), releaseIndex = position in the release list, mode = \"edited\" (use the thread's last edit time), version = fixed value.",
+  "rawBase": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main",
+  "mods": [
+    { "id": "ArcLightBureau", "name": "弧光设计局", "thread": 3342, "release": "本体" },
+    { "id": "ArcLightBureauPlus", "name": "弧光设计局拓展", "thread": 3342, "release": "拓展" },
+    { "id": "kk", "name": "天工联合船舶设计局", "thread": 12809, "releaseIndex": 0 },
+    { "id": "kk_kz", "name": "天工船舶拓展", "thread": 12809, "releaseIndex": 1 },
+    { "id": "Hdbyunm", "name": "威胁侵染", "thread": 17204, "release": "最新本体" },
+    { "id": "GalacticConstellate", "name": "星海集群", "thread": 10883, "release": "本体" }
+  ]
+}

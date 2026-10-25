@@ -1,0 +1,52 @@
+# 使用说明
+
+让 TriOS 能检查 fossic.org（远行星号中文论坛）上发布的 mod 的更新。
+
+## 原理
+
+TriOS 靠 Version Checker 文件检查更新：mod 里的 `data/config/version/version_files.csv`
+指向一个 `.version` 文件，文件里的 `masterVersionFile` 是远程版本号的网址。
+大部分中文 mod 没有这个文件，所以 TriOS 查不到它们。
+
+1. **GitHub Actions**（`scrape.py`，每 6 小时一次）爬取 fossic 的 Mod 发布区，
+   读取每个帖子顶部的结构化发布信息（版本号 + mod ID + 下载列表），
+   为每个 mod 生成 `versions/<mod id>.version` 和 `catalog.json`。
+2. **本地**（`inject.py`）给本地没有 Version Checker 文件、但 fossic 上能找到的 mod
+   写入 `fossic_bridge.version` 和 `version_files.csv`，指向上面的远程文件。
+3. TriOS 正常检查更新即可。
+
+## 日常使用
+
+装了新 mod 或更新了 mod（新文件夹里没有注入文件）后，运行一次：
+
+```
+python inject.py --mods "E:\Recreations\Starsector_Collections\Starsector_098_RC8\mods"
+```
+
+它会打印一张表：`UPDATE` = fossic 上有新版本，后面是帖子链接。
+或者直接双击 `inject.bat`。
+
+- 只看结果不写文件：加 `--dry-run`
+- 撤销所有注入：加 `--remove`
+
+TriOS 里「打开论坛」按钮指向官方英文论坛，对这些 mod 无效；更新链接看
+`inject.py` 的输出，或 GitHub 仓库首页的 README 表格。下载需要自己去帖子里下。
+
+## 修正匹配（mods.json）
+
+大多数 mod 按帖子头部写的 mod ID 自动匹配。以下情况要在 `mods.json` 里加一条：
+
+| 情况 | 写法 |
+|---|---|
+| 帖子头部的 ID 写错了（不是 mod_info.json 里的 id） | `{"id": "真实id", "thread": 帖子号}` |
+| 一个帖子发布多个 mod（本体 + 拓展） | 加 `"release": "拓展"`（匹配下载项名称的正则）或 `"releaseIndex": 1` |
+| 帖子没有结构化头部 | `"mode": "edited"`：用帖子最后编辑时间当版本号（作者一编辑就会提示） |
+
+改完推送到 GitHub，Actions 会自动重新抓取。
+
+## 已知限制
+
+- 版本号由作者在 fossic 填写，有时会和 mod_info.json 不一致（例如帖子写 `0.55`、本地是 `0.355`），
+  这种情况 TriOS 的比较可能不准。
+- 不支持一键下载：fossic 附件需要登录，很多 mod 用网盘发布。
+- 只抓取 Mod原创发布 / 汉化发布 / 搬运发布 三个版块及其「已过时」版块。
