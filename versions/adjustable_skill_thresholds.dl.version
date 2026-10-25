@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/adjustable_skill_thresholds.dl.version",
+  "modName": "adjustable_skill_thresholds",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202504/10/102709puohihqf5y57i7sf.rar",
+  "fossicThread": "https://www.fossic.org/thread-15294-1-1.html",
+  "fossicTitle": "[0.97]无人舰队技能升级",
+  "fossicOrigin": "repost"
+}

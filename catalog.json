@@ -80,8 +80,8 @@
   "version": "1.2.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 62291,
+  "download": "https://cdn.fossic.cn/forum/202504/10/102709puohihqf5y57i7sf.rar"
  },
  "adjusted sector": {
   "id": "Adjusted Sector",
@@ -580,8 +580,8 @@
   "thread": "https://www.fossic.org/thread-21577-1-1.html",
   "forum": 71,
   "title": "[0.98a][高科][赏金] 菀星设计总局 - Alpha 测试",
-  "edited": "2026-10-25 17:20",
-  "version": "0.1.2",
+  "edited": "2026-10-25 17:28",
+  "version": "0.1.3",
   "source": "header",
   "origin": "original",
   "aid": 113632,
@@ -812,8 +812,8 @@
   "version": "0.3.24",
   "source": "header",
   "origin": "repost",
-  "aid": 63916,
-  "download": "https://cdn.fossic.cn/forum/202609/05/000204g8ctn81iic7i7355.zip"
+  "aid": 72736,
+  "download": "https://cdn.fossic.cn/forum/202609/05/000214v30en3dq1z4b43b4.attach"
  },
  "bcsw": {
   "id": "BCSW",
@@ -1112,8 +1112,8 @@
   "version": "1.0.4",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 13589,
+  "download": "https://cdn.fossic.cn/forum/202301/12/011541oi6bzi1xkzwkigxx.rar"
  },
  "carrier_battle_group": {
   "id": "carrier_battle_group",
@@ -1208,8 +1208,8 @@
   "version": "1.15.1",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 77222,
+  "download": "https://cdn.fossic.cn/forum/202604/06/175809nlwe0ip30qitifh0.rar"
  },
  "chickentechshop": {
   "id": "chickentechshop",
@@ -1353,6 +1353,18 @@
   "source": "header",
   "origin": "original",
   "aid": null,
+  "download": null
+ },
+ "cost_escalation": {
+  "id": "cost_escalation",
+  "thread": "https://www.fossic.org/thread-21827-1-1.html",
+  "forum": 71,
+  "title": "舰船造价升级",
+  "edited": "2026-10-25 17:20",
+  "version": "1.2.0",
+  "source": "header",
+  "origin": "original",
+  "aid": 113876,
   "download": null
  },
  "crabshack": {
@@ -1700,8 +1712,8 @@
   "version": "0.2.5a",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 26133,
+  "download": "https://cdn.fossic.cn/forum/202301/16/163741hjche39bctqhtex1.rar"
  },
  "domain_hullmods": {
   "id": "domain_hullmods",
@@ -1877,11 +1889,11 @@
   "forum": 60,
   "title": "[0.95](功能)动态税率 Dynamic Tariffs 1.3.1",
   "edited": "2023-5-1 20:32",
-  "version": "1.3.1",
+  "version": "1.4",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 13596,
+  "download": "https://cdn.fossic.cn/forum/202305/01/203155s2a7a1bcdick0i72.rar"
  },
  "eclipses_brink": {
   "id": "Eclipses_Brink",
@@ -2032,8 +2044,8 @@
   "thread": "https://www.fossic.org/thread-21807-1-1.html",
   "forum": 71,
   "title": "[0.98/0.97]EVE总览与指挥(用于战斗和大地图)",
-  "edited": "2026-10-25 16:02",
-  "version": "1.0.1",
+  "edited": "2026-10-25 17:50",
+  "version": "1.0.2",
   "source": "header",
   "origin": "original",
   "aid": 113596,
@@ -2096,8 +2108,8 @@
   "version": "0.70a",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 61668,
+  "download": "https://cdn.fossic.cn/forum/202504/05/202338rtzjt4592derw5si.attach"
  },
  "extrauiplus": {
   "id": "extrauiplus",
@@ -2297,11 +2309,11 @@
   "forum": 60,
   "title": "[0.95a][C] Fluff船包 v0.2.3",
   "edited": "2022-11-17 00:13",
-  "version": "0.2.3a",
+  "version": "0.2.3-1",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 24144,
+  "download": "https://cdn.fossic.cn/forum/202211/16/184450i22r2j21x7jxz6uu.attach"
  },
  "fly_together": {
   "id": "fly_together",
@@ -2576,8 +2588,8 @@
   "version": "0.9.9",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 25580,
+  "download": "https://cdn.fossic.cn/forum/202301/02/232754ku5wtwahh9cndvah.attach"
  },
  "goat_aviation_bureau": {
   "id": "Goat_Aviation_Bureau",
@@ -2636,8 +2648,8 @@
   "version": "0.5.1",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 28244,
+  "download": "https://cdn.fossic.cn/forum/202303/01/143758bztqqxmmwdppwqwq.rar"
  },
  "gundamportraits＆flagspack": {
   "id": "GUNDAMportraits＆flagspack",
@@ -2721,7 +2733,7 @@
   "source": "mods.json",
   "origin": "original",
   "aid": 78564,
-  "download": "https://cdn.fossic.cn/forum/202610/22/002552h667p7r68lxpplyx.zip"
+  "download": null
  },
  "heartstee": {
   "id": "Heartstee",
@@ -2780,8 +2792,8 @@
   "version": "1.1.1",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 24189,
+  "download": "https://cdn.fossic.cn/forum/202211/20/230841ac1cbmcbb3q0chc1.attach"
  },
  "hiigaran_descendants": {
   "id": "hiigaran_descendants",
@@ -2876,8 +2888,8 @@
   "version": "1.3.2",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 13590,
+  "download": "https://cdn.fossic.cn/forum/202109/29/232522n5yj6rl6.rar"
  },
  "house_of_spider_bgm": {
   "id": "house_of_spider_bgm",
@@ -3308,8 +3320,8 @@
   "version": "0.13.1",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 16798,
+  "download": "https://cdn.fossic.cn/forum/202203/18/115346a341bbw0.rar"
  },
  "kk": {
   "id": "kk",
@@ -3485,11 +3497,11 @@
   "forum": 78,
   "title": "[功能] [0.98*] Leading Pip 预瞄框",
   "edited": "2025-8-15 09:28",
-  "version": "1.8.3",
+  "version": "1.10.2",
   "source": "header",
   "origin": "repost",
-  "aid": 1245,
-  "download": "https://cdn.fossic.cn/forum/201907/08/103938q44k3yv4.zip"
+  "aid": 67918,
+  "download": "https://cdn.fossic.cn/forum/202508/15/092742ob0tagadb1t1qcyq.attach"
  },
  "legio_lxvi": {
   "id": "Legio_LXVI",
@@ -3692,8 +3704,8 @@
   "version": "1.2.6e",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 58841,
+  "download": "https://cdn.fossic.cn/forum/202502/17/210736sggg9rje79zejg9r.rar"
  },
  "lunalib": {
   "id": "lunalib",
@@ -3892,8 +3904,8 @@
   "thread": "https://www.fossic.org/thread-17235-1-1.html",
   "forum": 46,
   "title": "［0.98/0.97］米莱斯军工/机甲拓展",
-  "edited": "2026-10-20 17:50",
-  "version": "26-10-05",
+  "edited": "2026-10-25 17:21",
+  "version": "26-10-22",
   "source": "header",
   "origin": "original",
   "aid": 80908,
@@ -6377,11 +6389,11 @@
   "forum": 60,
   "title": "[0.95.1a][C](船插)星旅工坊[StarfarersWorkshop]1.5.1",
   "edited": "2023-4-16 18:22",
-  "version": "1.6.1",
+  "version": "1.5.1",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 21296,
+  "download": "https://cdn.fossic.cn/forum/202208/04/231047wpxlckxhezzdh8wl.rar"
  },
  "stargod233bgm": {
   "id": "Stargod233bgm",
@@ -6748,7 +6760,7 @@
   "thread": "https://www.fossic.org/thread-19730-1-1.html",
   "forum": 46,
   "title": "【98】赏金（事件包）-天鹰模块母舰0.6（剧情未完善）",
-  "edited": "2026-10-24 23:50",
+  "edited": "2026-10-25 18:03",
   "version": "0.0.6-ver1",
   "source": "header",
   "origin": "original",
@@ -6812,8 +6824,8 @@
   "version": "1.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 31352,
+  "download": "https://cdn.fossic.cn/forum/202311/08/110427mvvv5u600vvh0x6w.rar"
  },
  "syndawnskinpack": {
   "id": "synDawnSkinPack",
@@ -7004,8 +7016,8 @@
   "version": "7.1.3",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 13854,
+  "download": "https://cdn.fossic.cn/forum/202111/03/191622mv9p1v6zvppgzvys.rar"
  },
  "terran_battlecruiser": {
   "id": "Terran_BattleCruiser",

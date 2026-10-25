@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/starfarersworkshop.dl.version",
+  "modName": "StarfarersWorkshop",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202208/04/231047wpxlckxhezzdh8wl.rar",
+  "fossicThread": "https://www.fossic.org/thread-5861-1-1.html",
+  "fossicTitle": "[0.95.1a][C](船插)星旅工坊[StarfarersWorkshop]1.5.1",
+  "fossicOrigin": "repost"
+}

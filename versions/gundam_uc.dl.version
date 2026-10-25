@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/gundam_uc.dl.version",
+  "modName": "gundam_uc",
+  "modVersion": {
+    "major": "0",
+    "minor": "5",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202303/01/143758bztqqxmmwdppwqwq.rar",
+  "fossicThread": "https://www.fossic.org/thread-4779-1-1.html",
+  "fossicTitle": "[0.95.1]高达UC[Gundam UC v.0.5.1]汉化测试版（2023-03-03更新）",
+  "fossicOrigin": "repost"
+}

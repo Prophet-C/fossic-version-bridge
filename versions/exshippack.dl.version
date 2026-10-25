@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/exshippack.dl.version",
+  "modName": "exshippack",
+  "modVersion": {
+    "major": "0",
+    "minor": "70a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202504/05/202338rtzjt4592derw5si.attach",
+  "fossicThread": "https://www.fossic.org/thread-14839-1-1.html",
+  "fossicTitle": "[C][0.98][0.97][0.96]机械虚空船坞-0.70a",
+  "fossicOrigin": "repost"
+}

@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/fluffships.dl.version",
+  "modName": "fluffships",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "3-1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202211/16/184450i22r2j21x7jxz6uu.attach",
+  "fossicThread": "https://www.fossic.org/thread-6787-1-1.html",
+  "fossicTitle": "[0.95a][C] Fluff船包 v0.2.3",
+  "fossicOrigin": "repost"
+}

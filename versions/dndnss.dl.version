@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/dndnss.dl.version",
+  "modName": "dndnss",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "5a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202301/16/163741hjche39bctqhtex1.rar",
+  "fossicThread": "https://www.fossic.org/thread-7310-1-1.html",
+  "fossicTitle": "多娜多娜头像包0.2.5a",
+  "fossicOrigin": "repost"
+}

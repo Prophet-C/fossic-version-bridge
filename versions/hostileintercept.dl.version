@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hostileintercept.dl.version",
+  "modName": "hostileIntercept",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "2"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202109/29/232522n5yj6rl6.rar",
+  "fossicThread": "https://www.fossic.org/thread-3459-1-1.html",
+  "fossicTitle": "[0.95](功能)敌对拦截 Hostile Intercept 1.3.2",
+  "fossicOrigin": "repost"
+}

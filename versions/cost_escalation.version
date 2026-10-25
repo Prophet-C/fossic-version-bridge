@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/cost_escalation.version",
+  "modName": "cost_escalation",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21827-1-1.html",
+  "fossicTitle": "舰船造价升级",
+  "fossicOrigin": "original"
+}
