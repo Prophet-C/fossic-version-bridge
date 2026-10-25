@@ -74,6 +74,12 @@ def _resolve(rec, rule, session):
         # but logged in, so attachments hidden from guests are visible too.
         files = fl.attach_info(fl.candidate_aids(info), session=session)
         aid = fl.pick_post_archive(version, files)
+        if not aid:
+            # No name carries the version: open the archives and take the
+            # newest one that holds this mod (as scrape.inspect_archives).
+            found = _find_by_opening(rec, files, session)
+            if found:
+                return found, None
     if not aid:
         return None, "帖子里没有能确定对应这个版本的压缩包"
     d = files.get(aid) or fl.attach_info([aid], session=session).get(aid)
@@ -96,6 +102,39 @@ def _resolve(rec, rule, session):
             return None, f"附件里是别的 mod（{', '.join(m['id'] for m in mods)}）"
         return {"url": url, "version": fl.normalize(match["version"])}, None
     return {"url": url, "version": None}, None
+
+
+def _find_by_opening(rec, files, session):
+    """Open candidate archives (cached per aid, like collection threads) and
+    return {"url", "version"} for the newest one containing rec's mod id."""
+    cache = load_cache()
+    archives = cache.setdefault("__archives__", {})
+    key, best = fl.catalog_key(rec["id"]), None
+    for aid, d in files.items():
+        ext = str(d.get("ext", "")).lower()
+        if ext not in fl.ARCHIVE_EXTS or not d.get("downloadUrl"):
+            continue
+        hit = archives.get(str(aid))
+        if hit is None:
+            hit = {"dateline": d.get("dateline") or 0, "filename": d.get("filename")}
+            try:
+                url = fl.resolve_download(fl.BASE + d["downloadUrl"], session=session)
+                if not url:
+                    raise ValueError("attachment needs credits or permission")
+                hit["mods"] = _inspect(url, ext, session)
+                hit["download"] = url if fl.publicly_downloadable(url) else None
+            except fl.LoginRequired:
+                raise
+            except Exception as e:
+                hit["problem"] = str(e)[:120]
+            archives[str(aid)] = hit
+        for m in hit.get("mods", []):
+            v = fl.normalize(m["version"])
+            if fl.catalog_key(m["id"]) == key and hit.get("download") and (
+                    best is None or fl.compare_versions(v, best["version"]) > 0):
+                best = {"url": hit["download"], "version": v}
+    save_cache(cache)
+    return best
 
 
 def _inspect(url, ext, session):
@@ -197,5 +236,8 @@ def refresh(catalog, rules, keys, session, log):
                 downloads[key] = {"url": hit["download"], "version": hit.get("archiveVersion")}
             elif hit.get("problem"):
                 problems[key] = hit["problem"]
-    save_cache(cache)
+    # _find_by_opening wrote "__archives__" meanwhile; keep its entries.
+    current = load_cache()
+    current.update({k: v for k, v in cache.items() if k != "__archives__"})
+    save_cache(current)
     return downloads, problems, login_ok

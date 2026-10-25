@@ -191,6 +191,7 @@ class Watcher:
     LOGIN_CHECK = 3600  # seconds between login-download refreshes when nothing changed
 
     def __init__(self, config, mods_dir, refresh_hours, server=None, session=None):
+        # server/session are normally set by reload_login().
         self.config, self.mods_dir, self.refresh_hours = config, mods_dir, refresh_hours
         self.server, self.session = server, session
         self.catalog, self.last_refresh, self.known = None, 0.0, {}
@@ -216,8 +217,31 @@ class Watcher:
         with self.server._lock:
             self.server.synthetic = {k: r for k, r in self.collection.items() if k not in self.catalog}
 
+    def reload_login(self):
+        """Pick up fossic_login.txt when it is added or edited while running."""
+        try:
+            mtime = os.stat(fossic_login.LOGIN_FILE).st_mtime
+        except OSError:
+            mtime = None
+        if mtime == getattr(self, "_login_mtime", "unset"):
+            return
+        first = not hasattr(self, "_login_mtime")
+        self._login_mtime = mtime
+        session = fossic_login.load_session()
+        if not first:
+            log("fossic_login.txt changed; " + ("login loaded" if session else "no usable login in it"))
+        self.session = session
+        self.login_state = "ok" if session else None
+        if session and self.server is None:
+            server = LocalServer(self.config)
+            if server.start():
+                self.server = server
+        # Re-link everything: login-only mods switch to (or from) the local server.
+        self.known, self.last_login_check = {}, 0.0
+
     def tick(self):
         try:
+            self.reload_login()
             if self.catalog is None or time.time() - self.last_refresh > self.refresh_hours * 3600:
                 fresh = refresh_catalog(self.config)
                 self.last_refresh = time.time()
@@ -226,12 +250,12 @@ class Watcher:
                     self.known = {}  # rescan everything against the new catalog
             if self.catalog is None:
                 return
-            if self.server and time.time() - self.last_login_check > self.LOGIN_CHECK:
+            if self.server and self.session and time.time() - self.last_login_check > self.LOGIN_CHECK:
                 self.refresh_collections()
             catalog = self.merged_catalog()
             sigs = signatures(self.mods_dir)
             changed = {d for d, s in sigs.items() if self.known.get(d) != s}
-            use_local = self.server is not None
+            use_local = self.server is not None and self.session is not None
             if changed:
                 rows, _ = inject.scan(self.config, catalog, self.mods_dir, only=changed, log=log,
                                       use_local=use_local)
@@ -245,7 +269,7 @@ class Watcher:
                 rows, unknown = inject.scan(self.config, catalog, self.mods_dir, dry_run=True,
                                             log=lambda m: None, use_local=use_local)
                 local_downloads = {}
-                if self.server:
+                if use_local:
                     rules = {fl.catalog_key(m["id"]): m for m in self.config["mods"]}
                     keys = [r["key"] for r in rows if r["local"]]
                     local_downloads, self.problems, ok = fossic_login.refresh(
@@ -285,15 +309,12 @@ def main():
     with open(os.path.join(HERE, "mods.json"), encoding="utf-8-sig") as f:
         config = json.load(f)
 
-    # With a fossic login configured, serve login-only downloads locally.
-    session, server = fossic_login.load_session(), None
-    if session:
-        server = LocalServer(config)
-        if not server.start():
-            server = None
-    watcher = Watcher(config, args.mods, args.refresh_hours, server, session)
+    # With a fossic login configured (now or later: reload_login), login-only
+    # downloads are served from a local server.
+    watcher = Watcher(config, args.mods, args.refresh_hours)
+    watcher.reload_login()
     log(f"started, watching {args.mods}" + (f" while {args.launch} runs" if args.launch else "")
-        + ("; fossic login configured" if session else ""))
+        + ("; fossic login configured" if watcher.session else ""))
     if not args.launch:
         while True:
             watcher.tick()
@@ -301,8 +322,11 @@ def main():
 
     # Launcher mode: link everything first so TriOS's startup check sees it.
     watcher.tick()
-    subprocess.Popen([args.launch], cwd=os.path.dirname(args.launch))
     image = os.path.basename(args.launch)
+    if process_running(image):
+        log("TriOS already open; watching until it closes")  # e.g. watcher restarted
+    else:
+        subprocess.Popen([args.launch], cwd=os.path.dirname(args.launch))
     seen, absent = False, 0
     started = time.time()
     while True:
