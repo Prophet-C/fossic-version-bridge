@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sector_gazette.version",
+  "modName": "sector_gazette",
+  "modVersion": {
+    "major": "0",
+    "minor": "65"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21158-1-1.html",
+  "fossicTitle": "LLM 扩展功能模组",
+  "fossicOrigin": "original"
+}

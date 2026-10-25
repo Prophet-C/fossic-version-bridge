@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/overlimit_matrix.version",
+  "modName": "overlimit_matrix",
+  "modVersion": {
+    "major": "1",
+    "minor": "4",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19520-1-1.html",
+  "fossicTitle": "超限矩阵(自定义船插)",
+  "fossicOrigin": "original"
+}

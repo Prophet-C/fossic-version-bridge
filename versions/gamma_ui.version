@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/gamma_ui.version",
+  "modName": "Gamma_UI",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14854-1-1.html",
+  "fossicTitle": "GammaSector UI美化包",
+  "fossicOrigin": "original"
+}

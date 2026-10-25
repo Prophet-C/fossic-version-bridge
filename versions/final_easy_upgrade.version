@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/final_easy_upgrade.version",
+  "modName": "Final_Easy_upgrade",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12249-1-1.html",
+  "fossicTitle": "每级2万经验递增轻松升级",
+  "fossicOrigin": "original"
+}

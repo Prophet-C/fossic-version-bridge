@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/house_of_spider_bgm.version",
+  "modName": "house_of_spider_bgm",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19410-1-1.html",
+  "fossicTitle": "蜘蛛巢猛攻bgm",
+  "fossicOrigin": "original"
+}

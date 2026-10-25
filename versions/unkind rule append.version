@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/unkind%20rule%20append.version",
+  "modName": "unkind rule append",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "6"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12416-1-1.html",
+  "fossicTitle": "[0.97] URA - 不友好的重生规则拓展",
+  "fossicOrigin": "original"
+}

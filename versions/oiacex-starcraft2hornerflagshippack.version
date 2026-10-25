@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/oiacex-starcraft2hornerflagshippack.version",
+  "modName": "OIACEx-StarCraft2HornerFlagShipPack",
+  "modVersion": {
+    "major": "0",
+    "minor": "1b"
+  },
+  "fossicThread": "https://www.fossic.org/thread-11407-1-1.html",
+  "fossicTitle": "【0.96a】 OIAC扩展-星际2人族单位中文语音包",
+  "fossicOrigin": "original"
+}

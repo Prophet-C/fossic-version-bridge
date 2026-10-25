@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/bettershipnamedisplay.version",
+  "modName": "BetterShipNameDisplay",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21693-1-1.html",
+  "fossicTitle": "【0.98】更好的船名显示 Better Ship Name Display",
+  "fossicOrigin": "original"
+}

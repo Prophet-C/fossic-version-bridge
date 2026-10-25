@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/fortress.version",
+  "modName": "fortress",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19133-1-1.html",
+  "fossicTitle": "【0.98】要塞级无畏舰（不败的超级改装）",
+  "fossicOrigin": "original"
+}

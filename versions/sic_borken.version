@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sic_borken.version",
+  "modName": "sic_borken",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21299-1-1.html",
+  "fossicTitle": "博尔肯基金会技能树兼容舰队副官",
+  "fossicOrigin": "original"
+}

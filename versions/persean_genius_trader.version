@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/persean_genius_trader.version",
+  "modName": "persean_genius_trader",
+  "modVersion": {
+    "major": "0",
+    "minor": "5",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21492-1-1.html",
+  "fossicTitle": "英仙座天才交易员",
+  "fossicOrigin": "original"
+}

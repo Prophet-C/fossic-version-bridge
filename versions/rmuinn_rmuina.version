@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/rmuinn_rmuina.version",
+  "modName": "RmuINN/RmuINA",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8967-1-1.html",
+  "fossicTitle": "[0951-096][C](功能)UI大修——OneShot:Niko（动态ui测试",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/final_starsplug_in.version",
+  "modName": "Final_starsplug_in",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14061-1-1.html",
+  "fossicTitle": "[0.96/0.97]群星插件",
+  "fossicOrigin": "original"
+}

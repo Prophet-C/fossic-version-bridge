@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tempest_replace.version",
+  "modName": "tempest_replace",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8283-1-1.html",
+  "fossicTitle": "[0.95.1a](美化)原版暴雨-级贴图重置(23/5/8)",
+  "fossicOrigin": "original"
+}

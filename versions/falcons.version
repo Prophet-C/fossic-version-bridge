@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/falcons.version",
+  "modName": "falcons",
+  "modVersion": {
+    "major": "0",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20657-1-1.html",
+  "fossicTitle": "猎鹰-瞬",
+  "fossicOrigin": "original"
+}

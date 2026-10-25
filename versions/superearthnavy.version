@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/superearthnavy.version",
+  "modName": "SuperEarthNavy",
+  "modVersion": {
+    "major": "0",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19980-1-1.html",
+  "fossicTitle": "超级驱逐舰！",
+  "fossicOrigin": "original"
+}

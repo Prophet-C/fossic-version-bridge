@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/safetyoverrides_more.version",
+  "modName": "SafetyOverrides_MORE",
+  "modVersion": {
+    "major": "0",
+    "minor": "97a"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16203-1-1.html",
+  "fossicTitle": "[0.97a]主力舰和民用船安超",
+  "fossicOrigin": "original"
+}

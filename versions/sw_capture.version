@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sw_capture.version",
+  "modName": "sw_capture",
+  "modVersion": {
+    "major": "3",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21460-1-1.html",
+  "fossicTitle": "0.98a-模组发布-夺取舰船-新人模组",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/terran_battlecruiser.version",
+  "modName": "Terran_BattleCruiser",
+  "modVersion": {
+    "major": "0",
+    "minor": "97"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16096-1-1.html",
+  "fossicTitle": "星际争霸里的巨兽级战列巡洋舰",
+  "fossicOrigin": "original"
+}

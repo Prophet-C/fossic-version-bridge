@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/expall.version",
+  "modName": "ExpALL",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16110-1-1.html",
+  "fossicTitle": "[0.98]远行联盟-V1.2.2 2.8修复bug",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/musicmanager.version",
+  "modName": "MusicManager",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21120-1-1.html",
+  "fossicTitle": "补全原版缺失的音乐管理器",
+  "fossicOrigin": "original"
+}

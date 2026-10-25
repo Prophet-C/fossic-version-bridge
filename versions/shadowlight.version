@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/shadowlight.version",
+  "modName": "shadowlight",
+  "modVersion": {
+    "major": "1",
+    "minor": "01"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7413-1-1.html",
+  "fossicTitle": "[0.95.1a][C](势力)辉影能源公司(23/1/31)",
+  "fossicOrigin": "original"
+}

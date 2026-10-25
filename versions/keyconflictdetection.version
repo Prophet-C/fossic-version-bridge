@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/keyconflictdetection.version",
+  "modName": "KeyConflictDetection",
+  "modVersion": {
+    "major": "1",
+    "minor": "4",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21747-1-1.html",
+  "fossicTitle": "【0.98】按键冲突检测 Key Conflict Detection",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/stein_industry.version",
+  "modName": "Stein_Industry",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8722-1-1.html",
+  "fossicTitle": "[0.96a][C](势力)施坦因矿业 Stein Mining Industry 0.1.1 (2023-08-16更新)",
+  "fossicOrigin": "original"
+}

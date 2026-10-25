@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tno_flagpack.version",
+  "modName": "tno_flagpack",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-6376-1-1.html",
+  "fossicTitle": "[0.95.1a][N](旗帜)TNO旗帜包 [TNO Flag_Pack]",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/heiyu_personal_music_pack.version",
+  "modName": "heiyu_personal_music_pack",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5594-1-1.html",
+  "fossicTitle": "[0.95.1]heiyu的个人音乐包 [heiyu personal music pack] 1.0.0",
+  "fossicOrigin": "original"
+}

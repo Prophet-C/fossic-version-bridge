@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/vii_resurrection_cross.version",
+  "modName": "VII_Resurrection_Cross",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9426-1-1.html",
+  "fossicTitle": "[C][0.96/0.95.1][船插]复活十字",
+  "fossicOrigin": "original"
+}

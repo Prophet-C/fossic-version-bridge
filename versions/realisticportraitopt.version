@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/realisticportraitopt.version",
+  "modName": "RealisticPortraitOpt",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19218-1-1.html",
+  "fossicTitle": "【AI】【0.98a-RC8】原游戏头像优化 [RealisticPortraitOpt]",
+  "fossicOrigin": "original"
+}

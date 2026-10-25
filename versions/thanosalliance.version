@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/thanosalliance.version",
+  "modName": "ThanosAlliance",
+  "modVersion": {
+    "major": "0",
+    "minor": "95",
+    "patch": "1a-RC6"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8105-1-1.html",
+  "fossicTitle": "[0.95.1a]小型势力扩充mod【灭霸同盟会】",
+  "fossicOrigin": "original"
+}

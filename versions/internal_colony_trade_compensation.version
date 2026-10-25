@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/internal_colony_trade_compensation.version",
+  "modName": "internal_colony_trade_compensation",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20497-1-1.html",
+  "fossicTitle": "殖民地内部贸易补偿(在每月结算时，把玩家殖民地之间内部消化商品所对应的收入补进账",
+  "fossicOrigin": "original"
+}

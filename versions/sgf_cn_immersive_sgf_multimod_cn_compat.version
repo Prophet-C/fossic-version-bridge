@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sgf_cn_immersive_sgf_multimod_cn_compat.version",
+  "modName": "SGF_CN_ImmerSive/SGF_MultiMod_CN_Compat",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "12/v0.10.8"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20423-1-1.html",
+  "fossicTitle": "【正式发布】远行星号全中文沉浸体验项目【1.1.12发布】",
+  "fossicOrigin": "original"
+}

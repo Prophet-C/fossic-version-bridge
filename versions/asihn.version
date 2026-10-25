@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/asihn.version",
+  "modName": "asihn",
+  "modVersion": {
+    "major": "0",
+    "minor": "10"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21601-1-1.html",
+  "fossicTitle": "【0.98】Asihn's Construction —— 地貌改造 · 空间站建设 · 巨构",
+  "fossicOrigin": "original"
+}

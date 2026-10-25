@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/randnames_cn.version",
+  "modName": "randnames_cn",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20803-1-1.html",
+  "fossicTitle": "[0.98]原版随机名称汉化",
+  "fossicOrigin": "original"
+}

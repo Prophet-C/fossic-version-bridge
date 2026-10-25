@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/dynamic_dp.version",
+  "modName": "dynamic_dp",
+  "modVersion": {
+    "major": "1",
+    "minor": "2b"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19572-1-1.html",
+  "fossicTitle": "[0.97]动态部署点",
+  "fossicOrigin": "original"
+}

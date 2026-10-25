@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/battlehonorsystem.version",
+  "modName": "BattleHonorSystem",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20917-1-1.html",
+  "fossicTitle": "战斗成就系统 BattleHonorSystem",
+  "fossicOrigin": "original"
+}

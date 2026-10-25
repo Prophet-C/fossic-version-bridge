@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lost_sol.version",
+  "modName": "lost_sol",
+  "modVersion": {
+    "major": "1",
+    "minor": "4",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21734-1-1.html",
+  "fossicTitle": "失落太阳系 / Lost Sol",
+  "fossicOrigin": "original"
+}

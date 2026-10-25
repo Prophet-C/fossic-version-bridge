@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ai_core_officers.version",
+  "modName": "ai_core_officers",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20153-1-1.html",
+  "fossicTitle": "AI核心军官",
+  "fossicOrigin": "original"
+}

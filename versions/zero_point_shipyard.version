@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/zero_point_shipyard.version",
+  "modName": "zero_point_shipyard",
+  "modVersion": {
+    "major": "0",
+    "minor": "3",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21524-1-1.html",
+  "fossicTitle": "[0.98a]零点船坞 · 舰船设计系统：网格化的世界！",
+  "fossicOrigin": "original"
+}

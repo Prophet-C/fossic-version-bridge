@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/xinghuo_legend.version",
+  "modName": "Xinghuo_legend",
+  "modVersion": {
+    "major": "0",
+    "minor": "12",
+    "patch": "013.0.14"
+  },
+  "fossicThread": "https://www.fossic.org/thread-2567-1-1.html",
+  "fossicTitle": "[0.91-0.97a][C]成长性MOD《星火传奇》 Xinghuo legend 0.14测试版",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/arrow_bamboo_mod.version",
+  "modName": "arrow_bamboo_mod",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21486-1-1.html",
+  "fossicTitle": "ITERA 新人独立mod大型势力",
+  "fossicOrigin": "original"
+}

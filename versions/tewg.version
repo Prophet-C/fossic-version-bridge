@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tewg.version",
+  "modName": "TEWG",
+  "modVersion": {
+    "major": "0",
+    "minor": "21"
+  },
+  "fossicThread": "https://www.fossic.org/thread-6590-1-1.html",
+  "fossicTitle": "星际远征军",
+  "fossicOrigin": "original"
+}

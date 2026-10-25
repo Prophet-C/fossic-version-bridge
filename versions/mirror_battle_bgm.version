@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mirror_battle_bgm.version",
+  "modName": "Mirror_Battle_Bgm",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17162-1-1.html",
+  "fossicTitle": "镜中的战斗bgm",
+  "fossicOrigin": "original"
+}

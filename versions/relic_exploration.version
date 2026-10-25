@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/relic_exploration.version",
+  "modName": "relic_exploration",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "4a-RC15"
+  },
+  "fossicThread": "https://www.fossic.org/thread-2651-1-1.html",
+  "fossicTitle": "[0.95.1][C]遗迹探索 Relic Exploration",
+  "fossicOrigin": "original"
+}

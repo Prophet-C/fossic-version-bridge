@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/omega_psychasthenia.version",
+  "modName": "Omega_Psychasthenia",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9490-1-1.html",
+  "fossicTitle": "【0.95a/0.96a/0.97a】Omega-精神创伤",
+  "fossicOrigin": "original"
+}

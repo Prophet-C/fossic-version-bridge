@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/heartstee.version",
+  "modName": "Heartstee",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "11"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21341-1-1.html",
+  "fossicTitle": "[098]心之钢！|为舰船无限叠加结构",
+  "fossicOrigin": "original"
+}

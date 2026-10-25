@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/market_ship_seizure.version",
+  "modName": "market_ship_seizure",
+  "modVersion": {
+    "major": "1",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21716-1-1.html",
+  "fossicTitle": "【0.98】突袭舰船市场/缴获舰船仓库",
+  "fossicOrigin": "original"
+}

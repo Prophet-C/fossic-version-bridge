@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pseudo_player.version",
+  "modName": "pseudo_player",
+  "modVersion": {
+    "major": "1",
+    "minor": "6"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18885-1-1.html",
+  "fossicTitle": "【联网功能开放】模拟网游（伪玩家mod）",
+  "fossicOrigin": "original"
+}

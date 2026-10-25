@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pc.version",
+  "modName": "PC",
+  "modVersion": {
+    "major": "0",
+    "minor": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18064-1-1.html",
+  "fossicTitle": "[0.98]星冕分流器? BOSS舰",
+  "fossicOrigin": "original"
+}

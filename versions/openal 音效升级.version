@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/openal%20%E9%9F%B3%E6%95%88%E5%8D%87%E7%BA%A7.version",
+  "modName": "OpenAl 音效升级",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18819-1-1.html",
+  "fossicTitle": "Miko OpenAL 音效升级包",
+  "fossicOrigin": "original"
+}

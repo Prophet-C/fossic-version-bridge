@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/rmuiba.version",
+  "modName": "RmuIBA",
+  "modVersion": {
+    "major": "1",
+    "minor": "0a"
+  },
+  "fossicThread": "https://www.fossic.org/thread-11884-1-1.html",
+  "fossicTitle": "[0.97-0.951][C](功能)UI大修——碧蓝档案",
+  "fossicOrigin": "original"
+}

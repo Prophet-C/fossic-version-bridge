@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/rigsec.version",
+  "modName": "RigSec",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-11104-1-1.html",
+  "fossicTitle": "【参宿七防务】0.97Beta0.2.3版本更新【2024/10/4】",
+  "fossicOrigin": "original"
+}

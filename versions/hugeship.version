@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hugeship.version",
+  "modName": "hugeship",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20914-1-1.html",
+  "fossicTitle": "[098]巨型的巡洋舰们！",
+  "fossicOrigin": "original"
+}

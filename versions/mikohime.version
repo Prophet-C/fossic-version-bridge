@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mikohime.version",
+  "modName": "Mikohime",
+  "modVersion": {
+    "major": "0",
+    "minor": "12"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18806-1-1.html",
+  "fossicTitle": "Mikohime Java 26 优化包 - 尝鲜测试发布 - 存档热修复",
+  "fossicOrigin": "original"
+}

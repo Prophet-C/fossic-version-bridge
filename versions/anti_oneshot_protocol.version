@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/anti_oneshot_protocol.version",
+  "modName": "anti_oneshot_protocol",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21566-1-1.html",
+  "fossicTitle": "【0.98a】弑神研究所遗产",
+  "fossicOrigin": "original"
+}

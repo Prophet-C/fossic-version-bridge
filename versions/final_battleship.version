@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/final_battleship.version",
+  "modName": "Final_battleship",
+  "modVersion": {
+    "major": "1",
+    "minor": "45"
+  },
+  "fossicThread": "https://www.fossic.org/thread-6486-1-1.html",
+  "fossicTitle": "最终战舰",
+  "fossicOrigin": "original"
+}

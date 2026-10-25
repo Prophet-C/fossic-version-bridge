@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/automatedescortcommands.version",
+  "modName": "automatedescortcommands",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16799-1-1.html",
+  "fossicTitle": "自动护航命令",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/super_red_blue.version",
+  "modName": "Super_Red_Blue",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16978-1-1.html",
+  "fossicTitle": "[0.98] 技能船插",
+  "fossicOrigin": "original"
+}

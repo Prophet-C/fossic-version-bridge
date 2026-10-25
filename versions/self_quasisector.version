@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/self_quasisector.version",
+  "modName": "self_quasisector",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18786-1-1.html",
+  "fossicTitle": "[微型船包] 异变星域 0.1.0",
+  "fossicOrigin": "original"
+}

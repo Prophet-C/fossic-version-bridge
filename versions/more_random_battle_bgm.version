@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/more_random_battle_bgm.version",
+  "modName": "More_random_battle_bgm",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12624-1-1.html",
+  "fossicTitle": "更多战斗曲目包",
+  "fossicOrigin": "original"
+}

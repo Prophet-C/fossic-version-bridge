@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/crsid.version",
+  "modName": "CRSID",
+  "modVersion": {
+    "major": "1",
+    "minor": "22a"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8289-1-1.html",
+  "fossicTitle": "[持续更新中]CRSID跨河系统合部—你甚至能在远行星号中玩EVE",
+  "fossicOrigin": "original"
+}

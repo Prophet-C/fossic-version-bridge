@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ssa.version",
+  "modName": "ssa",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "76"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17538-1-1.html",
+  "fossicTitle": "【0.98】星海自律（LED厂）",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/moe.version",
+  "modName": "MOE",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7305-1-1.html",
+  "fossicTitle": "[制作中]宅宅基金会[MOE][人形舰船，可能引起不适、慎入][1/19小修复补丁]",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/missileoverdrive.version",
+  "modName": "missileoverdrive",
+  "modVersion": {
+    "major": "1",
+    "minor": "10"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21755-1-1.html",
+  "fossicTitle": "导弹超载 Missile Overdrive1.10",
+  "fossicOrigin": "original"
+}

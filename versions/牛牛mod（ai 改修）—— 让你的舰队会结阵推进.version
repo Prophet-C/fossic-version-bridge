@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/%E7%89%9B%E7%89%9Bmod%EF%BC%88ai%20%E6%94%B9%E4%BF%AE%EF%BC%89%E2%80%94%E2%80%94%20%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%88%B0%E9%98%9F%E4%BC%9A%E7%BB%93%E9%98%B5%E6%8E%A8%E8%BF%9B.version",
+  "modName": "牛牛mod（AI 改修）—— 让你的舰队会结阵推进",
+  "modVersion": {
+    "major": "2",
+    "minor": "2",
+    "patch": "10"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21720-1-1.html",
+  "fossicTitle": "牛牛mod（AI 改修）—— 让你的舰队会结阵推进",
+  "fossicOrigin": "original"
+}

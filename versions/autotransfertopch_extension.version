@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/autotransfertopch_extension.version",
+  "modName": "autoTransferToPch_extension",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8054-1-1.html",
+  "fossicTitle": "[0.95.1a/0.97]月度晶孔补给 V1.0.1",
+  "fossicOrigin": "original"
+}

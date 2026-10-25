@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/spica_ncc-1701.version",
+  "modName": "SPICA_NCC-1701",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18764-1-1.html",
+  "fossicTitle": "星际迷航进取号（NCC-1701）",
+  "fossicOrigin": "original"
+}

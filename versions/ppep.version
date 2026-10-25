@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ppep.version",
+  "modName": "PPEP",
+  "modVersion": {
+    "major": "3",
+    "minor": "29"
+  },
+  "fossicThread": "https://www.fossic.org/thread-2805-1-1.html",
+  "fossicTitle": "相位力量增强包——全新更新（2024-04-30）",
+  "fossicOrigin": "original"
+}

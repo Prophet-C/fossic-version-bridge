@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/autoborderbattlegroup.version",
+  "modName": "AutoBorderBattlegroup",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20860-1-1.html",
+  "fossicTitle": "人之领戍边舰队",
+  "fossicOrigin": "original"
+}

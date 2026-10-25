@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/kill_the_golden_goose.version",
+  "modName": "Kill_the_Golden_Goose",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "8-RC1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3863-1-1.html",
+  "fossicTitle": "[0.95.1a-0.96a][C](难度)竭泽而渔 Kill the Golden Goose 0.1.8-RC1(2023-05-08更新)",
+  "fossicOrigin": "original"
+}

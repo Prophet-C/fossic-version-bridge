@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/warh.version",
+  "modName": "warh",
+  "modVersion": {
+    "major": "0",
+    "minor": "90"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18787-1-1.html",
+  "fossicTitle": "战锤扩展包",
+  "fossicOrigin": "original"
+}

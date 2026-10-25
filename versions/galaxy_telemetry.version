@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/galaxy_telemetry.version",
+  "modName": "galaxy_telemetry",
+  "modVersion": {
+    "major": "1",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21740-1-1.html",
+  "fossicTitle": "星系遥测",
+  "fossicOrigin": "original"
+}

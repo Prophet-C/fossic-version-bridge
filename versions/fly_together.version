@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/fly_together.version",
+  "modName": "fly_together",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21515-1-1.html",
+  "fossicTitle": "【0.98】一起驾驶~",
+  "fossicOrigin": "original"
+}

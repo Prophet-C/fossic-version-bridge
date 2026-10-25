@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/bfgip.version",
+  "modName": "BFGiP",
+  "modVersion": {
+    "major": "3",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-10313-1-1.html",
+  "fossicTitle": "【0.98】在英仙座的哥特舰队 3.0.2 2026-06-27",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/%E6%88%96%E8%AE%B8%E8%BF%99%E4%B8%AA%E4%B8%8D%E6%98%AFmod.version",
+  "modName": "或许这个不是mod",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21161-1-1.html",
+  "fossicTitle": "把主菜单的打架背景做成桌面壁纸",
+  "fossicOrigin": "original"
+}

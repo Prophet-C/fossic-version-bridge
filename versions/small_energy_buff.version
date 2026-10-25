@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/small_energy_buff.version",
+  "modName": "small_energy_buff",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21634-1-1.html",
+  "fossicTitle": "【0.98】让小能量再次伟大！",
+  "fossicOrigin": "original"
+}

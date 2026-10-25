@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/eve_armada.version",
+  "modName": "eve_armada",
+  "modVersion": {
+    "major": "0",
+    "minor": "7",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21588-1-1.html",
+  "fossicTitle": "【0.98】船包加达里海军舰队",
+  "fossicOrigin": "original"
+}

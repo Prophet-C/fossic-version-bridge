@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/torpedo_alarm_expansion.version",
+  "modName": "Torpedo_Alarm_Expansion",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-13349-1-1.html",
+  "fossicTitle": "鱼雷警报音效替换",
+  "fossicOrigin": "original"
+}

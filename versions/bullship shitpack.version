@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/bullship%20shitpack.version",
+  "modName": "bullship shitpack",
+  "modVersion": {
+    "major": "0",
+    "minor": "5",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12066-1-1.html",
+  "fossicTitle": "[0.98]洗衣机の胡诌舰船 0.5.4",
+  "fossicOrigin": "original"
+}

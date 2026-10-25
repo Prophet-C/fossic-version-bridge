@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/fmextension_video.version",
+  "modName": "FMExtension_Video",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8550-1-1.html",
+  "fossicTitle": "【0.96a/0.95.1a】幻想工造宣传片(一种交互界面视频播放展示)",
+  "fossicOrigin": "original"
+}

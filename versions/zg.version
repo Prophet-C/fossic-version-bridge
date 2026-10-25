@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/zg.version",
+  "modName": "zg",
+  "modVersion": {
+    "major": "0",
+    "minor": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19518-1-1.html",
+  "fossicTitle": "知识管理者(已废弃，新版见”战地记者的失落帝国降临“帖子)",
+  "fossicOrigin": "original"
+}

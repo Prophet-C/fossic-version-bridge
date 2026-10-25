@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/null_balance_hullmods.version",
+  "modName": "Null_balance_hullmods",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "21"
+  },
+  "fossicThread": "https://www.fossic.org/thread-15606-1-1.html",
+  "fossicTitle": "[0.96-0.98]虚无平衡船插",
+  "fossicOrigin": "original"
+}

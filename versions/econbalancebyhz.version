@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/econbalancebyhz.version",
+  "modName": "econBalanceByHZ",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-10523-1-1.html",
+  "fossicTitle": "[0.96a]终产者模拟器 V1.0",
+  "fossicOrigin": "original"
+}

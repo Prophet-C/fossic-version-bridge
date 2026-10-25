@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tg_magic.version",
+  "modName": "TG_magic",
+  "modVersion": {
+    "major": "1",
+    "minor": "04"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14471-1-1.html",
+  "fossicTitle": "【0.97/0.98】【天工魔坊】最终版！",
+  "fossicOrigin": "original"
+}

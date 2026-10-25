@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/traderouteplanner.version",
+  "modName": "tradeRoutePlanner",
+  "modVersion": {
+    "major": "0",
+    "minor": "7",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20942-1-1.html",
+  "fossicTitle": "[0.98]跑商规划器",
+  "fossicOrigin": "original"
+}

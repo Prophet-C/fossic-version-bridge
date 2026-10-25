@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/dynamic_weapon_position.version",
+  "modName": "dynamic_weapon_position",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21403-1-1.html",
+  "fossicTitle": "[基础设施][前置]动态武器位置-DynamicWeaponPosition",
+  "fossicOrigin": "original"
+}

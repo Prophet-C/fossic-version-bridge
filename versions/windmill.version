@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/windmill.version",
+  "modName": "windmill",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19209-1-1.html",
+  "fossicTitle": "【0.98】巨型风筝穿梭机",
+  "fossicOrigin": "original"
+}

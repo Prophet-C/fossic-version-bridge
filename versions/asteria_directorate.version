@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/asteria_directorate.version",
+  "modName": "asteria_directorate",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21577-1-1.html",
+  "fossicTitle": "[0.98a][高科][赏金] 菀星设计总局 - Alpha 测试",
+  "fossicOrigin": "original"
+}

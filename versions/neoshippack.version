@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/neoshippack.version",
+  "modName": "neoshippack",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "6a"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17083-1-1.html",
+  "fossicTitle": "【4.27更新0.0.5版】[0.98]真正的舰船们",
+  "fossicOrigin": "original"
+}

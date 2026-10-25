@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/reaperworld.version",
+  "modName": "ReaperWorld",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20969-1-1.html",
+  "fossicTitle": "[0.98][功能]死神鱼雷的世界",
+  "fossicOrigin": "original"
+}

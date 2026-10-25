@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hammerrig.version",
+  "modName": "hammerrig",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19301-1-1.html",
+  "fossicTitle": "【0.98】内置七个大锤鱼雷发射仓的采矿平台",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/simpleshippaint.version",
+  "modName": "simpleShipPaint",
+  "modVersion": {
+    "major": "0",
+    "minor": "42",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20966-1-1.html",
+  "fossicTitle": "[0.98a]简易舰船涂装修改器",
+  "fossicOrigin": "original"
+}

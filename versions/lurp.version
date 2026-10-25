@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lurp.version",
+  "modName": "LURP",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-11737-1-1.html",
+  "fossicTitle": "[0.97a]拉比丽斯的重生规则集",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/xinvade.version",
+  "modName": "xinvade",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8262-1-1.html",
+  "fossicTitle": "[0.95.1][C]X入侵 XInvade【2023.6.14更新】",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/autobuildnpc_defense.version",
+  "modName": "autoBuildNPC_defense",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9179-1-1.html",
+  "fossicTitle": "【0.96a】NPC殖民地防御增强 V1.0.1",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/final_gray_wind_ui.version",
+  "modName": "Final_Gray_wind_UI",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12751-1-1.html",
+  "fossicTitle": "灰风UI",
+  "fossicOrigin": "original"
+}

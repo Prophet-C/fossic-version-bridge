@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/arknights%20portrait%20pack.version",
+  "modName": "Arknights Portrait Pack",
+  "modVersion": {
+    "major": "2",
+    "minor": "5",
+    "patch": "04"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9923-1-1.html",
+  "fossicTitle": "[N]明日方舟头像包",
+  "fossicOrigin": "original"
+}

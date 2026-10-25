@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/geocentricearth.version",
+  "modName": "geocentricearth",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20802-1-1.html",
+  "fossicTitle": "[0.98]太阳系展示模型",
+  "fossicOrigin": "original"
+}

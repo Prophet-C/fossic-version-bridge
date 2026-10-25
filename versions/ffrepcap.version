@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ffrepcap.version",
+  "modName": "ffrepcap",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21729-1-1.html",
+  "fossicTitle": "[生活质量][0.9-0.98]友伤声誉封顶-FFCapRep",
+  "fossicOrigin": "original"
+}

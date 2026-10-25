@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/apocalypse_alliance.version",
+  "modName": "Apocalypse_Alliance",
+  "modVersion": {
+    "major": "0",
+    "minor": "7",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8464-1-1.html",
+  "fossicTitle": "[0.95.1a]审判联盟 Apocalypse_Alliance 0.5.0",
+  "fossicOrigin": "original"
+}

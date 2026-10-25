@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ziggurat_package.version",
+  "modName": "ziggurat_package",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18910-1-1.html",
+  "fossicTitle": "【0.98】于阿尔法研究站的屏蔽式储藏点刷新通灵塔蓝图",
+  "fossicOrigin": "original"
+}

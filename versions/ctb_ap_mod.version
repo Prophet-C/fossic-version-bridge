@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ctb_ap_mod.version",
+  "modName": "ctb_ap_mod",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "0(小修)"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18814-1-1.html",
+  "fossicTitle": "【轻型前置】穿甲弹mod",
+  "fossicOrigin": "original"
+}

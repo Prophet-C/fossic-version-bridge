@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/onslaught_mk.1.version",
+  "modName": "onslaught_mk.1",
+  "modVersion": {
+    "major": "1",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16126-1-1.html",
+  "fossicTitle": "攻势 MK1的低版本模仿版",
+  "fossicOrigin": "original"
+}

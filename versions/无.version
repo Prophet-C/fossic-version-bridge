@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/%E6%97%A0.version",
+  "modName": "无",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20991-1-1.html",
+  "fossicTitle": "[null color崩溃修复]通过修改游戏jar来防止空指针崩溃！",
+  "fossicOrigin": "original"
+}

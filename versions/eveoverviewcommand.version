@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/eveoverviewcommand.version",
+  "modName": "EVEOverviewCommand",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21807-1-1.html",
+  "fossicTitle": "[0.98/0.97]EVE总览与指挥(用于战斗和大地图)",
+  "fossicOrigin": "original"
+}

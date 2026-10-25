@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/nsama.version",
+  "modName": "nsama",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16918-1-1.html",
+  "fossicTitle": "[0.97a]N小姐/Mauve Towering头像替换Neuro/Evil",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/warnomusicpack.version",
+  "modName": "warnoMusicPack",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17552-1-1.html",
+  "fossicTitle": "[0.98*] WARNO/合成器浪潮音乐包 1.0",
+  "fossicOrigin": "original"
+}

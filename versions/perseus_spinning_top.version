@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/perseus_spinning_top.version",
+  "modName": "Perseus_Spinning_Top",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21794-1-1.html",
+  "fossicTitle": "英仙座陀螺 把你的敌人抽的如陀螺般旋转",
+  "fossicOrigin": "original"
+}

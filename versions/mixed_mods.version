@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mixed_mods.version",
+  "modName": "mixed_mods",
+  "modVersion": {
+    "major": "31",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19427-1-1.html",
+  "fossicTitle": "[0.98a] 一些生活质量优化mod的集中帖",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/magicmaster.version",
+  "modName": "MagicMaster",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "19c-RC8"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21485-1-1.html",
+  "fossicTitle": "[0.98]神秘使MagicMaster 0.4.19c-RC8",
+  "fossicOrigin": "original"
+}

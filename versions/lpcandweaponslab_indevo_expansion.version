@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lpcandweaponslab_indevo_expansion.version",
+  "modName": "LPCAndWeaponsLab_IndEvo_Expansion",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9621-1-1.html",
+  "fossicTitle": "【0.95.1/0.96a】武器andLPC 逆向实验中心 V1.0.1",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/north%20sea%20industries%20addon.version",
+  "modName": "North sea Industries addon",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19041-1-1.html",
+  "fossicTitle": "[NSI addon]北海重工拓展",
+  "fossicOrigin": "original"
+}

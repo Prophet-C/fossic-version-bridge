@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tvoh.version",
+  "modName": "TVOH",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8964-1-1.html",
+  "fossicTitle": "[0.91-0.95-RC15]瀚羽之空",
+  "fossicOrigin": "original"
+}

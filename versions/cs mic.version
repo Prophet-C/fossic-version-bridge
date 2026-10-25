@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/cs%20mic.version",
+  "modName": "CS MIC",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "0.8"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20663-1-1.html",
+  "fossicTitle": "[C/098][势力MOD]晶石矿业-CS MIC",
+  "fossicOrigin": "original"
+}

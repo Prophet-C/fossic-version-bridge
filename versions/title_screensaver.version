@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/title_screensaver.version",
+  "modName": "title_screensaver",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21337-1-1.html",
+  "fossicTitle": "[0.98a]远星屏保",
+  "fossicOrigin": "original"
+}

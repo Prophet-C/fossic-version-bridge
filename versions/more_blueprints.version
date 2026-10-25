@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/more_blueprints.version",
+  "modName": "more_blueprints",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18915-1-1.html",
+  "fossicTitle": "【0.98】蓝图出现几率提高",
+  "fossicOrigin": "original"
+}

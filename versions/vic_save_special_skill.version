@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/vic_save_special_skill.version",
+  "modName": "VIC_Save_Special_Skill",
+  "modVersion": {
+    "major": "0",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12542-1-1.html",
+  "fossicTitle": "[0.97/0.96] VIC洗点保留Mod副官特殊技能",
+  "fossicOrigin": "original"
+}

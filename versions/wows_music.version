@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/wows_music.version",
+  "modName": "WOWS_music",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12413-1-1.html",
+  "fossicTitle": "战舰世界音乐包",
+  "fossicOrigin": "original"
+}

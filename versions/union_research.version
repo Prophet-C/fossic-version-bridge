@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/union_research.version",
+  "modName": "union_research",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-6157-1-1.html",
+  "fossicTitle": "[C] [0.95.1] 联合研究院 1.0",
+  "fossicOrigin": "original"
+}

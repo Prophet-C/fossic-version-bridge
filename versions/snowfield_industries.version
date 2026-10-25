@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/snowfield_industries.version",
+  "modName": "snowfield_industries",
+  "modVersion": {
+    "major": "0",
+    "minor": "98a-RC12"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18774-1-1.html",
+  "fossicTitle": "凛域重工 (Snowfield Industries) 一种高科冰工厂",
+  "fossicOrigin": "original"
+}

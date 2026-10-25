@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/altk.version",
+  "modName": "altk",
+  "modVersion": {
+    "major": "2",
+    "minor": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8880-1-1.html",
+  "fossicTitle": "自己弄的屑mod【艾德蒙教会】",
+  "fossicOrigin": "original"
+}

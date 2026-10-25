@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/iconstockandfavorites.version",
+  "modName": "IconStockAndFavorites",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21699-1-1.html",
+  "fossicTitle": "【0.98】物品图标显示库存与收藏 Icon Stock And Favorites",
+  "fossicOrigin": "original"
+}

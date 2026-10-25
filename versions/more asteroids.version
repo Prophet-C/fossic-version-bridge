@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/more%20asteroids.version",
+  "modName": "More asteroids",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9117-1-1.html",
+  "fossicTitle": "更多小行星 More asteroids (娱乐向)",
+  "fossicOrigin": "original"
+}

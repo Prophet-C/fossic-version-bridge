@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sector_classics.version",
+  "modName": "Sector_classics",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19404-1-1.html",
+  "fossicTitle": "【音乐包】古典星域（星系内音乐）",
+  "fossicOrigin": "original"
+}

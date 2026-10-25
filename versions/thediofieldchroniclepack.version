@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/thediofieldchroniclepack.version",
+  "modName": "thediofieldchroniclepack",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12911-1-1.html",
+  "fossicTitle": "[Diy] 神领编年史・肖像包",
+  "fossicOrigin": "original"
+}

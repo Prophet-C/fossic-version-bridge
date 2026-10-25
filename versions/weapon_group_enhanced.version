@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/weapon_group_enhanced.version",
+  "modName": "weapon_group_enhanced",
+  "modVersion": {
+    "major": "0",
+    "minor": "5",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21427-1-1.html",
+  "fossicTitle": "【0.98a】武器组管理增强-正式版发布",
+  "fossicOrigin": "original"
+}

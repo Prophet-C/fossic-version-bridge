@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/yuegong.version",
+  "modName": "yuegong",
+  "modVersion": {
+    "major": "1",
+    "minor": "11"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21764-1-1.html",
+  "fossicTitle": "月宫",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/eclipses_brink.version",
+  "modName": "Eclipses_Brink",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7709-1-1.html",
+  "fossicTitle": "【0.95.1a】【C】【开坑】蚀之界 | 23/3/3【仅供测试】",
+  "fossicOrigin": "original"
+}

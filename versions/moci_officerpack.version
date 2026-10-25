@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/moci_officerpack.version",
+  "modName": "moci_officerpack",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-15127-1-1.html",
+  "fossicTitle": "【6.4更新2.0版本】Moci的军官包 Moci's officer pack",
+  "fossicOrigin": "original"
+}

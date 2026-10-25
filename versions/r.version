@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/r.version",
+  "modName": "R",
+  "modVersion": {
+    "major": "1",
+    "minor": "15"
+  },
+  "fossicThread": "https://www.fossic.org/thread-11750-1-1.html",
+  "fossicTitle": "自制 余? 舰船",
+  "fossicOrigin": "original"
+}

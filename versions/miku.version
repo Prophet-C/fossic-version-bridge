@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/miku.version",
+  "modName": "miku",
+  "modVersion": {
+    "major": "0",
+    "minor": "114514"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7975-1-1.html",
+  "fossicTitle": "普通的人之领殖民母舰",
+  "fossicOrigin": "original"
+}

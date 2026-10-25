@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/phaseskimmerpainter.version",
+  "modName": "phaseskimmerpainter",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20414-1-1.html",
+  "fossicTitle": "[0.98] 闪现落点投影",
+  "fossicOrigin": "original"
+}

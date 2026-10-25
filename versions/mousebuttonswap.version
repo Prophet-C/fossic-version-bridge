@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mousebuttonswap.version",
+  "modName": "MouseButtonSwap",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21700-1-1.html",
+  "fossicTitle": "【0.98】统一鼠标左右键操作逻辑 Uniform Mouse Button Swap",
+  "fossicOrigin": "original"
+}

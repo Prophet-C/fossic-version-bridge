@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/qol_assist_toolkit.version",
+  "modName": "qol_assist_toolkit",
+  "modVersion": {
+    "major": "1",
+    "minor": "35",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21725-1-1.html",
+  "fossicTitle": "【0.98a】星海助手 —— 战前跳过战斗 / 自动导航 / 自动战斗",
+  "fossicOrigin": "original"
+}

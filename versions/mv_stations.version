@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mv_stations.version",
+  "modName": "mv_stations",
+  "modVersion": {
+    "major": "0",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16929-1-1.html",
+  "fossicTitle": "[0.98a][0.97a]可移动的空间站",
+  "fossicOrigin": "original"
+}

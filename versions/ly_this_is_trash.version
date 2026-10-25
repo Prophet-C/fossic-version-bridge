@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ly_this_is_trash.version",
+  "modName": "ly_this_is_trash",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5325-1-1.html",
+  "fossicTitle": "[0.95.1][C] 这是破船 This is trash",
+  "fossicOrigin": "original"
+}

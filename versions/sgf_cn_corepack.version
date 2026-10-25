@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sgf_cn_corepack.version",
+  "modName": "SGF_CN_CorePack",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "0_RC3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20341-1-1.html",
+  "fossicTitle": "【自定义船插/自定义工业】SGF 星核协议组",
+  "fossicOrigin": "original"
+}

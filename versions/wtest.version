@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/wtest.version",
+  "modName": "wtest",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "7"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21286-1-1.html",
+  "fossicTitle": "[0.98] W的MS补充包~闪光的哈撒韦参战",
+  "fossicOrigin": "original"
+}

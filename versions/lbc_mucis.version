@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lbc_mucis.version",
+  "modName": "LBC_Mucis",
+  "modVersion": {
+    "major": "1",
+    "minor": "73",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12827-1-1.html",
+  "fossicTitle": "边狱巴士音乐包",
+  "fossicOrigin": "original"
+}

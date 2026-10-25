@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/exo_sector_armory.version",
+  "modName": "Exo_Sector_Armory",
+  "modVersion": {
+    "major": "2",
+    "minor": "2",
+    "patch": "1b"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17544-1-1.html",
+  "fossicTitle": "【0.98】远域军工",
+  "fossicOrigin": "original"
+}

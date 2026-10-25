@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/valorant.version",
+  "modName": "Valorant",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19868-1-1.html",
+  "fossicTitle": "[0.98a][N][头像]远行星号×无畏契约头像包",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/fcs.version",
+  "modName": "FCS",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20575-1-1.html",
+  "fossicTitle": "FCS - Flight Control System 飞行控制系统",
+  "fossicOrigin": "original"
+}

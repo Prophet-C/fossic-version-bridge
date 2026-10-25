@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/paragonmk.version",
+  "modName": "paragonmk",
+  "modVersion": {
+    "major": "1,0",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19170-1-1.html",
+  "fossicTitle": "[0.98]典范衍生型",
+  "fossicOrigin": "original"
+}

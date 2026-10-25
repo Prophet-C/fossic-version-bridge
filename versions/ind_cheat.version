@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ind_cheat.version",
+  "modName": "Ind_Cheat",
+  "modVersion": {
+    "major": "0",
+    "minor": "03"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5614-1-1.html",
+  "fossicTitle": "自制Mod 作弊工厂",
+  "fossicOrigin": "original"
+}

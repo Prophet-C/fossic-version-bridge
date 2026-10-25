@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/planet_mover.version",
+  "modName": "planet_mover",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20898-1-1.html",
+  "fossicTitle": "移动殖民地",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/wreck_union.version",
+  "modName": "wreck_union",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19902-1-1.html",
+  "fossicTitle": "废船整合",
+  "fossicOrigin": "original"
+}

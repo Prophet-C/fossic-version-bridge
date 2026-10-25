@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pm%20core%20portrait%20pack.version",
+  "modName": "PM Core Portrait Pack",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17266-1-1.html",
+  "fossicTitle": "月计ai核心头像包",
+  "fossicOrigin": "original"
+}

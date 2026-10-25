@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/vanilla_skill_tuner.version",
+  "modName": "vanilla_skill_tuner",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20833-1-1.html",
+  "fossicTitle": "可修改原版技能数值",
+  "fossicOrigin": "original"
+}

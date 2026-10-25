@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/swsui.version",
+  "modName": "SWSUI",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "1a早期测试版（确信）"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7019-1-1.html",
+  "fossicTitle": "[0.95.1]海豹的沙雕UI美化包",
+  "fossicOrigin": "original"
+}

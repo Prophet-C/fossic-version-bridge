@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/vii_skill_select.version",
+  "modName": "VII_skill_select",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9461-1-1.html",
+  "fossicTitle": "[0.98]军官升级技能更多选择",
+  "fossicOrigin": "original"
+}

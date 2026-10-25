@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/runner1man.version",
+  "modName": "runner1man",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "0（我大抵不会改变这个数字了）"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18612-1-1.html",
+  "fossicTitle": "【0.98】AAA科学怪包",
+  "fossicOrigin": "original"
+}

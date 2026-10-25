@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/carrier_battle_group.version",
+  "modName": "carrier_battle_group",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20671-1-1.html",
+  "fossicTitle": "强力的全面航战的舰船，船插，飞机",
+  "fossicOrigin": "original"
+}

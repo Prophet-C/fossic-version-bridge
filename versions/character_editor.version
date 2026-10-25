@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/character_editor.version",
+  "modName": "character_editor",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19521-1-1.html",
+  "fossicTitle": "人物编辑器(只限于玩家，还有属于玩家的军官和执政官)",
+  "fossicOrigin": "original"
+}

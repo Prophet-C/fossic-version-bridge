@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/biggership.version",
+  "modName": "biggership",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21490-1-1.html",
+  "fossicTitle": "[098]舰船升级，巡洋舰变为主力舰不是梦！",
+  "fossicOrigin": "original"
+}

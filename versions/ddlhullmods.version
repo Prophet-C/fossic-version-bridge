@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ddlhullmods.version",
+  "modName": "ddlhullmods",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21514-1-1.html",
+  "fossicTitle": "【0.98】 叠叠乐船插",
+  "fossicOrigin": "original"
+}

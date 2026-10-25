@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ssv.version",
+  "modName": "ssv",
+  "modVersion": {
+    "major": "1",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19539-1-1.html",
+  "fossicTitle": "新势力希之翼",
+  "fossicOrigin": "original"
+}

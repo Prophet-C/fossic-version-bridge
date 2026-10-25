@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/another_battle_bgm.version",
+  "modName": "Another_battle_bgm",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-13193-1-1.html",
+  "fossicTitle": "还有战斗音乐包",
+  "fossicOrigin": "original"
+}

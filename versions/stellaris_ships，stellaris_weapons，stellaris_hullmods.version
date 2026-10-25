@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/stellaris_ships%EF%BC%8Cstellaris_weapons%EF%BC%8Cstellaris_hullmods.version",
+  "modName": "stellaris_ships，stellaris_weapons，stellaris_hullmods",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21690-1-1.html",
+  "fossicTitle": "群星舰船及武器包",
+  "fossicOrigin": "original"
+}

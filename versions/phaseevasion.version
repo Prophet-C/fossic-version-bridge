@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/phaseevasion.version",
+  "modName": "PhaseEvasion",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20825-1-1.html",
+  "fossicTitle": "[098]相位闪避船插",
+  "fossicOrigin": "original"
+}

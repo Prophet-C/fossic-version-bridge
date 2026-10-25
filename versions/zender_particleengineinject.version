@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/zender_particleengineinject.version",
+  "modName": "zender_ParticleEngineInject",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-10530-1-1.html",
+  "fossicTitle": "[097,096,0951]粒子引擎注入与java11-23之钥",
+  "fossicOrigin": "original"
+}

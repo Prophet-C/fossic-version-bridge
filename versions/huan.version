@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/huan.version",
+  "modName": "huan",
+  "modVersion": {
+    "major": "1",
+    "minor": "10",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21499-1-1.html",
+  "fossicTitle": "【0.98】 行星轨道环",
+  "fossicOrigin": "original"
+}

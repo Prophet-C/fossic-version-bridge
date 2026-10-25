@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/infernal_enemy.version",
+  "modName": "infernal_enemy",
+  "modVersion": {
+    "major": "2",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5946-1-1.html",
+  "fossicTitle": "[0.95.1a] 精英怪 2.1",
+  "fossicOrigin": "original"
+}

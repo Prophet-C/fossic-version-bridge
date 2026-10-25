@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ba%20chat.version",
+  "modName": "BA chat",
+  "modVersion": {
+    "major": "0",
+    "minor": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17487-1-1.html",
+  "fossicTitle": "[0.98a]档案骚话",
+  "fossicOrigin": "original"
+}

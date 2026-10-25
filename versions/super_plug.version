@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/super_plug.version",
+  "modName": "Super_Plug",
+  "modVersion": {
+    "major": "3",
+    "minor": "33",
+    "patch": "2-0.98-RC8-ProtectedJar-Obfuscated-JarDeclareFix-Test"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20823-1-1.html",
+  "fossicTitle": "【0.98】【0.97】超级船插",
+  "fossicOrigin": "original"
+}

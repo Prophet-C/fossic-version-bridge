@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/armor_supply.version",
+  "modName": "armor_supply",
+  "modVersion": {
+    "major": "2",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20934-1-1.html",
+  "fossicTitle": "[098]舰船们，铠甲合体！",
+  "fossicOrigin": "original"
+}

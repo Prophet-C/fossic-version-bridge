@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/the_endgame.version",
+  "modName": "the_endgame",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1可以热更新不需要开新档"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21728-1-1.html",
+  "fossicTitle": "【0.98】终局（以太相引擎）",
+  "fossicOrigin": "original"
+}

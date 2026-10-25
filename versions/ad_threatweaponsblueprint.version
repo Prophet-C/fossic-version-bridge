@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ad_threatweaponsblueprint.version",
+  "modName": "AD_ThreatWeaponsBluePrint",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17306-1-1.html",
+  "fossicTitle": "[0.98] 潜在威胁武器蓝图包 AD_ThreatWeaponsBluePrint",
+  "fossicOrigin": "original"
+}

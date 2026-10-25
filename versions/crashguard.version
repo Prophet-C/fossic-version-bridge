@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/crashguard.version",
+  "modName": "crashguard",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21785-1-1.html",
+  "fossicTitle": "拯救你的游戏中途的闪退，回到光荣的主菜单而不是重启！",
+  "fossicOrigin": "original"
+}

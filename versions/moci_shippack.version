@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/moci_shippack.version",
+  "modName": "moci_shippack",
+  "modVersion": {
+    "major": "1",
+    "minor": "0。1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-15929-1-1.html",
+  "fossicTitle": "【原贴已修复】Moci的不再原版风格了的船包",
+  "fossicOrigin": "original"
+}

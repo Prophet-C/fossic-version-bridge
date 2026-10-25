@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/boarding%20attack.version",
+  "modName": "Boarding Attack",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8969-1-1.html",
+  "fossicTitle": "【0.95.1~0.96】跳帮作战",
+  "fossicOrigin": "original"
+}

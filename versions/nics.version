@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/nics.version",
+  "modName": "NICS",
+  "modVersion": {
+    "major": "0",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9016-1-1.html",
+  "fossicTitle": "[试水][内容]核心星域星系添加",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/taohuayuan.version",
+  "modName": "taohuayuan",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18592-1-1.html",
+  "fossicTitle": "【0.98】【桃花源】MOD发布",
+  "fossicOrigin": "original"
+}

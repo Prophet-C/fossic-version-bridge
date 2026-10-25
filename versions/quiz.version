@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/quiz.version",
+  "modName": "quiz",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8968-1-1.html",
+  "fossicTitle": "【0.95.1】问答游戏 下一个百万富翁说不定就是你！",
+  "fossicOrigin": "original"
+}

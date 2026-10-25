@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/scportraitpack.version",
+  "modName": "scportraitpack",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5635-1-1.html",
+  "fossicTitle": "[0.95.1]星际争霸头像包",
+  "fossicOrigin": "original"
+}
