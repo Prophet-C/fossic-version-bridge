@@ -29,8 +29,12 @@ python inject.py --mods "E:\Recreations\Starsector_Collections\Starsector_098_RC
 - 只看结果不写文件：加 `--dry-run`
 - 撤销所有注入：加 `--remove`
 
-TriOS 里「打开论坛」按钮指向官方英文论坛，对这些 mod 无效；更新链接看
-`inject.py` 的输出，或 GitHub 仓库首页的 README 表格。下载需要自己去帖子里下。
+**一键更新**：mod 在 fossic 上传了附件（帖子顶部的下载列表）时，远程版本文件会带上
+`directDownloadURL`（fossic CDN 上的 zip 直链），TriOS 里会显示更新按钮，点一下就能下载安装，
+和英文 mod 一样。用网盘发布、或附件需要登录/积分的 mod 没有直链，只会提示有更新。
+
+TriOS 里「打开论坛」按钮指向官方英文论坛，对这些 mod 无效；帖子链接看
+`inject.py` 的输出，或 GitHub 仓库首页的 README 表格。
 
 ## 修正匹配（mods.json）
 
@@ -48,5 +52,6 @@ TriOS 里「打开论坛」按钮指向官方英文论坛，对这些 mod 无效
 
 - 版本号由作者在 fossic 填写，有时会和 mod_info.json 不一致（例如帖子写 `0.55`、本地是 `0.355`），
   这种情况 TriOS 的比较可能不准。
-- 不支持一键下载：fossic 附件需要登录，很多 mod 用网盘发布。
+- 一键更新下载的是作者上传的压缩包。个别作者的压缩包结构不规范（多套一层文件夹、或本体和拓展打在一起），
+  TriOS 可能需要你确认安装哪个文件夹。
 - 只抓取 Mod原创发布 / 汉化发布 / 搬运发布 三个版块及其「已过时」版块。

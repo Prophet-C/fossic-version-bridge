@@ -6,6 +6,8 @@ import html
 import json
 import re
 import time
+import urllib.error
+import urllib.parse
 import urllib.request
 
 BASE = "https://www.fossic.org/"
@@ -34,6 +36,52 @@ def fetch(url, retries=3):
             if attempt == retries - 1:
                 raise
             time.sleep(3 * (attempt + 1))
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args, **kwargs):
+        return None
+
+
+_no_redirect = urllib.request.build_opener(_NoRedirect)
+
+
+ARCHIVE_EXTS = {"zip", "7z", "rar"}
+
+
+def attach_info(aids):
+    """fossic's own download panel asks this endpoint for attachment details:
+    {aid: {"filename", "ext", "filesize", "downloadUrl", ...}}. Works without
+    a login. downloadUrl is relative and carries a time-stamped hash."""
+    result = {}
+    aids = list(aids)
+    for i in range(0, len(aids), 40):
+        chunk = ",".join(str(a) for a in aids[i:i + 40])
+        data = json.loads(fetch(f"{BASE}forum.php?mod=ajax&action=attachinfo_json&aids={chunk}") or "{}")
+        if isinstance(data, dict):
+            result.update({int(k): v for k, v in data.items()})
+    return result
+
+
+def resolve_download(attachment_url):
+    """fossic answers an anonymous attachment request with a 302 to a static
+    CDN file (stable, no expiry; the file name comes in Content-Disposition,
+    which TriOS reads). Returns that URL, or None when the attachment needs a
+    login or credits (fossic then shows an HTML notice instead)."""
+    global _last_request
+    wait = REQUEST_DELAY - (time.time() - _last_request)
+    if wait > 0:
+        time.sleep(wait)
+    _last_request = time.time()
+    req = urllib.request.Request(attachment_url, headers={"User-Agent": USER_AGENT})
+    try:
+        with _no_redirect.open(req, timeout=30):
+            return None  # 200 = notice page, not a file
+    except urllib.error.HTTPError as e:
+        location = e.headers.get("Location") if e.code in (301, 302, 303, 307) else None
+        if location and urllib.parse.urlparse(location).hostname not in (None, "www.fossic.org", "fossic.org"):
+            return location
+        return None
 
 
 def thread_url(tid):
@@ -87,7 +135,8 @@ def parse_thread(content):
             info["releases"] = [
                 {"modVersion": str(r.get("modVersion", "")).strip(),
                  "gameVersion": r.get("gameVersion", ""),
-                 "name": str(r.get("modVersionDisplayName", "")).strip()}
+                 "name": str(r.get("modVersionDisplayName", "")).strip(),
+                 "aid": r.get("aid")}
                 for r in json.loads(html.unescape(m.group(1)))
             ]
         except ValueError:
@@ -118,6 +167,10 @@ def _game_rank(release):
 def pick_version(info, rule=None):
     """Choose the version a thread advertises for one mod.
 
+    Returns (version, release): release is the entry of the download list
+    that version came from, or None when it came from elsewhere (header,
+    edit time, fixed value), in which case there is no download to offer.
+
     rule (from mods.json) may set:
       release: regex matched against the release's display name or version,
                for threads that ship several mods (e.g. a main mod + addon)
@@ -127,37 +180,45 @@ def pick_version(info, rule=None):
     """
     rule = rule or {}
     if rule.get("version"):
-        return normalize(rule["version"])
+        return normalize(rule["version"]), None
     if rule.get("mode") == "edited":
-        return edited_version(info["edited"])
+        return edited_version(info["edited"]), None
 
     releases = [r for r in info["releases"] if is_version(r["modVersion"])]
     if "releaseIndex" in rule:
         all_releases = info["releases"]
         i = rule["releaseIndex"]
-        return normalize(all_releases[i]["modVersion"]) if i < len(all_releases) else None
+        if i < len(all_releases) and is_version(all_releases[i]["modVersion"]):
+            return normalize(all_releases[i]["modVersion"]), all_releases[i]
+        return None, None
     if rule.get("release"):
         for r in releases:
             if re.search(rule["release"], r["name"]) or re.search(rule["release"], r["modVersion"]):
-                return normalize(r["modVersion"])
-        return None
+                return normalize(r["modVersion"]), r
+        return None, None
 
     # Default: the newest of the header version and the releases for the
     # newest game version. The header is sometimes stale and the release list
     # sometimes lags behind, so take whichever is ahead.
     candidates = []
     if is_version(info["headerVersion"]):
-        candidates.append(normalize(info["headerVersion"]))
+        candidates.append((normalize(info["headerVersion"]), None))
     if releases:
         top = max(_game_rank(r) for r in releases)
-        candidates += [normalize(r["modVersion"]) for r in releases if _game_rank(r) == top]
+        candidates += [(normalize(r["modVersion"]), r) for r in releases if _game_rank(r) == top]
     if not candidates:
-        return None
+        return None, None
     best = candidates[0]
     for c in candidates[1:]:
-        if compare_versions(c, best) > 0:
+        # On a tie prefer the release entry, which has a download.
+        cmp = compare_versions(c[0], best[0])
+        if cmp > 0 or (cmp == 0 and best[1] is None):
             best = c
-    return best
+    version, release = best
+    if release is None:
+        # Header won; still offer the download if a release has that version.
+        release = next((r for r in releases if normalize(r["modVersion"]) == version), None)
+    return version, release
 
 
 def edited_version(edited):

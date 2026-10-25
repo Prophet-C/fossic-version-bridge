@@ -45,7 +45,9 @@ class ThreadCache:
         return self.pages[tid]
 
 
-def make_record(mod_id, tid, fid, info, version, source):
+def make_record(mod_id, tid, fid, info, picked, source):
+    version, release = picked
+    aid = release.get("aid") if release else None
     return {
         "id": mod_id,
         "thread": fl.thread_url(tid),
@@ -54,7 +56,40 @@ def make_record(mod_id, tid, fid, info, version, source):
         "edited": info["edited"],
         "version": version,
         "source": source,
+        "aid": aid,
     }
+
+
+def resolve_downloads(catalog, known):
+    """Fill rec["download"] with the CDN file behind each release attachment.
+    known: {aid: url or None} from the previous run; an aid's file never
+    changes (a new upload gets a new aid), so only new aids cost requests."""
+    new = {rec["aid"] for rec in catalog.values() if rec.get("aid") and str(rec["aid"]) not in known}
+    try:
+        details = fl.attach_info(sorted(new)) if new else {}
+    except Exception as e:
+        print(f"ERR  attachinfo_json: {e}")
+        details = None  # leave new aids unresolved; retried next run
+    for rec in catalog.values():
+        aid = rec.get("aid")
+        if not aid:
+            rec["download"] = None
+            continue
+        if str(aid) in known:
+            rec["download"] = known[str(aid)]
+            continue
+        if details is None:
+            continue
+        d = details.get(aid)
+        if not d or str(d.get("ext", "")).lower() not in fl.ARCHIVE_EXTS or not d.get("downloadUrl"):
+            rec["download"] = None  # missing, hidden, or not an archive
+        else:
+            try:
+                rec["download"] = fl.resolve_download(fl.BASE + d["downloadUrl"])
+            except Exception as e:
+                print(f'ERR  download for {rec["id"]} (aid {aid}): {e}')
+                continue  # no "download" key: retried next run
+        known[str(aid)] = rec["download"]
 
 
 def build_catalog(config, threads):
@@ -67,10 +102,11 @@ def build_catalog(config, threads):
         info = cache.get(tid)
         if not info or not info["modId"]:
             continue
-        version = fl.pick_version(info)
+        picked = fl.pick_version(info)
+        version = picked[0]
         if not version:
             continue
-        rec = make_record(info["modId"], tid, fid, info, version, "header")
+        rec = make_record(info["modId"], tid, fid, info, picked, "header")
         key = fl.catalog_key(info["modId"])
         old = catalog.get(key)
         if old is None or priority.get(fid, 99) < priority.get(old["forum"], 99) or (
@@ -85,11 +121,11 @@ def build_catalog(config, threads):
         info = cache.get(entry["thread"])
         if not info:
             continue
-        version = fl.pick_version(info, entry)
-        if not version:
+        picked = fl.pick_version(info, entry)
+        if not picked[0]:
             print(f'??   {entry["id"]}: no version in thread {entry["thread"]} with rule {entry}')
             continue
-        catalog[fl.catalog_key(entry["id"])] = make_record(entry["id"], entry["thread"], None, info, version, "mods.json")
+        catalog[fl.catalog_key(entry["id"])] = make_record(entry["id"], entry["thread"], None, info, picked, "mods.json")
     return catalog, cache.failed
 
 
@@ -99,6 +135,11 @@ def write_master(config, key, rec):
         "masterVersionFile": fl.master_url(config["rawBase"], key),
         "modName": rec["id"],
         "modVersion": fl.version_object(rec["version"]),
+    }
+    if rec.get("download"):
+        # TriOS reads this from the remote file and offers a one-click update.
+        data["directDownloadURL"] = rec["download"]
+    data |= {
         # Extra fields are ignored by TriOS and Version Checker; kept for people.
         "fossicThread": rec["thread"],
         "fossicTitle": rec["title"],
@@ -147,8 +188,9 @@ def main():
 
     if args.threads:
         catalog, _ = build_catalog(config, [(t, None) for t in args.threads])
+        resolve_downloads(catalog, {})
         for r in catalog.values():
-            print(f'{r["id"]:35} {r["version"]:15} {r["source"]:10} {r["title"]}')
+            print(f'{r["id"]:35} {r["version"]:15} {r["source"]:10} {r["title"]}\n{"":35} download: {r.get("download")}')
         return
 
     threads = []
@@ -159,19 +201,22 @@ def main():
     if not threads:
         raise SystemExit("no threads listed; fossic layout changed or site unreachable")
 
-    catalog, failed = build_catalog(config, threads)
-    if len(failed) > len(threads) * 0.3:
-        raise SystemExit(f"{len(failed)} of {len(threads)} threads failed; not writing a partial catalog")
-
-    os.makedirs(VERSIONS_DIR, exist_ok=True)
-    # Merge with the previous catalog so a mod whose thread failed to load
-    # this run keeps its last known version instead of vanishing.
     catalog_path = os.path.join(HERE, "catalog.json")
     try:
         with open(catalog_path, encoding="utf-8") as f:
             previous = json.load(f)
     except (OSError, ValueError):
         previous = {}
+
+    catalog, failed = build_catalog(config, threads)
+    if len(failed) > len(threads) * 0.3:
+        raise SystemExit(f"{len(failed)} of {len(threads)} threads failed; not writing a partial catalog")
+    known = {str(r["aid"]): r["download"] for r in previous.values() if r.get("aid") and "download" in r}
+    resolve_downloads(catalog, known)
+
+    os.makedirs(VERSIONS_DIR, exist_ok=True)
+    # Merge with the previous catalog so a mod whose thread failed to load
+    # this run keeps its last known version instead of vanishing.
     failed_urls = {fl.thread_url(t) for t in failed}
     for key, rec in previous.items():
         if key not in catalog and rec["thread"] in failed_urls:
