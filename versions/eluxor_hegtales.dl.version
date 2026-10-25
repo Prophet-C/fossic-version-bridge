@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/eluxor_hegtales.dl.version",
+  "modName": "eluxor_hegtales",
+  "modVersion": {
+    "major": "0",
+    "minor": "6",
+    "patch": "8d"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202605/16/180433rwr4wt9t59yt64z4.attach",
+  "fossicThread": "https://www.fossic.org/thread-19549-1-1.html",
+  "fossicTitle": "【0.98a】Heggle Tale 霸主往事 V0.6.8d",
+  "fossicOrigin": "repost"
+}
