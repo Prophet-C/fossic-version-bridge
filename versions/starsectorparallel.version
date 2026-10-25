@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/starsectorparallel.version",
+  "modName": "starsectorparallel",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21836-1-1.html",
+  "fossicTitle": "[0.98-RC8] StarsectorParallel —— 远行星号逻辑侧多线程并行化",
+  "fossicOrigin": "original"
+}

@@ -3,10 +3,10 @@
   "modName": "llm_contact_chat",
   "modVersion": {
     "major": "0",
-    "minor": "7",
-    "patch": "0"
+    "minor": "8",
+    "patch": "3"
   },
   "fossicThread": "https://www.fossic.org/thread-19938-1-1.html",
-  "fossicTitle": "[0.98a][早期测试]SectorComms-AI桥接与游戏内对话",
+  "fossicTitle": "[0.98a]SectorComms-AI桥接与游戏内对话",
   "fossicOrigin": "original"
 }
