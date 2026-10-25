@@ -62,10 +62,10 @@ def _write_if_changed(path, text):
     return True
 
 
-def inject(config, mod_dir, mod_id, name, local_version, rec):
+def inject(config, mod_dir, mod_id, name, local_version, rec, with_download=False):
     """Returns True when a file was written."""
     data = {
-        "masterVersionFile": fl.master_url(config["rawBase"], mod_id),
+        "masterVersionFile": fl.master_url(config["rawBase"], mod_id, with_download),
         "modName": name,
         "modVersion": fl.version_object(local_version),
         "fossicThread": rec["thread"],
@@ -100,20 +100,20 @@ def english_link(name):
     return None
 
 
-def trust(rec, rule, name, local):
-    """Is this catalog record a source we should use for the installed mod?
-    Returns (ok, reason)."""
+def classify(rec, rule, name):
+    """How to use a catalog record for an installed mod (which, having no
+    Version Checker file of its own, has no checkable English source).
+
+    Returns "original", "repost" (fallback: update notices only), "repost-dl"
+    (fallback that may also one-click update), or None (excluded)."""
     if rule.get("exclude"):
-        return False, "excluded in mods.json"
-    if rec.get("source") == "mods.json" or rule.get("trustRepost"):
-        return True, None
-    if (rec.get("origin") or fl.origin_of(rec.get("forum"))) == "original":
-        return True, None
-    # A translation/repost thread. It is the real source only when the
-    # installed copy is that Chinese build and the thread is not behind it.
-    if fl.has_cjk(name) and fl.compare_versions(rec["version"], local) >= 0:
-        return True, None
-    return False, "fossic only has a translation/repost thread"
+        return None
+    if rec.get("source") == "mods.json" or (rec.get("origin") or fl.origin_of(rec.get("forum"))) == "original":
+        return "original"
+    # Translation/repost thread used as a fallback. Its archive may be a
+    # translated or altered build, so only offer it for one-click updates
+    # when the installed copy is that Chinese build or the user said so.
+    return "repost-dl" if rule.get("trustRepost") or fl.has_cjk(name) else "repost"
 
 
 def scan(config, catalog, mods_dir, dry_run=False, only=None, log=print):
@@ -144,20 +144,28 @@ def scan(config, catalog, mods_dir, dry_run=False, only=None, log=print):
         if not rec:
             unknown.append(name)
             continue
-        ok, reason = trust(rec, rule, name, local)
-        if not ok:
+        kind = classify(rec, rule, name)
+        if kind is None:
             if not dry_run and is_ours(mod_dir):
                 remove(mod_dir)
-                log(f"unlinked {name}: {reason}")
-            link = english_link(name) if "repost" in reason else None
-            rows.append(("repost" if "repost" in reason else "excluded", name, local, rec["version"],
-                         f"English source: {link}" if link else rec["thread"]))
+                log(f"unlinked {name}: excluded in mods.json")
+            rows.append(("excluded", name, local, rec["version"], rec["thread"]))
             continue
-        if not dry_run and inject(config, mod_dir, mod_id, name, local, rec):
+        # Repost-sourced mods whose file has a download use the .dl variant
+        # only when classify allows one-click updates for them.
+        with_download = kind == "repost-dl" and bool(rec.get("download"))
+        if not dry_run and inject(config, mod_dir, mod_id, name, local, rec, with_download):
             log(f"linked {name} ({local}) to {rec['thread']}")
         cmp = fl.compare_versions(rec["version"], local)
-        state = "UPDATE" if cmp > 0 else "ok" if cmp == 0 else "check"
-        rows.append((state, name, local, rec["version"], rec["thread"]))
+        if kind == "original":
+            state = "UPDATE" if cmp > 0 else "ok" if cmp == 0 else "check"
+            link = rec["thread"]
+        else:
+            # Fallback source: a newer local copy simply wins.
+            state = "UPDATE*" if cmp > 0 else "ok*"
+            hint = english_link(name)
+            link = rec["thread"] + (f"  (English: {hint})" if hint else "")
+        rows.append((state, name, local, rec["version"], link))
     return rows, unknown
 
 
@@ -186,15 +194,16 @@ def main():
     catalog = load_catalog(config, args.catalog)
     rows, unknown = scan(config, catalog, args.mods, dry_run=args.dry_run)
 
-    order = {"UPDATE": 0, "check": 1, "ok": 2, "repost": 3, "excluded": 4}
+    order = {"UPDATE": 0, "UPDATE*": 1, "check": 2, "ok": 3, "ok*": 4, "excluded": 5}
     print(f'\n{"state":10} {"mod":32} {"installed":14} {"fossic":14} thread')
     for state, name, local, remote, thread in sorted(rows, key=lambda r: (order[r[0]], r[1])):
         print(f"{state:10} {name[:32]:32} {local:14} {remote:14} {thread}")
-    linked = [r for r in rows if r[0] in ("UPDATE", "check", "ok")]
+    linked = [r for r in rows if r[0] != "excluded"]
     print(f"\n{len(linked)} mods {'would be ' if args.dry_run else ''}linked to fossic; "
-          f"{sum(r[0] == 'UPDATE' for r in rows)} have updates.")
-    print("  check    = installed is newer than fossic: the thread may be stale or the version scheme odd; verify by hand")
-    print("  repost   = fossic only mirrors this mod (汉化/搬运); not used, follow the original source instead")
+          f"{sum(r[0].startswith('UPDATE') for r in rows)} have updates.")
+    print("  *        = fallback source: fossic only mirrors this mod (汉化/搬运 thread). A newer installed copy wins;")
+    print("             one-click update is offered only if the installed copy is the Chinese build (or trustRepost).")
+    print("  check    = installed is newer than its original fossic thread: stale thread or odd version scheme; verify")
     if unknown:
         print("No Version Checker file and not found on fossic: " + ", ".join(unknown))
 

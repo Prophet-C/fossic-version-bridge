@@ -133,20 +133,31 @@ def build_catalog(config, threads):
 
 
 def write_master(config, key, rec):
-    path = os.path.join(VERSIONS_DIR, key + ".version")
-    data = {
-        "masterVersionFile": fl.master_url(config["rawBase"], key),
-        "modName": rec["id"],
-        "modVersion": fl.version_object(rec["version"]),
-    }
-    if rec.get("download"):
-        # TriOS reads this from the remote file and offers a one-click update.
-        data["directDownloadURL"] = rec["download"]
-    data |= {
-        # Extra fields are ignored by TriOS and Version Checker; kept for people.
-        "fossicThread": rec["thread"],
-        "fossicTitle": rec["title"],
-    }
+    """Write the master file(s) for one mod; returns True if any changed.
+    See fl.master_file_name for why repost sources get two files."""
+    repost = rec.get("origin") == "repost" and rec.get("source") != "mods.json"
+    variants = [False, True] if repost and rec.get("download") else [False]
+    changed = False
+    for with_download in variants:
+        data = {
+            "masterVersionFile": fl.master_url(config["rawBase"], key, with_download),
+            "modName": rec["id"],
+            "modVersion": fl.version_object(rec["version"]),
+        }
+        if rec.get("download") and (with_download or not repost):
+            # TriOS reads this from the remote file and offers a one-click update.
+            data["directDownloadURL"] = rec["download"]
+        data |= {
+            # Extra fields are ignored by TriOS and Version Checker; kept for people.
+            "fossicThread": rec["thread"],
+            "fossicTitle": rec["title"],
+            "fossicOrigin": rec.get("origin"),
+        }
+        changed |= _write_json_if_changed(os.path.join(VERSIONS_DIR, fl.master_file_name(key, with_download)), data)
+    return changed
+
+
+def _write_json_if_changed(path, data):
     try:
         with open(path, encoding="utf-8") as f:
             if json.load(f) == data:

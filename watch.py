@@ -110,7 +110,7 @@ def main():
                 if changed:
                     rows, _ = inject.scan(config, catalog, args.mods, only=changed, log=log)
                     for state, name, local, remote, thread in rows:
-                        if state == "UPDATE":
+                        if state.startswith("UPDATE"):
                             log(f"update available: {name} {local} -> {remote}  {thread}")
                     known = signatures(args.mods)  # after our writes
         except Exception as e:

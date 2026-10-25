@@ -389,6 +389,13 @@ def catalog_key(mod_id):
     return re.sub(r'[<>:"/\\|?*\x00-\x1f]', "_", mod_id).strip(" .").lower()
 
 
-def master_url(raw_base, mod_id):
-    import urllib.parse
-    return f'{raw_base.rstrip("/")}/versions/{urllib.parse.quote(catalog_key(mod_id) + ".version")}'
+def master_file_name(mod_id, with_download=False):
+    """Repost-sourced mods get two master files: "<id>.version" without a
+    download link and "<id>.dl.version" with one, so a mod installed from
+    its English original is never one-click-replaced by a repost's archive.
+    Original-sourced mods have the link in "<id>.version" itself."""
+    return catalog_key(mod_id) + (".dl.version" if with_download else ".version")
+
+
+def master_url(raw_base, mod_id, with_download=False):
+    return f'{raw_base.rstrip("/")}/versions/{urllib.parse.quote(master_file_name(mod_id, with_download))}'
