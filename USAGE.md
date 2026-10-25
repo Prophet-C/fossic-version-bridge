@@ -27,6 +27,15 @@ powershell -ExecutionPolicy Bypass -File install_autostart.ps1
 - 每 3 小时从 GitHub 刷新一次版本目录；
 - 日志写在 `watch.log`，里面也会记录哪些 mod 有更新。
 
+**或者随 TriOS 运行**（二选一，切换时会自动移除另一种）：
+
+```
+powershell -ExecutionPolicy Bypass -File install_autostart.ps1 -WithTriOS "E:\Recreations\Starsector_Collections\TriOS\TriOS.exe"
+```
+
+在桌面创建「TriOS (fossic)」快捷方式：先补一遍注入，再启动 TriOS；TriOS 开着时持续监视，关闭后自动退出。
+直接双击 TriOS.exe 启动则不会注入，下次用快捷方式启动时补上。
+
 卸载：`powershell -ExecutionPolicy Bypass -File install_autostart.ps1 -Uninstall`
 
 ## 手动运行

@@ -5,16 +5,18 @@ re-injects whenever a mod folder appears or its mod_info.json changes, and
 refreshes the catalog from GitHub every few hours (new mods on fossic, or a
 mod that was not on fossic before).
 
-    pythonw watch.py --mods "E:/Games/Starsector/mods"
+    pythonw watch.py --mods "E:/Games/Starsector/mods"                        # always on
+    pythonw watch.py --mods "E:/Games/Starsector/mods" --launch "E:/TriOS/TriOS.exe"  # with TriOS
 
 Runs silently; see watch.log next to this file. Only one instance runs at a
-time. Started at logon by the shortcut install_autostart.ps1 creates.
+time. install_autostart.ps1 creates the shortcut for either mode.
 """
 
 import argparse
 import datetime
 import json
 import os
+import subprocess
 import sys
 import time
 
@@ -81,41 +83,87 @@ def signatures(mods_dir):
     return sigs
 
 
+def process_running(image_name):
+    """True if any process with this executable name runs (TriOS may restart
+    itself, e.g. after self-updating, so the launched handle is not enough)."""
+    out = subprocess.run(
+        ["tasklist", "/FI", f"IMAGENAME eq {image_name}", "/NH", "/FO", "CSV"],
+        capture_output=True, text=True, creationflags=subprocess.CREATE_NO_WINDOW,
+    ).stdout
+    return f'"{image_name.lower()}"' in out.lower()
+
+
+class Watcher:
+    def __init__(self, config, mods_dir, refresh_hours):
+        self.config, self.mods_dir, self.refresh_hours = config, mods_dir, refresh_hours
+        self.catalog, self.last_refresh, self.known = None, 0.0, {}
+
+    def tick(self):
+        try:
+            if self.catalog is None or time.time() - self.last_refresh > self.refresh_hours * 3600:
+                fresh = refresh_catalog(self.config)
+                self.last_refresh = time.time()
+                if fresh is not None:
+                    self.catalog = fresh
+                    self.known = {}  # rescan everything against the new catalog
+            if self.catalog is None:
+                return
+            sigs = signatures(self.mods_dir)
+            changed = {d for d, s in sigs.items() if self.known.get(d) != s}
+            if changed:
+                rows, _ = inject.scan(self.config, self.catalog, self.mods_dir, only=changed, log=log)
+                for state, name, local, remote, thread in rows:
+                    if state.startswith("UPDATE"):
+                        log(f"update available: {name} {local} -> {remote}  {thread}")
+                self.known = signatures(self.mods_dir)  # after our writes
+        except Exception as e:
+            log(f"error: {e!r}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mods", required=True)
     ap.add_argument("--interval", type=float, default=30, help="seconds between folder checks")
     ap.add_argument("--refresh-hours", type=float, default=3, help="hours between catalog downloads")
+    ap.add_argument("--launch", help="start this program (TriOS.exe) after a first pass, "
+                                     "and stop watching once it has exited")
     args = ap.parse_args()
 
     lock = single_instance()
     if lock is None:
-        return  # already running
+        # Another watcher already keeps the mods linked; just start TriOS.
+        if args.launch:
+            subprocess.Popen([args.launch], cwd=os.path.dirname(args.launch))
+        return
     with open(os.path.join(HERE, "mods.json"), encoding="utf-8-sig") as f:
         config = json.load(f)
 
-    log(f"started, watching {args.mods}")
-    catalog, last_refresh, known = None, 0.0, {}
+    watcher = Watcher(config, args.mods, args.refresh_hours)
+    log(f"started, watching {args.mods}" + (f" while {args.launch} runs" if args.launch else ""))
+    if not args.launch:
+        while True:
+            watcher.tick()
+            time.sleep(args.interval)
+
+    # Launcher mode: link everything first so TriOS's startup check sees it.
+    watcher.tick()
+    subprocess.Popen([args.launch], cwd=os.path.dirname(args.launch))
+    image = os.path.basename(args.launch)
+    seen, absent = False, 0
+    started = time.time()
     while True:
-        try:
-            if time.time() - last_refresh > args.refresh_hours * 3600 or catalog is None:
-                fresh = refresh_catalog(config)
-                last_refresh = time.time()
-                if fresh is not None:
-                    catalog = fresh
-                    known = {}  # rescan everything against the new catalog
-            if catalog is not None:
-                sigs = signatures(args.mods)
-                changed = {d for d, s in sigs.items() if known.get(d) != s}
-                if changed:
-                    rows, _ = inject.scan(config, catalog, args.mods, only=changed, log=log)
-                    for state, name, local, remote, thread in rows:
-                        if state.startswith("UPDATE"):
-                            log(f"update available: {name} {local} -> {remote}  {thread}")
-                    known = signatures(args.mods)  # after our writes
-        except Exception as e:
-            log(f"error: {e!r}")
-        time.sleep(args.interval)
+        time.sleep(min(args.interval, 10))
+        if process_running(image):
+            seen, absent = True, 0
+        else:
+            absent += 1
+        # Allow a slow first start; after that, two misses in a row (a
+        # self-update restart takes a moment) mean TriOS has closed.
+        if (seen and absent >= 2) or (not seen and time.time() - started > 120):
+            break
+        watcher.tick()
+    watcher.tick()  # catch updates installed just before closing
+    log("TriOS closed; watcher stopped")
 
 
 if __name__ == "__main__":
