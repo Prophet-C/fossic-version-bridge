@@ -17,11 +17,12 @@ REQUEST_DELAY = 1.0  # seconds between requests; be polite to the forum
 
 # Original releases, translations, reposts, and their "outdated" archives.
 # Earlier entries win when two threads claim the same mod id.
-FORUMS = [46, 60, 78, 67, 68, 79]
-# Only Mod原创发布 (and its archive) is the mod's own source. Translations
-# (汉化) and reposts (搬运) mirror a mod published elsewhere, usually the
-# English forum, and often lag behind it.
-ORIGINAL_FORUMS = {46, 67}
+FORUMS = [46, 71, 60, 78, 67, 68, 79]
+# Mod原创发布 (and its archive) and Mod制作发布 (71, under Mod制作讨论; e.g.
+# maintainer continuations) are a mod's own source. Translations (汉化) and
+# reposts (搬运) mirror a mod published elsewhere, usually the English forum,
+# and often lag behind it.
+ORIGINAL_FORUMS = {46, 67, 71}
 
 
 def origin_of(forum):
@@ -229,8 +230,11 @@ def pick_version(info, rule=None):
     # newest game version. The header is sometimes stale and the release list
     # sometimes lags behind, so take whichever is ahead.
     candidates = []
-    if is_version(info["headerVersion"]):
-        candidates.append((normalize(info["headerVersion"]), None))
+    header = info["headerVersion"]
+    # Some authors type the game version ("0.98") into the mod version field;
+    # when a release list exists, trust it over such a header.
+    if is_version(header) and not (releases and re.match(r"^0\.9\d*a?$", header)):
+        candidates.append((normalize(header), None))
     if releases:
         top = max(_game_rank(r) for r in releases)
         candidates += [(normalize(r["modVersion"]), r) for r in releases if _game_rank(r) == top]

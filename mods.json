@@ -7,6 +7,7 @@
     { "id": "kk", "name": "天工联合船舶设计局", "thread": 12809, "releaseIndex": 0 },
     { "id": "kk_kz", "name": "天工船舶拓展", "thread": 12809, "releaseIndex": 1 },
     { "id": "Hdbyunm", "name": "威胁侵染", "thread": 17204, "release": "最新本体" },
-    { "id": "GalacticConstellate", "name": "星海集群", "thread": 10883, "release": "本体" }
+    { "id": "GalacticConstellate", "name": "星海集群", "thread": 10883, "release": "本体" },
+    { "id": "Templars", "name": "圣殿骑士团 Continued（必要之举维护，原作者授权）", "thread": 20970 }
   ]
 }
