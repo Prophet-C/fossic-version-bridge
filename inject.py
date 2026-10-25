@@ -48,19 +48,62 @@ def remove(mod_dir):
         os.remove(ours)
 
 
+def _write_if_changed(path, text):
+    try:
+        with open(path, encoding="utf-8") as f:
+            if f.read() == text:
+                return False
+    except OSError:
+        pass
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+    return True
+
+
 def inject(config, mod_dir, mod_id, name, local_version, rec):
+    """Returns True when a file was written."""
     data = {
         "masterVersionFile": fl.master_url(config["rawBase"], mod_id),
         "modName": name,
         "modVersion": fl.version_object(local_version),
         "fossicThread": rec["thread"],
     }
-    with open(os.path.join(mod_dir, OUR_FILE), "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-    os.makedirs(os.path.dirname(os.path.join(mod_dir, CSV_REL)), exist_ok=True)
-    with open(os.path.join(mod_dir, CSV_REL), "w", encoding="utf-8") as f:
-        f.write(f"version file\n{OUR_FILE}\n")
+    wrote = _write_if_changed(os.path.join(mod_dir, OUR_FILE), json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+    wrote |= _write_if_changed(os.path.join(mod_dir, CSV_REL), f"version file\n{OUR_FILE}\n")
+    return wrote
+
+
+def scan(config, catalog, mods_dir, dry_run=False, only=None, log=print):
+    """Inject every eligible mod (or only the folder names in `only`).
+    Returns (rows, unknown): rows are (state, name, installed, fossic, thread)."""
+    rows, unknown = [], []
+    for d in sorted(os.listdir(mods_dir)):
+        if only is not None and d not in only:
+            continue
+        mod_dir = os.path.join(mods_dir, d)
+        info_path = os.path.join(mod_dir, "mod_info.json")
+        if not os.path.isfile(info_path):
+            continue
+        if os.path.exists(os.path.join(mod_dir, CSV_REL)) and not is_ours(mod_dir):
+            continue  # the mod ships its own Version Checker file
+        try:
+            info = fl.load_json_lenient(info_path)
+        except Exception as e:
+            log(f"  ! skipped {d}: cannot parse mod_info.json ({e})")
+            continue
+        mod_id, name = info["id"], info.get("name", d)
+        local = fl.version_string(info.get("version", "0"))
+        rec = catalog.get(fl.catalog_key(mod_id))
+        if not rec:
+            unknown.append(name)
+            continue
+        if not dry_run and inject(config, mod_dir, mod_id, name, local, rec):
+            log(f"linked {name} ({local}) to {rec['thread']}")
+        cmp = fl.compare_versions(rec["version"], local)
+        state = "UPDATE" if cmp > 0 else "ok" if cmp == 0 else "local newer"
+        rows.append((state, name, local, rec["version"], rec["thread"]))
+    return rows, unknown
 
 
 def main():
@@ -86,30 +129,7 @@ def main():
         return
 
     catalog = load_catalog(config, args.catalog)
-    rows, unknown = [], []
-    for d in sorted(os.listdir(args.mods)):
-        mod_dir = os.path.join(args.mods, d)
-        info_path = os.path.join(mod_dir, "mod_info.json")
-        if not os.path.isfile(info_path):
-            continue
-        if os.path.exists(os.path.join(mod_dir, CSV_REL)) and not is_ours(mod_dir):
-            continue  # the mod ships its own Version Checker file
-        try:
-            info = fl.load_json_lenient(info_path)
-        except Exception as e:
-            print(f"  ! skipped {d}: cannot parse mod_info.json ({e})")
-            continue
-        mod_id, name = info["id"], info.get("name", d)
-        local = fl.version_string(info.get("version", "0"))
-        rec = catalog.get(fl.catalog_key(mod_id))
-        if not rec:
-            unknown.append(name)
-            continue
-        if not args.dry_run:
-            inject(config, mod_dir, mod_id, name, local, rec)
-        cmp = fl.compare_versions(rec["version"], local)
-        state = "UPDATE" if cmp > 0 else "ok" if cmp == 0 else "local newer"
-        rows.append((state, name, local, rec["version"], rec["thread"]))
+    rows, unknown = scan(config, catalog, args.mods, dry_run=args.dry_run)
 
     order = {"UPDATE": 0, "local newer": 1, "ok": 2}
     print(f'\n{"state":12} {"mod":32} {"installed":14} {"fossic":14} thread')

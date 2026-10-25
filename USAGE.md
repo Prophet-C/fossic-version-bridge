@@ -15,7 +15,21 @@ TriOS 靠 Version Checker 文件检查更新：mod 里的 `data/config/version/v
    写入 `fossic_bridge.version` 和 `version_files.csv`，指向上面的远程文件。
 3. TriOS 正常检查更新即可。
 
-## 日常使用
+## 自动运行（推荐）
+
+```
+powershell -ExecutionPolicy Bypass -File install_autostart.ps1
+```
+
+在「启动」文件夹里放一个快捷方式，登录时静默运行 `watch.py`（无窗口），并立刻启动一次。它：
+
+- 每 30 秒检查 mods 文件夹，发现新增或变化的 mod（包括 TriOS 一键更新后的新文件夹）就自动注入；
+- 每 3 小时从 GitHub 刷新一次版本目录；
+- 日志写在 `watch.log`，里面也会记录哪些 mod 有更新。
+
+卸载：`powershell -ExecutionPolicy Bypass -File install_autostart.ps1 -Uninstall`
+
+## 手动运行
 
 装了新 mod 或更新了 mod（新文件夹里没有注入文件）后，运行一次：
 

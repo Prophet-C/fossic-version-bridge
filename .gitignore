@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+watch.log*
+watch.lock
+catalog_cache.json
