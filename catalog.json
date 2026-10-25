@@ -7,6 +7,7 @@
   "edited": "2023-3-31 09:29",
   "version": "3.17rc4",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -18,6 +19,7 @@
   "edited": "2026-9-20 14:04",
   "version": "1.71",
   "source": "header",
+  "origin": "repost",
   "aid": 65191,
   "download": "https://cdn.fossic.cn/forum/202609/20/140337z7wlwa0cl2ccs72c.zip"
  },
@@ -29,6 +31,7 @@
   "edited": "2024-10-7 22:18",
   "version": "0.75-C3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -40,6 +43,7 @@
   "edited": "2025-4-10 11:48",
   "version": "1.2.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -51,6 +55,7 @@
   "edited": "2023-2-2 18:31",
   "version": "0.5.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -62,6 +67,7 @@
   "edited": "2026-9-11 20:42",
   "version": "1.20.0",
   "source": "header",
+  "origin": "repost",
   "aid": 85586,
   "download": "https://cdn.fossic.cn/forum/202609/11/204147pywyzey77x3a3y03.rar"
  },
@@ -73,6 +79,7 @@
   "edited": "2026-5-12 01:34",
   "version": "5.2.2",
   "source": "header",
+  "origin": "repost",
   "aid": 65232,
   "download": "https://cdn.fossic.cn/forum/202505/31/132748flnnyr867pydb67l.zip"
  },
@@ -84,6 +91,7 @@
   "edited": "2025-7-14 17:01",
   "version": "7.1.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -95,6 +103,7 @@
   "edited": "2026-4-26 02:10",
   "version": "1.0.5",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -106,6 +115,7 @@
   "edited": "2026-5-28 20:34",
   "version": "1.0",
   "source": "header",
+  "origin": "original",
   "aid": 69436,
   "download": "https://cdn.fossic.cn/forum/202605/28/202352erwrwgjkuskvl2sc.rar"
  },
@@ -117,6 +127,7 @@
   "edited": "2026-5-12 02:38",
   "version": "2.2.10",
   "source": "header",
+  "origin": "repost",
   "aid": 65000,
   "download": "https://cdn.fossic.cn/forum/202605/12/023459rfx2yztpftaypz2f.zip"
  },
@@ -128,6 +139,7 @@
   "edited": "2026-9-19 15:38",
   "version": "0.40",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -139,6 +151,7 @@
   "edited": "2026-8-25 19:26",
   "version": "1.1.d",
   "source": "header",
+  "origin": "repost",
   "aid": 85651,
   "download": "https://cdn.fossic.cn/forum/202608/25/192242o7n4z4nvvi4nsroi.attach"
  },
@@ -150,6 +163,7 @@
   "edited": "2026-10-8 00:56",
   "version": "0.9-C-4-4",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -161,6 +175,7 @@
   "edited": "2024-8-27 10:31",
   "version": "0.6D",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -172,6 +187,7 @@
   "edited": "2024-3-2 03:01",
   "version": "0.5.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -183,6 +199,7 @@
   "edited": "2026-10-10 18:30",
   "version": "0.3.1",
   "source": "header",
+  "origin": "repost",
   "aid": 111590,
   "download": "https://cdn.fossic.cn/forum/202610/10/133322o83ya240ea88zayj.zip"
  },
@@ -194,6 +211,7 @@
   "edited": "2020-7-12 17:29",
   "version": "1.5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -205,6 +223,7 @@
   "edited": "2025-2-7 19:00",
   "version": "1.6.10",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -216,6 +235,7 @@
   "edited": "2026-10-4 23:11",
   "version": "1.2.14",
   "source": "header",
+  "origin": "repost",
   "aid": 109543,
   "download": "https://cdn.fossic.cn/forum/202610/02/173623u27zrwynwrdtofht.zip"
  },
@@ -227,6 +247,7 @@
   "edited": "2026-10-12 00:17",
   "version": "0.4.0",
   "source": "header",
+  "origin": "repost",
   "aid": 111741,
   "download": "https://cdn.fossic.cn/forum/202610/10/182258lglz545h88i8gg8w.zip"
  },
@@ -238,6 +259,7 @@
   "edited": "2019-2-5 21:38",
   "version": "1.3.3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -249,6 +271,7 @@
   "edited": "2023-3-6 20:09",
   "version": "0.6.3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -260,6 +283,7 @@
   "edited": "2026-10-13 23:49",
   "version": "2.1.50",
   "source": "header",
+  "origin": "repost",
   "aid": 111809,
   "download": "https://cdn.fossic.cn/forum/202610/10/211138ulygf6vkb3e8jbjk.zip"
  },
@@ -271,28 +295,31 @@
   "edited": "2026-10-24 00:49",
   "version": "1.12.3",
   "source": "header",
+  "origin": "original",
   "aid": 70019,
   "download": "https://cdn.fossic.cn/forum/202605/24/091315bijj9y98vdf9tyyg.attach"
  },
  "arclightbureau": {
   "id": "ArcLightBureau",
   "thread": "https://www.fossic.org/thread-3342-1-1.html",
-  "forum": null,
+  "forum": 46,
   "title": "[0.97a/0.96a/0.98a][C]弧光设计局[Arc Light Bureau]（原穿越者协会）",
   "edited": "2026-10-24 00:49",
   "version": "1.12.3",
   "source": "mods.json",
+  "origin": "original",
   "aid": 70019,
   "download": "https://cdn.fossic.cn/forum/202605/24/091315bijj9y98vdf9tyyg.attach"
  },
  "arclightbureauplus": {
   "id": "ArcLightBureauPlus",
   "thread": "https://www.fossic.org/thread-3342-1-1.html",
-  "forum": null,
+  "forum": 46,
   "title": "[0.97a/0.96a/0.98a][C]弧光设计局[Arc Light Bureau]（原穿越者协会）",
   "edited": "2026-10-24 00:49",
   "version": "1.1.0",
   "source": "mods.json",
+  "origin": "original",
   "aid": 70018,
   "download": "https://cdn.fossic.cn/forum/202605/24/091932jtiujfftwzduvgzu.attach"
  },
@@ -304,6 +331,7 @@
   "edited": "2026-8-15 23:18",
   "version": "1.9.14",
   "source": "header",
+  "origin": "repost",
   "aid": 77799,
   "download": "https://cdn.fossic.cn/forum/202608/15/231752rauraqdreiza572w.zip"
  },
@@ -315,6 +343,7 @@
   "edited": "2026-10-1 15:22",
   "version": "3.3.6",
   "source": "header",
+  "origin": "repost",
   "aid": 72041,
   "download": "https://cdn.fossic.cn/forum/202610/01/025422j5yi2x5lmr9yjym5.zip"
  },
@@ -326,6 +355,7 @@
   "edited": "2026-9-12 23:21",
   "version": "1.1.0",
   "source": "header",
+  "origin": "repost",
   "aid": 103364,
   "download": "https://cdn.fossic.cn/forum/202609/12/230632n47leutnttlevcnl.rar"
  },
@@ -337,6 +367,7 @@
   "edited": "2023-10-10 15:03",
   "version": "1.5.5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -348,6 +379,7 @@
   "edited": "2026-9-27 23:10",
   "version": "3.3.1",
   "source": "header",
+  "origin": "repost",
   "aid": 109147,
   "download": "https://cdn.fossic.cn/forum/202609/27/201224p2t7tqhmzimm6qjm.attach"
  },
@@ -359,6 +391,7 @@
   "edited": "2024-12-16 11:53",
   "version": "1.4d",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -370,6 +403,7 @@
   "edited": "2023-7-25 00:07",
   "version": "1.4",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -381,6 +415,7 @@
   "edited": "2026-10-10 03:00",
   "version": "0.3.3",
   "source": "header",
+  "origin": "repost",
   "aid": 92810,
   "download": "https://cdn.fossic.cn/forum/202610/10/025913sizqlqemxi4ih4im.zip"
  },
@@ -392,6 +427,7 @@
   "edited": "2026-7-13 17:17",
   "version": "0.0.6b",
   "source": "header",
+  "origin": "repost",
   "aid": 78867,
   "download": "https://cdn.fossic.cn/forum/202605/12/220510r9ykk5zl8qwzw14f.zip"
  },
@@ -403,6 +439,7 @@
   "edited": "2024-11-29 11:34",
   "version": "1.0.2",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -414,6 +451,7 @@
   "edited": "2026-10-23 19:32",
   "version": "0.2.5-P3",
   "source": "header",
+  "origin": "original",
   "aid": 81895,
   "download": "https://cdn.fossic.cn/forum/202607/18/225902ey8dzymhfyccckam.zip"
  },
@@ -425,6 +463,7 @@
   "edited": "2026-9-5 00:07",
   "version": "0.3.24",
   "source": "header",
+  "origin": "repost",
   "aid": 72736,
   "download": "https://cdn.fossic.cn/forum/202609/05/000214v30en3dq1z4b43b4.attach"
  },
@@ -436,6 +475,7 @@
   "edited": "2022-8-5 08:51",
   "version": "1.53",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -447,6 +487,7 @@
   "edited": "2024-2-17 19:09",
   "version": "1.0.3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -458,6 +499,7 @@
   "edited": "2019-7-12 21:30",
   "version": "0.9.5b2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -469,6 +511,7 @@
   "edited": "2026-10-6 15:59",
   "version": "1.2.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -480,6 +523,7 @@
   "edited": "2026-6-30 17:55",
   "version": "1.16",
   "source": "header",
+  "origin": "original",
   "aid": 45128,
   "download": "https://cdn.fossic.cn/forum/202606/30/175223s5cyl500o8ryocyi.zip"
  },
@@ -491,6 +535,7 @@
   "edited": "2026-5-11 20:11",
   "version": "1.3.1",
   "source": "header",
+  "origin": "original",
   "aid": 19138,
   "download": "https://cdn.fossic.cn/forum/202605/11/200146v0grrkls0llqxblg.attach"
  },
@@ -502,6 +547,7 @@
   "edited": "2022-1-30 10:40",
   "version": "0.3.3C",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -513,6 +559,7 @@
   "edited": "2026-9-14 23:14",
   "version": "1.6.3",
   "source": "header",
+  "origin": "original",
   "aid": 50175,
   "download": "https://cdn.fossic.cn/forum/202609/14/231401xqzpuuuxi5arttx5.attach"
  },
@@ -524,6 +571,7 @@
   "edited": "2026-5-10 21:10",
   "version": "0.1.98.7",
   "source": "header",
+  "origin": "repost",
   "aid": 66201,
   "download": "https://cdn.fossic.cn/forum/202506/25/175221wmmmjjas6cj4ym2m.attach"
  },
@@ -535,6 +583,7 @@
   "edited": "2026-9-11 21:02",
   "version": "1.0.2",
   "source": "header",
+  "origin": "repost",
   "aid": 97051,
   "download": "https://cdn.fossic.cn/forum/202609/11/210146cezqn7enle3hax3q.rar"
  },
@@ -546,6 +595,7 @@
   "edited": "2025-1-4 21:29",
   "version": "0.2.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -557,6 +607,7 @@
   "edited": "2026-10-18 15:01",
   "version": "1.1.2",
   "source": "header",
+  "origin": "original",
   "aid": 85794,
   "download": "https://cdn.fossic.cn/forum/202609/06/103822tg0zspoe06p60a6q.rar"
  },
@@ -568,6 +619,7 @@
   "edited": "2023-1-12 01:15",
   "version": "1.0.4",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -579,6 +631,7 @@
   "edited": "2024-12-25 21:23",
   "version": "1.0.3",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -590,6 +643,7 @@
   "edited": "2018-12-19 21:44",
   "version": "1.4",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -601,6 +655,7 @@
   "edited": "2026-10-3 23:37",
   "version": "3.2.5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -612,6 +667,7 @@
   "edited": "2025-4-14 20:38",
   "version": "1.1.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -623,6 +679,7 @@
   "edited": "2026-4-6 18:02",
   "version": "1.15.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -634,6 +691,7 @@
   "edited": "2026-9-10 10:06",
   "version": "0.1.5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -645,6 +703,7 @@
   "edited": "2026-8-6 04:52",
   "version": "2.2.0",
   "source": "header",
+  "origin": "original",
   "aid": 84300,
   "download": "https://cdn.fossic.cn/forum/202608/06/044720d2r0fufrw77jv7je.zip"
  },
@@ -656,6 +715,7 @@
   "edited": "2026-10-5 13:52",
   "version": "0.9.2",
   "source": "header",
+  "origin": "repost",
   "aid": 110755,
   "download": "https://cdn.fossic.cn/forum/202610/05/134438snexj303n47zwx3n.zip"
  },
@@ -667,6 +727,7 @@
   "edited": "2026-10-5 03:31",
   "version": "1.0.2a",
   "source": "header",
+  "origin": "repost",
   "aid": 110625,
   "download": "https://cdn.fossic.cn/forum/202610/04/160450z46mkb1kwetwbntl.zip"
  },
@@ -678,6 +739,7 @@
   "edited": "2026-9-6 17:10",
   "version": "0.5.7c-fix",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -689,6 +751,7 @@
   "edited": "2025-3-28 19:45",
   "version": "0.2.6",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -700,6 +763,7 @@
   "edited": "2026-10-9 14:12",
   "version": "0.1.4-sc-alpha11.1-32p-zh",
   "source": "header",
+  "origin": "repost",
   "aid": 111480,
   "download": "https://cdn.fossic.cn/forum/202610/09/134938xr5m8a8cauls4nxz.zip"
  },
@@ -711,6 +775,7 @@
   "edited": "2026-10-8 00:21",
   "version": "0.5.4",
   "source": "header",
+  "origin": "repost",
   "aid": 109465,
   "download": "https://cdn.fossic.cn/forum/202610/08/002008mrbk7d88r1erltbr.zip"
  },
@@ -722,6 +787,7 @@
   "edited": "2026-10-21 00:11",
   "version": "0.1.9g",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -733,6 +799,7 @@
   "edited": "2026-9-28 19:27",
   "version": "1.2.5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -744,6 +811,7 @@
   "edited": "2026-4-11 16:17",
   "version": "0.0.5",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -755,6 +823,7 @@
   "edited": "2025-5-12 16:32",
   "version": "2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -766,6 +835,7 @@
   "edited": "2026-8-9 04:55",
   "version": "3.0.2",
   "source": "header",
+  "origin": "repost",
   "aid": 40183,
   "download": "https://cdn.fossic.cn/forum/202608/09/045509r3x9x56c974q4zx3.zip"
  },
@@ -777,6 +847,7 @@
   "edited": "2026-4-24 20:06",
   "version": "1.0.f",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -788,6 +859,7 @@
   "edited": "2024-10-4 20:07",
   "version": "1.3.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -799,6 +871,7 @@
   "edited": "2026-10-18 10:37",
   "version": "5.4.5",
   "source": "header",
+  "origin": "repost",
   "aid": 63168,
   "download": "https://cdn.fossic.cn/forum/202610/18/103100jysnrdu5n9zh96pr.attach"
  },
@@ -810,6 +883,7 @@
   "edited": "2025-10-10 16:34",
   "version": "0.0.23",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -821,6 +895,7 @@
   "edited": "2026-10-24 18:01",
   "version": "1.4.1",
   "source": "header",
+  "origin": "original",
   "aid": 70691,
   "download": "https://cdn.fossic.cn/forum/202610/24/175914j1vvmrw70ovq78pq.rar"
  },
@@ -832,6 +907,7 @@
   "edited": "2026-3-4 17:33",
   "version": "1.3.5",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -843,6 +919,7 @@
   "edited": "2026-8-22 21:33",
   "version": "1.9",
   "source": "header",
+  "origin": "original",
   "aid": 68421,
   "download": "https://cdn.fossic.cn/forum/202608/22/213234bzh13ut0nct3wu7k.zip"
  },
@@ -854,6 +931,7 @@
   "edited": "2025-8-14 12:20",
   "version": "3.0.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -865,6 +943,7 @@
   "edited": "2023-1-16 17:06",
   "version": "0.2.5a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -876,6 +955,7 @@
   "edited": "2026-9-17 15:32",
   "version": "1.0.0",
   "source": "header",
+  "origin": "original",
   "aid": 63019,
   "download": "https://cdn.fossic.cn/forum/202504/14/091756ibdw91y34p9jjlmq.zip"
  },
@@ -887,6 +967,7 @@
   "edited": "2026-3-27 09:09",
   "version": "1.1.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -898,6 +979,7 @@
   "edited": "2022-9-22 09:21",
   "version": "0.2.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -909,6 +991,7 @@
   "edited": "2026-3-22 06:02",
   "version": "1.7.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -920,6 +1003,7 @@
   "edited": "2026-9-13 13:16",
   "version": "1.7.2",
   "source": "header",
+  "origin": "repost",
   "aid": 82517,
   "download": "https://cdn.fossic.cn/forum/202609/13/004900av9at21ircqz9k2i.rar"
  },
@@ -931,6 +1015,7 @@
   "edited": "2026-5-10 11:11",
   "version": "1.6",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -942,6 +1027,7 @@
   "edited": "2026-9-21 00:14",
   "version": "0.2.1",
   "source": "header",
+  "origin": "original",
   "aid": 108211,
   "download": "https://cdn.fossic.cn/forum/202609/21/001354yzhd7kfkxzew9wze.zip"
  },
@@ -953,6 +1039,7 @@
   "edited": "2026-10-5 18:27",
   "version": "0.23.5",
   "source": "header",
+  "origin": "original",
   "aid": 110956,
   "download": "https://cdn.fossic.cn/forum/202610/05/180652lkonel11elvrnrin.zip"
  },
@@ -964,6 +1051,7 @@
   "edited": "2023-5-1 20:32",
   "version": "1.3.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -975,6 +1063,7 @@
   "edited": "2026-5-6 23:33",
   "version": "2.7.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -986,6 +1075,7 @@
   "edited": "2023-7-5 18:56",
   "version": "2.0.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -997,6 +1087,7 @@
   "edited": "2026-5-16 18:19",
   "version": "0.6.8d",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1008,6 +1099,7 @@
   "edited": "2026-10-24 00:02",
   "version": "1.4.0",
   "source": "header",
+  "origin": "repost",
   "aid": 65055,
   "download": "https://cdn.fossic.cn/forum/202610/24/000135fqt7l8dlvhl5uhqz.zip"
  },
@@ -1019,6 +1111,7 @@
   "edited": "2026-10-22 18:02",
   "version": "3.0.1",
   "source": "header",
+  "origin": "original",
   "aid": 113340,
   "download": "https://cdn.fossic.cn/forum/202610/21/164344nacmtu79vsxc7dkt.zip"
  },
@@ -1030,6 +1123,7 @@
   "edited": "2025-8-8 15:28",
   "version": "0.0.1a",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1041,6 +1135,7 @@
   "edited": "2026-9-1 12:13",
   "version": "1.4.4",
   "source": "header",
+  "origin": "original",
   "aid": 78395,
   "download": "https://cdn.fossic.cn/forum/202605/10/135217jv8wn41n8hvbyt88.zip"
  },
@@ -1052,6 +1147,7 @@
   "edited": "2026-9-22 01:12",
   "version": "1.05.49a",
   "source": "header",
+  "origin": "repost",
   "aid": 108274,
   "download": "https://cdn.fossic.cn/forum/202609/21/204519x5k5nhaty8gcoggw.zip"
  },
@@ -1063,6 +1159,7 @@
   "edited": "2022-8-13 16:35",
   "version": "1.8.7/1.8.6",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1074,6 +1171,7 @@
   "edited": "2025-4-5 20:24",
   "version": "0.70a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1085,6 +1183,7 @@
   "edited": "2026-7-1 19:54",
   "version": "0.9.1_rc11",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1096,6 +1195,7 @@
   "edited": "2026-7-23 11:10",
   "version": "0.4.2.6-ver4",
   "source": "header",
+  "origin": "original",
   "aid": 62534,
   "download": "https://cdn.fossic.cn/forum/202607/22/150132pyvnsec3kypkyk0t.zip"
  },
@@ -1107,6 +1207,7 @@
   "edited": "2026-10-11 13:44",
   "version": "1.0.5",
   "source": "header",
+  "origin": "original",
   "aid": 111937,
   "download": "https://cdn.fossic.cn/forum/202610/11/134128k0sn64771a06lan7.zip"
  },
@@ -1118,6 +1219,7 @@
   "edited": "2026-10-9 13:11",
   "version": "0.11.4m",
   "source": "header",
+  "origin": "repost",
   "aid": 111285,
   "download": "https://cdn.fossic.cn/forum/202610/08/001347fvdcz3ocorqocvro.zip"
  },
@@ -1129,6 +1231,7 @@
   "edited": "2023-5-13 16:53",
   "version": "1.0.10",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1140,6 +1243,7 @@
   "edited": "2022-11-17 00:13",
   "version": "0.2.3a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1151,6 +1255,7 @@
   "edited": "2019-1-9 17:21",
   "version": "0.9.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1162,6 +1267,7 @@
   "edited": "2023-5-4 19:29",
   "version": "1.1.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1173,6 +1279,7 @@
   "edited": "2026-6-2 12:23",
   "version": "1.0.1",
   "source": "header",
+  "origin": "original",
   "aid": 69938,
   "download": "https://cdn.fossic.cn/forum/202510/19/181917qxkostb8z1sskcc1.attach"
  },
@@ -1184,6 +1291,7 @@
   "edited": "2026-10-24 12:42",
   "version": "1.5.31",
   "source": "header",
+  "origin": "original",
   "aid": 80642,
   "download": "https://cdn.fossic.cn/forum/202610/24/124056qu2iol9ul5rzda7a.rar"
  },
@@ -1195,6 +1303,7 @@
   "edited": "2026-3-16 20:06",
   "version": "5.0rc9",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1206,17 +1315,19 @@
   "edited": "2026-9-20 23:49",
   "version": "2.0.1",
   "source": "header",
+  "origin": "repost",
   "aid": 108207,
   "download": "https://cdn.fossic.cn/forum/202609/20/234733ufcocrnfb6ip2ppc.zip"
  },
  "galacticconstellate": {
   "id": "GalacticConstellate",
   "thread": "https://www.fossic.org/thread-10883-1-1.html",
-  "forum": null,
+  "forum": 46,
   "title": "[0.951-0.98] 星海集群 V1.13.7d Bug修复",
   "edited": "2026-5-8 20:44",
   "version": "1.13.7d",
   "source": "mods.json",
+  "origin": "original",
   "aid": 44740,
   "download": "https://cdn.fossic.cn/forum/202604/28/173449v9ikhyzhi2huy8hq.attach"
  },
@@ -1228,6 +1339,7 @@
   "edited": "2026-6-25 23:27",
   "version": "1.3.5",
   "source": "header",
+  "origin": "original",
   "aid": 71311,
   "download": "https://cdn.fossic.cn/forum/202605/23/183050zq3b3zqj3swqtf9t.rar"
  },
@@ -1239,6 +1351,7 @@
   "edited": "2026-9-19 19:07",
   "version": "1.2.3",
   "source": "header",
+  "origin": "original",
   "aid": 79226,
   "download": "https://cdn.fossic.cn/forum/202609/19/190735fks6105sdffegsw0.zip"
  },
@@ -1250,6 +1363,7 @@
   "edited": "2020-3-16 10:49",
   "version": "1.1.0",
   "source": "header",
+  "origin": "original",
   "aid": 77501,
   "download": "https://cdn.fossic.cn/forum/202604/12/054451wdbnzjk8k8k7z6kq.zip"
  },
@@ -1261,6 +1375,7 @@
   "edited": "2024-10-2 19:51",
   "version": "0.96rc-10",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1272,6 +1387,7 @@
   "edited": "2023-8-8 11:14",
   "version": "1.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1283,6 +1399,7 @@
   "edited": "2022-3-12 13:21",
   "version": "1.2a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1294,6 +1411,7 @@
   "edited": "2023-1-2 23:28",
   "version": "0.9.9",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1305,6 +1423,7 @@
   "edited": "2026-1-21 00:10",
   "version": "1.10.12",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1316,6 +1435,7 @@
   "edited": "2026-9-3 18:51",
   "version": "2.1.b",
   "source": "header",
+  "origin": "repost",
   "aid": 61717,
   "download": "https://cdn.fossic.cn/forum/202609/03/185021n7dk7xr8bdbmh7ib.attach"
  },
@@ -1327,6 +1447,7 @@
   "edited": "2025-4-26 22:13",
   "version": "1.0.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1338,6 +1459,7 @@
   "edited": "2025-6-21 09:29",
   "version": "0.27.3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1349,6 +1471,7 @@
   "edited": "2023-4-3 19:02",
   "version": "0.5.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1360,6 +1483,7 @@
   "edited": "2026-5-14 02:05",
   "version": "1.3.0",
   "source": "header",
+  "origin": "repost",
   "aid": 78936,
   "download": "https://cdn.fossic.cn/forum/202605/14/014652wi2i5c4gg5ab4h5z.zip"
  },
@@ -1371,17 +1495,19 @@
   "edited": "2026-10-23 23:46",
   "version": "1.8.0-fix4",
   "source": "header",
+  "origin": "original",
   "aid": 63918,
   "download": "https://cdn.fossic.cn/forum/202608/07/064825r6kqk91d91143pkc.zip"
  },
  "hdbyunm": {
   "id": "Hdbyunm",
   "thread": "https://www.fossic.org/thread-17204-1-1.html",
-  "forum": null,
+  "forum": 46,
   "title": "【0.98】侵染威胁",
   "edited": "2026-10-22 13:57",
   "version": "0.55",
   "source": "mods.json",
+  "origin": "original",
   "aid": 78564,
   "download": "https://cdn.fossic.cn/forum/202610/22/002552h667p7r68lxpplyx.zip"
  },
@@ -1393,6 +1519,7 @@
   "edited": "2024-12-4 16:16",
   "version": "1.3.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1404,6 +1531,7 @@
   "edited": "2022-11-20 23:19",
   "version": "1.1.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1415,6 +1543,7 @@
   "edited": "2026-7-28 02:26",
   "version": "2.2.4-CN-0.98a-RC8",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1426,6 +1555,7 @@
   "edited": "2026-10-11 19:56",
   "version": "1.3.7",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1437,6 +1567,7 @@
   "edited": "2021-10-15 20:54",
   "version": "1.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1448,6 +1579,7 @@
   "edited": "2026-5-10 21:29",
   "version": "0.4.0e",
   "source": "header",
+  "origin": "repost",
   "aid": 76095,
   "download": "https://cdn.fossic.cn/forum/202603/14/142654z3hkscp8ssck68jc.zip"
  },
@@ -1459,6 +1591,7 @@
   "edited": "2026-6-26 19:47",
   "version": "1.1.0",
   "source": "header",
+  "origin": "original",
   "aid": 24414,
   "download": "https://cdn.fossic.cn/forum/202603/07/154548cr3j3ueuz8sjbucy.zip"
  },
@@ -1470,6 +1603,7 @@
   "edited": "2022-7-25 08:46",
   "version": "1.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1481,6 +1615,7 @@
   "edited": "2021-9-30 12:10",
   "version": "1.3.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1492,6 +1627,7 @@
   "edited": "2026-5-10 21:06",
   "version": "2.0.5",
   "source": "header",
+  "origin": "repost",
   "aid": 70451,
   "download": "https://cdn.fossic.cn/forum/202510/16/005503x6thck68yn3k3ook.zip"
  },
@@ -1503,6 +1639,7 @@
   "edited": "2025-3-31 19:30",
   "version": "1.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1514,6 +1651,7 @@
   "edited": "2026-10-15 13:45",
   "version": "2.0.2",
   "source": "header",
+  "origin": "repost",
   "aid": 111602,
   "download": "https://cdn.fossic.cn/forum/202610/10/013123hodppsuviumioyd9.zip"
  },
@@ -1525,6 +1663,7 @@
   "edited": "2023-2-7 02:24",
   "version": "1.1.a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1536,6 +1675,7 @@
   "edited": "2025-5-15 00:57",
   "version": "2.6.9*",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1547,6 +1687,7 @@
   "edited": "2026-5-11 08:58",
   "version": "4.1.b",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1558,6 +1699,7 @@
   "edited": "2026-5-13 14:50",
   "version": "1.6.3",
   "source": "header",
+  "origin": "repost",
   "aid": 76161,
   "download": "https://cdn.fossic.cn/forum/202605/10/233637xjvttktok94utddz.zip"
  },
@@ -1569,6 +1711,7 @@
   "edited": "2026-10-5 05:04",
   "version": "1.01",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1580,6 +1723,7 @@
   "edited": "2022-4-2 15:05",
   "version": "0.95.1a+",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1591,6 +1735,7 @@
   "edited": "2023-5-12 13:32",
   "version": "1.6a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1602,6 +1747,7 @@
   "edited": "2026-10-24 23:07",
   "version": "1.16",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1613,6 +1759,7 @@
   "edited": "2026-5-30 21:55",
   "version": "1.1.3",
   "source": "header",
+  "origin": "original",
   "aid": 65539,
   "download": "https://cdn.fossic.cn/forum/202510/01/001417qvngx4zfgfmsrxru.zip"
  },
@@ -1624,6 +1771,7 @@
   "edited": "2026-10-7 21:13",
   "version": "1.4.0",
   "source": "header",
+  "origin": "original",
   "aid": 61656,
   "download": "https://cdn.fossic.cn/forum/202610/07/211305v3mtzlkmf3z331z3.zip"
  },
@@ -1635,6 +1783,7 @@
   "edited": "2026-10-11 02:03",
   "version": "3.7.0",
   "source": "header",
+  "origin": "repost",
   "aid": 110780,
   "download": "https://cdn.fossic.cn/forum/202610/11/020334sb3ck1abb2k14c0w.zip"
  },
@@ -1646,6 +1795,7 @@
   "edited": "2026-5-10 21:01",
   "version": "3.2.4support1",
   "source": "header",
+  "origin": "repost",
   "aid": 78161,
   "download": "https://cdn.fossic.cn/forum/202604/27/153544wfuzsifjwnz8quus.zip"
  },
@@ -1657,6 +1807,7 @@
   "edited": "2026-5-12 01:25",
   "version": "1.0.e",
   "source": "header",
+  "origin": "repost",
   "aid": 72437,
   "download": "https://cdn.fossic.cn/forum/202512/15/033538wry75zttyzfktftm.zip"
  },
@@ -1668,6 +1819,7 @@
   "edited": "2026-9-19 17:57",
   "version": "0.4.0",
   "source": "header",
+  "origin": "repost",
   "aid": 108082,
   "download": "https://cdn.fossic.cn/forum/202609/19/175646ndrodhvrrkrzw9nz.zip"
  },
@@ -1679,6 +1831,7 @@
   "edited": "2025-9-8 15:36",
   "version": "1.7.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1690,28 +1843,31 @@
   "edited": "2022-3-18 12:15",
   "version": "0.13.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
  "kk": {
   "id": "kk",
   "thread": "https://www.fossic.org/thread-12809-1-1.html",
-  "forum": null,
+  "forum": 46,
   "title": "天工联合船舶设计局",
   "edited": "2026-10-20 13:30",
   "version": "2.5.8",
   "source": "mods.json",
+  "origin": "original",
   "aid": 66264,
   "download": "https://cdn.fossic.cn/forum/202610/20/132518vffb7xf7dxlv4by4.zip"
  },
  "kk_kz": {
   "id": "kk_kz",
   "thread": "https://www.fossic.org/thread-12809-1-1.html",
-  "forum": null,
+  "forum": 46,
   "title": "天工联合船舶设计局",
   "edited": "2026-10-20 13:30",
   "version": "0.2",
   "source": "mods.json",
+  "origin": "original",
   "aid": 108923,
   "download": "https://cdn.fossic.cn/forum/202609/26/223332ugi4skfe1mfsgiyy.zip"
  },
@@ -1723,6 +1879,7 @@
   "edited": "2026-10-21 18:32",
   "version": "0.2.1",
   "source": "header",
+  "origin": "original",
   "aid": 111224,
   "download": "https://cdn.fossic.cn/forum/202610/07/162102vsvj3ddbzdf3za3b.zip"
  },
@@ -1734,6 +1891,7 @@
   "edited": "2026-5-10 21:22",
   "version": "1.4.0",
   "source": "header",
+  "origin": "repost",
   "aid": 75691,
   "download": "https://cdn.fossic.cn/forum/202603/07/123053xm82jy9mg24zv988.zip"
  },
@@ -1745,6 +1903,7 @@
   "edited": "2026-10-13 15:52",
   "version": "1.1.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1756,6 +1915,7 @@
   "edited": "2019-3-14 02:17",
   "version": "0.4.3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1767,6 +1927,7 @@
   "edited": "2026-9-12 20:09",
   "version": "0.0.5-ver6",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1778,6 +1939,7 @@
   "edited": "2026-9-23 14:03",
   "version": "1.10.7",
   "source": "header",
+  "origin": "repost",
   "aid": 86268,
   "download": "https://cdn.fossic.cn/forum/202609/18/224330a84kz08ru2ee20j4.zip"
  },
@@ -1789,6 +1951,7 @@
   "edited": "2026-2-24 22:18",
   "version": "0.0.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1800,6 +1963,7 @@
   "edited": "2025-2-4 00:47",
   "version": "1.0.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1811,6 +1975,7 @@
   "edited": "2025-6-29 20:54",
   "version": "1.10.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1822,6 +1987,7 @@
   "edited": "2025-8-15 09:28",
   "version": "1.10.2.7",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1833,6 +1999,7 @@
   "edited": "2025-6-7 12:45",
   "version": "0.4.2",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1844,6 +2011,7 @@
   "edited": "2024-3-26 13:20",
   "version": "1.2.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1855,6 +2023,7 @@
   "edited": "2026-4-12 14:31",
   "version": "1.100.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1866,6 +2035,7 @@
   "edited": "2026-4-6 18:38",
   "version": "1.86.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1877,6 +2047,7 @@
   "edited": "2026-9-29 13:27",
   "version": "3.0.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1888,6 +2059,7 @@
   "edited": "2026-10-7 18:51",
   "version": "3.1.0",
   "source": "header",
+  "origin": "original",
   "aid": 74559,
   "download": "https://cdn.fossic.cn/forum/202610/07/184901jn2yheq3riroqoiy.zip"
  },
@@ -1899,6 +2071,7 @@
   "edited": "2024-9-13 10:29",
   "version": "3.1.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1910,6 +2083,7 @@
   "edited": "2023-11-18 14:34",
   "version": "1.4.5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1921,6 +2095,7 @@
   "edited": "2026-10-23 05:30",
   "version": "0.71b",
   "source": "header",
+  "origin": "original",
   "aid": 78987,
   "download": "https://cdn.fossic.cn/forum/202609/09/105236es43h555641sr1m6.zip"
  },
@@ -1932,6 +2107,7 @@
   "edited": "2025-9-19 20:29",
   "version": "1.3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1943,6 +2119,7 @@
   "edited": "2024-12-20 05:36",
   "version": "1.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -1954,6 +2131,7 @@
   "edited": "2026-10-14 01:39",
   "version": "0.6.2d",
   "source": "header",
+  "origin": "repost",
   "aid": 112182,
   "download": "https://cdn.fossic.cn/forum/202610/14/013857tjrpkhyl3qxqpmey.zip"
  },
@@ -1965,6 +2143,7 @@
   "edited": "2025-2-17 21:29",
   "version": "1.2.6e",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -1976,6 +2155,7 @@
   "edited": "2026-5-11 08:59",
   "version": "2.0.5",
   "source": "header",
+  "origin": "repost",
   "aid": 61172,
   "download": "https://cdn.fossic.cn/forum/202603/14/213632jyiaojjeuofzauiu.attach"
  },
@@ -1987,6 +2167,7 @@
   "edited": "2026-9-6 18:18",
   "version": "1.2.d",
   "source": "header",
+  "origin": "repost",
   "aid": 87952,
   "download": "https://cdn.fossic.cn/forum/202609/06/181705aw2fclagl8sc447k.attach"
  },
@@ -1998,6 +2179,7 @@
   "edited": "2026-3-6 19:15",
   "version": "4.0.8",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2009,6 +2191,7 @@
   "edited": "2021-12-18 01:05",
   "version": "3.0",
   "source": "header",
+  "origin": "repost",
   "aid": 61281,
   "download": "https://cdn.fossic.cn/forum/202503/30/135533h2y255vyhra3waa4.zip"
  },
@@ -2020,6 +2203,7 @@
   "edited": "2023-5-12 13:34",
   "version": "1.5a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2031,6 +2215,7 @@
   "edited": "2025-5-1 23:40",
   "version": "1.5.6*",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2042,6 +2227,7 @@
   "edited": "2026-5-10 21:21",
   "version": "12.0.0-RC1",
   "source": "header",
+  "origin": "repost",
   "aid": 76923,
   "download": "https://cdn.fossic.cn/forum/202603/30/133611cfgux4e8f8gyx8fx.zip"
  },
@@ -2053,6 +2239,7 @@
   "edited": "2025-4-24 15:24",
   "version": "1.6",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2064,6 +2251,7 @@
   "edited": "2026-6-27 20:27",
   "version": "0.6.2",
   "source": "header",
+  "origin": "repost",
   "aid": 81103,
   "download": "https://cdn.fossic.cn/forum/202606/27/202724l16njjsjtz67szjn.zip"
  },
@@ -2075,6 +2263,7 @@
   "edited": "2026-10-20 17:50",
   "version": "26-10-05",
   "source": "header",
+  "origin": "original",
   "aid": 80908,
   "download": "https://cdn.fossic.cn/forum/202610/06/005359uvrvvi85exw5vasf.rar"
  },
@@ -2086,6 +2275,7 @@
   "edited": "2026-9-25 16:51",
   "version": "2026.9.25",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2097,6 +2287,7 @@
   "edited": "2026-7-13 12:39",
   "version": "0.7.0",
   "source": "header",
+  "origin": "original",
   "aid": 15756,
   "download": "https://cdn.fossic.cn/forum/202607/13/122604bd9sd94d96z1ge06.zip"
  },
@@ -2108,6 +2299,7 @@
   "edited": "2026-10-14 13:34",
   "version": "0.762",
   "source": "header",
+  "origin": "original",
   "aid": 76258,
   "download": "https://cdn.fossic.cn/forum/202603/29/134853tqiyqn59m5s5qam6.zip"
  },
@@ -2119,6 +2311,7 @@
   "edited": "2026-8-22 21:30",
   "version": "1.6e",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2130,6 +2323,7 @@
   "edited": "2026-10-11 22:47",
   "version": "1.0",
   "source": "header",
+  "origin": "original",
   "aid": 24852,
   "download": "https://cdn.fossic.cn/forum/202610/11/224751ajcy7crymdcy17y2.zip"
  },
@@ -2141,6 +2335,7 @@
   "edited": "2023-7-28 03:50",
   "version": "1.2.6",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2152,6 +2347,7 @@
   "edited": "2026-9-22 23:15",
   "version": "2.0.4a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2163,6 +2359,7 @@
   "edited": "2026-7-31 00:40",
   "version": "1.1.0",
   "source": "header",
+  "origin": "original",
   "aid": 83132,
   "download": "https://cdn.fossic.cn/forum/202607/31/003441o3wn3upgtqsu3nsz.zip"
  },
@@ -2174,6 +2371,7 @@
   "edited": "2024-9-17 10:04",
   "version": "1.12.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2185,6 +2383,7 @@
   "edited": "2026-10-24 00:22",
   "version": "1.02",
   "source": "header",
+  "origin": "repost",
   "aid": 113540,
   "download": "https://cdn.fossic.cn/forum/202610/23/222550scmg4ukhllku4wk4.zip"
  },
@@ -2196,6 +2395,7 @@
   "edited": "2026-9-21 14:40",
   "version": "1.14.0",
   "source": "header",
+  "origin": "repost",
   "aid": 79099,
   "download": "https://cdn.fossic.cn/forum/202605/18/114449leq65nn2s92as2zy.zip"
  },
@@ -2207,6 +2407,7 @@
   "edited": "2026-4-24 19:19",
   "version": "0.5.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2218,6 +2419,7 @@
   "edited": "2025-8-17 22:53",
   "version": "0.1.0a",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2229,6 +2431,7 @@
   "edited": "2026-10-10 17:11",
   "version": "0.74",
   "source": "header",
+  "origin": "original",
   "aid": 81798,
   "download": "https://cdn.fossic.cn/forum/202610/10/170807l5x7c6x5r6995coc.attach"
  },
@@ -2240,6 +2443,7 @@
   "edited": "2025-6-29 02:28",
   "version": "1.4.4",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2251,6 +2455,7 @@
   "edited": "2026-6-24 01:44",
   "version": "1.9",
   "source": "header",
+  "origin": "original",
   "aid": 70030,
   "download": "https://cdn.fossic.cn/forum/202606/24/014133ederu4dk16w4bhek.zip"
  },
@@ -2262,6 +2467,7 @@
   "edited": "2026-10-23 13:23",
   "version": "1.6.9",
   "source": "header",
+  "origin": "original",
   "aid": 109223,
   "download": "https://cdn.fossic.cn/forum/202610/23/045132zw9s83pa0zrs3515.zip"
  },
@@ -2273,6 +2479,7 @@
   "edited": "2026-10-8 15:12",
   "version": "1.3.0",
   "source": "header",
+  "origin": "repost",
   "aid": 92856,
   "download": "https://cdn.fossic.cn/forum/202610/06/185943g22yppielc1x2ph4.zip"
  },
@@ -2284,6 +2491,7 @@
   "edited": "2020-5-2 18:12",
   "version": "0.4.4",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2295,6 +2503,7 @@
   "edited": "2026-10-12 01:52",
   "version": "0.11.2",
   "source": "header",
+  "origin": "original",
   "aid": 108933,
   "download": "https://cdn.fossic.cn/forum/202610/12/014631axy1501n1f2z1325.rar"
  },
@@ -2306,6 +2515,7 @@
   "edited": "2023-3-28 09:06",
   "version": "1.9g",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2317,6 +2527,7 @@
   "edited": "2022-12-20 17:17",
   "version": "1.87-RC3",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2328,6 +2539,7 @@
   "edited": "2026-10-20 13:17",
   "version": "0.12.2d*",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2339,6 +2551,7 @@
   "edited": "2026-10-4 18:09",
   "version": "2.1.5",
   "source": "header",
+  "origin": "repost",
   "aid": 110651,
   "download": "https://cdn.fossic.cn/forum/202610/04/173743djz1hzmc1f55xjtm.zip"
  },
@@ -2350,6 +2563,7 @@
   "edited": "2026-5-12 01:30",
   "version": "1.31.1a",
   "source": "header",
+  "origin": "repost",
   "aid": 69335,
   "download": "https://cdn.fossic.cn/forum/202509/19/150024n3jjltlzhzinjzka.zip"
  },
@@ -2361,6 +2575,7 @@
   "edited": "2026-7-7 11:54",
   "version": "4.5.1",
   "source": "header",
+  "origin": "repost",
   "aid": 69438,
   "download": "https://cdn.fossic.cn/forum/202607/07/115359xxn2lnmpngbcr94e.zip"
  },
@@ -2372,6 +2587,7 @@
   "edited": "2026-7-2 03:33",
   "version": "1.2.1",
   "source": "header",
+  "origin": "repost",
   "aid": 81246,
   "download": "https://cdn.fossic.cn/forum/202607/02/033309t9g1gt62qgt3ui96.zip"
  },
@@ -2383,6 +2599,7 @@
   "edited": "2026-8-7 09:05",
   "version": "2.4.3",
   "source": "header",
+  "origin": "repost",
   "aid": 57696,
   "download": "https://cdn.fossic.cn/forum/202608/07/090443wimgpww949eegppn.zip"
  },
@@ -2394,6 +2611,7 @@
   "edited": "2026-5-12 01:28",
   "version": "1.0.0",
   "source": "header",
+  "origin": "repost",
   "aid": 72338,
   "download": "https://cdn.fossic.cn/forum/202512/13/042956u8oibgi3nn4i8kih.zip"
  },
@@ -2405,6 +2623,7 @@
   "edited": "2026-10-21 20:36",
   "version": "0.992",
   "source": "header",
+  "origin": "original",
   "aid": 113350,
   "download": "https://cdn.fossic.cn/forum/202610/21/201654evp7gu3u53tv7bci.zip"
  },
@@ -2416,6 +2635,7 @@
   "edited": "2026-9-21 00:02",
   "version": "1.5.1（汉化修复）",
   "source": "header",
+  "origin": "repost",
   "aid": 108208,
   "download": "https://cdn.fossic.cn/forum/202609/20/235646ihoa5jd59joaoho5.zip"
  },
@@ -2427,6 +2647,7 @@
   "edited": "2026-10-6 14:03",
   "version": "1.4.12",
   "source": "header",
+  "origin": "repost",
   "aid": 110796,
   "download": "https://cdn.fossic.cn/forum/202610/05/043921qtilnipxaziisky9.zip"
  },
@@ -2438,6 +2659,7 @@
   "edited": "2025-6-12 19:36",
   "version": "3.0.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2449,6 +2671,7 @@
   "edited": "2026-9-28 21:31",
   "version": "0.8.1",
   "source": "header",
+  "origin": "repost",
   "aid": 109268,
   "download": "https://cdn.fossic.cn/forum/202609/28/212850tnfiafzfeabinn7n.zip"
  },
@@ -2460,6 +2683,7 @@
   "edited": "2024-5-4 21:37",
   "version": "0.3.1b",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2471,6 +2695,7 @@
   "edited": "2026-10-23 23:46",
   "version": "2.3.1",
   "source": "header",
+  "origin": "original",
   "aid": 113548,
   "download": "https://cdn.fossic.cn/forum/202610/23/233907hje89d2xajg4gli8.zip"
  },
@@ -2482,6 +2707,7 @@
   "edited": "2026-9-25 10:35",
   "version": "0.94-rc1",
   "source": "header",
+  "origin": "repost",
   "aid": 108592,
   "download": "https://cdn.fossic.cn/forum/202609/25/102721gzgb61c56b6ubwqz.zip"
  },
@@ -2493,6 +2719,7 @@
   "edited": "2026-9-25 10:35",
   "version": "26.8.27",
   "source": "header",
+  "origin": "original",
   "aid": 70164,
   "download": "https://cdn.fossic.cn/forum/202608/27/235455xt3zl58ztuw83nt3.zip"
  },
@@ -2504,6 +2731,7 @@
   "edited": "2026-6-2 21:32",
   "version": "1.2",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2515,6 +2743,7 @@
   "edited": "2026-5-10 21:20",
   "version": "1.1.7",
   "source": "header",
+  "origin": "repost",
   "aid": 71582,
   "download": "https://cdn.fossic.cn/forum/202511/22/000409l8tizocc4aja4y5e.zip"
  },
@@ -2526,6 +2755,7 @@
   "edited": "2026-3-10 19:05",
   "version": "1.1.6",
   "source": "header",
+  "origin": "original",
   "aid": 77377,
   "download": null
  },
@@ -2537,6 +2767,7 @@
   "edited": "2026-4-18 06:00",
   "version": "0.57",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2548,6 +2779,7 @@
   "edited": "2026-6-25 16:35",
   "version": "0.2",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2559,6 +2791,7 @@
   "edited": "2025-10-4 19:20",
   "version": "1.2.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2570,6 +2803,7 @@
   "edited": "2026-3-24 01:55",
   "version": "1.0.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2581,6 +2815,7 @@
   "edited": "2026-5-10 21:09",
   "version": "1.14.1aa",
   "source": "header",
+  "origin": "repost",
   "aid": 65982,
   "download": "https://cdn.fossic.cn/forum/202506/20/213158s2cowdd0a06zhcyd.attach"
  },
@@ -2592,6 +2827,7 @@
   "edited": "2025-5-25 21:57",
   "version": "3.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2603,6 +2839,7 @@
   "edited": "2026-10-22 22:10",
   "version": "1.2.0fix2",
   "source": "header",
+  "origin": "original",
   "aid": 107829,
   "download": "https://cdn.fossic.cn/forum/202610/22/220937jw9cil296e0lcn6k.zip"
  },
@@ -2614,6 +2851,7 @@
   "edited": "2025-4-25 19:15",
   "version": "0.2.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2625,6 +2863,7 @@
   "edited": "2026-3-24 09:29",
   "version": "0.3.3",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2636,6 +2875,7 @@
   "edited": "2026-6-17 16:44",
   "version": "1.7.7",
   "source": "header",
+  "origin": "repost",
   "aid": 65272,
   "download": "https://cdn.fossic.cn/forum/202506/01/174545h89285e169r62ueb.zip"
  },
@@ -2647,6 +2887,7 @@
   "edited": "2022-7-9 22:11",
   "version": "1.2.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2658,6 +2899,7 @@
   "edited": "2026-10-20 18:36",
   "version": "1.2.2",
   "source": "header",
+  "origin": "original",
   "aid": 113175,
   "download": "https://cdn.fossic.cn/forum/202610/20/090017nmpzmwpb4r8pk68k.zip"
  },
@@ -2669,6 +2911,7 @@
   "edited": "2026-8-17 09:31",
   "version": "0.4.3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2680,6 +2923,7 @@
   "edited": "2026-5-11 08:57",
   "version": "1.0.7",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2691,6 +2935,7 @@
   "edited": "2026-4-17 04:12",
   "version": "1.03",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2702,6 +2947,7 @@
   "edited": "2023-8-18 13:32",
   "version": "1.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2713,6 +2959,7 @@
   "edited": "2026-2-9 19:47",
   "version": "0.7.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2724,6 +2971,7 @@
   "edited": "2026-6-10 22:07",
   "version": "0.17.1",
   "source": "header",
+  "origin": "repost",
   "aid": 79844,
   "download": "https://cdn.fossic.cn/forum/202605/27/103029pep85d8ettu3tstu.rar"
  },
@@ -2735,6 +2983,7 @@
   "edited": "2025-5-3 19:26",
   "version": "0.1.8",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2746,6 +2995,7 @@
   "edited": "2026-8-10 12:21",
   "version": "1.0.4",
   "source": "header",
+  "origin": "repost",
   "aid": 69588,
   "download": "https://cdn.fossic.cn/forum/202510/04/102841ls66l4lo64m4wf4n.zip"
  },
@@ -2757,6 +3007,7 @@
   "edited": "2026-5-12 01:32",
   "version": "1.2.0",
   "source": "header",
+  "origin": "repost",
   "aid": 65449,
   "download": "https://cdn.fossic.cn/forum/202506/04/083419nmamrccyfatz9ca9.zip"
  },
@@ -2768,6 +3019,7 @@
   "edited": "2023-4-18 00:13",
   "version": "25.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2779,6 +3031,7 @@
   "edited": "2026-5-21 14:28",
   "version": "1.5.2",
   "source": "header",
+  "origin": "repost",
   "aid": 69528,
   "download": "https://cdn.fossic.cn/forum/202605/21/142752tsp744ggx4sd91gd.zip"
  },
@@ -2790,6 +3043,7 @@
   "edited": "2021-9-22 18:42",
   "version": "1.3.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2801,6 +3055,7 @@
   "edited": "2026-10-9 16:49",
   "version": "0.6.0",
   "source": "header",
+  "origin": "repost",
   "aid": 111127,
   "download": "https://cdn.fossic.cn/forum/202610/06/201448lgwclldem1igwsce.zip"
  },
@@ -2812,6 +3067,7 @@
   "edited": "2026-10-24 21:06",
   "version": "1.3.5",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2823,6 +3079,7 @@
   "edited": "2026-6-17 16:44",
   "version": "1.7.0",
   "source": "header",
+  "origin": "repost",
   "aid": 69471,
   "download": "https://cdn.fossic.cn/forum/202509/23/034224ygq1mo1fdpgfzzk3.zip"
  },
@@ -2834,6 +3091,7 @@
   "edited": "2026-10-11 02:19",
   "version": "1.3.1",
   "source": "header",
+  "origin": "repost",
   "aid": 111863,
   "download": "https://cdn.fossic.cn/forum/202610/11/020929esu66yvsqvqvrvzk.zip"
  },
@@ -2845,6 +3103,7 @@
   "edited": "2023-10-17 19:45",
   "version": "1.5.5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2856,6 +3115,7 @@
   "edited": "2021-10-1 15:17",
   "version": "0.6.5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2867,6 +3127,7 @@
   "edited": "2026-10-11 17:10",
   "version": "2.16.0",
   "source": "header",
+  "origin": "repost",
   "aid": 111304,
   "download": "https://cdn.fossic.cn/forum/202610/08/024918lbq7b369e8996xx5.zip"
  },
@@ -2878,6 +3139,7 @@
   "edited": "2026-10-17 19:45",
   "version": "0.81-fix4",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -2889,6 +3151,7 @@
   "edited": "2025-2-27 14:53",
   "version": "2.0.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2900,6 +3163,7 @@
   "edited": "2026-10-24 16:20",
   "version": "0.10.0",
   "source": "header",
+  "origin": "original",
   "aid": 113579,
   "download": "https://cdn.fossic.cn/forum/202610/24/124912gdd5ldn5q54p057n.zip"
  },
@@ -2911,6 +3175,7 @@
   "edited": "2026-10-8 14:34",
   "version": "2.3.1",
   "source": "header",
+  "origin": "repost",
   "aid": 108087,
   "download": "https://cdn.fossic.cn/forum/202609/19/183501nn8v38loza8odikj.zip"
  },
@@ -2922,6 +3187,7 @@
   "edited": "2026-9-23 13:55",
   "version": "0.3.4",
   "source": "header",
+  "origin": "repost",
   "aid": 108121,
   "download": "https://cdn.fossic.cn/forum/202609/23/135401xoc3c3c5o305z3x5.zip"
  },
@@ -2933,6 +3199,7 @@
   "edited": "2026-10-22 02:06",
   "version": "0.2.19",
   "source": "header",
+  "origin": "repost",
   "aid": 109598,
   "download": "https://cdn.fossic.cn/forum/202610/22/020557h40vul0sf484r9d6.zip"
  },
@@ -2944,6 +3211,7 @@
   "edited": "2026-10-9 13:11",
   "version": "2.0.1",
   "source": "header",
+  "origin": "repost",
   "aid": 111299,
   "download": "https://cdn.fossic.cn/forum/202610/08/015534cw7ns60ng0swymmt.zip"
  },
@@ -2955,6 +3223,7 @@
   "edited": "2025-10-11 13:16",
   "version": "0.3",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2966,6 +3235,7 @@
   "edited": "2021-12-2 13:02",
   "version": "1.2/1.0.1c",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2977,6 +3247,7 @@
   "edited": "2026-5-11 19:53",
   "version": "2.7.5",
   "source": "header",
+  "origin": "repost",
   "aid": 78810,
   "download": "https://cdn.fossic.cn/forum/202605/11/195120att06htyt1x666x9.attach"
  },
@@ -2988,6 +3259,7 @@
   "edited": "2025-4-19 22:34",
   "version": "1.5.7",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -2999,6 +3271,7 @@
   "edited": "2024-11-27 21:09",
   "version": "0.0.4",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3010,6 +3283,7 @@
   "edited": "2026-7-28 09:16",
   "version": "2，0，6b",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3021,6 +3295,7 @@
   "edited": "2023-8-5 20:30",
   "version": "0.2.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3032,6 +3307,7 @@
   "edited": "2024-9-29 21:00",
   "version": "0.0.17",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3043,6 +3319,7 @@
   "edited": "2026-8-19 21:20",
   "version": "1.0.0",
   "source": "header",
+  "origin": "original",
   "aid": 81388,
   "download": "https://cdn.fossic.cn/forum/202607/05/211054kwuee77leaxjaqrq.zip"
  },
@@ -3054,6 +3331,7 @@
   "edited": "2026-6-13 15:34",
   "version": "1.11.1",
   "source": "header",
+  "origin": "repost",
   "aid": 69209,
   "download": null
  },
@@ -3065,6 +3343,7 @@
   "edited": "2026-5-8 18:19",
   "version": "0.0.8a",
   "source": "header",
+  "origin": "original",
   "aid": 47423,
   "download": "https://cdn.fossic.cn/forum/202406/21/115208ezntnn7tkunyaqu4.zip"
  },
@@ -3076,6 +3355,7 @@
   "edited": "2026-5-12 01:33",
   "version": "2.0.0",
   "source": "header",
+  "origin": "repost",
   "aid": 65011,
   "download": "https://cdn.fossic.cn/forum/202604/13/204756xbdm76m167lptt1e.zip"
  },
@@ -3087,6 +3367,7 @@
   "edited": "2026-9-6 20:42",
   "version": "0.15.1",
   "source": "header",
+  "origin": "repost",
   "aid": 78905,
   "download": "https://cdn.fossic.cn/forum/202609/06/183808on856qtfeg5tto68.attach"
  },
@@ -3098,6 +3379,7 @@
   "edited": "2026-10-14 01:44",
   "version": "0.6.6",
   "source": "header",
+  "origin": "repost",
   "aid": 112377,
   "download": "https://cdn.fossic.cn/forum/202610/14/014401xh8ynf6hy06mnwxd.zip"
  },
@@ -3109,6 +3391,7 @@
   "edited": "2026-10-23 12:58",
   "version": "6.0.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3120,6 +3403,7 @@
   "edited": "2026-9-23 13:59",
   "version": "2.1.2",
   "source": "header",
+  "origin": "repost",
   "aid": 108065,
   "download": "https://cdn.fossic.cn/forum/202609/19/165109ferzbocxoxr74veb.zip"
  },
@@ -3131,6 +3415,7 @@
   "edited": "2026-10-24 23:13",
   "version": "2.0.0",
   "source": "header",
+  "origin": "original",
   "aid": 69792,
   "download": "https://cdn.fossic.cn/forum/202610/23/223320btfpor3r6kemgokq.rar"
  },
@@ -3142,6 +3427,7 @@
   "edited": "2025-12-12 01:20",
   "version": "1.12.1",
   "source": "header",
+  "origin": "repost",
   "aid": 71013,
   "download": "https://cdn.fossic.cn/forum/202511/03/021535aoxgvbvzsogxeose.zip"
  },
@@ -3153,6 +3439,7 @@
   "edited": "2026-10-3 21:37",
   "version": "0.9.6",
   "source": "header",
+  "origin": "repost",
   "aid": 69217,
   "download": "https://cdn.fossic.cn/forum/202610/03/213709nhh0s2oad4pa2zab.zip"
  },
@@ -3164,6 +3451,7 @@
   "edited": "2026-10-23 13:24",
   "version": "1.1.7",
   "source": "header",
+  "origin": "original",
   "aid": 112931,
   "download": "https://cdn.fossic.cn/forum/202610/23/043626tp4g6v8p4j0cvm87.zip"
  },
@@ -3175,6 +3463,7 @@
   "edited": "2025-3-1 17:25",
   "version": "1.8.4",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3186,6 +3475,7 @@
   "edited": "2026-8-19 01:48",
   "version": "2.0.8",
   "source": "header",
+  "origin": "repost",
   "aid": 68776,
   "download": "https://cdn.fossic.cn/forum/202608/19/014810nppnpbappwrnggw7.zip"
  },
@@ -3197,6 +3487,7 @@
   "edited": "2026-7-5 03:47",
   "version": "4.2.0",
   "source": "header",
+  "origin": "original",
   "aid": 71853,
   "download": "https://cdn.fossic.cn/forum/202607/05/034524t5llpiie4lzbdeyd.zip"
  },
@@ -3208,6 +3499,7 @@
   "edited": "2026-9-23 14:05",
   "version": "1.1.0",
   "source": "header",
+  "origin": "repost",
   "aid": 107991,
   "download": "https://cdn.fossic.cn/forum/202609/18/231344o6lw96lw5882kkl8.zip"
  },
@@ -3219,6 +3511,7 @@
   "edited": "2026-10-23 13:56",
   "version": "1.1.0",
   "source": "header",
+  "origin": "original",
   "aid": 87494,
   "download": "https://cdn.fossic.cn/forum/202610/23/135555f387snbtbv3xbsal.rar"
  },
@@ -3230,6 +3523,7 @@
   "edited": "2023-1-11 18:42",
   "version": "0.51rc2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3241,6 +3535,7 @@
   "edited": "2025-6-29 20:24",
   "version": "1.2.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3252,6 +3547,7 @@
   "edited": "2026-3-18 11:14",
   "version": "0.0.1b",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3263,6 +3559,7 @@
   "edited": "2026-10-24 09:51",
   "version": "0.16.3",
   "source": "header",
+  "origin": "original",
   "aid": 113567,
   "download": "https://cdn.fossic.cn/forum/202610/24/094848z15fezbzhitw31qn.zip"
  },
@@ -3274,6 +3571,7 @@
   "edited": "2023-8-13 19:29",
   "version": "0.99-RC5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3285,6 +3583,7 @@
   "edited": "2026-10-18 23:43",
   "version": "0.5.3",
   "source": "header",
+  "origin": "original",
   "aid": 67991,
   "download": "https://cdn.fossic.cn/forum/202610/18/234312aoot82nu2k958882.zip"
  },
@@ -3296,6 +3595,7 @@
   "edited": "2026-9-20 20:37",
   "version": "0.9.6",
   "source": "header",
+  "origin": "repost",
   "aid": 108190,
   "download": "https://cdn.fossic.cn/forum/202609/20/203441zwsv0zrel1zw0ml8.zip"
  },
@@ -3307,6 +3607,7 @@
   "edited": "2023-4-16 18:22",
   "version": "1.6.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3318,6 +3619,7 @@
   "edited": "2026-3-21 21:25",
   "version": "0.9.9",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3329,6 +3631,7 @@
   "edited": "2026-6-17 14:15",
   "version": "0.9.4",
   "source": "header",
+  "origin": "original",
   "aid": 80741,
   "download": "https://cdn.fossic.cn/forum/202606/16/110551ox336tdhzxr13he6.zip"
  },
@@ -3340,6 +3643,7 @@
   "edited": "2026-10-6 19:14",
   "version": "0.3.78",
   "source": "header",
+  "origin": "repost",
   "aid": 86269,
   "download": "https://cdn.fossic.cn/forum/202610/06/191356duujj4mm14ym8yjn.zip"
  },
@@ -3351,6 +3655,7 @@
   "edited": "2023-2-5 12:29",
   "version": "2.3.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3362,6 +3667,7 @@
   "edited": "2026-10-14 01:31",
   "version": "0.9.4",
   "source": "header",
+  "origin": "repost",
   "aid": 92839,
   "download": "https://cdn.fossic.cn/forum/202610/14/013035ikkzi5rtutt3tktk.zip"
  },
@@ -3373,6 +3679,7 @@
   "edited": "2026-4-27 22:37",
   "version": "1.5",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3384,6 +3691,7 @@
   "edited": "2025-7-30 19:16",
   "version": "3.3.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3395,6 +3703,7 @@
   "edited": "2023-10-21 01:12",
   "version": "1.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3406,6 +3715,7 @@
   "edited": "2024-4-4 15:53",
   "version": "0.5",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3417,6 +3727,7 @@
   "edited": "2026-3-5 21:29",
   "version": "1.2.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3428,6 +3739,7 @@
   "edited": "2024-12-28 11:47",
   "version": "2.4.0a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3439,6 +3751,7 @@
   "edited": "2025-4-17 21:45",
   "version": "1.4.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3450,6 +3763,7 @@
   "edited": "2025-6-1 14:26",
   "version": "1.4.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3461,6 +3775,7 @@
   "edited": "2026-1-16 19:09",
   "version": "2.6",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3472,6 +3787,7 @@
   "edited": "2026-10-1 23:04",
   "version": "1.5.0",
   "source": "header",
+  "origin": "repost",
   "aid": 101302,
   "download": "https://cdn.fossic.cn/forum/202610/01/230406rfe22aaemf7q2zzq.zip"
  },
@@ -3483,6 +3799,7 @@
   "edited": "2025-3-16 19:43",
   "version": "1.6.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3494,6 +3811,7 @@
   "edited": "2026-4-20 17:14",
   "version": "2.6.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3501,12 +3819,13 @@
   "id": "superPaintManager",
   "thread": "https://www.fossic.org/thread-21447-1-1.html",
   "forum": 46,
-  "title": "超级涂装管理器（2.0.1更新）",
-  "edited": "2026-10-17 21:06",
-  "version": "2.0.1",
+  "title": "超级涂装管理器（2.1.0更新）",
+  "edited": "2026-10-25 14:28",
+  "version": "2.1.0",
   "source": "header",
-  "aid": 109467,
-  "download": "https://cdn.fossic.cn/forum/202610/10/233341s9xkvgm9db64ezxx.zip"
+  "origin": "original",
+  "aid": 113815,
+  "download": "https://cdn.fossic.cn/forum/202610/25/142322n9zqzd97c474fjf4.zip"
  },
  "suzuki": {
   "id": "SUZUKI",
@@ -3516,6 +3835,7 @@
   "edited": "2026-10-24 23:50",
   "version": "0.6版",
   "source": "header",
+  "origin": "original",
   "aid": 81538,
   "download": "https://cdn.fossic.cn/forum/202610/24/231832cr8tcyrtr9dxgst6.zip"
  },
@@ -3527,6 +3847,7 @@
   "edited": "2025-6-14 12:33",
   "version": "1.16.6*",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3538,6 +3859,7 @@
   "edited": "2023-11-8 11:07",
   "version": "1.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3549,6 +3871,7 @@
   "edited": "2023-1-7 12:30",
   "version": "0.0.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3560,6 +3883,7 @@
   "edited": "2026-10-1 21:25",
   "version": "1.0",
   "source": "header",
+  "origin": "original",
   "aid": 77177,
   "download": "https://cdn.fossic.cn/forum/202604/05/182359d1z2m26irhjzjtjf.attach"
  },
@@ -3571,6 +3895,7 @@
   "edited": "2026-10-21 19:26",
   "version": "0.1.11-RC1",
   "source": "header",
+  "origin": "original",
   "aid": 63741,
   "download": null
  },
@@ -3582,6 +3907,7 @@
   "edited": "2026-9-22 17:51",
   "version": "0.6.3",
   "source": "header",
+  "origin": "original",
   "aid": 79221,
   "download": "https://cdn.fossic.cn/forum/202609/22/174955v11iyue7uo1l18ww.zip"
  },
@@ -3593,6 +3919,7 @@
   "edited": "2026-9-30 17:01",
   "version": "0.1.3",
   "source": "header",
+  "origin": "original",
   "aid": 97078,
   "download": "https://cdn.fossic.cn/forum/202609/30/165929fzx77l1bkc12gglc.zip"
  },
@@ -3604,6 +3931,7 @@
   "edited": "2026-5-10 21:06",
   "version": "1.4",
   "source": "header",
+  "origin": "repost",
   "aid": 70428,
   "download": "https://cdn.fossic.cn/forum/202510/16/003210wxz7x9977p77767n.zip"
  },
@@ -3615,6 +3943,7 @@
   "edited": "2025-6-11 19:02",
   "version": "0.9.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3626,6 +3955,7 @@
   "edited": "2022-2-14 14:23",
   "version": "1.41rc2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3637,6 +3967,7 @@
   "edited": "2022-5-14 12:27",
   "version": "1.2",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3648,6 +3979,7 @@
   "edited": "2026-10-25 11:33",
   "version": "0.9.992",
   "source": "header",
+  "origin": "original",
   "aid": 80366,
   "download": "https://cdn.fossic.cn/forum/202610/25/112724dkhh74a2gd77u2sb.zip"
  },
@@ -3659,6 +3991,7 @@
   "edited": "2026-8-5 15:30",
   "version": "1.81",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3670,6 +4003,7 @@
   "edited": "2026-8-23 01:35",
   "version": "0.9.9d_fix",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3681,6 +4015,7 @@
   "edited": "2026-9-3 21:35",
   "version": "10.0.9",
   "source": "header",
+  "origin": "repost",
   "aid": 63315,
   "download": "https://cdn.fossic.cn/forum/202609/03/213240m442jefgnrv7vjvb.attach"
  },
@@ -3692,6 +4027,7 @@
   "edited": "2021-11-3 19:17",
   "version": "7.1.3",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3703,6 +4039,7 @@
   "edited": "2025-5-22 20:01",
   "version": "1.1.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3714,6 +4051,7 @@
   "edited": "2026-10-23 13:54",
   "version": "5.1.9",
   "source": "header",
+  "origin": "original",
   "aid": 111588,
   "download": "https://cdn.fossic.cn/forum/202610/23/135326ojla7194z4xy5ixa.zip"
  },
@@ -3725,6 +4063,7 @@
   "edited": "2024-11-16 21:47",
   "version": "0.1.5",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3736,6 +4075,7 @@
   "edited": "2025-12-13 21:41",
   "version": "1.2.3.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3747,6 +4087,7 @@
   "edited": "2026-10-12 22:24",
   "version": "1.9a",
   "source": "header",
+  "origin": "repost",
   "aid": 109101,
   "download": "https://cdn.fossic.cn/forum/202609/26/223108x8iz9cr3p3ul9gbu.zip"
  },
@@ -3758,6 +4099,7 @@
   "edited": "2022-10-27 10:16",
   "version": "1.8.6",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3769,6 +4111,7 @@
   "edited": "2026-8-2 18:09",
   "version": "1.999999ggggg",
   "source": "header",
+  "origin": "repost",
   "aid": 84155,
   "download": "https://cdn.fossic.cn/forum/202608/02/174534gr5qqz5vqz8q58ij.zip"
  },
@@ -3780,6 +4123,7 @@
   "edited": "2026-5-1 22:01",
   "version": "1.15",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3791,6 +4135,7 @@
   "edited": "2021-12-31 11:07",
   "version": "1.41",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3802,6 +4147,7 @@
   "edited": "2026-5-12 21:53",
   "version": "0.99-BETA",
   "source": "header",
+  "origin": "repost",
   "aid": 72486,
   "download": "https://cdn.fossic.cn/forum/202512/16/235230fjkz0m3pcpm09bhj.zip"
  },
@@ -3813,6 +4159,7 @@
   "edited": "2025-1-1 21:14",
   "version": "1.1813aj",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3824,6 +4171,7 @@
   "edited": "2025-4-14 09:27",
   "version": "0.17rc1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3835,6 +4183,7 @@
   "edited": "2023-2-7 16:55",
   "version": "0.1.3-RC1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3846,6 +4195,7 @@
   "edited": "2026-9-22 01:17",
   "version": "0.6.3b",
   "source": "header",
+  "origin": "repost",
   "aid": 108106,
   "download": "https://cdn.fossic.cn/forum/202609/22/011629kgxnnyct1gvcf1tc.zip"
  },
@@ -3857,6 +4207,7 @@
   "edited": "2026-8-9 08:11",
   "version": "1.0",
   "source": "header",
+  "origin": "original",
   "aid": 84320,
   "download": "https://cdn.fossic.cn/forum/202608/06/171305tb7ooehu4bouzgeb.rar"
  },
@@ -3868,6 +4219,7 @@
   "edited": "2026-3-17 17:23",
   "version": "1.6.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3879,6 +4231,7 @@
   "edited": "2026-7-22 22:52",
   "version": "1.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3890,6 +4243,7 @@
   "edited": "2025-4-26 15:38",
   "version": "1.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3901,6 +4255,7 @@
   "edited": "2023-4-5 09:56",
   "version": "1.2.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3912,6 +4267,7 @@
   "edited": "2025-8-22 23:17",
   "version": "1.2.4",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3923,6 +4279,7 @@
   "edited": "2024-3-4 15:27",
   "version": "1.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -3934,6 +4291,7 @@
   "edited": "2026-10-10 19:09",
   "version": "2.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3945,6 +4303,7 @@
   "edited": "2026-10-10 18:31",
   "version": "1.6",
   "source": "header",
+  "origin": "repost",
   "aid": 111609,
   "download": "https://cdn.fossic.cn/forum/202610/10/015040pnllnmmm0x3oonl0.zip"
  },
@@ -3956,6 +4315,7 @@
   "edited": "2026-10-4 00:45",
   "version": "1.3",
   "source": "header",
+  "origin": "repost",
   "aid": 108417,
   "download": "https://cdn.fossic.cn/forum/202609/23/120144uvvw15pg4bva444v.zip"
  },
@@ -3967,6 +4327,7 @@
   "edited": "2023-9-8 08:24",
   "version": "0.5.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -3978,6 +4339,7 @@
   "edited": "2026-8-6 21:50",
   "version": "1.0.0",
   "source": "header",
+  "origin": "original",
   "aid": 82765,
   "download": "https://cdn.fossic.cn/forum/202607/24/230803tbbku9ppajt8a73u.zip"
  },
@@ -3989,6 +4351,7 @@
   "edited": "2025-6-14 12:34",
   "version": "1.8.8*",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4000,6 +4363,7 @@
   "edited": "2019-9-19 19:22",
   "version": "2.5.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4011,6 +4375,7 @@
   "edited": "2025-5-23 21:46",
   "version": "0.0.7",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4022,6 +4387,7 @@
   "edited": "2026-6-7 14:08",
   "version": "3.1.0",
   "source": "header",
+  "origin": "original",
   "aid": 70587,
   "download": "https://cdn.fossic.cn/forum/202606/07/140644dyh005za8y600h8e.zip"
  },
@@ -4033,6 +4399,7 @@
   "edited": "2026-6-25 23:26",
   "version": "0.6.7",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4044,6 +4411,7 @@
   "edited": "2025-10-2 21:59",
   "version": "3.0.3",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4055,6 +4423,7 @@
   "edited": "2021-9-22 19:31",
   "version": "1.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4066,6 +4435,7 @@
   "edited": "2019-8-29 14:05",
   "version": "3.3.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4077,6 +4447,7 @@
   "edited": "2026-10-17 22:23",
   "version": "2026/10/17",
   "source": "header",
+  "origin": "original",
   "aid": 111172,
   "download": "https://cdn.fossic.cn/forum/202610/17/222311f311cz1aihf1z0gr.zip"
  },
@@ -4088,6 +4459,7 @@
   "edited": "2026-8-25 14:28",
   "version": "0.5.0",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4099,6 +4471,7 @@
   "edited": "2023-4-2 16:15",
   "version": "3.2.1",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4110,6 +4483,7 @@
   "edited": "2024-4-4 13:00",
   "version": "1.6.3a*",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4121,6 +4495,7 @@
   "edited": "2025-5-26 08:52",
   "version": "0.1.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4132,6 +4507,7 @@
   "edited": "2022-5-25 14:13",
   "version": "0.1.4",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4143,6 +4519,7 @@
   "edited": "2026-9-29 06:33",
   "version": "1.0.45",
   "source": "header",
+  "origin": "repost",
   "aid": 109190,
   "download": "https://cdn.fossic.cn/forum/202609/28/110033h73b7me943mvs3kk.zip"
  },
@@ -4154,6 +4531,7 @@
   "edited": "2022-9-11 10:45",
   "version": "1.3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4165,6 +4543,7 @@
   "edited": "2026-1-6 22:23",
   "version": "0.0.7",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4176,6 +4555,7 @@
   "edited": "2024-2-10 18:49",
   "version": "1.2.2a",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4187,6 +4567,7 @@
   "edited": "2023-10-7 22:07",
   "version": "1.1.0",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4198,6 +4579,7 @@
   "edited": "2026-4-18 19:00",
   "version": "1.0.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4209,6 +4591,7 @@
   "edited": "2026-4-8 19:25",
   "version": "1.4.4",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4220,6 +4603,7 @@
   "edited": "2025-10-6 11:46",
   "version": "1.0c",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4231,6 +4615,7 @@
   "edited": "2024-12-13 19:04",
   "version": "0.0.3",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4242,6 +4627,7 @@
   "edited": "2025-8-17 01:18",
   "version": "1.4",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4253,6 +4639,7 @@
   "edited": "2026-5-10 21:18",
   "version": "3.0.1",
   "source": "header",
+  "origin": "repost",
   "aid": 70846,
   "download": "https://cdn.fossic.cn/forum/202603/07/134133cjbhr9363yzr1kb1.zip"
  },
@@ -4264,6 +4651,7 @@
   "edited": "2026-6-14 21:21",
   "version": "1.14",
   "source": "header",
+  "origin": "original",
   "aid": 80385,
   "download": "https://cdn.fossic.cn/forum/202606/14/212130gy9tumdr8ii5n9il.zip"
  },
@@ -4275,6 +4663,7 @@
   "edited": "2026-6-23 21:22",
   "version": "1.2",
   "source": "header",
+  "origin": "original",
   "aid": 80419,
   "download": "https://cdn.fossic.cn/forum/202606/23/212227zeey63eyjmi12cjg.zip"
  },
@@ -4286,6 +4675,7 @@
   "edited": "2026-10-9 13:16",
   "version": "1.2.2",
   "source": "header",
+  "origin": "repost",
   "aid": 94905,
   "download": "https://cdn.fossic.cn/forum/202609/30/011016ck6lsukhvk0vlxvy.zip"
  },
@@ -4297,6 +4687,7 @@
   "edited": "2026-9-21 20:10",
   "version": "0.3.3",
   "source": "header",
+  "origin": "repost",
   "aid": 108174,
   "download": "https://cdn.fossic.cn/forum/202609/20/181119tfgsnzbzqog266zd.zip"
  },
@@ -4308,6 +4699,7 @@
   "edited": "2026-10-9 19:42",
   "version": "3.03",
   "source": "header",
+  "origin": "repost",
   "aid": 108308,
   "download": "https://cdn.fossic.cn/forum/202609/22/015536y66o6oodl3k499hd.zip"
  },
@@ -4319,6 +4711,7 @@
   "edited": "2026-8-21 13:05",
   "version": "3.530",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4330,6 +4723,7 @@
   "edited": "2026-8-5 02:33",
   "version": "1.7",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4341,6 +4735,7 @@
   "edited": "2019-10-12 14:06",
   "version": "0.2.2",
   "source": "header",
+  "origin": "repost",
   "aid": null,
   "download": null
  },
@@ -4352,6 +4747,7 @@
   "edited": "2025-9-10 19:05",
   "version": "1.0.5",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  },
@@ -4363,6 +4759,7 @@
   "edited": "2026-10-22 13:57",
   "version": "0.55",
   "source": "header",
+  "origin": "original",
   "aid": 78564,
   "download": "https://cdn.fossic.cn/forum/202610/22/002552h667p7r68lxpplyx.zip"
  },
@@ -4374,6 +4771,7 @@
   "edited": "2025-1-4 10:36",
   "version": "0.0.1",
   "source": "header",
+  "origin": "original",
   "aid": null,
   "download": null
  }

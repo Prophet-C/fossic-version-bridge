@@ -3,10 +3,10 @@
   "modName": "superPaintManager",
   "modVersion": {
     "major": "2",
-    "minor": "0",
-    "patch": "1"
+    "minor": "1",
+    "patch": "0"
   },
-  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/10/233341s9xkvgm9db64ezxx.zip",
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/25/142322n9zqzd97c474fjf4.zip",
   "fossicThread": "https://www.fossic.org/thread-21447-1-1.html",
-  "fossicTitle": "超级涂装管理器（2.0.1更新）"
+  "fossicTitle": "超级涂装管理器（2.1.0更新）"
 }
