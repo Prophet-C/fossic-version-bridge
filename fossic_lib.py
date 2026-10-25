@@ -2,6 +2,7 @@
 release block, and comparing versions the way TriOS does. Standard library
 only, so the GitHub Action needs no dependencies."""
 
+import base64
 import html
 import json
 import re
@@ -154,6 +155,21 @@ def parse_thread(content):
         except ValueError:
             pass
 
+    # Attachments in the first post (many threads upload archives there
+    # without filling in the release list). Links carry "aid|hash|time|uid|tid".
+    info["postAids"] = []
+    start = content.find('id="postmessage_')
+    end = content.find('<div id="comment_', start) if start >= 0 else -1
+    body = content[start:end if end > 0 else start + 300000] if start >= 0 else ""
+    for enc in re.findall(r"mod=attachment&(?:amp;)?aid=([A-Za-z0-9+/=%]+)", body):
+        enc = urllib.parse.unquote(enc)
+        try:
+            aid = int(base64.b64decode(enc + "=" * (-len(enc) % 4)).decode("ascii").split("|")[0])
+        except (ValueError, UnicodeDecodeError):
+            continue
+        if aid not in info["postAids"]:
+            info["postAids"].append(aid)
+
     # First post's last edit, else its posting time.
     m = re.search(r"本帖最后由 .*? 于 (\d{4}-\d{1,2}-\d{1,2} \d{1,2}:\d{2}) 编辑", content)
     if not m:
@@ -231,6 +247,33 @@ def pick_version(info, rule=None):
         # Header won; still offer the download if a release has that version.
         release = next((r for r in releases if normalize(r["modVersion"]) == version), None)
     return version, release
+
+
+def pick_post_archive(version, files):
+    """Choose the in-post attachment that is this version's archive.
+
+    files: {aid: {"filename", "ext", "dateline"}}. Only an archive whose
+    name contains the version counts; a lone archive without the version in
+    its name may be an old upload, and a wrong file would make TriOS
+    "update" forever. Several matches are accepted only when they are
+    re-uploads of one file name (the newest wins). Returns an aid or None.
+    """
+    if not version:
+        return None
+    v = re.escape(normalize(version).lower())
+    pattern = re.compile(r"(?<![\d.])v?" + v + r"(?!\.?\d)")
+    matches = []
+    for aid, d in files.items():
+        if str(d.get("ext", "")).lower() not in ARCHIVE_EXTS:
+            continue
+        stem = re.sub(r"\.(zip|7z|rar)$", "", str(d.get("filename", "")), flags=re.I)
+        if pattern.search(normalize(stem).lower().replace("_", "-")):
+            matches.append((aid, d))
+    if not matches:
+        return None
+    if len({m[1]["filename"] for m in matches}) > 1:
+        return None
+    return max(matches, key=lambda m: m[1].get("dateline") or 0)[0]
 
 
 def edited_version(edited):

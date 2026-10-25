@@ -58,7 +58,41 @@ def make_record(mod_id, tid, fid, info, picked, source):
         "source": source,
         "origin": fl.origin_of(fid),
         "aid": aid,
+        # Without a release list, look for the archive among the first
+        # post's attachments (choose_post_archives); dropped before saving.
+        "_postAids": [] if aid else info["postAids"],
     }
+
+
+ATTACH_CACHE = os.path.join(HERE, "attach_cache.json")
+
+
+def choose_post_archives(catalog):
+    """For records without a release-list attachment, pick the first-post
+    archive matching their version (fl.pick_post_archive). Attachment names
+    never change, so details are cached in attach_cache.json."""
+    try:
+        with open(ATTACH_CACHE, encoding="utf-8") as f:
+            cache = {int(k): v for k, v in json.load(f).items()}
+    except (OSError, ValueError):
+        cache = {}
+    wanted = {a for rec in catalog.values() for a in rec.get("_postAids", [])}
+    missing = sorted(wanted - cache.keys())
+    if missing:
+        try:
+            for aid, d in fl.attach_info(missing).items():
+                cache[aid] = {k: d.get(k) for k in ("filename", "ext", "dateline")}
+        except Exception as e:
+            print(f"ERR  attachinfo_json for post attachments: {e}")
+    for rec in catalog.values():
+        aids = rec.pop("_postAids", [])
+        if aids and not rec.get("aid"):
+            aid = fl.pick_post_archive(rec["version"], {a: cache[a] for a in aids if a in cache})
+            if aid:
+                rec["aid"] = aid
+    with open(ATTACH_CACHE, "w", encoding="utf-8") as f:
+        json.dump({str(k): v for k, v in sorted(cache.items())}, f, ensure_ascii=False, indent=0)
+        f.write("\n")
 
 
 def resolve_downloads(catalog, known):
@@ -202,6 +236,7 @@ def main():
 
     if args.threads:
         catalog, _ = build_catalog(config, [(t, None) for t in args.threads])
+        choose_post_archives(catalog)
         resolve_downloads(catalog, {})
         for r in catalog.values():
             print(f'{r["id"]:35} {r["version"]:15} {r["source"]:10} {r["title"]}\n{"":35} download: {r.get("download")}')
@@ -226,6 +261,7 @@ def main():
     if len(failed) > len(threads) * 0.3:
         raise SystemExit(f"{len(failed)} of {len(threads)} threads failed; not writing a partial catalog")
     known = {str(r["aid"]): r["download"] for r in previous.values() if r.get("aid") and "download" in r}
+    choose_post_archives(catalog)
     resolve_downloads(catalog, known)
 
     os.makedirs(VERSIONS_DIR, exist_ok=True)
