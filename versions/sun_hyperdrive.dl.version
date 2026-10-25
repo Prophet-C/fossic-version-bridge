@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sun_hyperdrive.dl.version",
+  "modName": "sun_hyperdrive",
+  "modVersion": {
+    "major": "2",
+    "minor": "6",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202508/28/163933vscyuhfu3a3rfhfv.zip",
+  "fossicThread": "https://www.fossic.org/thread-17074-1-1.html",
+  "fossicTitle": "超空间跳跃sun_hyperdrive（随手汉化版）",
+  "fossicOrigin": "repost"
+}

@@ -3,7 +3,8 @@
   "modName": "lw_lazylib",
   "modVersion": {
     "major": "3",
-    "minor": "0"
+    "minor": "0",
+    "patch": "0"
   },
   "fossicThread": "https://www.fossic.org/thread-1676-1-1.html",
   "fossicTitle": "[前置] LazyLib",

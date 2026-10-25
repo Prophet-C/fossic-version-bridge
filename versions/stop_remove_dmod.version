@@ -3,8 +3,9 @@
   "modName": "stop_remove_dmod",
   "modVersion": {
     "major": "1",
-    "minor": "0"
+    "minor": "04"
   },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202309/29/223627v306bg0lbxg0cmmz.zip",
   "fossicThread": "https://www.fossic.org/thread-7984-1-1.html",
   "fossicTitle": "[0.95.1][C]D插件修复禁用 - 1.0.4",
   "fossicOrigin": "original"

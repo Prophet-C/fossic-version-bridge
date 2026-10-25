@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/vic.dl.version",
+  "modName": "vic",
+  "modVersion": {
+    "major": "1",
+    "minor": "6",
+    "patch": "3a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202404/04/130035ktlbvnv3v6ii36wl.zip",
+  "fossicThread": "https://www.fossic.org/thread-3666-1-1.html",
+  "fossicTitle": "【0.97*】沃尔科夫工业集团 [VIC] 1.6.3a*",
+  "fossicOrigin": "repost"
+}

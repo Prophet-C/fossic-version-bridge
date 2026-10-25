@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sce.dl.version",
+  "modName": "SCE",
+  "modVersion": {
+    "major": "2",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202511/18/184449xvlms6lrv8smpiii.zip",
+  "fossicThread": "https://www.fossic.org/thread-15117-1-1.html",
+  "fossicTitle": "[0.98]战机扩展2.0.6b",
+  "fossicOrigin": "repost"
+}

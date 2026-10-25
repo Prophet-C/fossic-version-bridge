@@ -2,9 +2,9 @@
   "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/advent_seven.version",
   "modName": "advent_seven",
   "modVersion": {
-    "major": "5",
-    "minor": "2",
-    "patch": "2"
+    "major": "0",
+    "minor": "5",
+    "patch": "2.2"
   },
   "fossicThread": "https://www.fossic.org/thread-11264-1-1.html",
   "fossicTitle": "[0.98]新舰异闻 Rumours of Neoteric Designs 0.5.2.2",

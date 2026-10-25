@@ -3,7 +3,7 @@
   "modName": "StarsectorAssetManager",
   "modVersion": {
     "major": "1",
-    "minor": "13版本"
+    "minor": "13"
   },
   "fossicThread": "https://www.fossic.org/thread-20064-1-1.html",
   "fossicTitle": "弄了个mod管理器，可以导入mod目录进行管理和修改舰船文件并且配置可视化修改",

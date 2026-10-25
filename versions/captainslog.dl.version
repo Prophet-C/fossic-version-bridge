@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/captainslog.dl.version",
+  "modName": "CaptainsLog",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202501/04/212516v1wtg5erzbjawbeg.zip",
+  "fossicThread": "https://www.fossic.org/thread-13420-1-1.html",
+  "fossicTitle": "舰长日志 Captain's Log 0.2.0",
+  "fossicOrigin": "repost"
+}

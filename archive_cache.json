@@ -1,0 +1,3871 @@
+{
+"686": {
+"mods": [
+{
+"id": "ApproLight",
+"name": "趋光议会 [ApproLight]",
+"version": "0.7.0-RC8"
+}
+]
+},
+"1087": {
+"mods": [
+{
+"id": "sad",
+"name": "[SAD]血腥无政府主义者",
+"version": "1.0.1c"
+}
+]
+},
+"1164": {
+"mods": [
+{
+"id": "ApproLight",
+"name": "趋光议会 [ApproLight]",
+"version": "0.9.0-RC1"
+}
+]
+},
+"1166": {
+"mods": [
+{
+"id": "ApproLightPlus",
+"name": "趋光拓展 [ApproLightPlus]",
+"version": "0.4.0-RC1"
+}
+]
+},
+"1214": {
+"mods": [
+{
+"id": "blackrock_driveyards",
+"name": "黑石船坞 [Blackrock Drive Yards]",
+"version": "0.9.5"
+}
+]
+},
+"1245": {
+"mods": [
+{
+"id": "leadingPip",
+"name": "Leading Pip",
+"version": "1.8.3"
+}
+]
+},
+"1986": {
+"mods": [
+{
+"id": "ZGrand Sector",
+"name": "Grand Sector",
+"version": "0.2.1"
+}
+]
+},
+"9856": {
+"mods": [
+{
+"id": "Gia_Portrait_Pack",
+"name": "Gia机娘头像包",
+"version": "1.0.3"
+}
+]
+},
+"10254": {
+"mods": [
+{
+"id": "PT_ShipDirectionMarker",
+"name": "Ship Direction Marker",
+"version": "1.3.1"
+}
+]
+},
+"12446": {
+"mods": [
+{
+"id": "hm_flagpack",
+"name": "Deluxe Player Flags",
+"version": "1.0a"
+}
+]
+},
+"13509": {
+"mods": [
+{
+"id": "va11portraits",
+"name": "VA11 HALL-A Portrait Pack",
+"version": "1.2"
+}
+]
+},
+"14320": {
+"mods": [
+{
+"id": "prv",
+"name": "prv 星工场",
+"version": "25.1"
+}
+]
+},
+"14479": {
+"mods": [
+{
+"id": "sanguinary_autonomist_defectors",
+"name": "[SAD]血腥无政府主义者",
+"version": "1.2"
+}
+]
+},
+"14483": {
+"mods": [
+{
+"id": "gladiatorsociety",
+"name": "角斗士协会[GladiatorSociety]",
+"version": "1.3(beta)"
+}
+]
+},
+"14595": {
+"mods": [
+{
+"id": "bountiesexpanded",
+"name": "赏金拓展 [Bounties Expanded]",
+"version": "0.3.3C"
+}
+]
+},
+"14743": {
+"mods": [
+{
+"id": "TAR",
+"name": "靶子[Practice Targets]",
+"version": "1.41rc2"
+}
+]
+},
+"14946": {
+"mods": [
+{
+"id": "timid_supply_forging",
+"name": "补给制造[Supply Forge]",
+"version": "1.41"
+}
+]
+},
+"15002": {
+"mods": [
+{
+"id": "underworld",
+"name": "海盗拓展 [Underworld]",
+"version": "1.8.8"
+}
+]
+},
+"15414": {
+"mods": [
+{
+"id": "vic",
+"name": "沃尔科夫工业集团[VIC]",
+"version": "1.6.3a"
+}
+]
+},
+"15592": {
+"mods": []
+},
+"15756": {
+"mods": []
+},
+"15873": {
+"mods": [
+{
+"id": "intothebreachportraitpack",
+"name": "陷阵之志头像包",
+"version": ""
+}
+]
+},
+"15882": {
+"mods": [
+{
+"id": "Gia_Portrait_Pack",
+"name": "Gia机娘头像包",
+"version": "1.0.4"
+}
+]
+},
+"16128": {
+"mods": [
+{
+"id": "pantera_ANewLevel20R",
+"name": "A New Level of Confidence",
+"version": "20-1.2-Fast"
+},
+{
+"id": "pantera_ANewLevel20",
+"name": "A New Level of Confidence",
+"version": "20-1.2"
+},
+{
+"id": "pantera_ANewLevel25R",
+"name": "A New Level of Confidence",
+"version": "25-1.2-Fast"
+},
+{
+"id": "pantera_ANewLevel25",
+"name": "A New Level of Confidence",
+"version": "25-1.2"
+},
+{
+"id": "pantera_ANewLevel30R",
+"name": "A New Level of Confidence",
+"version": "30-1.2-Fast"
+},
+{
+"id": "pantera_ANewLevel30",
+"name": "A New Level of Confidence",
+"version": "30-1.2"
+},
+{
+"id": "pantera_ANewLevel40R",
+"name": "A New Level of Confidence",
+"version": "40-1.2-Fast"
+},
+{
+"id": "pantera_ANewLevel40",
+"name": "A New Level of Confidence",
+"version": "40-1.2"
+}
+]
+},
+"16129": {
+"mods": [
+{
+"id": "pantera_ANewLevel20R",
+"name": "A New Level of Confidence",
+"version": "20-2.1-Fast"
+},
+{
+"id": "pantera_ANewLevel20",
+"name": "A New Level of Confidence",
+"version": "20-2.1"
+},
+{
+"id": "pantera_ANewLevel25R",
+"name": "A New Level of Confidence",
+"version": "25-2.1-Fast"
+},
+{
+"id": "pantera_ANewLevel25",
+"name": "A New Level of Confidence",
+"version": "25-2.1"
+},
+{
+"id": "pantera_ANewLevel30R",
+"name": "A New Level of Confidence",
+"version": "30-2.1-Fast"
+},
+{
+"id": "pantera_ANewLevel30",
+"name": "A New Level of Confidence",
+"version": "30-2.1"
+},
+{
+"id": "pantera_ANewLevel40R",
+"name": "A New Level of Confidence",
+"version": "40-2.1-Fast"
+},
+{
+"id": "pantera_ANewLevel40",
+"name": "A New Level of Confidence",
+"version": "40-2.1"
+}
+]
+},
+"17233": {
+"mods": [
+{
+"id": "blackrock_driveyards",
+"name": "黑石船坞 [Blackrock Drive Yards]",
+"version": "0.9.5b2"
+}
+]
+},
+"17719": {
+"mods": [
+{
+"id": "Imperium",
+"name": "星际帝国 [Interstellar Imperium]",
+"version": "2.6.9"
+}
+]
+},
+"17745": {
+"mods": [
+{
+"id": "nexerelin",
+"name": "势力争霸 [Nexerelin]",
+"version": "0.12.2d"
+}
+]
+},
+"18415": {
+"mods": []
+},
+"18584": {
+"mods": [
+{
+"id": "swp",
+"name": "舰船/武器拓展 [Ship/Weapon Pack]",
+"version": "1.16.6"
+}
+]
+},
+"18604": {
+"mods": [
+{
+"id": "ApproLight",
+"name": "趋光议会 [ApproLight]",
+"version": "1.2.0"
+}
+]
+},
+"18605": {
+"mods": [
+{
+"id": "ApproLightPlus",
+"name": "趋光拓展 [ApproLightPlus]",
+"version": "0.5.6"
+}
+]
+},
+"18624": {
+"mods": [
+{
+"id": "Tartarusportraitpack",
+"name": "Tartarus Portrait Pack",
+"version": "1.2"
+}
+]
+},
+"18625": {
+"mods": [
+{
+"id": "Tartarusportraitpack",
+"name": "Tartarus Portrait Pack",
+"version": "1.2"
+}
+]
+},
+"18626": {
+"mods": [
+{
+"id": "Tartarusportraitpack",
+"name": "Tartarus Portrait Pack",
+"version": "1.2"
+}
+]
+},
+"19084": {
+"mods": [
+{
+"id": "Tartarusportraitpack",
+"name": "Tartarus Portrait Pack",
+"version": "1.2"
+}
+]
+},
+"19262": {
+"mods": [
+{
+"id": "transpoffder",
+"name": "Transponder Off",
+"version": "1.2.2"
+}
+]
+},
+"21014": {
+"mods": [
+{
+"id": "holdsforall",
+"name": "Shielded Holds For All",
+"version": "1.0"
+}
+]
+},
+"21273": {
+"mods": [
+{
+"id": "efficientPop",
+"name": "CK Industries",
+"version": "2.0.2"
+}
+]
+},
+"21274": {
+"mods": [
+{
+"id": "efficientPop",
+"name": "CK 工业",
+"version": "2.0.2"
+}
+]
+},
+"22195": {
+"mods": [
+{
+"id": "Goat_Aviation_Bureau",
+"name": "羊头航务局[Goat_Aviation_Bureau]",
+"version": "1.4.5"
+}
+]
+},
+"22575": {
+"mods": [
+{
+"id": "Warship Girls Portrait Pack",
+"name": "咸肝烧酒阿鲁（Warship Girls）头像包",
+"version": "1.3"
+}
+]
+},
+"22841": {
+"mods": [
+{
+"id": "dp_mnemonic_sensors",
+"name": "MnemonicSensors",
+"version": "0.2.2"
+}
+]
+},
+"24289": {
+"mods": [
+{
+"id": "mag_protect",
+"name": "麦哲伦保护国",
+"version": "1.5a"
+}
+]
+},
+"24414": {
+"mods": [
+{
+"id": "HMS_flagpack",
+"name": "178's Misc Flags",
+"version": "1.1"
+}
+]
+},
+"24852": {
+"mods": [
+{
+"id": "misaier",
+"name": "迷赛尔科技",
+"version": "1.0"
+}
+]
+},
+"25102": {
+"mods": [
+{
+"id": "Neutrino",
+"name": "中微子公司：怀旧版",
+"version": "1.87-RC3"
+}
+]
+},
+"25195": {
+"mods": [
+{
+"id": "istl_dassaultmikoyan",
+"name": "达索-米高扬设计局",
+"version": "1.6a"
+}
+]
+},
+"25221": {
+"mods": [
+{
+"id": "synDawnSkinPack",
+"name": "智械黎明 美化包",
+"version": "0.0.1"
+}
+]
+},
+"25372": {
+"mods": [
+{
+"id": "vayrasector",
+"name": "Vayra's Sector",
+"version": "3.2.1"
+}
+]
+},
+"25578": {
+"mods": [
+{
+"id": "prvExtra",
+"name": "prv的额外内容",
+"version": "3"
+}
+]
+},
+"25579": {
+"mods": [
+{
+"id": "prvPath",
+"name": "prv的左径船包",
+"version": "1"
+}
+]
+},
+"27849": {
+"mods": [
+{
+"id": "Portraits＆flag_of_KessoukuBand",
+"name": "结束乐队头像旗帜包(Portraits＆flag of KessoukuBand)",
+"version": "1.0"
+}
+]
+},
+"27850": {
+"mods": [
+{
+"id": "Portraits＆flag_of_KessoukuBand",
+"name": "结束乐队头像旗帜包(Portraits＆flag of KessoukuBand)",
+"version": "1.0"
+}
+]
+},
+"27873": {
+"mods": [
+{
+"id": "a111164_ExtendPack",
+"name": "FSF军事公司[a111164_ExtendPack]",
+"version": "3.17rc4"
+}
+]
+},
+"28248": {
+"mods": [
+{
+"id": "ApproLightPlus",
+"name": "趋光拓展 [ApproLightPlus]",
+"version": "0.6.3"
+}
+]
+},
+"30280": {
+"mods": []
+},
+"30463": {
+"mods": [
+{
+"id": "AMerchantsLegend",
+"name": "一个商人的传奇",
+"version": "0.3.6"
+}
+]
+},
+"30531": {
+"mods": [
+{
+"id": "AMerchantsLegend",
+"name": "一个商人的传奇",
+"version": "0.5.0b"
+}
+]
+},
+"30801": {
+"mods": [
+{
+"id": "nexerelin",
+"name": "势力争霸 [Nexerelin]",
+"version": "0.10.6d"
+}
+]
+},
+"30892": {
+"mods": [
+{
+"id": "swp",
+"name": "舰船/武器拓展 [Ship/Weapon Pack]",
+"version": "1.13.0"
+}
+]
+},
+"30929": {
+"mods": [
+{
+"id": "underworld",
+"name": "海盗拓展 [Underworld]",
+"version": "1.7.1"
+}
+]
+},
+"31234": {
+"mods": [
+{
+"id": "HexShields",
+"name": "Hexagonal Shieldidgeridoos",
+"version": "1.3.1"
+}
+]
+},
+"31377": {
+"mods": [
+{
+"id": "Imperium",
+"name": "星际帝国 [Interstellar Imperium]",
+"version": "2.5.2"
+}
+]
+},
+"31379": {
+"mods": [
+{
+"id": "pantera_ANewLevel20R",
+"name": "A New Level of Confidence",
+"version": "20-3.1-Fast"
+},
+{
+"id": "pantera_ANewLevel20",
+"name": "A New Level of Confidence",
+"version": "20-3.1"
+},
+{
+"id": "pantera_ANewLevel25R",
+"name": "A New Level of Confidence",
+"version": "25-3.1-Fast"
+},
+{
+"id": "pantera_ANewLevel25",
+"name": "A New Level of Confidence",
+"version": "25-3.1"
+},
+{
+"id": "pantera_ANewLevel30R",
+"name": "A New Level of Confidence",
+"version": "30-3.1-Fast"
+},
+{
+"id": "pantera_ANewLevel30",
+"name": "A New Level of Confidence",
+"version": "30-3.1"
+},
+{
+"id": "pantera_ANewLevel40R",
+"name": "A New Level of Confidence",
+"version": "40-3.1-Fast"
+},
+{
+"id": "pantera_ANewLevel40",
+"name": "A New Level of Confidence",
+"version": "40-3.1"
+}
+]
+},
+"31862": {
+"mods": [
+{
+"id": "exoticatechnologies",
+"name": "奇异科技改造 [Exotica Technologies]",
+"version": "1.5.1"
+}
+]
+},
+"31863": {
+"mods": [
+{
+"id": "exoticatechnologies",
+"name": "Exotica Technologies",
+"version": "1.8.5"
+}
+]
+},
+"31950": {
+"mods": [
+{
+"id": "whichtmi",
+"name": "WhichTMI",
+"version": "1.1.0"
+}
+]
+},
+"32267": {
+"mods": [
+{
+"id": "automatedcommands",
+"name": "Automated Commands",
+"version": "1.4"
+}
+]
+},
+"32331": {
+"mods": [
+{
+"id": "MissileShipOverhaul",
+"name": "导弹舰艇大修",
+"version": "1.2.6-0.95.1a"
+}
+]
+},
+"32402": {
+"mods": [
+{
+"id": "raccoonarms",
+"name": "浣熊的军备拓展[Arsenal Expansion]",
+"version": "1.5.5"
+}
+]
+},
+"33069": {
+"mods": [
+{
+"id": "star_federation",
+"name": "星际联邦[The Star Federation]",
+"version": "0.99-RC5"
+}
+]
+},
+"33177": {
+"mods": [
+{
+"id": "Portraits＆flag_of_KessoukuBand",
+"name": "结束乐队头像旗帜包(Portraits＆flag of KessoukuBand)",
+"version": "1.0"
+}
+]
+},
+"33178": {
+"mods": [
+{
+"id": "Portraits＆flag_of_KessoukuBand",
+"name": "结束乐队头像旗帜包(Portraits＆flag of KessoukuBand)",
+"version": "1.0"
+}
+]
+},
+"34513": {
+"mods": [
+{
+"id": "UGH",
+"name": "Unusually Gullible Hullmods",
+"version": "0.5.0-RC1"
+}
+]
+},
+"36278": {
+"mods": [
+{
+"id": "stop_remove_dmod",
+"name": "D插件修复禁用 [Stop Remove D-Mods]",
+"version": "1.04"
+}
+]
+},
+"36279": {
+"mods": [
+{
+"id": "stop_remove_dmod",
+"name": "D插件修复禁用 [Stop Remove D-Mods]",
+"version": "1.04"
+}
+]
+},
+"36292": {
+"mods": [
+{
+"id": "pn",
+"name": "P9殖民领",
+"version": "0.56"
+}
+]
+},
+"36456": {
+"mods": [
+{
+"id": "Goat_Aviation_Bureau",
+"name": "羊头航务局[Goat_Aviation_Bureau]",
+"version": "1.8.6"
+}
+]
+},
+"36684": {
+"mods": [
+{
+"id": "ash",
+"name": "Aptly Simple Hullmods",
+"version": "1.5.5"
+}
+]
+},
+"36767": {
+"mods": [
+{
+"id": "Trickal",
+"name": "穿越异世界恶作剧头像包",
+"version": "1.1"
+}
+]
+},
+"36768": {
+"mods": [
+{
+"id": "Trickal",
+"name": "穿越异世界恶作剧头像包",
+"version": "1.1"
+}
+]
+},
+"37114": {
+"mods": [
+{
+"id": "salshiexp",
+"name": "打捞舰船拓展 Salvage Ship Expansion",
+"version": "0.3"
+}
+]
+},
+"38626": {
+"mods": [
+{
+"id": "exoticatechnologies",
+"name": "Exotica Technologies",
+"version": "1.8.6"
+}
+]
+},
+"39003": {
+"mods": [
+{
+"id": "VariantAcknowledged_GAB",
+"name": "羊头航务局装配Li解[Goat_Aviation_Bureau_Variant_Acknowledged]",
+"version": "1.5.0"
+}
+]
+},
+"39057": {
+"mods": [
+{
+"id": "vic",
+"name": "沃尔科夫工业集团[VIC]",
+"version": "1.5.8a"
+}
+]
+},
+"39269": {
+"mods": []
+},
+"40086": {
+"mods": [
+{
+"id": "EmergentThreats_IX_Revival",
+"name": "威胁渐显: 第九战斗群 复兴",
+"version": "0.9.5"
+}
+]
+},
+"40101": {
+"mods": [
+{
+"id": "EmergentThreats_Vice",
+"name": "威胁渐显 Emergent Threats",
+"version": "0.9.5"
+}
+]
+},
+"40183": {
+"mods": [
+{
+"id": "customizablestarsystems",
+"name": "自定义星系 Customizable Star Systems",
+"version": "3.0.2"
+}
+]
+},
+"42174": {
+"mods": [
+{
+"id": "Big Fighters Ship Pack",
+"name": "Big Fighters Ship Pack",
+"version": "1.0.3"
+}
+]
+},
+"42305": {
+"mods": [
+{
+"id": "underworld",
+"name": "Underworld",
+"version": "1.8.2"
+}
+]
+},
+"42365": {
+"mods": [
+{
+"id": "Imperium",
+"name": "星际帝国 [Interstellar Imperium]",
+"version": "2.6.3"
+}
+]
+},
+"42366": {
+"mods": [
+{
+"id": "swp",
+"name": "舰船/武器拓展 [Ship/Weapon Pack]",
+"version": "1.15.0"
+}
+]
+},
+"42402": {
+"mods": []
+},
+"42588": {
+"mods": [
+{
+"id": "AMerchantsLegend",
+"name": "一个商人的传奇",
+"version": "0.5.0"
+}
+]
+},
+"42636": {
+"mods": [
+{
+"id": "vic",
+"name": "沃尔科夫工业集团[VIC]",
+"version": "1.6.1c"
+}
+]
+},
+"42638": {
+"mods": [
+{
+"id": "nexerelin",
+"name": "势力争霸 [Nexerelin]",
+"version": "0.11.1"
+}
+]
+},
+"42757": {
+"mods": [
+{
+"id": "ApproLight",
+"name": "趋光议会 [ApproLight]",
+"version": "1.3.3"
+}
+]
+},
+"43168": {
+"mods": [
+{
+"id": "wisp_magicAchievementsVanillaPack",
+"name": "MagicLib 原版成就包",
+"version": "1.2.2"
+}
+]
+},
+"43432": {
+"mods": [
+{
+"id": "Trickal",
+"name": "穿越异世界恶作剧头像包",
+"version": "1.1"
+}
+]
+},
+"43680": {
+"mods": [
+{
+"id": "ApproLight",
+"name": "趋光议会 [ApproLight]",
+"version": "1.3.3"
+}
+]
+},
+"45128": {
+"mods": [
+{
+"id": "BlueArchive Portrait Packv",
+"name": "碧蓝档案头像包",
+"version": "1.16"
+}
+]
+},
+"46108": {
+"mods": [
+{
+"id": "wyv_mirror",
+"name": "Mirror",
+"version": "1.4"
+}
+]
+},
+"47423": {
+"mods": [
+{
+"id": "Seafood",
+"name": "海鲜船包 [Seafood Shipworks]",
+"version": "0.0.8a"
+}
+]
+},
+"47686": {
+"mods": [
+{
+"id": "pantera_ANewLevel20",
+"name": "A New Level of Confidence",
+"version": "20-3.2"
+},
+{
+"id": "pantera_ANewLevel20R",
+"name": "A New Level of Confidence",
+"version": "20-3.2-Fast"
+},
+{
+"id": "pantera_ANewLevel25",
+"name": "A New Level of Confidence",
+"version": "25-3.2"
+},
+{
+"id": "pantera_ANewLevel25R",
+"name": "A New Level of Confidence",
+"version": "25-3.2-Fast"
+},
+{
+"id": "pantera_ANewLevel30",
+"name": "A New Level of Confidence",
+"version": "30-3.2"
+},
+{
+"id": "pantera_ANewLevel30R",
+"name": "A New Level of Confidence",
+"version": "30-3.2-Fast"
+},
+{
+"id": "pantera_ANewLevel40",
+"name": "A New Level of Confidence",
+"version": "40-3.2"
+},
+{
+"id": "pantera_ANewLevel40R",
+"name": "A New Level of Confidence",
+"version": "40-3.2-Fast"
+}
+]
+},
+"50338": {
+"mods": [
+{
+"id": "unthemedweapons",
+"name": "无主题 武器包",
+"version": "0.6.5"
+}
+]
+},
+"51288": {
+"mods": [
+{
+"id": "transponder_off_accepted",
+"name": "应答器关闭许可",
+"version": "1.2.4.1"
+}
+]
+},
+"51289": {
+"mods": [
+{
+"id": "transponder_off_accepted",
+"name": "应答器关闭许可",
+"version": "1.2.4"
+}
+]
+},
+"51338": {
+"mods": [
+{
+"id": "LobsterCruiser",
+"name": "龙虾巡洋舰",
+"version": "3.1.1"
+}
+]
+},
+"51638": {
+"mods": [
+{
+"id": "LOR_Music",
+"name": "Library of Ruina Music",
+"version": "1.3.0"
+}
+]
+},
+"51844": {
+"mods": [
+{
+"id": "ROL_Ui",
+"name": "Library of Ruina Ui",
+"version": "1.1.2"
+}
+]
+},
+"52001": {
+"mods": [
+{
+"id": "MFGA",
+"name": "让小飞机再次伟大！ [make fighter great again！]",
+"version": "2026.9.25"
+}
+]
+},
+"52056": {
+"mods": [
+{
+"id": "Scrapyard",
+"name": "废料军械库",
+"version": "0.0.17"
+}
+]
+},
+"52152": {
+"mods": [
+{
+"id": "Shojo Star",
+"name": "少女星号",
+"version": "0.1"
+}
+]
+},
+"52264": {
+"mods": [
+{
+"id": "demonx3_ungp_rulepack",
+"name": "重生规则拓展",
+"version": "1.3.0"
+}
+]
+},
+"52618": {
+"mods": [
+{
+"id": "light_from_world_Epsilon",
+"name": "咸鱼的余辉内容拓展",
+"version": "0.4.3"
+}
+]
+},
+"53167": {
+"mods": [
+{
+"id": "wows_legendary_commanders",
+"name": "WOWS传奇舰长",
+"version": "0.0.3"
+}
+]
+},
+"53655": {
+"mods": [
+{
+"id": "Stellaris_music",
+"name": "第四天灾音乐库",
+"version": "1.0"
+}
+]
+},
+"53921": {
+"mods": [
+{
+"id": "yxz",
+"name": "远行之路",
+"version": "0.3094"
+}
+]
+},
+"53956": {
+"mods": [
+{
+"id": "UNGP_PreviousLife",
+"name": "重生拓展-FK UR SELF",
+"version": "0.0.7"
+}
+]
+},
+"53957": {
+"mods": [
+{
+"id": "UNGP_PreviousLife",
+"name": "重生拓展-前世阵营重生",
+"version": "0.0.7"
+}
+]
+},
+"54105": {
+"mods": [
+{
+"id": "lazyextrabounty",
+"name": "lazy的AC赏金拓展",
+"version": "1.0.0"
+}
+]
+},
+"54368": {
+"mods": [
+{
+"id": "Zovetryportraitpack",
+"name": "Zovetry Portrait Pack",
+"version": "1.0.5"
+}
+]
+},
+"54369": {
+"mods": [
+{
+"id": "Zovetryportraitpack",
+"name": "Zovetry Portrait Pack",
+"version": "1.0.5"
+}
+]
+},
+"54370": {
+"mods": [
+{
+"id": "Zovetryportraitpack",
+"name": "Zovetry Portrait Pack",
+"version": "1.0.5"
+}
+]
+},
+"54940": {
+"mods": [
+{
+"id": "astroidships",
+"name": "陨石战舰拓展",
+"version": "1.4d"
+},
+{
+"id": "astroidships",
+"name": "asteroid ship pack",
+"version": "1.4d"
+},
+{
+"id": "astroidships",
+"name": "asteroid ship pack",
+"version": "1.4a"
+},
+{
+"id": "astroidships",
+"name": "陨石战舰拓展",
+"version": "1.4d"
+}
+]
+},
+"55311": {
+"mods": [
+{
+"id": "suitablestarsystems",
+"name": "Suitable Star Systems",
+"version": "2.4.0a"
+}
+]
+},
+"55380": {
+"mods": [
+{
+"id": "suitablestarsystems",
+"name": "Suitable Star Systems",
+"version": "2.2.2"
+}
+]
+},
+"55952": {
+"mods": []
+},
+"56059": {
+"mods": [
+{
+"id": "CaptainsLog",
+"name": "舰长日志 Captain's Log",
+"version": "0.2.0"
+}
+]
+},
+"56060": {
+"mods": [
+{
+"id": "stelnet",
+"name": "星际检索网络 Stellar Networks",
+"version": "3.1.3"
+}
+]
+},
+"56254": {
+"mods": [
+{
+"id": "FantasyM",
+"name": "Gensoukyou Manufacture [幻想工造]",
+"version": "0.9.1_rc11,-in-dev"
+}
+]
+},
+"56258": {
+"mods": [
+{
+"id": "vice_orr",
+"name": "攻势-级 武备改装",
+"version": "0.1.2"
+}
+]
+},
+"56458": {
+"mods": [
+{
+"id": "Limbus_Portraits",
+"name": "Limbus Portraits",
+"version": "1.102.1"
+}
+]
+},
+"57164": {
+"mods": [
+{
+"id": "unthemedweapons",
+"name": "无主题武器包 Unthemed Weapons Collection",
+"version": "0.6.7"
+}
+]
+},
+"57326": {
+"mods": [
+{
+"id": "valkyrian",
+"name": "女武神组织 [Valkyrians]",
+"version": "3.3.0"
+}
+]
+},
+"57696": {
+"mods": [
+{
+"id": "niko_stationAugments",
+"name": "Station Augments 空间站增强",
+"version": "2.4.3"
+}
+]
+},
+"57723": {
+"mods": []
+},
+"57724": {
+"mods": []
+},
+"57725": {
+"mods": []
+},
+"57726": {
+"mods": []
+},
+"57727": {
+"mods": []
+},
+"57728": {
+"mods": []
+},
+"57915": {
+"mods": []
+},
+"58741": {
+"mods": [
+{
+"id": "unthemedweaponsutils",
+"name": "无主题武器数据 Unthemed Weapons Utilities",
+"version": "0.6.7"
+}
+]
+},
+"58804": {
+"mods": [
+{
+"id": " PFT",
+"name": "靶子:测试准备 [Prepare For Test]",
+"version": "0.2.1"
+}
+]
+},
+"59413": {
+"mods": [
+{
+"id": "refitfilters",
+"name": "武器装配筛选器 [Refit Filters]",
+"version": "2.0.0"
+}
+]
+},
+"59718": {
+"mods": [
+{
+"id": "gravenwitch_cinematic_combat",
+"name": "Cinematic Combat",
+"version": "1.0.1"
+}
+]
+},
+"59948": {
+"mods": [
+{
+"id": "exoticatechnologies",
+"name": "Exotica Technologies",
+"version": "2.0.0"
+}
+]
+},
+"59949": {
+"mods": [
+{
+"id": "exoticatechnologies",
+"name": "Exotica Technologies",
+"version": "2.0.3"
+}
+]
+},
+"60033": {
+"mods": [
+{
+"id": "bcom",
+"name": "Better Combat",
+"version": "0.3.13"
+}
+]
+},
+"60196": {
+"mods": [
+{
+"id": "su_CarrierHullmod",
+"name": "航母现代化",
+"version": "1.0.6"
+}
+]
+},
+"60530": {
+"mods": [
+{
+"id": "WarshipGirlsRTXB",
+"name": "战舰少女R头像包",
+"version": "0.0.6"
+}
+]
+},
+"60532": {
+"mods": [
+{
+"id": "WarshipGirlsRTXB",
+"name": "战舰少女R头像包",
+"version": "0.0.2"
+}
+]
+},
+"60645": {
+"mods": [
+{
+"id": "TDS",
+"name": "TheDarkSix的舰船武器包",
+"version": "1.6"
+}
+]
+},
+"60921": {
+"mods": [
+{
+"id": "edshipyard",
+"name": "奇巧设计局",
+"version": "2.7.0"
+}
+]
+},
+"60934": {
+"mods": [
+{
+"id": "missingsuperships",
+"name": "迷失超级船包",
+"version": "2.0.0"
+}
+]
+},
+"60937": {
+"mods": [
+{
+"id": "WarshipGirlsRTXB",
+"name": "战舰少女R头像包",
+"version": "0.0.6"
+}
+]
+},
+"61013": {
+"mods": [
+{
+"id": "primitive_weapon_pack",
+"name": "古代武器包",
+"version": "0.1.9"
+}
+]
+},
+"61027": {
+"mods": [
+{
+"id": "missingshipsweapons",
+"name": "迷失武器包",
+"version": "2.0.0"
+}
+]
+},
+"61131": {
+"mods": [
+{
+"id": "missingmidlineships",
+"name": "迷失中科船包",
+"version": "2.0.0"
+}
+]
+},
+"61176": {
+"mods": []
+},
+"61232": {
+"mods": [
+{
+"id": "missingshipscivilian",
+"name": "迷失民用船包",
+"version": "2.0.0"
+}
+]
+},
+"61249": {
+"mods": [
+{
+"id": "nexerelin",
+"name": "势力争霸 [Nexerelin]",
+"version": "0.11.3c"
+}
+]
+},
+"61266": {
+"mods": [
+{
+"id": "Zovetryportraitpack",
+"name": "Zovetry Portrait Pack",
+"version": "1.0.5"
+}
+]
+},
+"61281": {
+"mods": [
+{
+"id": "lw_lazylib",
+"name": "LazyLib",
+"version": "3.0.0"
+}
+]
+},
+"61311": {
+"mods": [
+{
+"id": "missinghegemonyauxiliaryships",
+"name": "迷失霸主辅助船包",
+"version": "2.0.0"
+}
+]
+},
+"61354": {
+"mods": [
+{
+"id": "missingpatherships",
+"name": "迷失左径船包",
+"version": "2.0.0"
+}
+]
+},
+"61397": {
+"mods": [
+{
+"id": "missingshipspirate",
+"name": "迷失海盗船包",
+"version": "2.0.0"
+}
+]
+},
+"61401": {
+"mods": [
+{
+"id": "hz7_Portraits",
+"name": "hz7_Portraits",
+"version": "1.0"
+}
+]
+},
+"61502": {
+"mods": [
+{
+"id": "transponder_off_accepted",
+"name": "应答器关闭许可",
+"version": "1.2.4.1"
+}
+]
+},
+"61523": {
+"mods": [
+{
+"id": "Music_Switcher",
+"name": "Music Switcher",
+"version": "1.2a"
+}
+]
+},
+"61627": {
+"mods": [
+{
+"id": "SCE",
+"name": "战机拓展扩展",
+"version": "1.0.0d"
+},
+{
+"id": "SCEnSFL",
+"name": "战机拓展",
+"version": "2.0.5d"
+}
+]
+},
+"61628": {
+"mods": [
+{
+"id": "SCE",
+"name": "战机拓展",
+"version": "2.0.0"
+}
+]
+},
+"61656": {
+"mods": []
+},
+"61705": {
+"mods": [
+{
+"id": "swp",
+"name": "舰船/武器拓展 [Ship/Weapon Pack]",
+"version": "1.15.1"
+}
+]
+},
+"61738": {
+"mods": [
+{
+"id": "thorough_system_scan",
+"name": "彻底扫描星系",
+"version": "1.2.3.1"
+}
+]
+},
+"61739": {
+"mods": [
+{
+"id": "thorough_system_scan",
+"name": "彻底扫描星系",
+"version": "1.2.3.1"
+}
+]
+},
+"61925": {
+"mods": [
+{
+"id": "underworld",
+"name": "海盗拓展 [Underworld]",
+"version": "1.8.3"
+}
+]
+},
+"61932": {
+"mods": [
+{
+"id": "CFT",
+"name": "卡特贸易公司",
+"version": "3.2.5"
+}
+]
+},
+"62012": {
+"mods": [
+{
+"id": "LimbusChatter",
+"name": "边狱骚话",
+"version": "1.86.0"
+}
+]
+},
+"62137": {
+"mods": []
+},
+"62534": {
+"mods": [
+{
+"id": "FarsightDrive",
+"name": "FarsightDrive",
+"version": "0.4.2.6-ver4"
+}
+]
+},
+"62793": {
+"mods": [
+{
+"id": "Imperium",
+"name": "星际帝国 [Interstellar Imperium]",
+"version": "2.6.4"
+}
+]
+},
+"62906": {
+"mods": [
+{
+"id": "Pa_rotating_background",
+"name": "Pa的搞笑弱智功能包",
+"version": "pig.1.2.0"
+}
+]
+},
+"62914": {
+"mods": []
+},
+"62926": {
+"mods": [
+{
+"id": "mayu_specialupgrades",
+"name": "Special Hullmod Upgrades",
+"version": "1.6"
+}
+]
+},
+"63012": {
+"mods": [
+{
+"id": "Csp",
+"name": "Caymon的船包",
+"version": "1.2.2"
+}
+]
+},
+"63019": {
+"mods": [
+{
+"id": "domhistCN",
+"name": "人之领历史协会[Domain Historical Society]",
+"version": "0.4a"
+}
+]
+},
+"63060": {
+"mods": [
+{
+"id": "Pa_rotating_background",
+"name": "Pa的搞笑弱智功能包",
+"version": "pig.1.2.0"
+}
+]
+},
+"63201": {
+"mods": [
+{
+"id": "liminal",
+"name": "临界体 - 定制、可升级的船插",
+"version": "1.0.7"
+}
+]
+},
+"63202": {
+"mods": [
+{
+"id": "liminal",
+"name": "临界体，可定制，升级的船插",
+"version": "3.1.0"
+}
+]
+},
+"63916": {
+"mods": [
+{
+"id": "bcom",
+"name": "Better Combat",
+"version": "0.3.24"
+}
+]
+},
+"63918": {
+"mods": [
+{
+"id": "HaloDynamicsShipIndustry",
+"name": "光环动力舰船工业",
+"version": "1.8.0-fix4"
+}
+]
+},
+"64039": {
+"mods": [
+{
+"id": "missingmidlineships",
+"name": "迷失中科舰船",
+"version": "2.0.9e"
+},
+{
+"id": "missingfeatures",
+"name": "迷失功能补全",
+"version": "1.0.2d"
+},
+{
+"id": "missingpatherships",
+"name": "迷失左径船包",
+"version": "2.0.9b"
+},
+{
+"id": "missingshipsdeprecated",
+"name": "迷失异见者船包",
+"version": "2.0.9a"
+},
+{
+"id": "missingshipsweapons",
+"name": "迷失武器包",
+"version": "2.0.9l"
+},
+{
+"id": "missingshipspirate",
+"name": "迷失海盗船包",
+"version": "2.0.7f"
+},
+{
+"id": "missingsuperships",
+"name": "迷失超级船包",
+"version": "2.0.9g"
+},
+{
+"id": "missp_supers_addon",
+"name": "迷失超级船包拓展",
+"version": "0.0.1"
+},
+{
+"id": "missing_defense_drones",
+"name": "迷失防御无人机",
+"version": "1.0.3"
+},
+{
+"id": "missinghegemonyauxiliaryships",
+"name": "迷失霸主辅助船包",
+"version": "2.0.8a"
+},
+{
+"id": "missingshipscivilian",
+"name": "迷失独立船只",
+"version": "2.0.8c"
+},
+{
+"id": "msmcommunity",
+"name": "迷失额外超级船包",
+"version": "0.0.2a"
+}
+]
+},
+"64242": {
+"mods": [
+{
+"id": "zd",
+"name": "战地记者zd",
+"version": "1.7"
+}
+]
+},
+"64243": {
+"mods": [
+{
+"id": "zd",
+"name": "战地记者zd",
+"version": "1.7"
+}
+]
+},
+"64458": {
+"mods": [
+{
+"id": "CuratedShips",
+"name": "CuratedShips",
+"version": "2"
+}
+]
+},
+"64886": {
+"mods": [
+{
+"id": "Goat_Aviation_Bureau",
+"name": "羊头航务局[Goat_Aviation_Bureau]",
+"version": "1.10.12"
+}
+]
+},
+"64902": {
+"mods": [
+{
+"id": "TH_Music",
+"name": "TouHou Project Music",
+"version": "1.1.1"
+}
+]
+},
+"64918": {
+"mods": [
+{
+"id": "Goat_Aviation_Bureau",
+"name": "羊头航务局[Goat_Aviation_Bureau]",
+"version": "1.10.10"
+}
+]
+},
+"64982": {
+"mods": [
+{
+"id": "TH_Music",
+"name": "TouHou Project Music",
+"version": "1.1.1"
+}
+]
+},
+"64983": {
+"mods": [
+{
+"id": "TH_Music",
+"name": "TouHou Project Music",
+"version": "1.1.1"
+}
+]
+},
+"64985": {
+"mods": []
+},
+"65000": {
+"mods": [
+{
+"id": "aitweaks",
+"name": "AI Tweaks AI 改修",
+"version": "2.2.10"
+}
+]
+},
+"65011": {
+"mods": [
+{
+"id": "second_in_command",
+"name": "Second-in-Command 舰队副官",
+"version": "2.0.0"
+}
+]
+},
+"65051": {
+"mods": [
+{
+"id": "pantera_ANewLevel20",
+"name": "A New Level of Confidence",
+"version": "20-3.3"
+},
+{
+"id": "pantera_ANewLevel20R",
+"name": "A New Level of Confidence",
+"version": "20-3.3-Fast"
+},
+{
+"id": "pantera_ANewLevel25",
+"name": "A New Level of Confidence",
+"version": "25-3.3"
+},
+{
+"id": "pantera_ANewLevel25R",
+"name": "A New Level of Confidence",
+"version": "25-3.3-Fast"
+},
+{
+"id": "pantera_ANewLevel30",
+"name": "A New Level of Confidence",
+"version": "30-3.3"
+},
+{
+"id": "pantera_ANewLevel30R",
+"name": "A New Level of Confidence",
+"version": "30-3.3-Fast"
+},
+{
+"id": "pantera_ANewLevel40",
+"name": "A New Level of Confidence",
+"version": "40-3.3"
+},
+{
+"id": "pantera_ANewLevel40R",
+"name": "A New Level of Confidence",
+"version": "40-3.3-Fast"
+}
+]
+},
+"65054": {
+"mods": [
+{
+"id": "EmergentThreats_IX_Revival",
+"name": "威胁渐显: 第九战斗群 复兴 Emergent Threats: IX Revival",
+"version": "1.4.0"
+},
+{
+"id": "EmergentThreats_IX_Revival",
+"name": "威胁渐显: 第九战斗群 复兴 Emergent Threats: IX Revival",
+"version": "1.4.0"
+},
+{
+"id": "EmergentThreats_IX_Revival",
+"name": "威胁渐显: 第九战斗群 复兴 Emergent Threats: IX Revival",
+"version": "1.4.0"
+}
+]
+},
+"65055": {
+"mods": [
+{
+"id": "EmergentThreats_Vice",
+"name": "威胁渐显 Emergent Threats",
+"version": "1.4.0"
+}
+]
+},
+"65191": {
+"mods": []
+},
+"65232": {
+"mods": [
+{
+"id": "advent_seven",
+"name": "新舰异闻",
+"version": "0.5.2.2"
+}
+]
+},
+"65272": {
+"mods": [
+{
+"id": "PirateMiniMegaMod",
+"name": "PMMM 海盗超绝迷你船包",
+"version": "1.7.7"
+},
+{
+"id": "PMMMVanillaEdits",
+"name": "PMMMVE 海盗超绝迷你船包原版修改",
+"version": "1.0"
+}
+]
+},
+"65370": {
+"mods": [
+{
+"id": "yxz",
+"name": "远行之路",
+"version": "0.3530"
+}
+]
+},
+"65449": {
+"mods": [
+{
+"id": "progressiveSMods",
+"name": "Progressive S-Mods 经验内插",
+"version": "1.2.0"
+}
+]
+},
+"65521": {
+"mods": [
+{
+"id": "self_UIUtil",
+"name": "UIUtil",
+"version": "5.0.1"
+}
+]
+},
+"65539": {
+"mods": [
+{
+"id": "jc_sf",
+"name": "幽灵部队",
+"version": "1.1.3"
+}
+]
+},
+"65682": {
+"mods": [
+{
+"id": "NSP",
+"name": "NEON's ship pack",
+"version": "3.0.2"
+}
+]
+},
+"65974": {
+"mods": [
+{
+"id": "Pa_wormholeengine",
+"name": "Pa的虫洞引擎",
+"version": "1.0.0"
+}
+]
+},
+"66066": {
+"mods": [
+{
+"id": "gudalanmu",
+"name": "古达兰慕 [Gudalanmu]",
+"version": "0.27.2"
+}
+]
+},
+"66264": {
+"mods": [
+{
+"id": "kk",
+"name": "天工联合船舶设计局",
+"version": "2.5.8"
+}
+]
+},
+"67600": {
+"mods": [
+{
+"id": "MozhiWhichMod",
+"name": "墨汁的mod溯源",
+"version": "0.1.0a"
+}
+]
+},
+"67601": {
+"mods": [
+{
+"id": "MozhiWhichMod",
+"name": "墨汁的mod溯源",
+"version": "0.1.0a"
+}
+]
+},
+"67666": {
+"mods": [
+{
+"id": "endCombat",
+"name": "战斗不结束修复补丁",
+"version": "0.0.1a"
+}
+]
+},
+"67667": {
+"mods": [
+{
+"id": "endCombat",
+"name": "战斗不结束修复补丁",
+"version": "0.0.1a"
+}
+]
+},
+"67885": {
+"mods": [
+{
+"id": "dmodservices",
+"name": "D-MOD Services",
+"version": "3.0.1"
+}
+]
+},
+"67972": {
+"mods": [
+{
+"id": "Stellaris_music",
+"name": "第四天灾音乐库",
+"version": "1.5"
+}
+]
+},
+"67991": {
+"mods": [
+{
+"id": "StarCraftSector",
+"name": "星际争霸船包",
+"version": "0.5.3"
+}
+]
+},
+"68325": {
+"mods": [
+{
+"id": "Starlight1130",
+"name": "1130的蔚蓝联邦",
+"version": "0.9.9"
+}
+]
+},
+"68421": {
+"mods": [
+{
+"id": "diamond",
+"name": "Diamond",
+"version": "1.9"
+}
+]
+},
+"68433": {
+"mods": [
+{
+"id": "sun_hyperdrive",
+"name": "超空间跳跃",
+"version": "2.6.0"
+}
+]
+},
+"68716": {
+"mods": [
+{
+"id": "pigeonpun_bionicalteration",
+"name": "义体改造",
+"version": "0.3.3"
+},
+{
+"id": "pigeonpun_bionicalteration",
+"name": "Bionic Alteration",
+"version": "0.3.3"
+},
+{
+"id": "pigeonpun_bionicalteration",
+"name": "义体改造",
+"version": "0.3.3"
+}
+]
+},
+"68776": {
+"mods": [
+{
+"id": "shipmasterysystem",
+"name": "Ship Mastery System 舰船精通系统",
+"version": "2.0.8"
+}
+]
+},
+"68992": {
+"mods": [
+{
+"id": "missingsuperships_re",
+"name": "迷失超级船包 (旧)",
+"version": "2.0.0"
+}
+]
+},
+"69216": {
+"mods": [
+{
+"id": "su_CarrierHullmod",
+"name": "航母现代化",
+"version": "1.2.2"
+}
+]
+},
+"69217": {
+"mods": [
+{
+"id": "shadow_ships",
+"name": "暗影重建局 (WISP版) [Shadowyards] ",
+"version": "0.9.6-rc1-Wisp-007"
+}
+]
+},
+"69335": {
+"mods": [
+{
+"id": "niko_moreCombatTerrainEffects",
+"name": "More Combat Terrain Effects 更多战斗地形效果",
+"version": "1.13.1a"
+}
+]
+},
+"69368": {
+"mods": [
+{
+"id": "Abyss",
+"name": "战地记者Abyss",
+"version": "1.0"
+}
+]
+},
+"69369": {
+"mods": [
+{
+"id": "Abyss",
+"name": "战地记者Abyss",
+"version": "1.0"
+}
+]
+},
+"69438": {
+"mods": [
+{
+"id": "niko_morePlanetaryConditions",
+"name": "What we left behind 我们遗落之物",
+"version": "4.5.1"
+}
+]
+},
+"69471": {
+"mods": [
+{
+"id": "QualityCaptains",
+"name": "Quality Captains 高质量舰长",
+"version": "1.7.0"
+}
+]
+},
+"69528": {
+"mods": [
+{
+"id": "pt_qolpack",
+"name": "QoL Pack 生活质量工具包",
+"version": "1.5.2"
+}
+]
+},
+"69588": {
+"mods": [
+{
+"id": "privateering",
+"name": "Privateering - Commission Overhaul 私掠活动 - 雇佣协议重制",
+"version": "1.0.4"
+}
+]
+},
+"69747": {
+"mods": [
+{
+"id": "Witch_Citadel ",
+"name": "女巫秘城 [Witch Citadel]",
+"version": "1.0c"
+}
+]
+},
+"69790": {
+"mods": [
+{
+"id": "Witch_Citadel ",
+"name": "女巫秘城 [Witch Citadel]",
+"version": "1.0c"
+}
+]
+},
+"69946": {
+"mods": [
+{
+"id": "ungp",
+"name": "重生[UNGP]",
+"version": "2.5.0"
+}
+]
+},
+"70030": {
+"mods": [
+{
+"id": "Music_Switcher",
+"name": "Music Switcher",
+"version": "1.9.0"
+}
+]
+},
+"70164": {
+"mods": [
+{
+"id": "ORA_REsonance",
+"name": "外环带联盟  Outer Rim Allience",
+"version": "26.8.27"
+}
+]
+},
+"70401": {
+"mods": [
+{
+"id": "FSF_MilitaryCorporation",
+"name": "FSF军事公司[FSF_MilitaryCorporation]",
+"version": "5.1rc1-02"
+}
+]
+},
+"70402": {
+"mods": [
+{
+"id": "FSF_MilitaryCorporation",
+"name": "FSF军事公司[FSF_MilitaryCorporation]",
+"version": "4.9rc4"
+}
+]
+},
+"70428": {
+"mods": [
+{
+"id": "tahlan",
+"name": "泰兰船包",
+"version": "1.4"
+}
+]
+},
+"70451": {
+"mods": [
+{
+"id": "hte",
+"name": "扩展纪元扩展",
+"version": "2.0.5"
+}
+]
+},
+"70587": {
+"mods": []
+},
+"70846": {
+"mods": [
+{
+"id": "XhanEmpire",
+"name": "锡罕帝国 [Xhan Empire]",
+"version": "3.0.1"
+}
+]
+},
+"71013": {
+"mods": [
+{
+"id": "shaderLib",
+"name": "zz GraphicsLib",
+"version": "1.12.1"
+}
+]
+},
+"71476": {
+"mods": [
+{
+"id": "zd",
+"name": "战地记者zd",
+"version": "1.7"
+}
+]
+},
+"71477": {
+"mods": [
+{
+"id": "zd",
+"name": "战地记者zd",
+"version": "1.7"
+}
+]
+},
+"71582": {
+"mods": [
+{
+"id": "ORK",
+"name": "布塔赫联盟",
+"version": "1.1.7-release"
+}
+]
+},
+"71714": {
+"mods": [
+{
+"id": "Csp",
+"name": "Caymon的船包",
+"version": "1.2.5"
+}
+]
+},
+"71853": {
+"mods": [
+{
+"id": "shojo_sector",
+"name": "00 少女星域",
+"version": "4.2.0"
+}
+]
+},
+"72041": {
+"mods": [
+{
+"id": "zzarmaa_anime",
+"name": "骤雨军事公司 - 动漫风头像包",
+"version": "1.2"
+},
+{
+"id": "armaa",
+"name": "骤雨军事公司",
+"version": "3.3.6"
+}
+]
+},
+"72338": {
+"mods": [
+{
+"id": "niko_stationRefitting",
+"name": "Station Refitting 空间站装配",
+"version": "1.0.0"
+}
+]
+},
+"72437": {
+"mods": [
+{
+"id": "kaleidoscope",
+"name": "Kaleidoscope 万花筒",
+"version": "1.0.e"
+}
+]
+},
+"72486": {
+"mods": [
+{
+"id": "timid_tmi",
+"name": "详细武器数据",
+"version": "0.99"
+}
+]
+},
+"73260": {
+"mods": [
+{
+"id": "WarshipGirlsRTXB",
+"name": "战舰少女R头像包",
+"version": "0.0.7"
+}
+]
+},
+"73628": {
+"mods": [
+{
+"id": "ALICE ",
+"name": "ac alice ship pack - AC星舰目录",
+"version": "0.9-C-4-4"
+},
+{
+"id": "ALICE ",
+"name": "ac alice ship pack - AC星舰目录",
+"version": "0.9-C-4-2"
+}
+]
+},
+"74177": {
+"mods": [
+{
+"id": "TDS",
+"name": "TheDarkSix的舰船武器包",
+"version": "1.811"
+}
+]
+},
+"74459": {
+"mods": [
+{
+"id": "KwinExpand",
+"name": "Kwin的星域产业汇编",
+"version": "0.0.5"
+}
+]
+},
+"74559": {
+"mods": [
+{
+"id": "LLI",
+"name": "楼兰军工综合体",
+"version": "3.1.0"
+}
+]
+},
+"74594": {
+"mods": [
+{
+"id": "TDSHM",
+"name": "TheDarkSix的舰船武器包-船插扩展版",
+"version": "1.811"
+}
+]
+},
+"74821": {
+"mods": [
+{
+"id": "diableavionics",
+"name": "Diable Avionics_Rogo.Ver",
+"version": "1.3.5"
+}
+]
+},
+"75184": {
+"mods": [
+{
+"id": "fob",
+"name": "博尔肯基金会 [Foundation Of Borken]",
+"version": "0.9.0"
+}
+]
+},
+"75306": {
+"mods": [
+{
+"id": "exoticatechnologies",
+"name": "Exotica Technologies",
+"version": "1.8.7"
+}
+]
+},
+"75317": {
+"mods": []
+},
+"75408": {
+"mods": [
+{
+"id": "L_Portraits",
+"name": "L_Portraits",
+"version": "1.0"
+}
+]
+},
+"75485": {
+"mods": [
+{
+"id": "ctb_animation",
+"name": "zzz组件动画",
+"version": "0.0.5"
+}
+]
+},
+"75535": {
+"mods": [
+{
+"id": "Minesector",
+"name": "Minesector",
+"version": "1.6d"
+}
+]
+},
+"75642": {
+"mods": [
+{
+"id": "Touhou Portrait Mod",
+"name": "东方project人形演舞风头像替换mod",
+"version": "1.6.0"
+}
+]
+},
+"75691": {
+"mods": [
+{
+"id": "knights_of_ludd",
+"name": "卢德骑士团",
+"version": "1.4.0"
+}
+]
+},
+"75777": {
+"mods": [
+{
+"id": "SSEconomics",
+"name": "远星经济学",
+"version": "0.0.1b"
+}
+]
+},
+"76095": {
+"mods": [
+{
+"id": "HMI",
+"name": "风险矿业公司",
+"version": "0.4.0e"
+}
+]
+},
+"76157": {
+"mods": [
+{
+"id": "Music_Switcher",
+"name": "Music Switcher",
+"version": "1.9.0"
+}
+]
+},
+"76161": {
+"mods": [
+{
+"id": "interastral_peace_casino",
+"name": "Interastral Peace Casino",
+"version": "1.6.3"
+}
+]
+},
+"76258": {
+"mods": [
+{
+"id": "Mimikko",
+"name": "兽耳助手！",
+"version": "0.761"
+}
+]
+},
+"76420": {
+"mods": [
+{
+"id": "dpl_phase_lab",
+"name": "人之领相位研究所",
+"version": "1.7.2"
+}
+]
+},
+"76478": {
+"mods": [
+{
+"id": "WideHorizonsBasic",
+"name": "浩瀚银河 基础版",
+"version": "1.0.2"
+}
+]
+},
+"76491": {
+"mods": [
+{
+"id": "Pa_wormholeengine",
+"name": "Pa的虫洞引擎",
+"version": "1.0.0"
+}
+]
+},
+"76522": {
+"mods": [
+{
+"id": "DontRepair",
+"name": "别修这艘船!",
+"version": "1.1.0"
+}
+]
+},
+"76923": {
+"mods": [
+{
+"id": "Mayasuran Navy",
+"name": "玛雅苏兰海军",
+"version": "12.1.0-RC1"
+}
+]
+},
+"77344": {
+"mods": [
+{
+"id": "Abyss",
+"name": "战地记者Abyss",
+"version": "1.0"
+}
+]
+},
+"77345": {
+"mods": [
+{
+"id": "Abyss",
+"name": "战地记者Abyss",
+"version": "1.0"
+}
+]
+},
+"77500": {
+"mods": [
+{
+"id": "Gia_Portrait_Pack",
+"name": "Gia机娘头像包",
+"version": "1.1.0-all"
+}
+]
+},
+"77501": {
+"mods": [
+{
+"id": "Gia_Portrait_Pack",
+"name": "Gia机娘头像包",
+"version": "1.1.0-categorized"
+}
+]
+},
+"77571": {
+"mods": [
+{
+"id": "Portraits_Pack_of_Female_Gundam_Characters",
+"name": "钢弹系列女性角色头像包",
+"version": "1.03"
+}
+]
+},
+"77728": {
+"mods": [
+{
+"id": "sun_starship_legends",
+"name": "星舰传奇 [Starship Legends]",
+"version": "2.6.0"
+}
+]
+},
+"77799": {
+"mods": [
+{
+"id": "ArkLeg",
+"name": "阿卡涅西斯之遗",
+"version": "1.9.14"
+}
+]
+},
+"78001": {
+"mods": [
+{
+"id": "AiBattleTeamBuilder",
+"name": "AI Battle 舰队组成器",
+"version": "1.0.6"
+}
+]
+},
+"78161": {
+"mods": [
+{
+"id": "kadur_remnant",
+"name": "卡杜尔残党",
+"version": "3.2.4support1"
+}
+]
+},
+"78173": {
+"mods": [
+{
+"id": "Stellaris_music",
+"name": "第四天灾音乐库——内存压缩版",
+"version": "1.5"
+}
+]
+},
+"78395": {
+"mods": [
+{
+"id": "Eridani_Combine",
+"name": "天苑四-行星联合实业 li版",
+"version": "1.4.4"
+}
+]
+},
+"78564": {
+"mods": [
+{
+"id": "Hdbyunm",
+"name": "威胁侵染",
+"version": "0.55"
+}
+]
+},
+"78789": {
+"error": "login required"
+},
+"78790": {
+"error": "login required"
+},
+"78867": {
+"mods": [
+{
+"id": "autopilot_with_gates",
+"name": "Autopilot with Gates",
+"version": "0.0.6b"
+}
+]
+},
+"78936": {
+"mods": [
+{
+"id": "gwyvern_trailstc",
+"name": "爪牙之路",
+"version": "1.3.0"
+}
+]
+},
+"78986": {
+"mods": [
+{
+"id": "Jadeite_design",
+"name": "翡翠工程局",
+"version": "0.99"
+}
+]
+},
+"78987": {
+"mods": [
+{
+"id": "looted_sector_cn",
+"name": "绿皮星域 中文版",
+"version": "0.71b"
+}
+]
+},
+"79099": {
+"mods": [
+{
+"id": "more_ship_names",
+"name": "More Ship Names",
+"version": "1.14"
+}
+]
+},
+"79171": {
+"mods": [
+{
+"id": "Jadeite_design",
+"name": "翡翠工程局",
+"version": "1.17"
+}
+]
+},
+"79177": {
+"mods": [
+{
+"id": "orbital_bombardment",
+"name": "更强的地面防御设施",
+"version": "1.2"
+}
+]
+},
+"79221": {
+"mods": [
+{
+"id": "szb",
+"name": "Shadowverse",
+"version": "0.6.3"
+}
+]
+},
+"79226": {
+"mods": [
+{
+"id": "Gerat_Republic",
+"name": "吉拉特共和国 [Gerat_Republic]",
+"version": "1.2.3"
+}
+]
+},
+"80003": {
+"mods": [
+{
+"id": "CRS_Mod_Core",
+"name": "Crossstar's Remake Ship's",
+"version": "0.1.9f"
+}
+]
+},
+"80366": {
+"mods": [
+{
+"id": "TDOM_Reborn",
+"name": "帝国先遣队",
+"version": "0.9.96"
+}
+]
+},
+"80385": {
+"mods": [
+{
+"id": "xsw_LG_bp_mod",
+"name": "辛达强权蓝图包",
+"version": "1.14"
+}
+]
+},
+"80419": {
+"mods": [
+{
+"id": "xsw_no_ff_mod",
+"name": "取消友军伤害",
+"version": "1.2"
+}
+]
+},
+"80741": {
+"mods": []
+},
+"80908": {
+"error": "HTTP Error 404: Not Found"
+},
+"81048": {
+"mods": [
+{
+"id": "unthemedweaponsutils",
+"name": "无主题武器包实用功能 Unthemed Weapons Utilities",
+"version": "0.7.4"
+}
+]
+},
+"81049": {
+"mods": [
+{
+"id": "unthemedweapons",
+"name": "无主题武器包 Unthemed Weapons Collection",
+"version": "0.7.4"
+}
+]
+},
+"81103": {
+"mods": [
+{
+"id": "Meatball-Wondrous_Weapons",
+"name": "Wondrous Weapons 神奇武器",
+"version": "0.6.1"
+}
+]
+},
+"81132": {
+"mods": [
+{
+"id": "TPS",
+"name": "便携式传送",
+"version": "1.1"
+}
+]
+},
+"81246": {
+"mods": [
+{
+"id": "niko_SOTFMoreCombatObjectives",
+"name": "边境秘闻 - 额外作战目标 SOTF - Extra Combat Objectives",
+"version": "1.2.1"
+}
+]
+},
+"81388": {
+"mods": [
+{
+"id": "ScreenRelativeMovement",
+"name": "屏幕方向移动",
+"version": "1.0.0"
+}
+]
+},
+"81538": {
+"mods": [
+{
+"id": "SUZUKI",
+"name": "天鹰母舰-最终航行",
+"version": "0.0.6-ver1"
+}
+]
+},
+"81895": {
+"mods": [
+{
+"id": "BattleOnline",
+"name": "Battle Online",
+"version": "0.2.5-P3"
+}
+]
+},
+"82765": {
+"mods": [
+{
+"id": "umaportraitpack",
+"name": "UMA Portrait Pack",
+"version": "1.0.0"
+}
+]
+},
+"83094": {
+"mods": [
+{
+"id": "zg",
+"name": "知识管理者zg",
+"version": "0.5"
+}
+]
+},
+"83095": {
+"mods": [
+{
+"id": "zg",
+"name": "知识管理者zg",
+"version": "0.5"
+}
+]
+},
+"83103": {
+"mods": [
+{
+"id": "zg",
+"name": "知识管理者zg",
+"version": "0.5"
+}
+]
+},
+"83104": {
+"mods": [
+{
+"id": "zg",
+"name": "知识管理者zg",
+"version": "0.5"
+}
+]
+},
+"83132": {
+"mods": [
+{
+"id": "MixinLib",
+"name": "MixinLib",
+"version": "1.1.0"
+}
+]
+},
+"83185": {
+"mods": [
+{
+"id": "oleg_1mod",
+"name": "oleg的小建筑",
+"version": "2.0"
+}
+]
+},
+"84155": {
+"mods": [
+{
+"id": "timid_commissioned_hull_mods",
+"name": "雇主加成",
+"version": "1.999999ggggg"
+}
+]
+},
+"84300": {
+"mods": [
+{
+"id": "ChineseInputFix",
+"name": "中文输入修复",
+"version": "2.0.0"
+}
+]
+},
+"84307": {
+"mods": [
+{
+"id": "touhou_chronicle and extra portrait",
+"name": "东方年代记~双姬蓬莱物语 头像扩展",
+"version": "0.9.99"
+}
+]
+},
+"84308": {
+"mods": [
+{
+"id": "touhou_project dairi portrait",
+"name": "dairi绘",
+"version": "0.9.99"
+}
+]
+},
+"84309": {
+"mods": [
+{
+"id": "touhou_chronicle and extra portrait",
+"name": "东方年代记~双姬蓬莱物语 头像扩展",
+"version": "0.9.99"
+}
+]
+},
+"84320": {
+"mods": []
+},
+"84443": {
+"mods": [
+{
+"id": "touhou_project dairi portrait",
+"name": "dairi绘",
+"version": "0.9.99-RC9"
+}
+]
+},
+"84503": {
+"error": "login required"
+},
+"84520": {
+"mods": [
+{
+"id": "touhou_project dairi portrait",
+"name": "dairi绘",
+"version": "0.9.99-RC9a"
+}
+]
+},
+"85078": {
+"mods": [
+{
+"id": "qsmx",
+"name": "深红科技",
+"version": "1.3.5"
+}
+]
+},
+"86268": {
+"mods": []
+},
+"86269": {
+"mods": [
+{
+"id": "starlords",
+"name": "星际领主",
+"version": "0.3.77"
+}
+]
+},
+"86335": {
+"error": "login required"
+},
+"89959": {
+"mods": [
+{
+"id": "chickentechshop",
+"name": "小鸡科技商店",
+"version": "0.1.5"
+}
+]
+},
+"92810": {
+"mods": [
+{
+"id": "automatic-orders",
+"name": "自动命令",
+"version": "0.3.4"
+}
+]
+},
+"92839": {
+"mods": []
+},
+"92856": {
+"mods": []
+},
+"94905": {
+"mods": [
+{
+"id": "Sylphon_RnD",
+"name": "希尔芬研究所",
+"version": "1.2.2"
+}
+]
+},
+"94972": {
+"mods": [
+{
+"id": "nomadic_fleet",
+"name": "Nomad Flotilla",
+"version": "1.5.1"
+}
+]
+},
+"97050": {
+"mods": [
+{
+"id": "nomadic_fleet",
+"name": "Nomad Flotilla",
+"version": "1.5.1"
+}
+]
+},
+"97078": {
+"mods": [
+{
+"id": "szb_dynamic_portraits",
+"name": "影之诗动态头像包",
+"version": "0.1.3"
+}
+]
+},
+"101302": {
+"mods": [
+{
+"id": "sun_nomadic_survival",
+"name": "游牧生存",
+"version": "1.5.0"
+}
+]
+},
+"107829": {
+"mods": [
+{
+"id": "persean_champion",
+"name": "Persean Champion (英仙座冠军)",
+"version": "1.2.0"
+}
+]
+},
+"107991": {
+"mods": [
+{
+"id": "sikr",
+"name": "圣艾瑞斯联邦",
+"version": "1.1.0"
+}
+]
+},
+"108031": {
+"mods": [
+{
+"id": "aiwar",
+"name": "AI战争",
+"version": "0.4.0"
+}
+]
+},
+"108032": {
+"mods": [
+{
+"id": "aiwar",
+"name": "AI War",
+"version": "0.4.0"
+}
+]
+},
+"108065": {
+"mods": [
+{
+"id": "seven_nexus",
+"name": "Epta财团",
+"version": "2.1.2"
+}
+]
+},
+"108082": {
+"mods": [
+{
+"id": "kayse_phaseships",
+"name": "无此组织(NSO) - 相位舰队",
+"version": "0.4.0"
+}
+]
+},
+"108087": {
+"mods": [
+{
+"id": "roider",
+"name": "星岩工会",
+"version": "2.3.1"
+}
+]
+},
+"108106": {
+"mods": [
+{
+"id": "TouchOfVanilla_vri",
+"name": "沃兰缇亚归复局",
+"version": "0.6.3"
+}
+]
+},
+"108121": {
+"mods": [
+{
+"id": "rotcesrats",
+"name": "号星行远",
+"version": "0.3.4"
+}
+]
+},
+"108174": {
+"mods": [
+{
+"id": "yrex",
+"name": "Nijigen Extend",
+"version": "0.3.3"
+}
+]
+},
+"108190": {
+"mods": [
+{
+"id": "stardustventures",
+"name": "星辰风险投资公司",
+"version": "0.9.6"
+}
+]
+},
+"108207": {
+"mods": [
+{
+"id": "gacha_hullmods",
+"name": "抽卡船插",
+"version": "2.0.1"
+}
+]
+},
+"108208": {
+"mods": [
+{
+"id": "nomadic_fleet",
+"name": "Nomad Flotilla",
+"version": "1.5.1"
+}
+]
+},
+"108211": {
+"mods": [
+{
+"id": "dynamicbattleflow",
+"name": "Dynamic Battle Flow (DBR Battle Event Editor)",
+"version": "0.2.1"
+}
+]
+},
+"108274": {
+"mods": [
+{
+"id": "Everybody loves KoC",
+"name": "人人都爱KoC",
+"version": "1.05.49a"
+}
+]
+},
+"108302": {
+"mods": [
+{
+"id": "ryaz",
+"name": "皇家杜鹃",
+"version": "2.0.1"
+}
+]
+},
+"108417": {
+"mods": [
+{
+"id": "TVVFW",
+"name": "万泽时代：Tinysaurus的原版万泽扩展",
+"version": "1.3"
+}
+]
+},
+"108422": {
+"mods": [
+{
+"id": "yrxp",
+"name": "百合远征队",
+"version": "3.1.2"
+}
+]
+},
+"108592": {
+"mods": [
+{
+"id": "ORA",
+"name": "外环带联盟  Outer Rim Allience",
+"version": "0.94rc1"
+}
+]
+},
+"108923": {
+"mods": [
+{
+"id": "kk_kz",
+"name": "天工船舶拓展",
+"version": "0.2"
+}
+]
+},
+"109101": {
+"mods": [
+{
+"id": "threattech",
+"name": "威胁科技",
+"version": "1.9a"
+}
+]
+},
+"109190": {
+"mods": [
+{
+"id": "VramOptimizer",
+"name": "~Vram Optimizer",
+"version": "0"
+}
+]
+},
+"109223": {
+"mods": [
+{
+"id": "Narcissu",
+"name": "水仙",
+"version": "1.6.9"
+}
+]
+},
+"109268": {
+"mods": [
+{
+"id": "officerExtension",
+"name": "军官拓展",
+"version": "0.8.1"
+}
+]
+},
+"109465": {
+"mods": [
+{
+"id": "crabshack",
+"name": "crab的鬼点子",
+"version": "0.5.4"
+}
+]
+},
+"109543": {
+"mods": []
+},
+"109598": {
+"mods": [
+{
+"id": "RTSAssist",
+"name": "RTSAssist",
+"version": "0.2.19exp"
+},
+{
+"id": "testMod",
+"name": "testMod",
+"version": "1.0"
+}
+]
+},
+"110520": {
+"mods": [
+{
+"id": "farstar_radio",
+"name": "远星电台",
+"version": "0.1.0"
+}
+]
+},
+"110625": {
+"mods": [
+{
+"id": "CJHM",
+"name": "卡特废品船插",
+"version": "1.0.2a"
+}
+]
+},
+"110651": {
+"mods": [
+{
+"id": "Nightcross",
+"name": "夜十字军械",
+"version": "2.1.5"
+}
+]
+},
+"110755": {
+"mods": [
+{
+"id": "Citadel",
+"name": "城塞财团",
+"version": "0.9.3"
+}
+]
+},
+"110780": {
+"mods": [
+{
+"id": "JYD",
+"name": "鬣犬矿业（Junk Yard Dogs）",
+"version": "3.7.0"
+}
+]
+},
+"110783": {
+"mods": [
+{
+"id": "Interstellar Federation Refurbished",
+"name": "星际联邦的遗产",
+"version": "1.01"
+}
+]
+},
+"110796": {
+"mods": [
+{
+"id": "nomads",
+"name": "游牧民族",
+"version": "1.4.12"
+}
+]
+},
+"110879": {
+"error": "login required"
+},
+"110883": {
+"error": "login required"
+},
+"110884": {
+"error": "login required"
+},
+"110885": {
+"error": "login required"
+},
+"110886": {
+"error": "login required"
+},
+"110956": {
+"mods": [
+{
+"id": "dynamicbattlereinforcement",
+"name": "Dynamic Battle Reinforcement",
+"version": "0.23.5"
+}
+]
+},
+"111100": {
+"mods": [
+{
+"id": "blood_and_metal",
+"name": "血与钢走私集团",
+"version": "1.2.0"
+}
+]
+},
+"111127": {
+"mods": [
+{
+"id": "PUP",
+"name": "海盗多用途船包",
+"version": "0.6.0"
+}
+]
+},
+"111170": {
+"mods": [
+{
+"id": "ValueBorders",
+"name": "价值边框 Value Borders",
+"version": "1.0.0"
+}
+]
+},
+"111224": {
+"mods": [
+{
+"id": "kmu",
+"name": "Klark Morrigan 的实用工具 (KMU)",
+"version": "0.2.1"
+}
+]
+},
+"111260": {
+"error": "login required"
+},
+"111285": {
+"mods": [
+{
+"id": "FDS_ROTS",
+"name": "边缘防卫集团",
+"version": "0.11.4m"
+}
+]
+},
+"111299": {
+"mods": [
+{
+"id": "ryaz",
+"name": "皇家杜鹃",
+"version": "2.0.1"
+}
+]
+},
+"111304": {
+"mods": [
+{
+"id": "RealisticCombat",
+"name": "真实战斗",
+"version": "2.16.0"
+}
+]
+},
+"111588": {
+"mods": [
+{
+"id": "The Song of Saya",
+"name": "沙耶之歌",
+"version": "5.1.9"
+}
+]
+},
+"111590": {
+"mods": [
+{
+"id": "anexweapons",
+"name": "安克斯武器库",
+"version": "0.3.1"
+}
+]
+},
+"111602": {
+"mods": [
+{
+"id": "II_BG",
+"name": "第二战斗群",
+"version": "2.0.2"
+}
+]
+},
+"111609": {
+"mods": [
+{
+"id": "TTSC",
+"name": "速子特勤局",
+"version": "1.6.0"
+}
+]
+},
+"111741": {
+"mods": [
+{
+"id": "apocrita_association",
+"name": "蜂群协会（Apocrita Association）",
+"version": "0.4.0"
+}
+]
+},
+"111758": {
+"mods": [
+{
+"id": "TrulyAutomatedShips",
+"name": "真正的自动化舰船 Truly Automated Ships",
+"version": "2.0"
+}
+]
+},
+"111809": {
+"mods": [
+{
+"id": "aptlysimplehullmods",
+"name": "Aptly Simple Hullmods",
+"version": "2.1.50"
+}
+]
+},
+"111863": {
+"mods": [
+{
+"id": "RA_BG",
+"name": "好多战斗群",
+"version": "1.3.1"
+}
+]
+},
+"112114": {
+"error": "login required"
+},
+"112182": {
+"mods": [
+{
+"id": "lost_sector",
+"name": "失落星域 LOST_SECTOR",
+"version": "0.6.2d"
+}
+]
+},
+"112254": {
+"error": "login required"
+},
+"112256": {
+"mods": [
+{
+"id": "KS",
+"name": "已知星域",
+"version": "1.1.0"
+}
+]
+},
+"112377": {
+"mods": [
+{
+"id": "SEEKER",
+"name": "Seeker - 未知接触",
+"version": "0.6.6-1"
+}
+]
+},
+"112727": {
+"error": "login required"
+},
+"112874": {
+"error": "login required"
+},
+"112931": {
+"mods": [
+{
+"id": "舰船操控重置",
+"name": "舰船操控重置",
+"version": "1.1.7"
+}
+]
+},
+"113169": {
+"mods": [
+{
+"id": "self_UIUtil",
+"name": "UIUtil",
+"version": "6.0.0"
+}
+]
+},
+"113175": {
+"mods": [
+{
+"id": "player_only_boosts",
+"name": "Player-Only Boosts",
+"version": "1.2.2"
+}
+]
+},
+"113340": {
+"mods": [
+{
+"id": "enable_planetkiller",
+"name": "启用行星杀手",
+"version": "3.0.1"
+}
+]
+},
+"113350": {
+"mods": [
+{
+"id": "No101ships",
+"name": "Robben的舰船吐槽记录",
+"version": "0.992"
+}
+]
+},
+"113540": {
+"mods": [
+{
+"id": "more_player_names",
+"name": "More Player Flags",
+"version": "1.02"
+}
+]
+},
+"113579": {
+"mods": [
+{
+"id": "refituiplus",
+"name": "Refit UI Plus",
+"version": "0.10.0"
+}
+]
+},
+"113815": {
+"mods": [
+{
+"id": "superPaintManager",
+"name": "超级涂装管理器",
+"version": "2.1.0"
+}
+]
+},
+"113827": {
+"mods": []
+}
+}

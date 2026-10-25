@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/aiwar.dl.version",
+  "modName": "aiwar",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/19/123807tlg8fnsz097z1t1r.zip",
+  "fossicThread": "https://www.fossic.org/thread-21240-1-1.html",
+  "fossicTitle": "[0.98]AI战争 v0.40",
+  "fossicOrigin": "repost"
+}

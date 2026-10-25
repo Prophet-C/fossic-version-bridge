@@ -113,7 +113,7 @@
   "forum": 60,
   "title": "[0.98]新舰异闻 Rumours of Neoteric Designs 0.5.2.2",
   "edited": "2026-5-12 01:34",
-  "version": "5.2.2",
+  "version": "0.5.2.2",
   "source": "header",
   "origin": "repost",
   "aid": 65232,
@@ -149,11 +149,11 @@
   "forum": 46,
   "title": "[0.98a]AI Battle队伍导出器[1.0.6]",
   "edited": "2026-4-26 02:10",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 78001,
+  "download": "https://cdn.fossic.cn/forum/202604/26/021003vdo440oo09w4cta0.zip"
  },
  "aigis portrait pack": {
   "id": "Aigis Portrait Pack",
@@ -209,11 +209,11 @@
   "forum": 60,
   "title": "[0.98]AI战争 v0.40",
   "edited": "2026-9-19 15:38",
-  "version": "0.40",
+  "version": "0.4.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 108031,
+  "download": "https://cdn.fossic.cn/forum/202609/19/123807tlg8fnsz097z1t1r.zip"
  },
  "al17b": {
   "id": "AL17B",
@@ -248,8 +248,8 @@
   "version": "0.9-C-4-4",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 73628,
+  "download": "https://cdn.fossic.cn/forum/202610/08/004853eemr4r5sy3sumaur.zip"
  },
  "all_the_domain_drones+": {
   "id": "all_the_domain_drones+",
@@ -281,11 +281,11 @@
   "forum": 46,
   "title": "[0.97/0.96]一个商人的传奇 0.5.0 (3/2)",
   "edited": "2024-3-2 03:01",
-  "version": "0.5.0",
+  "version": "0.5.0b",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 30531,
+  "download": "https://cdn.fossic.cn/forum/202403/02/025910rnuh7bqhu8rkrcq8.attach"
  },
  "anexweapons": {
   "id": "anexweapons",
@@ -392,8 +392,8 @@
   "version": "1.3.3",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 42757,
+  "download": "https://cdn.fossic.cn/forum/202404/02/155757i3fi0flnckuni5uw.zip"
  },
  "approlightplus": {
   "id": "ApproLightPlus",
@@ -580,7 +580,7 @@
   "thread": "https://www.fossic.org/thread-21577-1-1.html",
   "forum": 71,
   "title": "[0.98a][高科][赏金] 菀星设计总局 - Alpha 测试",
-  "edited": "2026-10-25 16:45",
+  "edited": "2026-10-25 17:20",
   "version": "0.1.2",
   "source": "header",
   "origin": "original",
@@ -656,8 +656,8 @@
   "version": "1.4",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 32267,
+  "download": "https://cdn.fossic.cn/forum/202307/25/000715pxfd126ex1gzdsd7.zip"
  },
  "automatedescortcommands": {
   "id": "automatedescortcommands",
@@ -677,7 +677,7 @@
   "forum": 60,
   "title": "[0.98]自动命令 v0.3.3",
   "edited": "2026-10-10 03:00",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "source": "header",
   "origin": "repost",
   "aid": 92810,
@@ -812,8 +812,8 @@
   "version": "0.3.24",
   "source": "header",
   "origin": "repost",
-  "aid": 72736,
-  "download": "https://cdn.fossic.cn/forum/202609/05/000214v30en3dq1z4b43b4.attach"
+  "aid": 63916,
+  "download": "https://cdn.fossic.cn/forum/202609/05/000204g8ctn81iic7i7355.zip"
  },
  "bcsw": {
   "id": "BCSW",
@@ -944,8 +944,8 @@
   "version": "0.9.5b2",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 17233,
+  "download": "https://cdn.fossic.cn/forum/202203/27/213824q2eh2c5r.7z"
  },
  "blood_and_metal": {
   "id": "blood_and_metal",
@@ -956,8 +956,8 @@
   "version": "1.2.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 111100,
+  "download": "https://cdn.fossic.cn/forum/202610/06/155931y78u7aybm88xrv9x.rar"
  },
  "bluearchive portrait packv": {
   "id": "BlueArchive Portrait Packv",
@@ -1004,8 +1004,8 @@
   "version": "0.3.3C",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 14595,
+  "download": "https://cdn.fossic.cn/forum/202112/10/182125hxof0fze.zip"
  },
  "boxutil": {
   "id": "BoxUtil",
@@ -1088,8 +1088,8 @@
   "version": "0.2.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 56059,
+  "download": "https://cdn.fossic.cn/forum/202501/04/212516v1wtg5erzbjawbeg.zip"
  },
  "captiveofficersa _ captiveofficersb": {
   "id": "captiveofficersA / captiveofficersB",
@@ -1220,8 +1220,8 @@
   "version": "0.1.5",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 89959,
+  "download": "https://cdn.fossic.cn/forum/202609/07/132644s1ll5ehfow71hw7e.zip"
  },
  "chineseinputfix": {
   "id": "ChineseInputFix",
@@ -1229,7 +1229,7 @@
   "forum": 46,
   "title": "中文输入修复",
   "edited": "2026-8-6 04:52",
-  "version": "2.2.0",
+  "version": "2.0.0",
   "source": "header",
   "origin": "original",
   "aid": 84300,
@@ -1241,7 +1241,7 @@
   "forum": 60,
   "title": "[0.98][震撼发布]城塞财团Citadel v0.9.2",
   "edited": "2026-10-5 13:52",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "source": "header",
   "origin": "repost",
   "aid": 110755,
@@ -1385,10 +1385,10 @@
   "forum": 71,
   "title": "[0.98] 信用位阶 Credit Hierarchy 1.0.0｜银行、财富成长与舰队支援",
   "edited": "2026-10-13 15:55",
-  "version": "1.0.0轻量版",
+  "version": "1.0.0",
   "source": "header",
   "origin": "original",
-  "aid": 112254,
+  "aid": null,
   "download": null
  },
  "crewbore": {
@@ -1409,11 +1409,11 @@
   "forum": 46,
   "title": "CRS : Crossstar的鬼点子船包 与 阿努比斯扩展",
   "edited": "2026-10-21 00:11",
-  "version": "0.1.9g",
+  "version": "0.1.9f",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 80003,
+  "download": "https://cdn.fossic.cn/forum/202610/21/001032gcdzsfpd4hdt5n93.rar"
  },
  "crsid": {
   "id": "CRSID",
@@ -1448,8 +1448,8 @@
   "version": "1.2.5",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 71714,
+  "download": "https://cdn.fossic.cn/forum/202609/28/192722uatuvavzhffoac5v.zip"
  },
  "ctb_animation": {
   "id": "ctb_animation",
@@ -1460,8 +1460,8 @@
   "version": "0.0.5",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 75485,
+  "download": "https://cdn.fossic.cn/forum/202604/06/164745adp96zazaed0i17e.rar"
  },
  "ctb_ap_mod": {
   "id": "ctb_ap_mod",
@@ -1484,8 +1484,8 @@
   "version": "2",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 64458,
+  "download": "https://cdn.fossic.cn/forum/202505/12/161852qh5uoy8r7hzyluyy.zip"
  },
  "custom star system and person": {
   "id": "Custom Star System And Person",
@@ -1737,7 +1737,7 @@
   "source": "header",
   "origin": "original",
   "aid": 63019,
-  "download": "https://cdn.fossic.cn/forum/202504/14/091756ibdw91y34p9jjlmq.zip"
+  "download": null
  },
  "dontrepair": {
   "id": "DontRepair",
@@ -1748,8 +1748,8 @@
   "version": "1.1.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 76522,
+  "download": "https://cdn.fossic.cn/forum/202603/26/233729wvwi28iw0v4pyd2d.zip"
  },
  "dp_mnemonic_sensors": {
   "id": "dp_mnemonic_sensors",
@@ -1916,8 +1916,8 @@
   "version": "2.7.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 60921,
+  "download": "https://cdn.fossic.cn/forum/202605/06/232542tk9zmyumbbkvuik4.attach"
  },
  "efficientpop": {
   "id": "efficientPop",
@@ -1928,8 +1928,8 @@
   "version": "2.0.2",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 21273,
+  "download": "https://cdn.fossic.cn/forum/202207/30/210753nkh4eq1qb4jrrknb.zip"
  },
  "eluxor_hegtales": {
   "id": "eluxor_hegtales",
@@ -1976,8 +1976,8 @@
   "version": "0.0.1a",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 67666,
+  "download": "https://cdn.fossic.cn/forum/202508/08/152723clxxthaec1w7h3ht.rar"
  },
  "eos_g": {
   "id": "Eos_G",
@@ -1985,7 +1985,7 @@
   "forum": 71,
   "title": "【0.96a】Eos曙光 0.1.1",
   "edited": "2023-12-27 22:48",
-  "version": "0.1.1先行测试版",
+  "version": "0.1.1先行测试",
   "source": "header",
   "origin": "original",
   "aid": null,
@@ -2010,7 +2010,7 @@
   "title": "[1.4.4补丁包]天苑四-行星联合实业",
   "edited": "2026-9-1 12:13",
   "version": "1.4.4",
-  "source": "header",
+  "source": "mods.json",
   "origin": "original",
   "aid": 78395,
   "download": "https://cdn.fossic.cn/forum/202605/10/135217jv8wn41n8hvbyt88.zip"
@@ -2060,7 +2060,7 @@
   "version": "2.2.1b",
   "source": "header",
   "origin": "original",
-  "aid": null,
+  "aid": 73012,
   "download": null
  },
  "exoticatechnologies": {
@@ -2069,11 +2069,11 @@
   "forum": 60,
   "title": "【0.98~0.95.1】奇异科技改造[Exotica Technologies] 1.8.7/1.8.6/1.8.5/1.5.1",
   "edited": "2022-8-13 16:35",
-  "version": "1.8.7/1.8.6",
+  "version": "2.0.3",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 59949,
+  "download": "https://cdn.fossic.cn/forum/202503/09/163951eomujv82yx8o2yy2.zip"
  },
  "expall": {
   "id": "ExpALL",
@@ -2129,11 +2129,11 @@
   "forum": 46,
   "title": "[C][0.97a]幻想工造 [2025.01.10更新(RC+debug)]贴图与数据与debug，不含生涯剧情更新",
   "edited": "2026-7-1 19:54",
-  "version": "0.9.1_rc11",
+  "version": "0.9.1_rc11,-in-dev",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 56254,
+  "download": "https://cdn.fossic.cn/forum/202607/01/195433z1qllrt86tl7t6tt.attach"
  },
  "farsightdrive": {
   "id": "FarsightDrive",
@@ -2165,11 +2165,11 @@
   "forum": 46,
   "title": "[0.98]远星电台（沉浸版）",
   "edited": "2026-10-11 13:44",
-  "version": "1.0.5",
+  "version": "0.1.0",
   "source": "header",
   "origin": "original",
-  "aid": 111937,
-  "download": "https://cdn.fossic.cn/forum/202610/11/134128k0sn64771a06lan7.zip"
+  "aid": 110520,
+  "download": "https://cdn.fossic.cn/forum/202610/04/005021orja4nujujj5ve5n.zip"
  },
  "fcs": {
   "id": "FCS",
@@ -2405,11 +2405,11 @@
   "forum": 46,
   "title": "[0.98-RC8][5.0rc9]FSF军事公司",
   "edited": "2026-3-16 20:06",
-  "version": "5.0rc9",
+  "version": "5.1rc1-02",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 70401,
+  "download": "https://cdn.fossic.cn/forum/202603/16/200543es66303367muno6a.zip"
  },
  "fwlib": {
   "id": "FWLib",
@@ -2525,7 +2525,7 @@
   "forum": 46,
   "title": "Gia机娘头像包 (2026/4/12 已更新)",
   "edited": "2020-3-16 10:49",
-  "version": "1.1.0",
+  "version": "1.1.0-categorized",
   "source": "header",
   "origin": "original",
   "aid": 77501,
@@ -2561,11 +2561,11 @@
   "forum": 60,
   "title": "【0.95】角斗士协会 GladiatorSociety 1.3beta 汉化【测试】",
   "edited": "2022-3-12 13:21",
-  "version": "1.2a",
+  "version": "1.3(beta)",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 14483,
+  "download": "https://cdn.fossic.cn/forum/202112/02/161754kl258dvjt62a9tak.zip"
  },
  "gmda": {
   "id": "GMDA",
@@ -2588,8 +2588,8 @@
   "version": "1.10.12",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 64886,
+  "download": "https://cdn.fossic.cn/forum/202601/21/001005o2o6foaeq2omo6zo.zip"
  },
  "grandcolonies": {
   "id": "GrandColonies",
@@ -2621,7 +2621,7 @@
   "forum": 46,
   "title": "[0.97][势力][中文]古达兰慕（25_06_21更新）",
   "edited": "2025-6-21 09:29",
-  "version": "0.27.3",
+  "version": "0.27.2",
   "source": "header",
   "origin": "original",
   "aid": 66066,
@@ -2813,7 +2813,7 @@
   "forum": 78,
   "title": "【0.95】旗帜拓展包 [Deluxe Player Flags] 1.0",
   "edited": "2021-10-15 20:54",
-  "version": "1.0",
+  "version": "1.0a",
   "source": "header",
   "origin": "repost",
   "aid": 12446,
@@ -2837,7 +2837,7 @@
   "forum": 46,
   "title": "[0.98][N](旗帜)178的意义不明旗帜包 v1.1.0",
   "edited": "2026-6-26 19:47",
-  "version": "1.1.0",
+  "version": "1.1",
   "source": "header",
   "origin": "original",
   "aid": 24414,
@@ -2852,8 +2852,8 @@
   "version": "1.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 21014,
+  "download": "https://cdn.fossic.cn/forum/202207/25/084604d8ujpuzpzu86s54l.zip"
  },
  "homemadeship": {
   "id": "homemadeship",
@@ -2972,8 +2972,8 @@
   "version": "1.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 61401,
+  "download": "https://cdn.fossic.cn/forum/202503/31/191931a4fobvdv7khgeft4.zip"
  },
  "iconstockandfavorites": {
   "id": "IconStockAndFavorites",
@@ -3017,11 +3017,11 @@
   "forum": 60,
   "title": "【0.98*】星际帝国 [Interstellar Imperium] 2.6.9*",
   "edited": "2025-5-15 00:57",
-  "version": "2.6.9*",
+  "version": "2.6.9",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 17719,
+  "download": "https://cdn.fossic.cn/forum/202505/15/004524md49fjerwfxzqfq9.zip"
  },
  "ind_cheat": {
   "id": "Ind_Cheat",
@@ -3101,11 +3101,11 @@
   "forum": 46,
   "title": "[0951a+]陷阵之志机师头像包",
   "edited": "2022-4-2 15:05",
-  "version": "0.95.1a+",
+  "version": "",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 15873,
+  "download": "https://cdn.fossic.cn/forum/202202/12/202444s9pmhghr.zip"
  },
  "invictusmk2": {
   "id": "Invictusmk2",
@@ -3149,11 +3149,11 @@
   "forum": 46,
   "title": "翡翠工程局 0.98",
   "edited": "2026-10-24 23:07",
-  "version": "1.16",
+  "version": "1.17",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 79171,
+  "download": "https://cdn.fossic.cn/forum/202610/24/230532kdz4u2b6sffdicd6.zip"
  },
  "jc_sf": {
   "id": "jc_sf",
@@ -3380,8 +3380,8 @@
   "version": "1.1.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 112256,
+  "download": "https://cdn.fossic.cn/forum/202610/13/155024m2vfgnuyfqqyqvvr.zip"
  },
  "kt_association": {
   "id": "KT_Association",
@@ -3401,7 +3401,7 @@
   "forum": 46,
   "title": "【098】Kwin的随手之作",
   "edited": "2026-9-12 20:09",
-  "version": "0.0.5-ver6",
+  "version": "0.0.5",
   "source": "header",
   "origin": "original",
   "aid": 74459,
@@ -3425,11 +3425,11 @@
   "forum": 46,
   "title": "L头像包",
   "edited": "2026-2-24 22:18",
-  "version": "0.0.1",
+  "version": "1.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 75408,
+  "download": "https://cdn.fossic.cn/forum/202602/24/222017f40577q0cr7wiqkq.zip"
  },
  "laughter track replace shield overload": {
   "id": "Laughter track replace shield overload",
@@ -3449,11 +3449,11 @@
   "forum": 46,
   "title": "lazy 的 AC 船包赏金拓展",
   "edited": "2025-2-4 00:47",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 54105,
+  "download": "https://cdn.fossic.cn/forum/202502/04/004657p4kse4zn6ti22wwj.attach"
  },
  "lbc_mucis": {
   "id": "LBC_Mucis",
@@ -3485,11 +3485,11 @@
   "forum": 78,
   "title": "[功能] [0.98*] Leading Pip 预瞄框",
   "edited": "2025-8-15 09:28",
-  "version": "1.10.2.7",
+  "version": "1.8.3",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 1245,
+  "download": "https://cdn.fossic.cn/forum/201907/08/103938q44k3yv4.zip"
  },
  "legio_lxvi": {
   "id": "Legio_LXVI",
@@ -3509,11 +3509,11 @@
   "forum": 46,
   "title": "[ 0.97 ] 【正式版本】咸鱼的余辉内容拓展",
   "edited": "2025-6-7 12:45",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 52618,
+  "download": "https://cdn.fossic.cn/forum/202506/07/124507dofnwzonka0nwana.rar"
  },
  "lights_out": {
   "id": "lights_out",
@@ -3533,11 +3533,11 @@
   "forum": 46,
   "title": "边狱巴士头像旗帜包",
   "edited": "2026-4-12 14:31",
-  "version": "1.100.0",
+  "version": "1.102.1",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 56458,
+  "download": "https://cdn.fossic.cn/forum/202604/12/143113p86aye9a4jetya0q.zip"
  },
  "limbuschatter": {
   "id": "LimbusChatter",
@@ -3548,8 +3548,8 @@
   "version": "1.86.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 62012,
+  "download": "https://cdn.fossic.cn/forum/202509/16/182126wul8llzlbllllwi8.zip"
  },
  "liminal": {
   "id": "liminal",
@@ -3557,11 +3557,11 @@
   "forum": 60,
   "title": "{0.98}临界体，可定制，升级的船插（九种升级，九重道路）",
   "edited": "2026-9-29 13:27",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 63202,
+  "download": "https://cdn.fossic.cn/forum/202609/12/203043b7zwzztrgcpjjdu1.zip"
  },
  "lli": {
   "id": "LLI",
@@ -3596,8 +3596,8 @@
   "version": "3.1.1",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 51338,
+  "download": "https://cdn.fossic.cn/forum/202409/13/101711brtex68vy8yef26y.zip"
  },
  "logisticsnotifications": {
   "id": "logisticsNotifications",
@@ -3629,11 +3629,11 @@
   "forum": 46,
   "title": "废墟图书馆音乐包",
   "edited": "2025-9-19 20:29",
-  "version": "1.3",
+  "version": "1.3.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 51638,
+  "download": "https://cdn.fossic.cn/forum/202509/18/183624hvojw1oekeqborwi.zip"
  },
  "lor_ui": {
   "id": "LOR_Ui",
@@ -3749,7 +3749,7 @@
   "forum": 78,
   "title": "[前置] LazyLib",
   "edited": "2021-12-18 01:05",
-  "version": "3.0",
+  "version": "3.0.0",
   "source": "header",
   "origin": "repost",
   "aid": 61281,
@@ -3845,7 +3845,7 @@
   "forum": 60,
   "title": "[0.98/0.97][C](势力)玛雅苏兰海军 [Mayasuran Navy] 12.0.0 RC1",
   "edited": "2026-5-10 21:21",
-  "version": "12.0.0-RC1",
+  "version": "12.1.0-RC1",
   "source": "header",
   "origin": "repost",
   "aid": 76923,
@@ -3869,7 +3869,7 @@
   "forum": 60,
   "title": "神奇武器 Wondrous Weapons v0.6.2",
   "edited": "2026-6-27 20:27",
-  "version": "0.6.2",
+  "version": "0.6.1",
   "source": "header",
   "origin": "repost",
   "aid": 81103,
@@ -3908,8 +3908,8 @@
   "version": "2026.9.25",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 52001,
+  "download": "https://cdn.fossic.cn/forum/202609/25/162805el8h1f2i3glyly3d.zip"
  },
  "mik": {
   "id": "mik",
@@ -3965,7 +3965,7 @@
   "forum": 46,
   "title": "[0.98*][C] Mimikko兽耳助手! SAVEmedley,死萌",
   "edited": "2026-10-14 13:34",
-  "version": "0.762",
+  "version": "0.761",
   "source": "header",
   "origin": "original",
   "aid": 76258,
@@ -3989,7 +3989,7 @@
   "forum": 46,
   "title": "我的矿域——Minesector",
   "edited": "2026-8-22 21:30",
-  "version": "1.6e",
+  "version": "1.6d",
   "source": "header",
   "origin": "original",
   "aid": 75535,
@@ -4037,7 +4037,7 @@
   "forum": 60,
   "title": "[0.951a](扩展) 导弹舰艇大修 v1.2.6",
   "edited": "2023-7-28 03:50",
-  "version": "1.2.6",
+  "version": "1.2.6-0.95.1a",
   "source": "header",
   "origin": "repost",
   "aid": 32331,
@@ -4181,7 +4181,7 @@
   "forum": 78,
   "title": "更多舰船名称 More Ship Names",
   "edited": "2026-9-21 14:40",
-  "version": "1.14.0",
+  "version": "1.14",
   "source": "header",
   "origin": "repost",
   "aid": 79099,
@@ -4244,8 +4244,8 @@
   "version": "0.1.0a",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 67600,
+  "download": "https://cdn.fossic.cn/forum/202508/17/225140zc8v6n7816ffl86f.rar"
  },
  "mps": {
   "id": "MPS",
@@ -4277,7 +4277,7 @@
   "forum": 46,
   "title": "[0.98][0.97]音乐切换/Music_Switcherv1.9",
   "edited": "2026-6-24 01:44",
-  "version": "1.9",
+  "version": "1.9.0",
   "source": "header",
   "origin": "original",
   "aid": 70030,
@@ -4421,11 +4421,11 @@
   "forum": 60,
   "title": "【0.98*】势力争霸 [Nexerelin] 0.12.2d*",
   "edited": "2026-10-20 13:17",
-  "version": "0.12.2d*",
+  "version": "0.12.2d",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 17745,
+  "download": "https://cdn.fossic.cn/forum/202610/20/131652p31hshg2g7h7hcko.zip"
  },
  "nics": {
   "id": "NICS",
@@ -4469,7 +4469,7 @@
   "forum": 60,
   "title": "更多战斗环境效果 More Combat Terrain Effects 1.13.1a",
   "edited": "2026-5-12 01:30",
-  "version": "1.31.1a",
+  "version": "1.13.1a",
   "source": "header",
   "origin": "repost",
   "aid": 69335,
@@ -4533,7 +4533,7 @@
   "source": "header",
   "origin": "original",
   "aid": 113350,
-  "download": "https://cdn.fossic.cn/forum/202610/21/201654evp7gu3u53tv7bci.zip"
+  "download": null
  },
  "nomadic_fleet": {
   "id": "nomadic_fleet",
@@ -4541,7 +4541,7 @@
   "forum": 60,
   "title": "[0.98]游牧舰队 Nomad Flotilla",
   "edited": "2026-9-21 00:02",
-  "version": "1.5.1（汉化修复）",
+  "version": "1.5.1",
   "source": "header",
   "origin": "repost",
   "aid": 108208,
@@ -4673,11 +4673,11 @@
   "forum": 46,
   "title": "建筑mod:oleg的小建筑",
   "edited": "2026-10-23 23:46",
-  "version": "2.3.1",
+  "version": "2.0",
   "source": "header",
   "origin": "original",
-  "aid": 113548,
-  "download": "https://cdn.fossic.cn/forum/202610/23/233907hje89d2xajg4gli8.zip"
+  "aid": 83185,
+  "download": "https://cdn.fossic.cn/forum/202610/23/230707uu9uedwovfdwufou.zip"
  },
  "omega_core_drop": {
   "id": "omega_core_drop",
@@ -4733,7 +4733,7 @@
   "forum": 60,
   "title": "[0.91～0.98][C](势力)外环带联盟(未重置版) Outer Rim Alliance V0.94 rc1",
   "edited": "2026-9-25 10:35",
-  "version": "0.94-rc1",
+  "version": "0.94rc1",
   "source": "header",
   "origin": "repost",
   "aid": 108592,
@@ -4781,7 +4781,7 @@
   "forum": 60,
   "title": "[0.98/0.97][C](势力)布塔赫联盟 [Bultach Coalition] 1.1.7 release",
   "edited": "2026-5-10 21:20",
-  "version": "1.1.7",
+  "version": "1.1.7-release",
   "source": "header",
   "origin": "repost",
   "aid": 71582,
@@ -4841,11 +4841,11 @@
   "forum": 46,
   "title": "[c][0.97]Pa的奇异搞笑弱智功能包",
   "edited": "2025-10-4 19:20",
-  "version": "1.2.0",
+  "version": "pig.1.2.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 62906,
+  "download": "https://cdn.fossic.cn/forum/202504/13/174054f3f62azwaaz3f3ho.attach"
  },
  "pa_wormholeengine": {
   "id": "Pa_wormholeengine",
@@ -4856,8 +4856,8 @@
   "version": "1.0.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 65974,
+  "download": "https://cdn.fossic.cn/forum/202506/20/192028qzzxzcc5c4z5i1dc.attach"
  },
  "pagsm": {
   "id": "PAGSM",
@@ -4925,7 +4925,7 @@
   "forum": 46,
   "title": "【0.98a】英仙座冠军·大型自动角斗场框架 1.2.0fix2",
   "edited": "2026-10-22 22:10",
-  "version": "1.2.0fix2",
+  "version": "1.2.0",
   "source": "header",
   "origin": "original",
   "aid": 107829,
@@ -4964,8 +4964,8 @@
   "version": "0.2.1",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 58804,
+  "download": "https://cdn.fossic.cn/forum/202503/30/124606df91rwf1bex1tpd6.rar"
  },
  "phaseevasion": {
   "id": "PhaseEvasion",
@@ -5108,8 +5108,8 @@
   "version": "1.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 33178,
+  "download": "https://cdn.fossic.cn/forum/202308/18/132607fsucqs5su4q9n17b.rar"
  },
  "portraits＆flags of suhei": {
   "id": "Portraits＆Flags of suhei",
@@ -5165,11 +5165,11 @@
   "forum": 46,
   "title": "[0.98]远古武器包——近现代武器COSPLAY",
   "edited": "2025-5-3 19:26",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 61013,
+  "download": "https://cdn.fossic.cn/forum/202504/30/225023o4iqi24o3q72q754.rar"
  },
  "privateering": {
   "id": "privateering",
@@ -5216,8 +5216,8 @@
   "version": "25.1",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 14320,
+  "download": "https://cdn.fossic.cn/forum/202301/10/021158pt196no9r6gng9mt.rar"
  },
  "pseudo_player": {
   "id": "pseudo_player",
@@ -5480,8 +5480,8 @@
   "version": "2.0.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 59413,
+  "download": "https://cdn.fossic.cn/forum/202502/27/144518xppnqkq9qjqnx9b1.zip"
  },
  "refituiplus": {
   "id": "refituiplus",
@@ -5597,7 +5597,7 @@
   "forum": 60,
   "title": "[0.98]RTSAssist 即时战略指挥 v0.2.19",
   "edited": "2026-10-22 02:06",
-  "version": "0.2.19",
+  "version": "0.2.19exp",
   "source": "header",
   "origin": "repost",
   "aid": 109598,
@@ -5681,11 +5681,11 @@
   "forum": 60,
   "title": "【0.95】血腥无政府主义背叛者(SAD)1.2【更新95/91汉化】",
   "edited": "2021-12-2 13:02",
-  "version": "1.2/1.0.1c",
+  "version": "1.2",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 14479,
+  "download": "https://cdn.fossic.cn/forum/202112/02/130154roosouom.zip"
  },
  "sbtm": {
   "id": "SBTM",
@@ -5729,11 +5729,11 @@
   "forum": 60,
   "title": "[0.98]战机扩展2.0.6b",
   "edited": "2026-7-28 09:16",
-  "version": "2，0，6b",
+  "version": "2.0.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 61628,
+  "download": "https://cdn.fossic.cn/forum/202511/18/184449xvlms6lrv8smpiii.zip"
  },
  "sclskl_scalingskilllimits": {
   "id": "sclskl_scalingskilllimits",
@@ -5768,8 +5768,8 @@
   "version": "0.0.17",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 52056,
+  "download": "https://cdn.fossic.cn/forum/202409/29/205610cg6eet2m1efgzma0.zip"
  },
  "screenrelativemovement": {
   "id": "ScreenRelativeMovement",
@@ -5873,7 +5873,7 @@
   "forum": 60,
   "title": "【0.98a】Seeker船包-discord维护版 2025.10.3",
   "edited": "2026-10-14 01:44",
-  "version": "0.6.6",
+  "version": "0.6.6-1",
   "source": "header",
   "origin": "repost",
   "aid": 112377,
@@ -5900,8 +5900,8 @@
   "version": "6.0.0",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 113169,
+  "download": "https://cdn.fossic.cn/forum/202610/20/004215diofcxffla841efg.rar"
  },
  "seven_nexus": {
   "id": "seven_nexus",
@@ -5948,7 +5948,7 @@
   "version": "1.1.12/v0.10.8",
   "source": "header",
   "origin": "original",
-  "aid": null,
+  "aid": 85358,
   "download": null
  },
  "shaderlib": {
@@ -5969,7 +5969,7 @@
   "forum": 60,
   "title": "【0.98】暗影重建局（暗影船坞）【SRA】0.9.6-rc1-Wisp-007",
   "edited": "2026-10-3 21:37",
-  "version": "0.9.6",
+  "version": "0.9.6-rc1-Wisp-007",
   "source": "header",
   "origin": "repost",
   "aid": 69217,
@@ -5997,7 +5997,7 @@
   "source": "header",
   "origin": "original",
   "aid": 112931,
-  "download": "https://cdn.fossic.cn/forum/202610/23/043626tp4g6v8p4j0cvm87.zip"
+  "download": null
  },
  "shipcatalogvarianteditor": {
   "id": "ShipCatalogVariantEditor",
@@ -6017,10 +6017,10 @@
   "forum": 71,
   "title": "【0.98a-RC8】舰船成长系统 Ship Growth System v0.4.5",
   "edited": "2026-10-18 13:01",
-  "version": "0.4.5",
+  "version": "0.3.6",
   "source": "header",
   "origin": "original",
-  "aid": 112863,
+  "aid": 112829,
   "download": null
  },
  "shipmasterysystem": {
@@ -6041,10 +6041,10 @@
   "forum": 71,
   "title": "舰船涂装修改器",
   "edited": "2026-9-26 19:02",
-  "version": "1.0.0",
+  "version": "0.9.2",
   "source": "header",
   "origin": "original",
-  "aid": 108896,
+  "aid": 108886,
   "download": null
  },
  "shippaintingmanager": {
@@ -6209,10 +6209,10 @@
   "forum": 71,
   "title": "[0.98] 社交拓展：让联络人再次伟大（以及一个舰上伙伴框架）",
   "edited": "2026-10-21 18:16",
-  "version": "1.1.0",
+  "version": "1.0.2",
   "source": "header",
   "origin": "original",
-  "aid": 112746,
+  "aid": 112486,
   "download": null
  },
  "soviet rocks": {
@@ -6280,11 +6280,11 @@
   "thread": "https://www.fossic.org/thread-21817-1-1.html",
   "forum": 71,
   "title": "你拥有了战列舰就不爱我了是吧",
-  "edited": "2026-10-25 02:39",
+  "edited": "2026-10-25 17:19",
   "version": "1.1.0",
   "source": "header",
   "origin": "original",
-  "aid": 113756,
+  "aid": 113881,
   "download": null
  },
  "ssa": {
@@ -6308,8 +6308,8 @@
   "version": "0.0.1b",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 75777,
+  "download": "https://cdn.fossic.cn/forum/202603/18/111355eqllvzl63qipmyef.zip"
  },
  "ssv": {
   "id": "ssv",
@@ -6404,8 +6404,8 @@
   "version": "0.9.9",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 68325,
+  "download": "https://cdn.fossic.cn/forum/202603/21/212551ku07weezszaq1weg.zip"
  },
  "starlinkhub": {
   "id": "StarLinkHub",
@@ -6425,7 +6425,7 @@
   "forum": 60,
   "title": "[0.98]星际领主（不稳定） v0.3.78",
   "edited": "2026-10-6 19:14",
-  "version": "0.3.78",
+  "version": "0.3.77",
   "source": "header",
   "origin": "repost",
   "aid": 86269,
@@ -6473,10 +6473,10 @@
   "forum": 71,
   "title": "弄了个mod管理器，可以导入mod目录进行管理和修改舰船文件并且配置可视化修改",
   "edited": "2026-6-13 18:43",
-  "version": "1.13版本",
+  "version": "1.13",
   "source": "header",
   "origin": "original",
-  "aid": null,
+  "aid": 80379,
   "download": null
  },
  "stein_industry": {
@@ -6500,8 +6500,8 @@
   "version": "1.5",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 67972,
+  "download": "https://cdn.fossic.cn/forum/202508/16/221645q1uhvsm21y8m8ym8.zip"
  },
  "stellaris_ships，stellaris_weapons，stellaris_hullmods": {
   "id": "stellaris_ships，stellaris_weapons，stellaris_hullmods",
@@ -6533,11 +6533,11 @@
   "forum": 46,
   "title": "[0.95.1][C]D插件修复禁用 - 1.0.4",
   "edited": "2023-10-21 01:12",
-  "version": "1.0",
+  "version": "1.04",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 36278,
+  "download": "https://cdn.fossic.cn/forum/202309/29/223627v306bg0lbxg0cmmz.zip"
  },
  "storyofdream": {
   "id": "StoryOfDream",
@@ -6572,8 +6572,8 @@
   "version": "1.2.2",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 69216,
+  "download": "https://cdn.fossic.cn/forum/202603/05/212949migx6rp2dpa6xkzd.zip"
  },
  "suitablestarsystems": {
   "id": "suitablestarsystems",
@@ -6584,8 +6584,8 @@
   "version": "2.4.0a",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 55311,
+  "download": "https://cdn.fossic.cn/forum/202412/25/163832fqeo70z7vttei033.zip"
  },
  "sun_flux_reticle": {
   "id": "sun_flux_reticle",
@@ -6617,11 +6617,11 @@
   "forum": 60,
   "title": "超空间跳跃sun_hyperdrive（随手汉化版）",
   "edited": "2026-1-16 19:09",
-  "version": "2.6",
+  "version": "2.6.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 68433,
+  "download": "https://cdn.fossic.cn/forum/202508/28/163933vscyuhfu3a3rfhfv.zip"
  },
  "sun_nomadic_survival": {
   "id": "sun_nomadic_survival",
@@ -6656,8 +6656,8 @@
   "version": "2.6.0",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 77728,
+  "download": "https://cdn.fossic.cn/forum/202604/20/165348b77d5fduhe5i1d4d.zip"
  },
  "super_omegablueprint": {
   "id": "SUPER_OmegaBluePrint",
@@ -6749,7 +6749,7 @@
   "forum": 46,
   "title": "【98】赏金（事件包）-天鹰模块母舰0.6（剧情未完善）",
   "edited": "2026-10-24 23:50",
-  "version": "0.6版",
+  "version": "0.0.6-ver1",
   "source": "header",
   "origin": "original",
   "aid": 81538,
@@ -6764,7 +6764,7 @@
   "version": "3.0.2",
   "source": "header",
   "origin": "original",
-  "aid": 110886,
+  "aid": null,
   "download": null
  },
  "sweet home": {
@@ -6785,11 +6785,11 @@
   "forum": 60,
   "title": "【0.98*】舰船武器拓展 Ship/Weapon Pack (SWP) 1.16.6*",
   "edited": "2025-6-14 12:33",
-  "version": "1.16.6*",
+  "version": "1.16.6",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 18584,
+  "download": "https://cdn.fossic.cn/forum/202506/08/212055c5vevedq8dvg66e6.zip"
  },
  "swsui": {
   "id": "SWSUI",
@@ -6932,8 +6932,8 @@
   "version": "1.2",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 19084,
+  "download": "https://cdn.fossic.cn/forum/202205/14/121354dlgy327j.zip"
  },
  "tdom_reborn": {
   "id": "TDOM_Reborn",
@@ -6941,7 +6941,7 @@
   "forum": 46,
   "title": "【0.98】【帝国先遣队】",
   "edited": "2026-10-25 11:33",
-  "version": "0.9.992",
+  "version": "0.9.96",
   "source": "header",
   "origin": "original",
   "aid": 80366,
@@ -6953,11 +6953,11 @@
   "forum": 46,
   "title": "[0.97/0.98] 1.811 TheDarkSix的原版舰船武器扩展",
   "edited": "2026-8-5 15:30",
-  "version": "1.81",
+  "version": "1.811",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 74177,
+  "download": "https://cdn.fossic.cn/forum/202608/05/153018wl0klk56laa95p9f.zip"
  },
  "tempest_replace": {
   "id": "tempest_replace",
@@ -7052,8 +7052,8 @@
   "version": "1.1.1",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 64982,
+  "download": "https://cdn.fossic.cn/forum/202505/22/192507zwqephhhhrigjrpq.zip"
  },
  "thanosalliance": {
   "id": "ThanosAlliance",
@@ -7124,8 +7124,8 @@
   "version": "1.2.3.1",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 61739,
+  "download": "https://cdn.fossic.cn/forum/202506/28/214800ogggwg6gyma1jgga.zip"
  },
  "threattech": {
   "id": "threattech",
@@ -7193,7 +7193,7 @@
   "forum": 60,
   "title": "[0.98]TMI-详细武器数据",
   "edited": "2026-5-12 21:53",
-  "version": "0.99-BETA",
+  "version": "0.99",
   "source": "header",
   "origin": "repost",
   "aid": 72486,
@@ -7277,7 +7277,7 @@
   "forum": 60,
   "title": "[0.98]沃兰缇亚归复局 v0.6.3b",
   "edited": "2026-9-22 01:17",
-  "version": "0.6.3b",
+  "version": "0.6.3",
   "source": "header",
   "origin": "repost",
   "aid": 108106,
@@ -7289,11 +7289,11 @@
   "forum": 46,
   "title": "[0.98a-RC] 东方年代记/dairi绘 头像扩展",
   "edited": "2026-8-9 08:11",
-  "version": "1.0",
+  "version": "0.9.99",
   "source": "header",
   "origin": "original",
-  "aid": 84320,
-  "download": "https://cdn.fossic.cn/forum/202608/06/171305tb7ooehu4bouzgeb.rar"
+  "aid": 84307,
+  "download": "https://cdn.fossic.cn/forum/202608/06/165850a9ea95s9ah362m4h.rar"
  },
  "touhou_portrait_mod": {
   "id": "Touhou_Portrait_mod",
@@ -7305,7 +7305,7 @@
   "source": "header",
   "origin": "original",
   "aid": 75642,
-  "download": "https://cdn.fossic.cn/forum/202603/05/060855bxza1h371te17e3t.zip"
+  "download": null
  },
  "touhou_project_flagpack": {
   "id": "Touhou_Project_flagpack",
@@ -7328,8 +7328,8 @@
   "version": "1.1",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 81132,
+  "download": "https://cdn.fossic.cn/forum/202607/22/225053ek8z2yc62018kyd9.attach"
  },
  "traderouteplanner": {
   "id": "tradeRoutePlanner",
@@ -7364,8 +7364,8 @@
   "version": "1.2.2",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 19262,
+  "download": "https://cdn.fossic.cn/forum/202205/23/210706ru6ha0yt.zip"
  },
  "transponder_off_accepted": {
   "id": "transponder_off_accepted",
@@ -7373,11 +7373,11 @@
   "forum": 46,
   "title": "[0.96a-0.98a](功能)应答器关闭许可",
   "edited": "2025-8-22 23:17",
-  "version": "1.2.4",
+  "version": "1.2.4.1",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 61502,
+  "download": "https://cdn.fossic.cn/forum/202508/22/231511bktsxgkc9gzop9ox.zip"
  },
  "trickal": {
   "id": "Trickal",
@@ -7388,8 +7388,8 @@
   "version": "1.1",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 36767,
+  "download": "https://cdn.fossic.cn/forum/202403/04/152600ie3x03ud3eoyy03o.zip"
  },
  "troll sector": {
   "id": "Troll Sector",
@@ -7433,7 +7433,7 @@
   "forum": 60,
   "title": "[0.98] 速子特勤局 V1.6",
   "edited": "2026-10-10 18:31",
-  "version": "1.6",
+  "version": "1.6.0",
   "source": "header",
   "origin": "repost",
   "aid": 111609,
@@ -7469,7 +7469,7 @@
   "forum": 60,
   "title": "【0.96】面板欺诈船插Unusually Gullible Hullmods 0.5.0",
   "edited": "2023-9-8 08:24",
-  "version": "0.5.0",
+  "version": "0.5.0-RC1",
   "source": "header",
   "origin": "repost",
   "aid": 34513,
@@ -7505,11 +7505,11 @@
   "forum": 60,
   "title": "【0.98*】海盗拓展 Underworld 1.8.8*",
   "edited": "2025-6-14 12:34",
-  "version": "1.8.8*",
+  "version": "1.8.8",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 15002,
+  "download": "https://cdn.fossic.cn/forum/202506/08/212145hoquz40uvucriock.zip"
  },
  "ungp": {
   "id": "ungp",
@@ -7532,8 +7532,8 @@
   "version": "0.0.7",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 53956,
+  "download": "https://cdn.fossic.cn/forum/202503/09/173244dqsj6uf8xcx7ofou.rar"
  },
  "ungpshipmasteryinherit": {
   "id": "ungpshipmasteryinherit",
@@ -7601,11 +7601,11 @@
   "forum": 60,
   "title": "[0.97a] 无主题武器包 Unthemed Weapons Collection",
   "edited": "2026-6-25 23:26",
-  "version": "0.6.7",
+  "version": "0.7.4",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 81049,
+  "download": "https://cdn.fossic.cn/forum/202606/25/232424vwkscf1wm79r1scw.zip"
  },
  "us": {
   "id": "US",
@@ -7640,8 +7640,8 @@
   "version": "1.2",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 13509,
+  "download": "https://cdn.fossic.cn/forum/202109/22/192754raggzzrg.zip"
  },
  "valkyrian": {
   "id": "valkyrian",
@@ -7673,11 +7673,11 @@
   "forum": 46,
   "title": "【0.98】物品等级/价值边框",
   "edited": "2026-10-17 22:23",
-  "version": "2026/10/17",
+  "version": "1.0.0",
   "source": "header",
   "origin": "original",
-  "aid": 111172,
-  "download": "https://cdn.fossic.cn/forum/202610/17/222311f311cz1aihf1z0gr.zip"
+  "aid": 111170,
+  "download": "https://cdn.fossic.cn/forum/202610/14/000708occ33reowzmv3q9r.zip"
  },
  "van sama woo": {
   "id": "Van sama Woo",
@@ -7748,8 +7748,8 @@
   "version": "3.2.1",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 25372,
+  "download": "https://cdn.fossic.cn/forum/202304/02/161519exsh0hr4htn59rxc.zip"
  },
  "vic": {
   "id": "vic",
@@ -7757,11 +7757,11 @@
   "forum": 60,
   "title": "【0.97*】沃尔科夫工业集团 [VIC] 1.6.3a*",
   "edited": "2024-4-4 13:00",
-  "version": "1.6.3a*",
+  "version": "1.6.3a",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 15414,
+  "download": "https://cdn.fossic.cn/forum/202404/04/130035ktlbvnv3v6ii36wl.zip"
  },
  "vic_save_special_skill": {
   "id": "VIC_Save_Special_Skill",
@@ -7784,8 +7784,8 @@
   "version": "0.1.2",
   "source": "header",
   "origin": "repost",
-  "aid": null,
-  "download": null
+  "aid": 56258,
+  "download": "https://cdn.fossic.cn/forum/202501/17/081014x5q4if521pjaf427.zip"
  },
  "vii_resurrection_cross": {
   "id": "VII_Resurrection_Cross",
@@ -7829,7 +7829,7 @@
   "forum": 78,
   "title": "VRAM Optimizer显存优化器（提高游戏帧数和启动速度）",
   "edited": "2026-9-29 06:33",
-  "version": "1.0.45",
+  "version": "0",
   "source": "header",
   "origin": "repost",
   "aid": 109190,
@@ -7880,8 +7880,8 @@
   "version": "1.3",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 22575,
+  "download": "https://cdn.fossic.cn/forum/202209/11/104511v6263b7xrrdzxqkq.rar"
  },
  "warshipgirlsrtxb": {
   "id": "WarshipGirlsRTXB",
@@ -7892,8 +7892,8 @@
   "version": "0.0.7",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 73260,
+  "download": "https://cdn.fossic.cn/forum/202601/06/172622xii3s1tbbbnhl8e8.zip"
  },
  "weapon_group_enhanced": {
   "id": "weapon_group_enhanced",
@@ -8000,8 +8000,8 @@
   "version": "1.0c",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 69747,
+  "download": "https://cdn.fossic.cn/forum/202510/06/114506aejexmze0ynoyxex.attach"
  },
  "wows_legendary_commanders": {
   "id": "wows_legendary_commanders",
@@ -8012,8 +8012,8 @@
   "version": "0.0.3",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 53167,
+  "download": "https://cdn.fossic.cn/forum/202410/26/063544d6u7vdruzewelukr.zip"
  },
  "wows_music": {
   "id": "WOWS_music",
@@ -8157,7 +8157,7 @@
   "source": "header",
   "origin": "repost",
   "aid": 94905,
-  "download": "https://cdn.fossic.cn/forum/202609/30/011016ck6lsukhvk0vlxvy.zip"
+  "download": null
  },
  "yrex": {
   "id": "yrex",
@@ -8177,11 +8177,11 @@
   "forum": 60,
   "title": "[0.98]百合远征队-未完整的愿景（Yuri Expedition） v3.1.2",
   "edited": "2026-10-9 19:42",
-  "version": "3.03",
+  "version": "3.1.2",
   "source": "header",
   "origin": "repost",
-  "aid": 108308,
-  "download": "https://cdn.fossic.cn/forum/202609/22/015536y66o6oodl3k499hd.zip"
+  "aid": 108422,
+  "download": "https://cdn.fossic.cn/forum/202610/09/194144lbfk9afsu18wodc2.zip"
  },
  "yuegong": {
   "id": "yuegong",
@@ -8225,11 +8225,11 @@
   "forum": 46,
   "title": "远行之路3.530赏金扩展包",
   "edited": "2026-8-21 13:05",
-  "version": "3.530",
+  "version": "0.3530",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 65370,
+  "download": "https://cdn.fossic.cn/forum/202608/21/130549jcvq8ynrpw8p04fi.rar"
  },
  "zd": {
   "id": "zd",
@@ -8240,8 +8240,8 @@
   "version": "1.7",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 71477,
+  "download": "https://cdn.fossic.cn/forum/202607/29/223336ntge7vj7e77oc1rc.zip"
  },
  "zender_particleengineinject": {
   "id": "zender_ParticleEngineInject",
@@ -8289,7 +8289,7 @@
   "source": "header",
   "origin": "repost",
   "aid": 1986,
-  "download": "https://cdn.fossic.cn/forum/202001/19/082032o8yta33wakxyzyy4.zip"
+  "download": null
  },
  "ziggurat_package": {
   "id": "ziggurat_package",
@@ -8324,8 +8324,8 @@
   "version": "1.0.5",
   "source": "header",
   "origin": "original",
-  "aid": null,
-  "download": null
+  "aid": 54368,
+  "download": "https://cdn.fossic.cn/forum/202502/08/190006jtfkqzf3ddofe3rt.zip"
  },
  "zyzd": {
   "id": "zyzd",
@@ -8361,7 +8361,7 @@
   "source": "header",
   "origin": "original",
   "aid": 78564,
-  "download": "https://cdn.fossic.cn/forum/202610/22/002552h667p7r68lxpplyx.zip"
+  "download": null
  },
  "垃圾佬船包": {
   "id": "垃圾佬船包",

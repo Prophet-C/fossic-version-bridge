@@ -4,8 +4,9 @@
   "modVersion": {
     "major": "0",
     "minor": "9",
-    "patch": "1_rc11"
+    "patch": "1_rc11,-in-dev"
   },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202607/01/195433z1qllrt86tl7t6tt.attach",
   "fossicThread": "https://www.fossic.org/thread-2405-1-1.html",
   "fossicTitle": "[C][0.97a]幻想工造 [2025.01.10更新(RC+debug)]贴图与数据与debug，不含生涯剧情更新",
   "fossicOrigin": "original"

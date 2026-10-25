@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/liminal.dl.version",
+  "modName": "liminal",
+  "modVersion": {
+    "major": "3",
+    "minor": "1",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/12/203043b7zwzztrgcpjjdu1.zip",
+  "fossicThread": "https://www.fossic.org/thread-15449-1-1.html",
+  "fossicTitle": "{0.98}临界体，可定制，升级的船插（九种升级，九重道路）",
+  "fossicOrigin": "repost"
+}

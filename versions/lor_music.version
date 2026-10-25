@@ -3,8 +3,10 @@
   "modName": "LOR_Music",
   "modVersion": {
     "major": "1",
-    "minor": "3"
+    "minor": "3",
+    "patch": "0"
   },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202509/18/183624hvojw1oekeqborwi.zip",
   "fossicThread": "https://www.fossic.org/thread-12231-1-1.html",
   "fossicTitle": "废墟图书馆音乐包",
   "fossicOrigin": "original"

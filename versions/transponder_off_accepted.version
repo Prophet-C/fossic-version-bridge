@@ -4,8 +4,9 @@
   "modVersion": {
     "major": "1",
     "minor": "2",
-    "patch": "4"
+    "patch": "4.1"
   },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202508/22/231511bktsxgkc9gzop9ox.zip",
   "fossicThread": "https://www.fossic.org/thread-12143-1-1.html",
   "fossicTitle": "[0.96a-0.98a](功能)应答器关闭许可",
   "fossicOrigin": "original"

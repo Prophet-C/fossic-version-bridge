@@ -2,11 +2,11 @@
   "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/farstar_radio.version",
   "modName": "farstar_radio",
   "modVersion": {
-    "major": "1",
-    "minor": "0",
-    "patch": "5"
+    "major": "0",
+    "minor": "1",
+    "patch": "0"
   },
-  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/11/134128k0sn64771a06lan7.zip",
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/04/005021orja4nujujj5ve5n.zip",
   "fossicThread": "https://www.fossic.org/thread-21479-1-1.html",
   "fossicTitle": "[0.98]远星电台（沉浸版）",
   "fossicOrigin": "original"

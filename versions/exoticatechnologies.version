@@ -2,9 +2,9 @@
   "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/exoticatechnologies.version",
   "modName": "exoticatechnologies",
   "modVersion": {
-    "major": "1",
-    "minor": "8",
-    "patch": "7/1.8.6"
+    "major": "2",
+    "minor": "0",
+    "patch": "3"
   },
   "fossicThread": "https://www.fossic.org/thread-5988-1-1.html",
   "fossicTitle": "【0.98~0.95.1】奇异科技改造[Exotica Technologies] 1.8.7/1.8.6/1.8.5/1.5.1",
