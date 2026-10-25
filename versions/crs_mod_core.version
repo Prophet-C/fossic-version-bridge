@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/crs_mod_core.version",
+  "modName": "CRS_Mod_Core",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "9g"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19979-1-1.html",
+  "fossicTitle": "CRS : Crossstar的鬼点子船包 与 阿努比斯扩展"
+}

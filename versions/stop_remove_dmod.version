@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/stop_remove_dmod.version",
+  "modName": "stop_remove_dmod",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7984-1-1.html",
+  "fossicTitle": "[0.95.1][C]D插件修复禁用 - 1.0.4"
+}

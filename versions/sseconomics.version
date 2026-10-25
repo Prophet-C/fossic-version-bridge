@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sseconomics.version",
+  "modName": "SSEconomics",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "1b"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19012-1-1.html",
+  "fossicTitle": "[0.98]远星经济学"
+}

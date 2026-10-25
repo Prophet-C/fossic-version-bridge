@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/holdsforall.version",
+  "modName": "holdsforall",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5787-1-1.html",
+  "fossicTitle": "【0.95a】货物屏蔽舱船插Shielded Holds For All 1.0"
+}

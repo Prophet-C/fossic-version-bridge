@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/goat_aviation_bureau.version",
+  "modName": "Goat_Aviation_Bureau",
+  "modVersion": {
+    "major": "1",
+    "minor": "10",
+    "patch": "12"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3248-1-1.html",
+  "fossicTitle": "[0.98-0.95.1a][C](势力)羊头航务局：曲终"
+}

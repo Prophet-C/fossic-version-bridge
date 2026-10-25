@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/leadingpip.version",
+  "modName": "leadingPip",
+  "modVersion": {
+    "major": "1",
+    "minor": "10",
+    "patch": "2.7"
+  },
+  "fossicThread": "https://www.fossic.org/thread-485-1-1.html",
+  "fossicTitle": "[功能] [0.98*] Leading Pip 预瞄框"
+}

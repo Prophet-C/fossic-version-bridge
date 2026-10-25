@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/minesector.version",
+  "modName": "Minesector",
+  "modVersion": {
+    "major": "1",
+    "minor": "6e"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17993-1-1.html",
+  "fossicTitle": "我的矿域——Minesector"
+}

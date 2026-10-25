@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hhe.version",
+  "modName": "HHE",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-6816-1-1.html",
+  "fossicTitle": "[0.95a][C] 战机扩展 v1.1.1"
+}

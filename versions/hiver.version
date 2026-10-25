@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hiver.version",
+  "modName": "HIVER",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "7"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14245-1-1.html",
+  "fossicTitle": "蜂群1.3.1"
+}

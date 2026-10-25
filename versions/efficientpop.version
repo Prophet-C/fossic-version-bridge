@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/efficientpop.version",
+  "modName": "efficientPop",
+  "modVersion": {
+    "major": "2",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5858-1-1.html",
+  "fossicTitle": "[0.95.1A] CK 工业 v2.0.2 汉化"
+}

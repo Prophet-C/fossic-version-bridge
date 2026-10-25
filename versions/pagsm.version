@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pagsm.version",
+  "modName": "PAGSM",
+  "modVersion": {
+    "major": "1",
+    "minor": "14",
+    "patch": "1aa"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202506/20/213158s2cowdd0a06zhcyd.attach",
+  "fossicThread": "https://www.fossic.org/thread-16269-1-1.html",
+  "fossicTitle": "[0.98a/0.97a][C](势力) Phillip Andrada：加油站经理 [PAGSM] v1.14.1aa"
+}

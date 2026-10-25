@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lunalib.version",
+  "modName": "lunalib",
+  "modVersion": {
+    "major": "2",
+    "minor": "0",
+    "patch": "5"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202603/14/213632jyiaojjeuofzauiu.attach",
+  "fossicThread": "https://www.fossic.org/thread-10267-1-1.html",
+  "fossicTitle": "[C][0.98/0.97/0.96]Lunalib V2.0.5"
+}

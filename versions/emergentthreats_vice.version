@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/emergentthreats_vice.version",
+  "modName": "EmergentThreats_Vice",
+  "modVersion": {
+    "major": "1",
+    "minor": "4",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/24/000135fqt7l8dlvhl5uhqz.zip",
+  "fossicThread": "https://www.fossic.org/thread-10067-1-1.html",
+  "fossicTitle": "[0.98] 威胁渐显 Emergent Threats / 第九战斗-复兴 IX Revival 1.4.0"
+}

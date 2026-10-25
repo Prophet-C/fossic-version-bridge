@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/rtsassist.version",
+  "modName": "RTSAssist",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "19"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/22/020557h40vul0sf484r9d6.zip",
+  "fossicThread": "https://www.fossic.org/thread-21114-1-1.html",
+  "fossicTitle": "[0.98]RTSAssist 即时战略指挥 v0.2.19"
+}

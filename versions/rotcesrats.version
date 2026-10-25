@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/rotcesrats.version",
+  "modName": "rotcesrats",
+  "modVersion": {
+    "major": "0",
+    "minor": "3",
+    "patch": "4"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/23/135401xoc3c3c5o305z3x5.zip",
+  "fossicThread": "https://www.fossic.org/thread-21258-1-1.html",
+  "fossicTitle": "[0.98]号星行远 v0.3.4"
+}

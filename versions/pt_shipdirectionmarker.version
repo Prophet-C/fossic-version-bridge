@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pt_shipdirectionmarker.version",
+  "modName": "PT_ShipDirectionMarker",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-2776-1-1.html",
+  "fossicTitle": "[0.95a][N](功能)方向标识 Ship Direction Marker 1.3.1"
+}

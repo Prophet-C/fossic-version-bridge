@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/transponder_off_accepted.version",
+  "modName": "transponder_off_accepted",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12143-1-1.html",
+  "fossicTitle": "[0.96a-0.98a](功能)应答器关闭许可"
+}

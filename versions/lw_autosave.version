@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lw_autosave.version",
+  "modName": "lw_autosave",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "d"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/06/181705aw2fclagl8sc447k.attach",
+  "fossicThread": "https://www.fossic.org/thread-6068-1-1.html",
+  "fossicTitle": "[C]自动保存 Autosave V1.2.b"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/overlord_accessibility.version",
+  "modName": "overlord_accessibility",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "6"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19015-1-1.html",
+  "fossicTitle": "[轻量化经济重构] 超载流通性：全要素生产率与动态劳动力池"
+}

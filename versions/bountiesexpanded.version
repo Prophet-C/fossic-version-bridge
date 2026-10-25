@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/bountiesexpanded.version",
+  "modName": "bountiesexpanded",
+  "modVersion": {
+    "major": "0",
+    "minor": "3",
+    "patch": "3C"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3741-1-1.html",
+  "fossicTitle": "【0.95】赏金拓展 [Bounties Expanded] 0.3.3C"
+}

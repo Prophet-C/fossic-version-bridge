@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/jkf.version",
+  "modName": "JKF",
+  "modVersion": {
+    "major": "1",
+    "minor": "4",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/07/211305v3mtzlkmf3z331z3.zip",
+  "fossicThread": "https://www.fossic.org/thread-6096-1-1.html",
+  "fossicTitle": "[C][0.95.1][0.96][0.97][0.98]极客联盟 - 1.4.0"
+}

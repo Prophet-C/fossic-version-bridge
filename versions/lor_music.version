@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lor_music.version",
+  "modName": "LOR_Music",
+  "modVersion": {
+    "major": "1",
+    "minor": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12231-1-1.html",
+  "fossicTitle": "废墟图书馆音乐包"
+}

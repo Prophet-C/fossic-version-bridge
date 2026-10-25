@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/starpocalypse.version",
+  "modName": "starpocalypse",
+  "modVersion": {
+    "major": "2",
+    "minor": "3",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5198-1-1.html",
+  "fossicTitle": "Starpocalypse 英仙末日 V2.3.2"
+}

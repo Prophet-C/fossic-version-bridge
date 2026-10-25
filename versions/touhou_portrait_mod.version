@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/touhou_portrait_mod.version",
+  "modName": "Touhou_Portrait_mod",
+  "modVersion": {
+    "major": "1",
+    "minor": "6",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-2351-1-1.html",
+  "fossicTitle": "【0.98a-RC8】东方人形演舞头像mod 1.6.1 [Touhou portrait mod]"
+}

@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/striker_mercenary.version",
+  "modName": "striker_mercenary",
+  "modVersion": {
+    "major": "0",
+    "minor": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-317-1-1.html",
+  "fossicTitle": "[0.96a]打击者佣兵团（striker mercenary）0.5"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/edshipyard.version",
+  "modName": "edshipyard",
+  "modVersion": {
+    "major": "2",
+    "minor": "7",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14901-1-1.html",
+  "fossicTitle": "[C][0.98][0.97][0.96] 奇巧设计船坞 ED Shipyard 2.7.0"
+}

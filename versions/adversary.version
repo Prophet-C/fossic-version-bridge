@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/adversary.version",
+  "modName": "adversary",
+  "modVersion": {
+    "major": "7",
+    "minor": "1",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16517-1-1.html",
+  "fossicTitle": "[0.98a] Adversary\\乐园残响 V7.1.1"
+}

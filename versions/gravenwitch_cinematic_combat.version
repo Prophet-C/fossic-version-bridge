@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/gravenwitch_cinematic_combat.version",
+  "modName": "gravenwitch_cinematic_combat",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14464-1-1.html",
+  "fossicTitle": "真实战斗的更贴近原版的改版"
+}

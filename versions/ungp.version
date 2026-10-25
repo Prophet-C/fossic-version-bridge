@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ungp.version",
+  "modName": "ungp",
+  "modVersion": {
+    "major": "2",
+    "minor": "5",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-656-1-1.html",
+  "fossicTitle": "[0.98]重生UNGP 2.5.0 (2025/10/4)"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/visualized_repair_progress.version",
+  "modName": "Visualized_Repair_Progress",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3036-1-1.html",
+  "fossicTitle": "[0.95a-0.95.1a][C](功能)可视化维修进度 Visualized Repair Progress 0.1.4"
+}

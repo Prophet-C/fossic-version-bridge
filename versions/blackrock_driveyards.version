@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/blackrock_driveyards.version",
+  "modName": "blackrock_driveyards",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "5b2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-446-1-1.html",
+  "fossicTitle": "【0.95.1】黑石船坞 [Blackrock Driveyard] 0.9.5b2"
+}

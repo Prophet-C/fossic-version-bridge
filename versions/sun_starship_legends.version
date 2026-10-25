@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sun_starship_legends.version",
+  "modName": "sun_starship_legends",
+  "modVersion": {
+    "major": "2",
+    "minor": "6",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19501-1-1.html",
+  "fossicTitle": "[0.98]星舰传奇 Starship Legends"
+}

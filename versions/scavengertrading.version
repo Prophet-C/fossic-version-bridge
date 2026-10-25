@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/scavengertrading.version",
+  "modName": "ScavengerTrading",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9740-1-1.html",
+  "fossicTitle": "【0.96】Scavenger Trading 与拾荒者的贸易 V0.0.4"
+}

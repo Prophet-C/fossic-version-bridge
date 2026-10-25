@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/qsmx.version",
+  "modName": "qsmx",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20746-1-1.html",
+  "fossicTitle": "[0.98]深红科技"
+}

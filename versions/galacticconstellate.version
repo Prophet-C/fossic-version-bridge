@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/galacticconstellate.version",
+  "modName": "GalacticConstellate",
+  "modVersion": {
+    "major": "1",
+    "minor": "13",
+    "patch": "7d"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202604/28/173449v9ikhyzhi2huy8hq.attach",
+  "fossicThread": "https://www.fossic.org/thread-10883-1-1.html",
+  "fossicTitle": "[0.951-0.98] 星海集群 V1.13.7d Bug修复"
+}

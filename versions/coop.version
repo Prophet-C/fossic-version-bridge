@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/coop.version",
+  "modName": "coop",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "4-sc-alpha11.1-32p-zh"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/09/134938xr5m8a8cauls4nxz.zip",
+  "fossicThread": "https://www.fossic.org/thread-21570-1-1.html",
+  "fossicTitle": "【0.98a】远行星号联机扩展版 alpha11.1｜生涯联机、共同战斗观战与舰队指挥"
+}

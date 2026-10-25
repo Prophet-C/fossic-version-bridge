@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/portrait_changer.version",
+  "modName": "portrait_changer",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "7"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14001-1-1.html",
+  "fossicTitle": "[C] Portrait Changer 头像修改器 V1.0.7"
+}

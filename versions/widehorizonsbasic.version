@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/widehorizonsbasic.version",
+  "modName": "WideHorizonsBasic",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19196-1-1.html",
+  "fossicTitle": "[0.98]浩瀚银河基础版 Wide Horizons Basic"
+}

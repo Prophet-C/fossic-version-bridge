@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/automatedcommands.version",
+  "modName": "automatedcommands",
+  "modVersion": {
+    "major": "1",
+    "minor": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3675-1-1.html",
+  "fossicTitle": "[0.96][C](功能)自动指令 automatedcommands v1.4"
+}

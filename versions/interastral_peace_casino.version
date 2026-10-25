@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/interastral_peace_casino.version",
+  "modName": "interastral_peace_casino",
+  "modVersion": {
+    "major": "1",
+    "minor": "6",
+    "patch": "3"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202605/10/233637xjvttktok94utddz.zip",
+  "fossicThread": "https://www.fossic.org/thread-19096-1-1.html",
+  "fossicTitle": "[0.98]星际和平赌场/Interastral Peace Casino"
+}

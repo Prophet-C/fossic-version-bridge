@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/blood_and_metal.version",
+  "modName": "blood_and_metal",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21526-1-1.html",
+  "fossicTitle": "BMG 血与钢走私集团 （购买任何舰船的mod）"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tdom_reborn.version",
+  "modName": "TDOM_Reborn",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "992"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/25/112724dkhh74a2gd77u2sb.zip",
+  "fossicThread": "https://www.fossic.org/thread-20034-1-1.html",
+  "fossicTitle": "【0.98】【帝国先遣队】"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/carrierui.version",
+  "modName": "carrierui",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-13275-1-1.html",
+  "fossicTitle": "[0.97a][功能]航母UI CarrierUI v1.0.3"
+}

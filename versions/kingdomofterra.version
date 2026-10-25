@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/kingdomofterra.version",
+  "modName": "kingdomofterra",
+  "modVersion": {
+    "major": "0",
+    "minor": "13",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-4360-1-1.html",
+  "fossicTitle": "[C][0.95]始地王国 The Kingdom of Terra (v0.13.1)"
+}

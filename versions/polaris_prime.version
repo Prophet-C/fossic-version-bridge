@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/polaris_prime.version",
+  "modName": "Polaris_Prime",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-780-1-1.html",
+  "fossicTitle": "[0.98a][C](势力)北极星之首"
+}

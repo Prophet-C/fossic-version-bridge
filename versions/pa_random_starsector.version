@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pa_random_starsector.version",
+  "modName": "pa_random_starsector",
+  "modVersion": {
+    "major": "0",
+    "minor": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16300-1-1.html",
+  "fossicTitle": "[c][0.98][0.97]Pa的武器槽位随机系统"
+}

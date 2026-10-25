@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sun_ruthless_sector.version",
+  "modName": "sun_ruthless_sector",
+  "modVersion": {
+    "major": "1",
+    "minor": "6",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5253-1-1.html",
+  "fossicTitle": "[C]Ruthless Sector 无情星域 V1.6.2"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/niko_moreplanetaryconditions.version",
+  "modName": "niko_morePlanetaryConditions",
+  "modVersion": {
+    "major": "4",
+    "minor": "5",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202607/07/115359xxn2lnmpngbcr94e.zip",
+  "fossicThread": "https://www.fossic.org/thread-17331-1-1.html",
+  "fossicTitle": "我们遗落之物 What we left behind 4.5.1"
+}

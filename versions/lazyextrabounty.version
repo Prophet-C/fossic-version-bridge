@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lazyextrabounty.version",
+  "modName": "lazyextrabounty",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12893-1-1.html",
+  "fossicTitle": "lazy 的 AC 船包赏金拓展"
+}

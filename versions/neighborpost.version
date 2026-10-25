@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/neighborpost.version",
+  "modName": "NeighborPost",
+  "modVersion": {
+    "major": "0",
+    "minor": "11",
+    "patch": "2"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/12/014631axy1501n1f2z1325.rar",
+  "fossicThread": "https://www.fossic.org/thread-10859-1-1.html",
+  "fossicTitle": "[0.98][C][势力]邻家邮政"
+}

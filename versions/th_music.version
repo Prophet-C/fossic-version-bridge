@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/th_music.version",
+  "modName": "TH_Music",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-15540-1-1.html",
+  "fossicTitle": "[0.96-0.98]东方Project音乐包"
+}

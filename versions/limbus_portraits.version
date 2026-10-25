@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/limbus_portraits.version",
+  "modName": "Limbus_Portraits",
+  "modVersion": {
+    "major": "1",
+    "minor": "100",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-13536-1-1.html",
+  "fossicTitle": "边狱巴士头像旗帜包"
+}

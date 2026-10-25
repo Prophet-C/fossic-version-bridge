@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/zd.version",
+  "modName": "zd",
+  "modVersion": {
+    "major": "1",
+    "minor": "7"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14813-1-1.html",
+  "fossicTitle": "战地记者的失落帝国降临"
+}

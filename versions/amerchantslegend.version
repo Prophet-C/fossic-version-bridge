@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/amerchantslegend.version",
+  "modName": "AMerchantsLegend",
+  "modVersion": {
+    "major": "0",
+    "minor": "5",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7748-1-1.html",
+  "fossicTitle": "[0.97/0.96]一个商人的传奇 0.5.0 (3/2)"
+}

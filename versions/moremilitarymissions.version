@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/moremilitarymissions.version",
+  "modName": "MoreMilitaryMissions",
+  "modVersion": {
+    "major": "0",
+    "minor": "5",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8466-1-1.html",
+  "fossicTitle": "[0.98/0.97] [C] 更多任务扩展 V0.5.0"
+}

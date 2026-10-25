@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/red_stripe.version",
+  "modName": "Red_stripe",
+  "modVersion": {
+    "major": "0",
+    "minor": "81-fix4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19982-1-1.html",
+  "fossicTitle": "[0.98a][C]红条骑士团[Red Stripe]——一段往事，或许不再是往事"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/zgrandsector.version",
+  "modName": "ZGrandSector",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-724-1-1.html",
+  "fossicTitle": "[0.9.1a] 广阔星域 Grand Sector"
+}

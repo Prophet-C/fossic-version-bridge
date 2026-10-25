@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/unthemedweapons.version",
+  "modName": "unthemedweapons",
+  "modVersion": {
+    "major": "0",
+    "minor": "6",
+    "patch": "7"
+  },
+  "fossicThread": "https://www.fossic.org/thread-11934-1-1.html",
+  "fossicTitle": "[0.97a] 无主题武器包 Unthemed Weapons Collection"
+}

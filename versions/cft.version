@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/cft.version",
+  "modName": "CFT",
+  "modVersion": {
+    "major": "3",
+    "minor": "2",
+    "patch": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14211-1-1.html",
+  "fossicTitle": "卡特贸易公司Carter's Freetraders2.8.0"
+}

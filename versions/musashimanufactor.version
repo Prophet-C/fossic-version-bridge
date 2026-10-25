@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/musashimanufactor.version",
+  "modName": "Musashimanufactor",
+  "modVersion": {
+    "major": "1",
+    "minor": "4",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16317-1-1.html",
+  "fossicTitle": "武藏重工 v1.4.4"
+}

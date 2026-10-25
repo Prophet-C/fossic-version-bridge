@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/gudalanmu.version",
+  "modName": "gudalanmu",
+  "modVersion": {
+    "major": "0",
+    "minor": "27",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-497-1-1.html",
+  "fossicTitle": "[0.97][势力][中文]古达兰慕（25_06_21更新）"
+}

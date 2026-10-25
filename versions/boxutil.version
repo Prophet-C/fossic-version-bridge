@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/boxutil.version",
+  "modName": "BoxUtil",
+  "modVersion": {
+    "major": "1",
+    "minor": "6",
+    "patch": "3"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/14/231401xqzpuuuxi5arttx5.attach",
+  "fossicThread": "https://www.fossic.org/thread-11886-1-1.html",
+  "fossicTitle": "[0.98a / 0.97a][C][前置] BoxUtil (2026.09.14 - 1.6.3)"
+}

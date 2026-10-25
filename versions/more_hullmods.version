@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/more_hullmods.version",
+  "modName": "more_hullmods",
+  "modVersion": {
+    "major": "1",
+    "minor": "12",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-1897-1-1.html",
+  "fossicTitle": "【0.97】(扩充)更多的船体插件More HullMods1.12.0"
+}

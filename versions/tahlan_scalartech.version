@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tahlan_scalartech.version",
+  "modName": "tahlan_scalartech",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-4592-1-1.html",
+  "fossicTitle": "标量科技解决方案0.9.2"
+}

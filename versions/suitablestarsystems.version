@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/suitablestarsystems.version",
+  "modName": "suitablestarsystems",
+  "modVersion": {
+    "major": "2",
+    "minor": "4",
+    "patch": "0a"
+  },
+  "fossicThread": "https://www.fossic.org/thread-13269-1-1.html",
+  "fossicTitle": "[0.96，0.97a] 预制星系 | Suitable Star Systems 2.4.0a"
+}

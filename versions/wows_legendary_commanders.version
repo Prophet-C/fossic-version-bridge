@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/wows_legendary_commanders.version",
+  "modName": "wows_legendary_commanders",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12560-1-1.html",
+  "fossicTitle": "[0.97/0.96] WOWS传奇舰长 0.0.3"
+}

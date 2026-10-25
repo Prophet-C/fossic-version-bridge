@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/missingships.version",
+  "modName": "missingships",
+  "modVersion": {
+    "major": "2",
+    "minor": "0",
+    "patch": "4a"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14902-1-1.html",
+  "fossicTitle": "[0.98]迷失组合船包 missing ships（12/12)"
+}

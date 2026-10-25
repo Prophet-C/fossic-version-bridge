@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/music_switcher.version",
+  "modName": "Music_Switcher",
+  "modVersion": {
+    "major": "1",
+    "minor": "9"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202606/24/014133ederu4dk16w4bhek.zip",
+  "fossicThread": "https://www.fossic.org/thread-11081-1-1.html",
+  "fossicTitle": "[0.98][0.97]音乐切换/Music_Switcherv1.9"
+}

@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/witch_citadel.version",
+  "modName": "Witch_Citadel",
+  "modVersion": {
+    "major": "1",
+    "minor": "0c"
+  },
+  "fossicThread": "https://www.fossic.org/thread-17421-1-1.html",
+  "fossicTitle": "[C][0.98a*]女巫秘城 1.0c"
+}

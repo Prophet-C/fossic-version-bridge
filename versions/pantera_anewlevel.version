@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pantera_anewlevel.version",
+  "modName": "pantera_ANewLevel",
+  "modVersion": {
+    "major": "3",
+    "minor": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-4241-1-1.html",
+  "fossicTitle": "[功能] [0.95-0.98] [N]A New level 船新等级"
+}

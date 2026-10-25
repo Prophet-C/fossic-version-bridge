@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/light_from_world_epsilon.version",
+  "modName": "light_from_world_Epsilon",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12409-1-1.html",
+  "fossicTitle": "[ 0.97 ] 【正式版本】咸鱼的余辉内容拓展"
+}

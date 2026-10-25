@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/stellaris_music.version",
+  "modName": "Stellaris_music",
+  "modVersion": {
+    "major": "1",
+    "minor": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12738-1-1.html",
+  "fossicTitle": "屑钻石 的群星音乐包"
+}

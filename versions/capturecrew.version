@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/capturecrew.version",
+  "modName": "capturecrew",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3458-1-1.html",
+  "fossicTitle": "[0.95.1a](杂项)俘虏船员军官 CaptureCrew 1.0.4"
+}

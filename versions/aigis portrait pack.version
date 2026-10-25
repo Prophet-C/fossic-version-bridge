@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/aigis%20portrait%20pack.version",
+  "modName": "Aigis Portrait Pack",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202605/28/202352erwrwgjkuskvl2sc.rar",
+  "fossicThread": "https://www.fossic.org/thread-17330-1-1.html",
+  "fossicTitle": "[0.98-0.95.1]千年战争Aigis头像包"
+}

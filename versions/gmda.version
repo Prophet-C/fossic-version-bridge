@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/gmda.version",
+  "modName": "GMDA",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "9"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7038-1-1.html",
+  "fossicTitle": "[0.9.5a][C]格里佩普和莫里亚蒂防卫局v0.9.9"
+}

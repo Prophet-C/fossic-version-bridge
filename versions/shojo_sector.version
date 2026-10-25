@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/shojo_sector.version",
+  "modName": "shojo_sector",
+  "modVersion": {
+    "major": "4",
+    "minor": "2",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202607/05/034524t5llpiie4lzbdeyd.zip",
+  "fossicThread": "https://www.fossic.org/thread-8354-1-1.html",
+  "fossicTitle": "[0.98a/0.97a/0.96a/0.95.1a] 少女星域 头像包 Shojo Sector 4.2.0"
+}

@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/curatedships.version",
+  "modName": "CuratedShips",
+  "modVersion": {
+    "major": "2",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-15837-1-1.html",
+  "fossicTitle": "[0.98a][C](内容)Curated船包 [CuratedShips] V2"
+}

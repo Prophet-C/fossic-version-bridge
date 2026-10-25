@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/stelnet.version",
+  "modName": "stelnet",
+  "modVersion": {
+    "major": "3",
+    "minor": "3",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3765-1-1.html",
+  "fossicTitle": "[0.98a]星系检索网络[Stellar Networks]3.3.0"
+}

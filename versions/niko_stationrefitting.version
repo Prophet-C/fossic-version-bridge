@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/niko_stationrefitting.version",
+  "modName": "niko_stationRefitting",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202512/13/042956u8oibgi3nn4i8kih.zip",
+  "fossicThread": "https://www.fossic.org/thread-18128-1-1.html",
+  "fossicTitle": "[0.98] Station Refitting 空间站装配 1.0.0"
+}

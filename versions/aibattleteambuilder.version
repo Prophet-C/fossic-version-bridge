@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/aibattleteambuilder.version",
+  "modName": "AiBattleTeamBuilder",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-13712-1-1.html",
+  "fossicTitle": "[0.98a]AI Battle队伍导出器[1.0.6]"
+}

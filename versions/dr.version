@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/dr.version",
+  "modName": "DR",
+  "modVersion": {
+    "major": "1",
+    "minor": "6"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19512-1-1.html",
+  "fossicTitle": "新人之领"
+}

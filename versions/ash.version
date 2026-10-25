@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ash.version",
+  "modName": "ash",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-9233-1-1.html",
+  "fossicTitle": "[0.96]灰烬船插Aptly Simple Hullmods"
+}

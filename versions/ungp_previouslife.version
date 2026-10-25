@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ungp_previouslife.version",
+  "modName": "UNGP_PreviousLife",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "7"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12850-1-1.html",
+  "fossicTitle": "重生拓展-重生吧！上一个存档的自己"
+}

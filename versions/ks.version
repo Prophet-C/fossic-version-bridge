@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ks.version",
+  "modName": "KS",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21643-1-1.html",
+  "fossicTitle": "已知星域（0.98）"
+}

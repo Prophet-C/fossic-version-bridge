@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/magiclib.version",
+  "modName": "MagicLib",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "6*"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3753-1-1.html",
+  "fossicTitle": "【0.98*】MagicLib 1.5.6*"
+}

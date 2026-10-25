@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/valueborders.version",
+  "modName": "ValueBorders",
+  "modVersion": {
+    "major": "2026/10/17",
+    "minor": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/17/222311f311cz1aihf1z0gr.zip",
+  "fossicThread": "https://www.fossic.org/thread-21510-1-1.html",
+  "fossicTitle": "【0.98】物品等级/价值边框"
+}

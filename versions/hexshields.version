@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hexshields.version",
+  "modName": "HexShields",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-4203-1-1.html",
+  "fossicTitle": "[0.96a-RC8] 六边形护盾皮肤 HexShields - Shield Reskin v1.1.0"
+}

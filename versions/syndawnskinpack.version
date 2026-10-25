@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/syndawnskinpack.version",
+  "modName": "synDawnSkinPack",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7105-1-1.html",
+  "fossicTitle": "[0.95.1/头像包]智械黎明 美化包 Ver. 0.0.1"
+}

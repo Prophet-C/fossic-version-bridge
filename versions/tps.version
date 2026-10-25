@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tps.version",
+  "modName": "TPS",
+  "modVersion": {
+    "major": "1",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20286-1-1.html",
+  "fossicTitle": "便携式传送"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sgb.version",
+  "modName": "SGB",
+  "modVersion": {
+    "major": "2",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/23/223320btfpor3r6kemgokq.rar",
+  "fossicThread": "https://www.fossic.org/thread-10210-1-1.html",
+  "fossicTitle": "【0.95a/0.96a/0.97a】第二十七作战群 - 链戍集团军"
+}

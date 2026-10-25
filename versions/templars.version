@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/templars.version",
+  "modName": "Templars",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "9d_fix"
+  },
+  "fossicThread": "https://www.fossic.org/thread-1688-1-1.html",
+  "fossicTitle": "[C](势力)圣殿骑士团 The Knight Templars"
+}

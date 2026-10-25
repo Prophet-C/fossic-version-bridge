@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/yxz.version",
+  "modName": "yxz",
+  "modVersion": {
+    "major": "3",
+    "minor": "530"
+  },
+  "fossicThread": "https://www.fossic.org/thread-12828-1-1.html",
+  "fossicTitle": "远行之路3.530赏金扩展包"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pa_wormholeengine.version",
+  "modName": "Pa_wormholeengine",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-16308-1-1.html",
+  "fossicTitle": "Pa的先进虫洞站"
+}

@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/jadeite_design.version",
+  "modName": "Jadeite_design",
+  "modVersion": {
+    "major": "1",
+    "minor": "16"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19493-1-1.html",
+  "fossicTitle": "翡翠工程局 0.98"
+}

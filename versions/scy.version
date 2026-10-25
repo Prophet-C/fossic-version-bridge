@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/scy.version",
+  "modName": "SCY",
+  "modVersion": {
+    "major": "1",
+    "minor": "11",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-225-1-1.html",
+  "fossicTitle": "【0.98】世界之树科研殖民地(SCY)1.11.1"
+}

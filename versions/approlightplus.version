@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/approlightplus.version",
+  "modName": "ApproLightPlus",
+  "modVersion": {
+    "major": "0",
+    "minor": "6",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7678-1-1.html",
+  "fossicTitle": "[0.95.1a]趋光拓展 ApproLightPlus 0.6.3(2023/5/13)"
+}

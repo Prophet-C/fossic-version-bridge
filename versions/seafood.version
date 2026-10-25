@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/seafood.version",
+  "modName": "Seafood",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "8a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202406/21/115208ezntnn7tkunyaqu4.zip",
+  "fossicThread": "https://www.fossic.org/thread-2607-1-1.html",
+  "fossicTitle": "[0.97][多图杀喵]海鲜船包 [Seafood Shipworks] 0.0.8a"
+}

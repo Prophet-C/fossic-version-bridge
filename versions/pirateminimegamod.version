@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pirateminimegamod.version",
+  "modName": "PirateMiniMegaMod",
+  "modVersion": {
+    "major": "1",
+    "minor": "7",
+    "patch": "7"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202506/01/174545h89285e169r62ueb.zip",
+  "fossicThread": "https://www.fossic.org/thread-10084-1-1.html",
+  "fossicTitle": "[0.98a]海盗迷你超绝船包 Pirate Mini Mega Mod 1.7.7"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/scan_those_gates.version",
+  "modName": "scan_those_gates",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "7"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5998-1-1.html",
+  "fossicTitle": "[C]Scan Those Gates 扫描那些星门 V1.5.7"
+}

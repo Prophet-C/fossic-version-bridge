@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/gamma_legion.version",
+  "modName": "Gamma_Legion",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "5"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202605/23/183050zq3b3zqj3swqtf9t.rar",
+  "fossicThread": "https://www.fossic.org/thread-11244-1-1.html",
+  "fossicTitle": "伽马军团"
+}

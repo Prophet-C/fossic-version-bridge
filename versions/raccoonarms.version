@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/raccoonarms.version",
+  "modName": "raccoonarms",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8896-1-1.html",
+  "fossicTitle": "[0.951a](前阿森纳军备拓展)浣熊的军备拓展 Arsenal Expansion V1.5.5"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/bigf.version",
+  "modName": "bigf",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-10368-1-1.html",
+  "fossicTitle": "[0.97](内容)巨大战机船包(24/2/10)"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/enable_planetkiller.version",
+  "modName": "enable_planetkiller",
+  "modVersion": {
+    "major": "3",
+    "minor": "0",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/21/164344nacmtu79vsxc7dkt.zip",
+  "fossicThread": "https://www.fossic.org/thread-21214-1-1.html",
+  "fossicTitle": "[0,98][测试]启用行星杀手"
+}

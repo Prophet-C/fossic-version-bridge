@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/torpedo_alarm.version",
+  "modName": "Torpedo_Alarm",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "3-RC1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-2911-1-1.html",
+  "fossicTitle": "[0.95a-0.95.1a][C](功能)鱼雷警报 Torpedo Alarm 0.1.3-RC1(2023-02-07更新)"
+}

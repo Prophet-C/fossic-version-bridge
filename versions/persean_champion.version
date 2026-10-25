@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/persean_champion.version",
+  "modName": "persean_champion",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "0fix2"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/22/220937jw9cil296e0lcn6k.zip",
+  "fossicThread": "https://www.fossic.org/thread-21222-1-1.html",
+  "fossicTitle": "【0.98a】英仙座冠军·大型自动角斗场框架 1.2.0fix2"
+}

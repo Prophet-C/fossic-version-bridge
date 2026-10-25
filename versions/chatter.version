@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/chatter.version",
+  "modName": "chatter",
+  "modVersion": {
+    "major": "1",
+    "minor": "15",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-15231-1-1.html",
+  "fossicTitle": "孩子们我有空更新了【0.98】战斗骚话 [Combat Chatter] 1.15.1"
+}

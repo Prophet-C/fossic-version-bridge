@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/wyv_mirror.version",
+  "modName": "wyv_mirror",
+  "modVersion": {
+    "major": "1",
+    "minor": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-11192-1-1.html",
+  "fossicTitle": "[0.97a-RC11] 镜像武器 丨 Mirror 1.4 & DecoLib 0.3"
+}

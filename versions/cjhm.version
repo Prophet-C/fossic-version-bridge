@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/cjhm.version",
+  "modName": "CJHM",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "2a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/04/160450z46mkb1kwetwbntl.zip",
+  "fossicThread": "https://www.fossic.org/thread-21487-1-1.html",
+  "fossicTitle": "[0.98]卡特废品船插 v1.0.2a"
+}

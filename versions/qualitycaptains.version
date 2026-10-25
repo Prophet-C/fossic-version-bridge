@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/qualitycaptains.version",
+  "modName": "QualityCaptains",
+  "modVersion": {
+    "major": "1",
+    "minor": "7",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202509/23/034224ygq1mo1fdpgfzzk3.zip",
+  "fossicThread": "https://www.fossic.org/thread-10083-1-1.html",
+  "fossicTitle": "高质量舰长: 技能重制 Quality Captains: A Skill Rework - Now with perks!"
+}

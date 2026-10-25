@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/su_carrierhullmod.version",
+  "modName": "su_CarrierHullmod",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-14615-1-1.html",
+  "fossicTitle": "[0.98]航母现代化（汉化已重置）"
+}

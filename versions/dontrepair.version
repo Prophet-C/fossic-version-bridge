@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/dontrepair.version",
+  "modName": "DontRepair",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19206-1-1.html",
+  "fossicTitle": "[0.98a]别修这艘船!"
+}

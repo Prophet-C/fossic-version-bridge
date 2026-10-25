@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/star_federation.version",
+  "modName": "star_federation",
+  "modVersion": {
+    "major": "0",
+    "minor": "99-RC5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8224-1-1.html",
+  "fossicTitle": "[0.96/0.95.1][C](势力)星际联邦[The Star Federation] 0.99 RC5/RC3"
+}

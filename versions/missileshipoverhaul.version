@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/missileshipoverhaul.version",
+  "modName": "MissileShipOverhaul",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "6"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8589-1-1.html",
+  "fossicTitle": "[0.951a](扩展) 导弹舰艇大修 v1.2.6"
+}

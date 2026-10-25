@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/blueseafisher.version",
+  "modName": "BlueSeaFisher",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202605/11/200146v0grrkls0llqxblg.attach",
+  "fossicThread": "https://www.fossic.org/thread-3230-1-1.html",
+  "fossicTitle": "[0.98][C]蓝海渔业行业共治协会v1.3.1"
+}

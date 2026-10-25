@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mps.version",
+  "modName": "MPS",
+  "modVersion": {
+    "major": "0",
+    "minor": "74"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/10/170807l5x7c6x5r6995coc.attach",
+  "fossicThread": "https://www.fossic.org/thread-8355-1-1.html",
+  "fossicTitle": "2026.10.10更新[0.98] 天船三星海物流 0.74"
+}

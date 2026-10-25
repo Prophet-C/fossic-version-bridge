@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/diableavionics.version",
+  "modName": "diableavionics",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-11422-1-1.html",
+  "fossicTitle": "【0.98*】恶魔航电 Rogo921版 1.3.5更新（26/3/4）"
+}

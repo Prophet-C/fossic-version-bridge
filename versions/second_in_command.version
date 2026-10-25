@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/second_in_command.version",
+  "modName": "second_in_command",
+  "modVersion": {
+    "major": "2",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202604/13/204756xbdm76m167lptt1e.zip",
+  "fossicThread": "https://www.fossic.org/thread-13043-1-1.html",
+  "fossicTitle": "[0.98] 舰队副官 | 完全重构的技能系统 2.0.0"
+}

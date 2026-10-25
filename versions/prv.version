@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/prv.version",
+  "modName": "prv",
+  "modVersion": {
+    "major": "25",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3617-1-1.html",
+  "fossicTitle": "[0.95.1](势力)prv星工场 prv Starworks v25.1"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/primitive_weapon_pack.version",
+  "modName": "primitive_weapon_pack",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "8"
+  },
+  "fossicThread": "https://www.fossic.org/thread-13484-1-1.html",
+  "fossicTitle": "[0.98]远古武器包——近现代武器COSPLAY"
+}

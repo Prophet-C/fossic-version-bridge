@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/approlight.version",
+  "modName": "ApproLight",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-236-1-1.html",
+  "fossicTitle": "[0.9-0.96]趋光议会 ApproLight 1.3.3(24/4/2热修复)"
+}

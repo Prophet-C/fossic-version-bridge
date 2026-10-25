@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lw_console.version",
+  "modName": "lw_console",
+  "modVersion": {
+    "major": "4",
+    "minor": "0",
+    "patch": "8"
+  },
+  "fossicThread": "https://www.fossic.org/thread-15662-1-1.html",
+  "fossicTitle": "[0.98][C](功能)控制台(Console Commands)"
+}

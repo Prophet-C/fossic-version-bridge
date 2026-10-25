@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/p9.version",
+  "modName": "p9",
+  "modVersion": {
+    "major": "0",
+    "minor": "57"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8698-1-1.html",
+  "fossicTitle": "P9殖民领"
+}

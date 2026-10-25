@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/dpl.version",
+  "modName": "DPL",
+  "modVersion": {
+    "major": "1",
+    "minor": "7",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-19171-1-1.html",
+  "fossicTitle": "人之领相位研究所"
+}

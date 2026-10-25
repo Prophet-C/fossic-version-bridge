@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hmi.version",
+  "modName": "HMI",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "0e"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202603/14/142654z3hkscp8ssck68jc.zip",
+  "fossicThread": "https://www.fossic.org/thread-7899-1-1.html",
+  "fossicTitle": "[0.98/0.97/0.96/0.95.1a][C]风险矿业公司 [HMI] 0.4.0e"
+}

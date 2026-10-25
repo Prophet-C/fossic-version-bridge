@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/kaleidoscope.version",
+  "modName": "kaleidoscope",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "e"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202512/15/033538wry75zttyzfktftm.zip",
+  "fossicThread": "https://www.fossic.org/thread-18154-1-1.html",
+  "fossicTitle": "[0.98] 万花筒 Kaleidoscope 1.0.e"
+}

@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hz7_portraits.version",
+  "modName": "hz7_Portraits",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-15055-1-1.html",
+  "fossicTitle": "hz7头像mod"
+}

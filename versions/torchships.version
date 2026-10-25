@@ -1,0 +1,10 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/torchships.version",
+  "modName": "TORCHSHIPS",
+  "modVersion": {
+    "major": "0",
+    "minor": "17rc1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7453-1-1.html",
+  "fossicTitle": "[0.95.1 0.97]火炬舰队与死亡军武 Torchships And Deadly Armaments"
+}

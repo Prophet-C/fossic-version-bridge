@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/rc_second_wave_options.version",
+  "modName": "RC_Second_Wave_Options",
+  "modVersion": {
+    "major": "0",
+    "minor": "6",
+    "patch": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-3465-1-1.html",
+  "fossicTitle": "[0.95](功能)RC的难度选项Second Wave Options 0.6.5"
+}

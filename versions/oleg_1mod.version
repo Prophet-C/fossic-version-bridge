@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/oleg_1mod.version",
+  "modName": "oleg_1mod",
+  "modVersion": {
+    "major": "2",
+    "minor": "3",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/23/233907hje89d2xajg4gli8.zip",
+  "fossicThread": "https://www.fossic.org/thread-20557-1-1.html",
+  "fossicTitle": "建筑mod:oleg的小建筑"
+}

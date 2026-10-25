@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/l_portraits.version",
+  "modName": "L_Portraits",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18875-1-1.html",
+  "fossicTitle": "L头像包"
+}

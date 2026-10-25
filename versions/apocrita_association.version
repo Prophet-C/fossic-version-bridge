@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/apocrita_association.version",
+  "modName": "apocrita_association",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/10/182258lglz545h88i8gg8w.zip",
+  "fossicThread": "https://www.fossic.org/thread-21596-1-1.html",
+  "fossicTitle": "[0.98]蜂群协会（Apocrita Association）v0.4.0"
+}

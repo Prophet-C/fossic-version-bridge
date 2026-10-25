@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/niko_morecombatterraineffects.version",
+  "modName": "niko_moreCombatTerrainEffects",
+  "modVersion": {
+    "major": "1",
+    "minor": "31",
+    "patch": "1a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202509/19/150024n3jjltlzhzinjzka.zip",
+  "fossicThread": "https://www.fossic.org/thread-17304-1-1.html",
+  "fossicTitle": "更多战斗环境效果 More Combat Terrain Effects 1.13.1a"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/us.version",
+  "modName": "US",
+  "modVersion": {
+    "major": "3",
+    "minor": "0",
+    "patch": "3"
+  },
+  "fossicThread": "https://www.fossic.org/thread-1700-1-1.html",
+  "fossicTitle": "[0.9.1a-0.98a][C](扩充)未知星域 Unknown Skies 3.0.3"
+}

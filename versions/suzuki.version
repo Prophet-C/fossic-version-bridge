@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/suzuki.version",
+  "modName": "SUZUKI",
+  "modVersion": {
+    "major": "0",
+    "minor": "6版"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/24/231832cr8tcyrtr9dxgst6.zip",
+  "fossicThread": "https://www.fossic.org/thread-19730-1-1.html",
+  "fossicTitle": "【98】赏金（事件包）-天鹰模块母舰0.6（剧情未完善）"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ctb_animation.version",
+  "modName": "ctb_animation",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "5"
+  },
+  "fossicThread": "https://www.fossic.org/thread-18911-1-1.html",
+  "fossicTitle": "【轻型前置】组件动画"
+}

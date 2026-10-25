@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/fantasym.version",
+  "modName": "FantasyM",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "1_rc11"
+  },
+  "fossicThread": "https://www.fossic.org/thread-2405-1-1.html",
+  "fossicTitle": "[C][0.97a]幻想工造 [2025.01.10更新(RC+debug)]贴图与数据与debug，不含生涯剧情更新"
+}

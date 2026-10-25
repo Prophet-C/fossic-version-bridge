@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/thorough_system_scan.version",
+  "modName": "thorough_system_scan",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "3.1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-15140-1-1.html",
+  "fossicTitle": "[0.98a/0.97a] 彻底扫描星系"
+}

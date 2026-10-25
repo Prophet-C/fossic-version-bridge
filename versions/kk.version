@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/kk.version",
+  "modName": "kk",
+  "modVersion": {
+    "major": "2",
+    "minor": "5",
+    "patch": "8"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/20/132518vffb7xf7dxlv4by4.zip",
+  "fossicThread": "https://www.fossic.org/thread-12809-1-1.html",
+  "fossicTitle": "天工联合船舶设计局"
+}

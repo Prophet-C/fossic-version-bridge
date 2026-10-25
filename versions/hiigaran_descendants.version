@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hiigaran_descendants.version",
+  "modName": "hiigaran_descendants",
+  "modVersion": {
+    "major": "2",
+    "minor": "2",
+    "patch": "4-CN-0.98a-RC8"
+  },
+  "fossicThread": "https://www.fossic.org/thread-20512-1-1.html",
+  "fossicTitle": "[中文][0.98a-RC8][E][势力]希格拉后裔 HiigaranDescendants"
+}

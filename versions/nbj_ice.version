@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/nbj_ice.version",
+  "modName": "nbj_ice",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "4"
+  },
+  "fossicThread": "https://www.fossic.org/thread-1429-1-1.html",
+  "fossicTitle": "[0.95.1a][C](势力)伊甸流亡舰队"
+}

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/whichtmi.version",
+  "modName": "WhichTMI",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-8753-1-1.html",
+  "fossicTitle": "[0.96a] WhichTMI 1.1.0"
+}
