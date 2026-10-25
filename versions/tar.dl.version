@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tar.dl.version",
+  "modName": "TAR",
+  "modVersion": {
+    "major": "1",
+    "minor": "41rc2"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202112/16/120656qlm4czok.zip",
+  "fossicThread": "https://www.fossic.org/thread-3776-1-1.html",
+  "fossicTitle": "[0.95a/0.95.1][C](辅助)靶子[PracticeTargets]1.41rc2",
+  "fossicOrigin": "repost"
+}

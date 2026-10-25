@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/aptlysimplehullmods.dl.version",
+  "modName": "aptlysimplehullmods",
+  "modVersion": {
+    "major": "2",
+    "minor": "1",
+    "patch": "50"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/10/211138ulygf6vkb3e8jbjk.zip",
+  "fossicThread": "https://www.fossic.org/thread-13808-1-1.html",
+  "fossicTitle": "[0.98a]灰烬船插 - Aptly Simple Hullmods6",
+  "fossicOrigin": "repost"
+}

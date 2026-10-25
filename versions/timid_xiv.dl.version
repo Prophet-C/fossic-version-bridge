@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/timid_xiv.dl.version",
+  "modName": "timid_xiv",
+  "modVersion": {
+    "major": "1",
+    "minor": "1813aj"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202501/01/211353brb0sze443b22c9o.attach",
+  "fossicThread": "https://www.fossic.org/thread-13362-1-1.html",
+  "fossicTitle": "[0.97][C](势力) 铁壳 [Iron Shell] 1.1813aj",
+  "fossicOrigin": "repost"
+}

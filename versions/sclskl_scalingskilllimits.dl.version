@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sclskl_scalingskilllimits.dl.version",
+  "modName": "sclskl_scalingskilllimits",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202208/03/222543fqhpvxypzpamuvjp.attach",
+  "fossicThread": "https://www.fossic.org/thread-5224-1-1.html",
+  "fossicTitle": "【0.95.1a】动态调整技能限制 Battlesize based skill DP values V0.2.0",
+  "fossicOrigin": "repost"
+}

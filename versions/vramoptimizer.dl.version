@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/vramoptimizer.dl.version",
+  "modName": "VramOptimizer",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "45"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/28/110033h73b7me943mvs3kk.zip",
+  "fossicThread": "https://www.fossic.org/thread-21395-1-1.html",
+  "fossicTitle": "VRAM Optimizer显存优化器（提高游戏帧数和启动速度）",
+  "fossicOrigin": "repost"
+}

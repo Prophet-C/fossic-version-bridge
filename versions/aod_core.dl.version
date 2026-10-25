@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/aod_core.dl.version",
+  "modName": "aod_core",
+  "modVersion": {
+    "major": "1",
+    "minor": "6",
+    "patch": "10"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202310/21/201108ulwuevekkuurrepr.attach",
+  "fossicThread": "https://www.fossic.org/thread-9282-1-1.html",
+  "fossicTitle": "【0.96a】Ashes of The Domian 人之领余烬",
+  "fossicOrigin": "repost"
+}

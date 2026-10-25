@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ylphon_rnd.dl.version",
+  "modName": "ylphon_RnD",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "2"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/30/011016ck6lsukhvk0vlxvy.zip",
+  "fossicThread": "https://www.fossic.org/thread-21072-1-1.html",
+  "fossicTitle": "[0.98]希尔芬研究所 v1.2.2",
+  "fossicOrigin": "repost"
+}

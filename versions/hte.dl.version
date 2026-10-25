@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hte.dl.version",
+  "modName": "hte",
+  "modVersion": {
+    "major": "2",
+    "minor": "0",
+    "patch": "5"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202510/16/005503x6thck68yn3k3ook.zip",
+  "fossicThread": "https://www.fossic.org/thread-17571-1-1.html",
+  "fossicTitle": "[0.98a][C](内容)扩展纪元扩展 [High Tech Expansion] v2.0.5",
+  "fossicOrigin": "repost"
+}

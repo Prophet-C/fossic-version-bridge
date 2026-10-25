@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pigeonpun_bionicalteration.dl.version",
+  "modName": "pigeonpun_bionicalteration",
+  "modVersion": {
+    "major": "0",
+    "minor": "3",
+    "patch": "3"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202509/06/230251sllo6s88m5qql3lo.zip",
+  "fossicThread": "https://www.fossic.org/thread-16783-1-1.html",
+  "fossicTitle": "[0.98a]义体改造[Bionic Alteration]0.3.3",
+  "fossicOrigin": "repost"
+}

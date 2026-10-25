@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/wisp_neutrinodetectormkii.dl.version",
+  "modName": "wisp_NeutrinoDetectorMkII",
+  "modVersion": {
+    "major": "1",
+    "minor": "4",
+    "patch": "4"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202604/08/192512cnn5n4mljmjrj9lz.attach",
+  "fossicThread": "https://www.fossic.org/thread-5211-1-1.html",
+  "fossicTitle": "[0.98]Neutrino Detector 中微子探测器增强版 Mk.II V1.4.4",
+  "fossicOrigin": "repost"
+}

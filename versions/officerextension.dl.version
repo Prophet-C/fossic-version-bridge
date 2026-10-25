@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/officerextension.dl.version",
+  "modName": "officerExtension",
+  "modVersion": {
+    "major": "0",
+    "minor": "8",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/28/212850tnfiafzfeabinn7n.zip",
+  "fossicThread": "https://www.fossic.org/thread-21389-1-1.html",
+  "fossicTitle": "Officer Extension/军官拓展",
+  "fossicOrigin": "repost"
+}

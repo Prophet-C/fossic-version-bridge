@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/realisticcombat.dl.version",
+  "modName": "RealisticCombat",
+  "modVersion": {
+    "major": "2",
+    "minor": "16",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/08/024918lbq7b369e8996xx5.zip",
+  "fossicThread": "https://www.fossic.org/thread-21547-1-1.html",
+  "fossicTitle": "[0.98]真实战斗(Realistic Combat) v2.16.0",
+  "fossicOrigin": "repost"
+}

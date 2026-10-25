@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/gacha_hullmods.dl.version",
+  "modName": "gacha_hullmods",
+  "modVersion": {
+    "major": "2",
+    "minor": "0",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/20/234733ufcocrnfb6ip2ppc.zip",
+  "fossicThread": "https://www.fossic.org/thread-21276-1-1.html",
+  "fossicTitle": "[0.98][汉化] 抽卡船插 Gacha Hullmods",
+  "fossicOrigin": "repost"
+}

@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/captains_quarters.dl.version",
+  "modName": "captains_quarters",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "2"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/11/210146cezqn7enle3hax3q.rar",
+  "fossicThread": "https://www.fossic.org/thread-21088-1-1.html",
+  "fossicTitle": "[0.98][汉化]舰长休息室 Captain's Quarters v1.0.2（家具收集 + 船内装修）",
+  "fossicOrigin": "repost"
+}

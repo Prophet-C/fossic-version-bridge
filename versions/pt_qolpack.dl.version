@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/pt_qolpack.dl.version",
+  "modName": "pt_qolpack",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "2"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202605/21/142752tsp744ggx4sd91gd.zip",
+  "fossicThread": "https://www.fossic.org/thread-17348-1-1.html",
+  "fossicTitle": "生活质量工具包 QoL Pack 1.5.2",
+  "fossicOrigin": "repost"
+}

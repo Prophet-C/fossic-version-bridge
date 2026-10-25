@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/demonx3_ungp_rulepack.dl.version",
+  "modName": "demonx3_ungp_rulepack",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202410/04/195714viekgiiuwicz3qre.zip",
+  "fossicThread": "https://www.fossic.org/thread-9460-1-1.html",
+  "fossicTitle": "[0.97/0.96][C] 重生规则拓展 [Unofficial Rule Book] 1.2.0/1.3.0",
+  "fossicOrigin": "repost"
+}

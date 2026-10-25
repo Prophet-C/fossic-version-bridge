@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/gwyvern_trailstc.dl.version",
+  "modName": "gwyvern_trailstc",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202605/14/014652wi2i5c4gg5ab4h5z.zip",
+  "fossicThread": "https://www.fossic.org/thread-19802-1-1.html",
+  "fossicTitle": "[0.98][C]爪牙之路 [Trails of Tooth and Claw]v1.3.0",
+  "fossicOrigin": "repost"
+}

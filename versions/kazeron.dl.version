@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/kazeron.dl.version",
+  "modName": "kazeron",
+  "modVersion": {
+    "major": "1",
+    "minor": "7",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202509/08/153651e4hz7477l2ftcliz.rar",
+  "fossicThread": "https://www.fossic.org/thread-13134-1-1.html",
+  "fossicTitle": "[0.98*] Kazeron 海军 v1.7.0",
+  "fossicOrigin": "repost"
+}

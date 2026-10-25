@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/astroidships.dl.version",
+  "modName": "astroidships",
+  "modVersion": {
+    "major": "1",
+    "minor": "4d"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202412/16/113933w6sg4gsn28ggg8a2.zip",
+  "fossicThread": "https://www.fossic.org/thread-4792-1-1.html",
+  "fossicTitle": "[0.97a/0.96a/0.951a][C](拓展)陨石舰船拓展(Asteroid ship pack)1.4d/1.4b/1.4a",
+  "fossicOrigin": "repost"
+}

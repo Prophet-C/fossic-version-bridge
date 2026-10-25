@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/theit8514_enabletransponder.dl.version",
+  "modName": "theit8514_enabletransponder",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "5"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202411/16/150157qfpp5iex43pjaaaj.attach",
+  "fossicThread": "https://www.fossic.org/thread-7013-1-1.html",
+  "fossicTitle": "[0.97/0.96/0.951] Enable TranspONder 进屋先敲门 V0.1.5",
+  "fossicOrigin": "repost"
+}

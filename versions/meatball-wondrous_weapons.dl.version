@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/meatball-wondrous_weapons.dl.version",
+  "modName": "Meatball-Wondrous_Weapons",
+  "modVersion": {
+    "major": "0",
+    "minor": "6",
+    "patch": "2"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202606/27/202724l16njjsjtz67szjn.zip",
+  "fossicThread": "https://www.fossic.org/thread-20256-1-1.html",
+  "fossicTitle": "神奇武器 Wondrous Weapons v0.6.2",
+  "fossicOrigin": "repost"
+}

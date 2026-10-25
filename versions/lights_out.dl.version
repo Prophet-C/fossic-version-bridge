@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/lights_out.dl.version",
+  "modName": "lights_out",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202207/09/191056sml09ly9wkj0xm0j.attach",
+  "fossicThread": "https://www.fossic.org/thread-5217-1-1.html",
+  "fossicTitle": "[0.95.1a/0.97]熄灯 Lights Out V1.2.0",
+  "fossicOrigin": "repost"
+}

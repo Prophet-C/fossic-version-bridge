@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/logisticsnotifications.dl.version",
+  "modName": "logisticsNotifications",
+  "modVersion": {
+    "major": "1",
+    "minor": "4",
+    "patch": "5"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202311/18/143429kbt9898op9bbtxau.attach",
+  "fossicThread": "https://www.fossic.org/thread-5404-1-1.html",
+  "fossicTitle": "Logistics Notifications 物流报告 V1.4.5",
+  "fossicOrigin": "repost"
+}

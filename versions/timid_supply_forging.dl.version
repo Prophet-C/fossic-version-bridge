@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/timid_supply_forging.dl.version",
+  "modName": "timid_supply_forging",
+  "modVersion": {
+    "major": "1",
+    "minor": "41"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202112/31/110301ng4grh7s.zip",
+  "fossicThread": "https://www.fossic.org/thread-3833-1-1.html",
+  "fossicTitle": "【0.95】[C]补给制造[Supply Forging] v1.41",
+  "fossicOrigin": "repost"
+}

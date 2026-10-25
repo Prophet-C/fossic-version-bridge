@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/illustrated_entities.dl.version",
+  "modName": "illustrated_entities",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202302/07/021531ugqiyk55af4gqnoo.attach",
+  "fossicThread": "https://www.fossic.org/thread-7486-1-1.html",
+  "fossicTitle": "[C][0.95.1a]自定义殖民地图像和描述v1.1.a",
+  "fossicOrigin": "repost"
+}

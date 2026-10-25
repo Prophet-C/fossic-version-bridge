@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/fds_rots.dl.version",
+  "modName": "FDS_ROTS",
+  "modVersion": {
+    "major": "0",
+    "minor": "11",
+    "patch": "4m"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/08/001347fvdcz3ocorqocvro.zip",
+  "fossicThread": "https://www.fossic.org/thread-21047-1-1.html",
+  "fossicTitle": "[0.98]边缘防卫集团v0.11.4m",
+  "fossicOrigin": "repost"
+}

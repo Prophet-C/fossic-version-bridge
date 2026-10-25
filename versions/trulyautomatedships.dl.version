@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/trulyautomatedships.dl.version",
+  "modName": "TrulyAutomatedShips",
+  "modVersion": {
+    "major": "2",
+    "minor": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/10/190409gpyomyp3ey4heqfp.zip",
+  "fossicThread": "https://www.fossic.org/thread-20945-1-1.html",
+  "fossicTitle": "[0.98a][功能]真正的无人舰船 Truly Automated Ships 2.0（汉化搬运）",
+  "fossicOrigin": "repost"
+}

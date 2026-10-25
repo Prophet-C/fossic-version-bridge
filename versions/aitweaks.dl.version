@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/aitweaks.dl.version",
+  "modName": "aitweaks",
+  "modVersion": {
+    "major": "2",
+    "minor": "2",
+    "patch": "10"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202605/12/023459rfx2yztpftaypz2f.zip",
+  "fossicThread": "https://www.fossic.org/thread-11194-1-1.html",
+  "fossicTitle": "[0.98a]AI 改修 AI Tweaks 2.2.10",
+  "fossicOrigin": "repost"
+}

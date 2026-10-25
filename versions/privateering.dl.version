@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/privateering.dl.version",
+  "modName": "privateering",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "4"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202510/04/102841ls66l4lo64m4wf4n.zip",
+  "fossicThread": "https://www.fossic.org/thread-17367-1-1.html",
+  "fossicTitle": "私掠活动 - 雇佣协议重制 Privateering - Commission Overhaul 1.0.4",
+  "fossicOrigin": "repost"
+}

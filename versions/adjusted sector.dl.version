@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/adjusted%20sector.dl.version",
+  "modName": "Adjusted Sector",
+  "modVersion": {
+    "major": "0",
+    "minor": "5",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202302/02/182844jr2kv5r23akgs3g5.rar",
+  "fossicThread": "https://www.fossic.org/thread-1063-1-1.html",
+  "fossicTitle": "[0.95.1a] 星域调整 Adjusted Sector （授权搬运）",
+  "fossicOrigin": "repost"
+}

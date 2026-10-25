@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/armaa.dl.version",
+  "modName": "armaa",
+  "modVersion": {
+    "major": "3",
+    "minor": "3",
+    "patch": "6"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/01/025422j5yi2x5lmr9yjym5.zip",
+  "fossicThread": "https://www.fossic.org/thread-14612-1-1.html",
+  "fossicTitle": "[0.98/0.97] 骤雨军事公司 [Arma Armatua] V3.3.6",
+  "fossicOrigin": "repost"
+}

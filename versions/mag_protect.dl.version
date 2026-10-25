@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mag_protect.dl.version",
+  "modName": "mag_protect",
+  "modVersion": {
+    "major": "1",
+    "minor": "5a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202211/21/210724vdecav5ueaz9civh.zip",
+  "fossicThread": "https://www.fossic.org/thread-6711-1-1.html",
+  "fossicTitle": "【0.95.1a】麦哲伦保护国 [Magellan Protectorate] 1.5a",
+  "fossicOrigin": "repost"
+}

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mayu_specialupgrades.dl.version",
+  "modName": "mayu_specialupgrades",
+  "modVersion": {
+    "major": "1",
+    "minor": "6"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202504/24/152236fd6d3kd33e6dx3kx.zip",
+  "fossicThread": "https://www.fossic.org/thread-13599-1-1.html",
+  "fossicTitle": "[0.98]特殊船插升级 Special Hullmod Upgrades v1.6",
+  "fossicOrigin": "repost"
+}

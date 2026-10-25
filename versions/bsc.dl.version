@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/bsc.dl.version",
+  "modName": "BSC",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "98.7"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202506/25/175221wmmmjjas6cj4ym2m.attach",
+  "fossicThread": "https://www.fossic.org/thread-15664-1-1.html",
+  "fossicTitle": "[0.98/0.97][C](内容)大豆船包 [BigBeans Ship Compilation] 0.1.98.7",
+  "fossicOrigin": "repost"
+}

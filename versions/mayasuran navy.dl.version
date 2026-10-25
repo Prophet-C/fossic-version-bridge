@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mayasuran%20navy.dl.version",
+  "modName": "Mayasuran Navy",
+  "modVersion": {
+    "major": "12",
+    "minor": "0",
+    "patch": "0-RC1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202603/30/133611cfgux4e8f8gyx8fx.zip",
+  "fossicThread": "https://www.fossic.org/thread-11284-1-1.html",
+  "fossicTitle": "[0.98/0.97][C](势力)玛雅苏兰海军 [Mayasuran Navy] 12.0.0 RC1",
+  "fossicOrigin": "repost"
+}

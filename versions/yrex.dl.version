@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/yrex.dl.version",
+  "modName": "yrex",
+  "modVersion": {
+    "major": "0",
+    "minor": "3",
+    "patch": "3"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/20/181119tfgsnzbzqog266zd.zip",
+  "fossicThread": "https://www.fossic.org/thread-21270-1-1.html",
+  "fossicTitle": "[0.98-RC6] 二次元拓展Nijigen Extend v.0.3.3",
+  "fossicOrigin": "repost"
+}

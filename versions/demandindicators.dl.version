@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/demandindicators.dl.version",
+  "modName": "demandIndicators",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "f"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202604/24/200649aybobonyjubujdjg.attach",
+  "fossicThread": "https://www.fossic.org/thread-14285-1-1.html",
+  "fossicTitle": "[N]Demand Indicators 供需指示 V1.0.f",
+  "fossicOrigin": "repost"
+}

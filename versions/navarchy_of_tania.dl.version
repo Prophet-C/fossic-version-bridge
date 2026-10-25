@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/navarchy_of_tania.dl.version",
+  "modName": "navarchy_of_tania",
+  "modVersion": {
+    "major": "1",
+    "minor": "3",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/06/185943g22yppielc1x2ph4.zip",
+  "fossicThread": "https://www.fossic.org/thread-21064-1-1.html",
+  "fossicTitle": "[0.98]塔尼亚海权领 v1.3.0",
+  "fossicOrigin": "repost"
+}

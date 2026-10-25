@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sun_nomadic_survival.dl.version",
+  "modName": "sun_nomadic_survival",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/01/230406rfe22aaemf7q2zzq.zip",
+  "fossicThread": "https://www.fossic.org/thread-21125-1-1.html",
+  "fossicTitle": "[0.98]Nomadic Survival 游牧生存（ai翻译） v1.5.0",
+  "fossicOrigin": "repost"
+}

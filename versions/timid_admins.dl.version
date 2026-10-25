@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/timid_admins.dl.version",
+  "modName": "timid_admins",
+  "modVersion": {
+    "major": "1",
+    "minor": "8",
+    "patch": "6"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202210/27/091836jgunnh2hktn3eu3h.attach",
+  "fossicThread": "https://www.fossic.org/thread-5785-1-1.html",
+  "fossicTitle": "【0.95.1a】Better Colonies 更好的殖民地 V1.86",
+  "fossicOrigin": "repost"
+}

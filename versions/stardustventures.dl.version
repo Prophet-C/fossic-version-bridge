@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/stardustventures.dl.version",
+  "modName": "stardustventures",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "6"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/20/203441zwsv0zrel1zw0ml8.zip",
+  "fossicThread": "https://www.fossic.org/thread-13427-1-1.html",
+  "fossicTitle": "星尘冒险 Stardust Ventures ship pack",
+  "fossicOrigin": "repost"
+}

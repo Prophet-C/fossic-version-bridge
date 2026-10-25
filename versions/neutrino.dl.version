@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/neutrino.dl.version",
+  "modName": "Neutrino",
+  "modVersion": {
+    "major": "1",
+    "minor": "87-RC3"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202212/20/171046p7pjns7rp74r4mms.zip",
+  "fossicThread": "https://www.fossic.org/thread-6942-1-1.html",
+  "fossicTitle": "[0.95.1a] 中微子公司 [Neutrino Corp] 1.87-RC3",
+  "fossicOrigin": "repost"
+}

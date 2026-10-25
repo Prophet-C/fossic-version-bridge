@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/knights_of_ludd.dl.version",
+  "modName": "knights_of_ludd",
+  "modVersion": {
+    "major": "1",
+    "minor": "4",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202603/07/123053xm82jy9mg24zv988.zip",
+  "fossicThread": "https://www.fossic.org/thread-11113-1-1.html",
+  "fossicTitle": "[0.98/.97][C](势力)卢德骑士团[The Knights of Ludd] v1.4.0",
+  "fossicOrigin": "repost"
+}

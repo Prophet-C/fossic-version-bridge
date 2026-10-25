@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/autopilot_with_gates.dl.version",
+  "modName": "autopilot_with_gates",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "6b"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202605/12/220510r9ykk5zl8qwzw14f.zip",
+  "fossicThread": "https://www.fossic.org/thread-19789-1-1.html",
+  "fossicTitle": "Autopilot With Gates 自动规划走星门路径",
+  "fossicOrigin": "repost"
+}

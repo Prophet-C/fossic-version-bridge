@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/threattech.dl.version",
+  "modName": "threattech",
+  "modVersion": {
+    "major": "1",
+    "minor": "9a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/26/223108x8iz9cr3p3ul9gbu.zip",
+  "fossicThread": "https://www.fossic.org/thread-20809-1-1.html",
+  "fossicTitle": "[0.98]威胁科技 THREAT TECH v1.9 最终版？",
+  "fossicOrigin": "repost"
+}

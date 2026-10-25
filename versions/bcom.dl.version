@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/bcom.dl.version",
+  "modName": "bcom",
+  "modVersion": {
+    "major": "0",
+    "minor": "3",
+    "patch": "24"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/05/000214v30en3dq1z4b43b4.attach",
+  "fossicThread": "https://www.fossic.org/thread-14569-1-1.html",
+  "fossicTitle": "近战接弦战的救星（更好的战斗）",
+  "fossicOrigin": "repost"
+}

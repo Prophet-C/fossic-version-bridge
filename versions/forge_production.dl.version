@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/forge_production.dl.version",
+  "modName": "forge_production",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202305/04/192844snlrfl9n9zsndnrn.attach",
+  "fossicThread": "https://www.fossic.org/thread-7345-1-1.html",
+  "fossicTitle": "Forge Production 锻造生产 V1.1.1",
+  "fossicOrigin": "repost"
+}

@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/whichmod.dl.version",
+  "modName": "whichmod",
+  "modVersion": {
+    "major": "1",
+    "minor": "2",
+    "patch": "2a"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202402/10/184409lk07a7dn0a1donkd.attach",
+  "fossicThread": "https://www.fossic.org/thread-3730-1-1.html",
+  "fossicTitle": "[0.95a-0.97a][N](功能)MOD溯源 WhichMod 1.2.2a",
+  "fossicOrigin": "repost"
+}

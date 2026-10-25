@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/grandcolonies.dl.version",
+  "modName": "GrandColonies",
+  "modVersion": {
+    "major": "2",
+    "minor": "1",
+    "patch": "b"
+  },
+  "directDownloadURL": "https://cdn.fossic.cn/forum/202609/03/185021n7dk7xr8bdbmh7ib.attach",
+  "fossicThread": "https://www.fossic.org/thread-5368-1-1.html",
+  "fossicTitle": "[C]Grand Colonies 更大的殖民地 V2.1.b",
+  "fossicOrigin": "repost"
+}
