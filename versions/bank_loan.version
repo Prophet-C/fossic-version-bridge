@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/bank_loan.version",
+  "modName": "bank_loan",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21841-1-1.html",
+  "fossicTitle": "银行贷款",
+  "fossicOrigin": "original"
+}
