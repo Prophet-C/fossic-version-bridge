@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ships_revovery_overflow_stls.version",
+  "modName": "ships_revovery_overflow_stls",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21845-1-1.html",
+  "fossicTitle": "[0.97/0.98]战后舰船超量恢复(适配千位以上战场规模)",
+  "fossicOrigin": "original"
+}

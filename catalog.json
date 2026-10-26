@@ -1287,9 +1287,9 @@
   "id": "CjyToyBox",
   "thread": "https://www.fossic.org/thread-151-1-1.html",
   "forum": 46,
-  "title": "[0.98*] 星际小卖部 2026-9-06更新",
-  "edited": "2026-9-6 17:10",
-  "version": "0.5.7c-fix",
+  "title": "[0.98*] 星际小卖部 2026-10-27更新",
+  "edited": "2026-10-27 02:01",
+  "version": "0.5.8a",
   "source": "header",
   "origin": "original",
   "aid": 61747,
@@ -2140,7 +2140,7 @@
   "thread": "https://www.fossic.org/thread-21803-1-1.html",
   "forum": 71,
   "title": "[0.98]更多界面增强",
-  "edited": "2026-10-26 19:55",
+  "edited": "2026-10-27 01:22",
   "version": "0.1.0",
   "source": "header",
   "origin": "original",
@@ -6095,6 +6095,18 @@
   "aid": null,
   "download": null
  },
+ "ships_revovery_overflow_stls": {
+  "id": "ships_revovery_overflow_stls",
+  "thread": "https://www.fossic.org/thread-21845-1-1.html",
+  "forum": 71,
+  "title": "[0.97/0.98]战后舰船超量恢复(适配千位以上战场规模)",
+  "edited": "2026-10-26 22:09",
+  "version": "1.0.0",
+  "source": "header",
+  "origin": "original",
+  "aid": 114051,
+  "download": null
+ },
  "shojo_sector": {
   "id": "shojo_sector",
   "thread": "https://www.fossic.org/thread-8354-1-1.html",
@@ -6201,6 +6213,18 @@
   "source": "header",
   "origin": "original",
   "aid": 87944,
+  "download": null
+ },
+ "slow_stop_fix": {
+  "id": "slow_stop_fix",
+  "thread": "https://www.fossic.org/thread-21853-1-1.html",
+  "forum": 71,
+  "title": "匿踪/主动扫描驾驶手感修复",
+  "edited": "2026-10-27 00:47",
+  "version": "0.3.0",
+  "source": "header",
+  "origin": "original",
+  "aid": 114064,
   "download": null
  },
  "small_energy_buff": {

@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/slow_stop_fix.version",
+  "modName": "slow_stop_fix",
+  "modVersion": {
+    "major": "0",
+    "minor": "3",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21853-1-1.html",
+  "fossicTitle": "匿踪/主动扫描驾驶手感修复",
+  "fossicOrigin": "original"
+}
