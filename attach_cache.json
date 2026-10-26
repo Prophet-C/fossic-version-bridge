@@ -10479,6 +10479,11 @@
 "ext": "gif",
 "dateline": 1792428163
 },
+"113269": {
+"filename": "aigs-0.3.zip",
+"ext": "zip",
+"dateline": 1792984249
+},
 "113968": {
 "filename": "Simple Mission Lib 0.7.6.zip",
 "ext": "zip",
@@ -10493,5 +10498,10 @@
 "filename": "LLM Comms 0.8.7.zip",
 "ext": "zip",
 "dateline": 1792961186
+},
+"113972": {
+"filename": "附录：在你的mod中拓展LLM.zip",
+"ext": "zip",
+"dateline": 1792962342
 }
 }
