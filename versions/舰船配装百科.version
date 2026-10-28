@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/%E8%88%B0%E8%88%B9%E9%85%8D%E8%A3%85%E7%99%BE%E7%A7%91.version",
+  "modName": "舰船配装百科",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "16"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21721-1-1.html",
+  "fossicTitle": "舰船配装百科 v0.1.9 —— 给新手的配装教练（附一键配装 / 配装体检 / 舰队编成）",
+  "fossicOrigin": "original"
+}
