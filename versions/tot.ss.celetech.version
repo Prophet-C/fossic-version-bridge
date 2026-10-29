@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/tot.ss.celetech.version",
+  "modName": "tot.ss.celetech",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "0-beta"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21883-1-1.html",
+  "fossicTitle": "[0.98]CeleTech船包",
+  "fossicOrigin": "original"
+}
