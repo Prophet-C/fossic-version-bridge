@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/stellar_dynamic_fleets.version",
+  "modName": "stellar_dynamic_fleets",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21879-1-1.html",
+  "fossicTitle": "星域势力动态舰队与真实舰队系统",
+  "fossicOrigin": "original"
+}
