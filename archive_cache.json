@@ -4013,6 +4013,9 @@
 }
 ]
 },
+"111172": {
+"mods": []
+},
 "111224": {
 "mods": [
 {
@@ -4262,6 +4265,42 @@
 "id": "Neutrino SLEEPYFISH AKA NOSTALGIA",
 "name": "中微子公司：(SLEEPYFISH)",
 "version": "1.87-RC3"
+}
+]
+},
+"114514": {
+"mods": [
+{
+"id": "sg",
+"name": "上古看护者sg",
+"version": "1.0"
+}
+]
+},
+"114515": {
+"mods": [
+{
+"id": "sg",
+"name": "上古看护者sg",
+"version": "1.0"
+}
+]
+},
+"114516": {
+"mods": [
+{
+"id": "sg",
+"name": "上古看护者sg",
+"version": "1.0"
+}
+]
+},
+"114517": {
+"mods": [
+{
+"id": "sg",
+"name": "上古看护者sg",
+"version": "1.0"
 }
 ]
 }
