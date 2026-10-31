@@ -3,9 +3,10 @@
   "modName": "aigs",
   "modVersion": {
     "major": "0",
-    "minor": "3"
+    "minor": "3",
+    "patch": "1"
   },
   "fossicThread": "https://www.fossic.org/thread-21760-1-1.html",
-  "fossicTitle": "AI娘军官包",
+  "fossicTitle": "[0.98]AI娘军官包",
   "fossicOrigin": "original"
 }

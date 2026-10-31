@@ -4193,6 +4193,9 @@
 }
 ]
 },
+"113269": {
+"error": "login required"
+},
 "113340": {
 "mods": [
 {
@@ -4301,6 +4304,15 @@
 "id": "sg",
 "name": "上古看护者sg",
 "version": "1.0"
+}
+]
+},
+"114582": {
+"mods": [
+{
+"id": "enable_planetkiller",
+"name": "启用行星杀手",
+"version": "3.0.2"
 }
 ]
 }
