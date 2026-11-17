@@ -4745,6 +4745,15 @@
 }
 ]
 },
+"115791": {
+"mods": [
+{
+"id": "hypernova_infinite_engine",
+"name": "Hypernova Infinite Engine",
+"version": "1.9.9"
+}
+]
+},
 "115793": {
 "error": "File is not a zip file"
 },
@@ -4790,6 +4799,15 @@
 "116176": {
 "error": "File is not a zip file"
 },
+"116195": {
+"mods": [
+{
+"id": "illustrated_entities",
+"name": "自定义殖民地图像和描述",
+"version": "2.1.a"
+}
+]
+},
 "116210": {
 "error": "File is not a zip file"
 },
@@ -4798,5 +4816,14 @@
 },
 "116255": {
 "error": "File is not a zip file"
+},
+"116294": {
+"mods": [
+{
+"id": "enable_planetkiller",
+"name": "启用行星杀手",
+"version": "3.1.2"
+}
+]
 }
 }

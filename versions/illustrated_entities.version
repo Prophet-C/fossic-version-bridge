@@ -3,7 +3,8 @@
   "modName": "illustrated_entities",
   "modVersion": {
     "major": "2",
-    "minor": "1a"
+    "minor": "1",
+    "patch": "a"
   },
   "fossicThread": "https://www.fossic.org/thread-22085-1-1.html",
   "fossicTitle": "[0.98]自定义殖民地图像和描述v2.1a",
