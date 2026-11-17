@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["mods.json", "scrape.py", "fossic_lib.py"]
+    paths: ["mods.json", "scrape.py", "fossic_lib.py", "fossic_api.py", "test_fossic_api.py", ".github/workflows/scrape.yml"]
 
 permissions:
   contents: write
@@ -30,6 +30,9 @@ jobs:
 
       - name: Install 7-Zip (reads 7z/rar release archives)
         run: sudo apt-get update -qq && sudo apt-get install -y -qq 7zip
+
+      - name: Test API adapter
+        run: python -m unittest test_fossic_api -v
 
       - name: Scrape
         run: python scrape.py

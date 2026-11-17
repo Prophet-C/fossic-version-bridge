@@ -8,8 +8,8 @@ TriOS 靠 Version Checker 文件检查更新：mod 里的 `data/config/version/v
 指向一个 `.version` 文件，文件里的 `masterVersionFile` 是远程版本号的网址。
 大部分中文 mod 没有这个文件，所以 TriOS 查不到它们。
 
-1. **GitHub Actions**（`scrape.py`，每 6 小时一次）爬取 fossic 的 Mod 发布区，
-   读取每个帖子顶部的结构化发布信息（版本号 + mod ID + 下载列表），
+1. **GitHub Actions**（`scrape.py`，每 6 小时一次）读取官方公开 API `https://api.fossic.org/mods?include_modding=true`，
+   获取结构化发布信息（版本号 + mod ID + 下载列表），
    为每个 mod 生成 `versions/<mod id>.version` 和 `catalog.json`。
 2. **本地**（`inject.py`）给本地没有 Version Checker 文件、但 fossic 上能找到的 mod
    写入 `fossic_bridge.version` 和 `version_files.csv`，指向上面的远程文件。
@@ -133,3 +133,15 @@ zip 只用分段下载读取 `mod_info.json`（几十 KB）；7z/rar 必须整�
 - 一键更新下载的是作者上传的压缩包。个别作者的压缩包结构不规范（多套一层文件夹、或本体和拓展打在一起），
   TriOS 可能需要你确认安装哪个文件夹。
 - 只抓取 Mod原创发布 / 汉化发布 / 搬运发布 三个版块及其「已过时」版块。
+
+
+## 2026-11-17 定时抓取修复
+
+- 公开 Actions 记录显示最近成功运行于 2026-11-01 06:14 UTC；11-17 的失败发生在 Scrape 步骤，约 10 秒退出。完整远端日志未取得。
+- 本地匿名复现：论坛列表返回 HTTP 403，响应头 `Cf-Mitigated: challenge`。默认抓取改走官方公开 API（字段依据 https://api.fossic.org/openapi.json），不使用登录 cookie。
+- 保留现有论坛优先级、mods.json 特例和压缩包 mod_info 核验。官方未覆盖的旧记录保留，日志报告数量；这些记录不会自动刷新。API 为空或覆盖骤降超过 30% 时拒绝写入。
+- 只发布 API 明确允许的公开 zip 链接。旧 `.dl.version` 也同步移除撤回链接。缺少直链时仍可查看版本和帖子。
+- `python -m unittest test_fossic_api -v` 验证版本分组、特例、历史保留、空索引保护及旧下载链接清理。
+- `python scrape.py --threads ...` 仍是旧网页诊断路径，可能被人机验证拦截；默认定时任务不走此路径。本地登录下载逻辑仍依赖论坛网页，未在此轮验证。
+
+本轮验证：4 项单元测试通过；真实 API 全量运行退出码 0，生成 762 条记录，505 个 Mod 的版本文件发生变化，剔除 5 个包内 ID 不匹配的下载链接。GitHub 发布等待用户确认，尚未验证修复后的远端 Actions。未操作游戏或 TriOS。
