@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/belt_astartes.version",
+  "modName": "belt_astartes",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21412-1-1.html",
+  "fossicTitle": "[0.98][C]阿斯塔特迷你船包 [Astartes Minipack] v1.1.0",
+  "fossicOrigin": "repost"
+}

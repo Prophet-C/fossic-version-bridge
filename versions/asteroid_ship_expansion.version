@@ -4,9 +4,10 @@
   "modVersion": {
     "major": "0",
     "minor": "4",
-    "patch": "0"
+    "patch": "2"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=111521",
   "fossicThread": "https://www.fossic.org/thread-21572-1-1.html",
-  "fossicTitle": "[0.98]陨石舰船拓展（10.25新增舰船）",
+  "fossicTitle": "[0.98]陨石舰船拓展（11.11 护卫/驱逐 小幅重做）",
   "fossicOrigin": "original"
 }

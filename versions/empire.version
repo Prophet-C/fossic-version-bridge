@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/empire.version",
+  "modName": "Empire",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116176",
+  "fossicThread": "https://www.fossic.org/thread-22069-1-1.html",
+  "fossicTitle": "视界线黑洞表面——帝国舰包",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/bld_hullmod.version",
+  "modName": "bld_hullmod",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116014",
+  "fossicThread": "https://www.fossic.org/thread-22062-1-1.html",
+  "fossicTitle": "船插便利店",
+  "fossicOrigin": "original"
+}

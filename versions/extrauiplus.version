@@ -3,9 +3,10 @@
   "modName": "extrauiplus",
   "modVersion": {
     "major": "0",
-    "minor": "2",
-    "patch": "0"
+    "minor": "3",
+    "patch": "3"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=113577",
   "fossicThread": "https://www.fossic.org/thread-21803-1-1.html",
   "fossicTitle": "[0.98]更多界面增强",
   "fossicOrigin": "original"

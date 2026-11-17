@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/orbit_shapes.version",
+  "modName": "orbit_shapes",
+  "modVersion": {
+    "major": "0",
+    "minor": "2",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=115336",
+  "fossicThread": "https://www.fossic.org/thread-21980-1-1.html",
+  "fossicTitle": "轨道形状库 Orbit Shapes",
+  "fossicOrigin": "original"
+}

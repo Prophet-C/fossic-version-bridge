@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/efficient_deployment.version",
+  "modName": "efficient_deployment",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=115536",
+  "fossicThread": "https://www.fossic.org/thread-22011-1-1.html",
+  "fossicTitle": "高效部署",
+  "fossicOrigin": "original"
+}

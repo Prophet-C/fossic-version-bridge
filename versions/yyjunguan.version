@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/yyjunguan.version",
+  "modName": "YYjunguan",
+  "modVersion": {
+    "major": "0",
+    "minor": "5",
+    "patch": "0（1bug）"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21970-1-1.html",
+  "fossicTitle": "YY自定义军官",
+  "fossicOrigin": "original"
+}

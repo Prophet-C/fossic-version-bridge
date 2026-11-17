@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/breach.version",
+  "modName": "breach",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=114889",
+  "fossicThread": "https://www.fossic.org/thread-21932-1-1.html",
+  "fossicTitle": "跳帮船插MOD",
+  "fossicOrigin": "original"
+}

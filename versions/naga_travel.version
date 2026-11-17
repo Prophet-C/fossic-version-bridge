@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/naga_travel.version",
+  "modName": "naga_travel",
+  "modVersion": {
+    "major": "0",
+    "minor": "4",
+    "patch": "116"
+  },
+  "fossicThread": "https://www.fossic.org/thread-22018-1-1.html",
+  "fossicTitle": "[0.985a/0.98a][功能]娜迦的远行星号之旅",
+  "fossicOrigin": "original"
+}

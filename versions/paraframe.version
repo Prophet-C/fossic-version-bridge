@@ -6,6 +6,7 @@
     "minor": "0",
     "patch": "0"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=114633",
   "fossicThread": "https://www.fossic.org/thread-21898-1-1.html",
   "fossicTitle": "[前置] paraFrame 1.0.0 —— 并行/异步运行时库",
   "fossicOrigin": "original"

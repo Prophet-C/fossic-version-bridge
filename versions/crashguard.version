@@ -4,8 +4,9 @@
   "modVersion": {
     "major": "1",
     "minor": "0",
-    "patch": "0"
+    "patch": "1"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=113445",
   "fossicThread": "https://www.fossic.org/thread-21785-1-1.html",
   "fossicTitle": "拯救你的游戏中途的闪退，回到光荣的主菜单而不是重启！",
   "fossicOrigin": "original"

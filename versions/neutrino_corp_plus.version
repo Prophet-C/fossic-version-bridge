@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/neutrino_corp_plus.version",
+  "modName": "Neutrino_corp_Plus",
+  "modVersion": {
+    "major": "0",
+    "minor": "7",
+    "patch": "15a"
+  },
+  "fossicThread": "https://www.fossic.org/thread-6064-1-1.html",
+  "fossicTitle": "[0.95.1a][C]中微子的简易的扩展包0.7.15a",
+  "fossicOrigin": "original"
+}

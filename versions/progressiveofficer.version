@@ -3,9 +3,10 @@
   "modName": "progressiveOfficer",
   "modVersion": {
     "major": "1",
-    "minor": "8",
-    "patch": "3"
+    "minor": "9",
+    "patch": "9"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=115725",
   "fossicThread": "https://www.fossic.org/thread-21780-1-1.html",
   "fossicTitle": "[0.98][C][杂项]经验军官 Progressive Officer",
   "fossicOrigin": "original"

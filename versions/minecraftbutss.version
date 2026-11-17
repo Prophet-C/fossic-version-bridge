@@ -2,11 +2,11 @@
   "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/minecraftbutss.version",
   "modName": "MinecraftbutSS",
   "modVersion": {
-    "major": "0",
+    "major": "1",
     "minor": "0",
-    "patch": "3"
+    "patch": "0"
   },
   "fossicThread": "https://www.fossic.org/thread-19590-1-1.html",
-  "fossicTitle": "[0.98a] (赏金&船包) MC生物船包",
+  "fossicTitle": "[0.98a] (赏金&amp;船包) MC生物船包",
   "fossicOrigin": "original"
 }

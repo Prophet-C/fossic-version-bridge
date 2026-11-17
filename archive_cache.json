@@ -551,6 +551,9 @@
 }
 ]
 },
+"23318": {
+"error": "File is not a zip file"
+},
 "24144": {
 "mods": [
 {
@@ -2452,6 +2455,15 @@
 }
 ]
 },
+"66201": {
+"mods": [
+{
+"id": "BSC",
+"name": "大豆船包",
+"version": "0.1.98.85"
+}
+]
+},
 "66264": {
 "mods": [
 {
@@ -2597,6 +2609,9 @@
 }
 ]
 },
+"69209": {
+"error": "File is not a zip file"
+},
 "69216": {
 "mods": [
 {
@@ -2723,6 +2738,9 @@
 }
 ]
 },
+"70378": {
+"error": "File is not a zip file"
+},
 "70401": {
 "mods": [
 {
@@ -2848,6 +2866,9 @@
 }
 ]
 },
+"72358": {
+"error": "File is not a zip file"
+},
 "72437": {
 "mods": [
 {
@@ -2874,6 +2895,9 @@
 "version": "0.3.24"
 }
 ]
+},
+"73012": {
+"error": "File is not a zip file"
 },
 "73260": {
 "mods": [
@@ -2934,6 +2958,9 @@
 }
 ]
 },
+"74737": {
+"error": "File is not a zip file"
+},
 "74821": {
 "mods": [
 {
@@ -2963,6 +2990,9 @@
 },
 "75317": {
 "mods": []
+},
+"75363": {
+"error": "File is not a zip file"
 },
 "75408": {
 "mods": [
@@ -3090,6 +3120,9 @@
 }
 ]
 },
+"76686": {
+"error": "File is not a zip file"
+},
 "76923": {
 "mods": [
 {
@@ -3188,6 +3221,9 @@
 "version": "1.0.6"
 }
 ]
+},
+"78049": {
+"error": "File is not a zip file"
 },
 "78161": {
 "mods": [
@@ -3312,6 +3348,9 @@
 }
 ]
 },
+"79399": {
+"error": "File is not a zip file"
+},
 "80003": {
 "mods": [
 {
@@ -3347,6 +3386,12 @@
 "version": "1.2"
 }
 ]
+},
+"80501": {
+"error": "File is not a zip file"
+},
+"80597": {
+"error": "File is not a zip file"
 },
 "80642": {
 "error": "HTTP Error 404: Not Found"
@@ -3420,6 +3465,9 @@
 }
 ]
 },
+"81815": {
+"error": "File is not a zip file"
+},
 "81895": {
 "mods": [
 {
@@ -3437,6 +3485,9 @@
 "version": "1.0.0"
 }
 ]
+},
+"82928": {
+"error": "File is not a zip file"
 },
 "83094": {
 "mods": [
@@ -3501,6 +3552,9 @@
 }
 ]
 },
+"84165": {
+"error": "File is not a zip file"
+},
 "84300": {
 "mods": [
 {
@@ -3561,6 +3615,9 @@
 }
 ]
 },
+"84667": {
+"error": "File is not a zip file"
+},
 "85078": {
 "mods": [
 {
@@ -3570,8 +3627,38 @@
 }
 ]
 },
+"85125": {
+"error": "File is not a zip file"
+},
+"85262": {
+"error": "File is not a zip file"
+},
+"85550": {
+"error": "File is not a zip file"
+},
+"85563": {
+"error": "File is not a zip file"
+},
+"85694": {
+"error": "File is not a zip file"
+},
 "85794": {
 "error": "HTTP Error 404: Not Found"
+},
+"85841": {
+"error": "File is not a zip file"
+},
+"85872": {
+"error": "File is not a zip file"
+},
+"85922": {
+"error": "File is not a zip file"
+},
+"85939": {
+"error": "File is not a zip file"
+},
+"86052": {
+"error": "File is not a zip file"
 },
 "86268": {
 "mods": []
@@ -3587,6 +3674,15 @@
 },
 "86335": {
 "error": "login required"
+},
+"86566": {
+"error": "File is not a zip file"
+},
+"87920": {
+"error": "File is not a zip file"
+},
+"87944": {
+"error": "File is not a zip file"
 },
 "89959": {
 "mods": [
@@ -3630,6 +3726,9 @@
 }
 ]
 },
+"95004": {
+"error": "File is not a zip file"
+},
 "97050": {
 "mods": [
 {
@@ -3656,6 +3755,9 @@
 "version": "1.5.0"
 }
 ]
+},
+"105440": {
+"error": "File is not a zip file"
 },
 "107829": {
 "mods": [
@@ -3801,6 +3903,18 @@
 }
 ]
 },
+"108305": {
+"mods": [
+{
+"id": "officerExtension",
+"name": "Officer Extension",
+"version": "0.8.1"
+}
+]
+},
+"108360": {
+"error": "File is not a zip file"
+},
 "108417": {
 "mods": [
 {
@@ -3818,6 +3932,9 @@
 "version": "3.1.2"
 }
 ]
+},
+"108591": {
+"error": "File is not a zip file"
 },
 "108592": {
 "mods": [
@@ -3849,6 +3966,9 @@
 }
 ]
 },
+"109180": {
+"error": "File is not a zip file"
+},
 "109190": {
 "mods": [
 {
@@ -3875,6 +3995,18 @@
 "version": "0.8.1"
 }
 ]
+},
+"109308": {
+"mods": [
+{
+"id": "belt_astartes",
+"name": "阿斯塔特迷你船包",
+"version": "1.1.0"
+}
+]
+},
+"109394": {
+"error": "File is not a zip file"
 },
 "109465": {
 "mods": [
@@ -3911,6 +4043,9 @@
 }
 ]
 },
+"110571": {
+"error": "File is not a zip file"
+},
 "110625": {
 "mods": [
 {
@@ -3928,6 +4063,12 @@
 "version": "2.1.5"
 }
 ]
+},
+"110694": {
+"error": "File is not a zip file"
+},
+"110716": {
+"error": "File is not a zip file"
 },
 "110755": {
 "mods": [
@@ -4058,6 +4199,9 @@
 }
 ]
 },
+"111521": {
+"error": "File is not a zip file"
+},
 "111588": {
 "mods": [
 {
@@ -4093,6 +4237,9 @@
 "version": "1.6.0"
 }
 ]
+},
+"111629": {
+"error": "File is not a zip file"
 },
 "111741": {
 "mods": [
@@ -4130,6 +4277,15 @@
 }
 ]
 },
+"111939": {
+"mods": [
+{
+"id": "persean_genius_trader",
+"name": "英仙座天才交易员",
+"version": "0.5.0"
+}
+]
+},
 "112114": {
 "error": "login required"
 },
@@ -4154,6 +4310,9 @@
 }
 ]
 },
+"112303": {
+"error": "File is not a zip file"
+},
 "112377": {
 "mods": [
 {
@@ -4163,11 +4322,44 @@
 }
 ]
 },
+"112486": {
+"error": "File is not a zip file"
+},
+"112640": {
+"error": "File is not a zip file"
+},
+"112649": {
+"error": "File is not a zip file"
+},
 "112727": {
 "error": "login required"
 },
+"112775": {
+"mods": [
+{
+"id": "market_ship_seizure",
+"name": "缴获市场仓库 / 突袭舰船市场",
+"version": "0.3.15"
+}
+]
+},
+"112776": {
+"error": "File is not a zip file"
+},
+"112799": {
+"error": "File is not a zip file"
+},
+"112863": {
+"error": "File is not a zip file"
+},
+"112870": {
+"error": "File is not a zip file"
+},
 "112874": {
 "error": "login required"
+},
+"112891": {
+"error": "File is not a zip file"
 },
 "112931": {
 "mods": [
@@ -4177,6 +4369,21 @@
 "version": "1.1.7"
 }
 ]
+},
+"112972": {
+"error": "File is not a zip file"
+},
+"113032": {
+"error": "File is not a zip file"
+},
+"113120": {
+"error": "File is not a zip file"
+},
+"113163": {
+"error": "File is not a zip file"
+},
+"113165": {
+"error": "File is not a zip file"
 },
 "113169": {
 "mods": [
@@ -4195,6 +4402,9 @@
 "version": "1.2.2"
 }
 ]
+},
+"113177": {
+"error": "File is not a zip file"
 },
 "113269": {
 "error": "login required"
@@ -4217,6 +4427,9 @@
 }
 ]
 },
+"113342": {
+"error": "File is not a zip file"
+},
 "113350": {
 "mods": [
 {
@@ -4226,12 +4439,39 @@
 }
 ]
 },
+"113431": {
+"error": "File is not a zip file"
+},
+"113445": {
+"mods": [
+{
+"id": "crashguard",
+"name": "CrashGuard 崩溃保护",
+"version": "1.0.1"
+}
+]
+},
+"113527": {
+"error": "File is not a zip file"
+},
 "113540": {
 "mods": [
 {
 "id": "more_player_names",
 "name": "More Player Flags",
 "version": "1.02"
+}
+]
+},
+"113559": {
+"error": "File is not a zip file"
+},
+"113577": {
+"mods": [
+{
+"id": "extrauiplus",
+"name": "更多界面增强",
+"version": "0.3.3"
 }
 ]
 },
@@ -4244,6 +4484,27 @@
 }
 ]
 },
+"113596": {
+"mods": [
+{
+"id": "EVEOverviewCommand",
+"name": "EVE总览与指挥",
+"version": "1.2.3"
+}
+]
+},
+"113632": {
+"error": "File is not a zip file"
+},
+"113680": {
+"error": "File is not a zip file"
+},
+"113750": {
+"error": "File is not a zip file"
+},
+"113775": {
+"error": "File is not a zip file"
+},
 "113815": {
 "mods": [
 {
@@ -4255,6 +4516,36 @@
 },
 "113827": {
 "mods": []
+},
+"113876": {
+"error": "File is not a zip file"
+},
+"113935": {
+"error": "File is not a zip file"
+},
+"113952": {
+"error": "File is not a zip file"
+},
+"113957": {
+"error": "File is not a zip file"
+},
+"114051": {
+"mods": [
+{
+"id": "ships_revovery_overflow_stls",
+"name": "战后舰船超量恢复",
+"version": "1.1.2"
+}
+]
+},
+"114064": {
+"error": "File is not a zip file"
+},
+"114089": {
+"error": "File is not a zip file"
+},
+"114192": {
+"error": "File is not a zip file"
 },
 "114196": {
 "mods": []
@@ -4274,6 +4565,9 @@
 "114329": {
 "error": "login required"
 },
+"114358": {
+"error": "File is not a zip file"
+},
 "114374": {
 "mods": [
 {
@@ -4282,6 +4576,12 @@
 "version": "1.87-RC3"
 }
 ]
+},
+"114381": {
+"error": "File is not a zip file"
+},
+"114401": {
+"error": "File is not a zip file"
 },
 "114514": {
 "mods": [
@@ -4327,5 +4627,176 @@
 "version": "3.0.2"
 }
 ]
+},
+"114633": {
+"error": "File is not a zip file"
+},
+"114636": {
+"error": "File is not a zip file"
+},
+"114660": {
+"error": "File is not a zip file"
+},
+"114689": {
+"mods": [
+{
+"id": "shaderLib",
+"name": "zz GraphicsLib",
+"version": "1.12.2"
+}
+]
+},
+"114720": {
+"error": "File is not a zip file"
+},
+"114741": {
+"error": "File is not a zip file"
+},
+"114851": {
+"error": "File is not a zip file"
+},
+"114889": {
+"error": "File is not a zip file"
+},
+"114907": {
+"error": "File is not a zip file"
+},
+"114914": {
+"error": "File is not a zip file"
+},
+"114951": {
+"mods": [
+{
+"id": "MixinLib",
+"name": "MixinLib",
+"version": "1.2.0"
+}
+]
+},
+"115023": {
+"error": "File is not a zip file"
+},
+"115116": {
+"error": "File is not a zip file"
+},
+"115187": {
+"error": "File is not a zip file"
+},
+"115249": {
+"mods": [
+{
+"id": "ungp",
+"name": "重生[UNGP]",
+"version": "2.6.0"
+}
+]
+},
+"115323": {
+"mods": [
+{
+"id": "hypernova_infinite_engine",
+"name": "Hypernova Infinite Engine",
+"version": "1.9.6"
+}
+]
+},
+"115332": {
+"error": "File is not a zip file"
+},
+"115336": {
+"error": "File is not a zip file"
+},
+"115344": {
+"mods": [
+{
+"id": "mayorate",
+"name": "市长领",
+"version": "1.1.0"
+}
+]
+},
+"115491": {
+"error": "File is not a zip file"
+},
+"115536": {
+"error": "File is not a zip file"
+},
+"115542": {
+"error": "File is not a zip file"
+},
+"115620": {
+"error": "File is not a zip file"
+},
+"115725": {
+"mods": [
+{
+"id": "progressiveOfficer",
+"name": "经验军官Progressive Officer",
+"version": "1.9.9"
+}
+]
+},
+"115772": {
+"mods": [
+{
+"id": "ValueBorders",
+"name": "价值边框 Value Borders",
+"version": "1.1.25"
+}
+]
+},
+"115793": {
+"error": "File is not a zip file"
+},
+"116014": {
+"error": "File is not a zip file"
+},
+"116016": {
+"mods": [
+{
+"id": "adversary",
+"name": "乐园残响",
+"version": "8.0.0"
+}
+]
+},
+"116074": {
+"mods": [
+{
+"id": "farstar_radio",
+"name": "远星电台",
+"version": "2.0.2"
+}
+]
+},
+"116091": {
+"error": "File is not a zip file"
+},
+"116097": {
+"error": "File is not a zip file"
+},
+"116109": {
+"error": "File is not a zip file"
+},
+"116131": {
+"error": "File is not a zip file"
+},
+"116139": {
+"error": "File is not a zip file"
+},
+"116150": {
+"error": "File is not a zip file"
+},
+"116176": {
+"error": "File is not a zip file"
+},
+"116210": {
+"error": "File is not a zip file"
+},
+"116227": {
+"error": "File is not a zip file"
+},
+"116255": {
+"error": "File is not a zip file"
 }
 }

@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/%E5%9C%B0%E8%A1%A8%E7%AA%81%E5%87%BB%E6%A1%86%E6%9E%B6%20surface%20assault%20framework.version",
+  "modName": "地表突击框架 Surface Assault Framework",
+  "modVersion": {
+    "major": "0",
+    "minor": "98"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21950-1-1.html",
+  "fossicTitle": "地表突击框架 Surface Assault Framework",
+  "fossicOrigin": "original"
+}

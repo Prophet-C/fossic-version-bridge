@@ -3,8 +3,10 @@
   "modName": "warnoMusicPack",
   "modVersion": {
     "major": "1",
-    "minor": "0"
+    "minor": "0",
+    "patch": "0"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=70378",
   "fossicThread": "https://www.fossic.org/thread-17552-1-1.html",
   "fossicTitle": "[0.98*] WARNO/合成器浪潮音乐包 1.0",
   "fossicOrigin": "original"

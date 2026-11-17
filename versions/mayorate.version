@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mayorate.version",
+  "modName": "mayorate",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21982-1-1.html",
+  "fossicTitle": "[0.98] 市长领The Mayorate 1.1.0",
+  "fossicOrigin": "repost"
+}

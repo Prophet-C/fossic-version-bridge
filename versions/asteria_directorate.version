@@ -3,10 +3,11 @@
   "modName": "asteria_directorate",
   "modVersion": {
     "major": "0",
-    "minor": "1",
-    "patch": "5"
+    "minor": "2",
+    "patch": "0"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=113632",
   "fossicThread": "https://www.fossic.org/thread-21577-1-1.html",
-  "fossicTitle": "[0.98a][高科][赏金] 菀星设计总局 - Alpha 测试",
+  "fossicTitle": "[0.98a][高科][赏金] 菀星设计总局 - Alpha 测试 (0.2.x 星翼重做, 贯虹更新)",
   "fossicOrigin": "original"
 }

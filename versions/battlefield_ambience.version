@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/battlefield_ambience.version",
+  "modName": "battlefield_ambience",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=115542",
+  "fossicThread": "https://www.fossic.org/thread-22015-1-1.html",
+  "fossicTitle": "【0.96a+ / 视觉氛围】Battlefield Ambience —— 战场深空氛围 v1.0.0",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/plasma_burn_escape.version",
+  "modName": "plasma_burn_escape",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=115793",
+  "fossicThread": "https://www.fossic.org/thread-22031-1-1.html",
+  "fossicTitle": "[0.98a] Plasma Burn Escape ---- 等离子脱离 v0.1.1",
+  "fossicOrigin": "original"
+}

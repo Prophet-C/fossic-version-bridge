@@ -4,8 +4,9 @@
   "modVersion": {
     "major": "0",
     "minor": "5",
-    "patch": "0"
+    "patch": "2"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=114089",
   "fossicThread": "https://www.fossic.org/thread-21841-1-1.html",
   "fossicTitle": "银行贷款",
   "fossicOrigin": "original"

@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sgf_cn_immersive.version",
+  "modName": "SGF_CN_ImmerSive",
+  "modVersion": {
+    "major": "10",
+    "minor": "0",
+    "patch": "9"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116109",
+  "fossicThread": "https://www.fossic.org/thread-20423-1-1.html",
+  "fossicTitle": "【新版发布】远行星号全中文沉浸体验项目【v2.7.X】【Java Agent 】",
+  "fossicOrigin": "original"
+}

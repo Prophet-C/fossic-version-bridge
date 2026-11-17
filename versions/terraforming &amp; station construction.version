@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/terraforming%20%26amp%3B%20station%20construction.version",
+  "modName": "Terraforming &amp; Station Construction",
+  "modVersion": {
+    "major": "10",
+    "minor": "0",
+    "patch": "9"
+  },
+  "fossicThread": "https://www.fossic.org/thread-5189-1-1.html",
+  "fossicTitle": "[0.96a/0.97/0.98] 地貌改造&amp;空间站建设 V10.0.9",
+  "fossicOrigin": "repost"
+}

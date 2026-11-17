@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/hypernova_infinite_engine.version",
+  "modName": "hypernova_infinite_engine",
+  "modVersion": {
+    "major": "1",
+    "minor": "9",
+    "patch": "6"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=115323",
+  "fossicThread": "https://www.fossic.org/thread-21941-1-1.html",
+  "fossicTitle": "【0.98a】【优化mod】Hypernova -让你的游戏加载速度快如闪电*！",
+  "fossicOrigin": "original"
+}

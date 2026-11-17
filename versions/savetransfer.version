@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/savetransfer.version",
+  "modName": "saveTransfer",
+  "modVersion": {
+    "major": "1",
+    "minor": "11",
+    "patch": "11"
+  },
+  "fossicThread": "https://www.fossic.org/thread-7725-1-1.html",
+  "fossicTitle": "(功能)存档转移 1.11.11",
+  "fossicOrigin": "repost"
+}

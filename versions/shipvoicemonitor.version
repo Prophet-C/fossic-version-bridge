@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/shipvoicemonitor.version",
+  "modName": "shipvoicemonitor",
+  "modVersion": {
+    "major": "1",
+    "minor": "1",
+    "patch": "6"
+  },
+  "fossicThread": "https://www.fossic.org/thread-22039-1-1.html",
+  "fossicTitle": "让你的旗舰开口说话！基于tts的简单舰船语音播放器",
+  "fossicOrigin": "original"
+}

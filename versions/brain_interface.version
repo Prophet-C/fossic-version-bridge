@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/brain_interface.version",
+  "modName": "brain_interface",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "1"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=115116",
+  "fossicThread": "https://www.fossic.org/thread-21956-1-1.html",
+  "fossicTitle": "驾驶无人舰船插",
+  "fossicOrigin": "original"
+}

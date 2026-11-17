@@ -3,11 +3,10 @@
   "modName": "self_UIUtil",
   "modVersion": {
     "major": "6",
-    "minor": "0",
+    "minor": "1",
     "patch": "0"
   },
-  "directDownloadURL": "https://cdn.fossic.cn/forum/202610/20/004215diofcxffla841efg.rar",
   "fossicThread": "https://www.fossic.org/thread-15740-1-1.html",
-  "fossicTitle": "[轻型前置] UI 前置 v6.0.0",
+  "fossicTitle": "[轻型前置] UI 前置 v6.1.0",
   "fossicOrigin": "original"
 }

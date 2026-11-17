@@ -3,8 +3,10 @@
   "modName": "asihn",
   "modVersion": {
     "major": "0",
-    "minor": "10"
+    "minor": "1",
+    "patch": "5.34"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=112874",
   "fossicThread": "https://www.fossic.org/thread-21601-1-1.html",
   "fossicTitle": "【0.98】Asihn's Construction —— 地貌改造 · 空间站建设 · 巨构",
   "fossicOrigin": "original"

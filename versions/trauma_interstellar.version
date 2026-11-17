@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/trauma_interstellar.version",
+  "modName": "trauma_interstellar",
+  "modVersion": {
+    "major": "0",
+    "minor": "1",
+    "patch": "0"
+  },
+  "fossicThread": "https://www.fossic.org/thread-21934-1-1.html",
+  "fossicTitle": "【0.98】创伤星际：您最好的医疗服务保障选择",
+  "fossicOrigin": "original"
+}

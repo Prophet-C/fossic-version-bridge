@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/leo_always_shield.version",
+  "modName": "leo_always_shield",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "2"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116210",
+  "fossicThread": "https://www.fossic.org/thread-22086-1-1.html",
+  "fossicTitle": "【0.98a】常驻护盾协议",
+  "fossicOrigin": "original"
+}

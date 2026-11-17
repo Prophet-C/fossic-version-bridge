@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/neutron_warstar.version",
+  "modName": "neutron_warstar",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116227",
+  "fossicThread": "https://www.fossic.org/thread-22087-1-1.html",
+  "fossicTitle": "[0.98a]吞噬星空 1.0.0：开着战星吃遍星域，从小星球长成黑洞（整活向）",
+  "fossicOrigin": "original"
+}

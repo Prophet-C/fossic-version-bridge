@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/mimikko_radiant_displacer_fix.version",
+  "modName": "mimikko_radiant_displacer_fix",
+  "modVersion": {
+    "major": "1",
+    "minor": "0"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=115187",
+  "fossicThread": "https://www.fossic.org/thread-21960-1-1.html",
+  "fossicTitle": "【补丁】兽耳助手「星之迹-级」AI 不使用闪现 —— 模块舰船修复补丁",
+  "fossicOrigin": "original"
+}

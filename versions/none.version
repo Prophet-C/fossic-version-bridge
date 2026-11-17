@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/none.version",
+  "modName": "NONE",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-22058-1-1.html",
+  "fossicTitle": "[涂装]深度航电",
+  "fossicOrigin": "original"
+}

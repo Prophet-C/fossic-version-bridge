@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ungp_nex_bridge.version",
+  "modName": "ungp_nex_bridge",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "2"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116091",
+  "fossicThread": "https://www.fossic.org/thread-22067-1-1.html",
+  "fossicTitle": "[0.98][UNGP规则拓展]URS-设备不友好型重生规则拓展",
+  "fossicOrigin": "original"
+}

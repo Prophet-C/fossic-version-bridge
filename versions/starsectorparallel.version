@@ -6,6 +6,7 @@
     "minor": "1",
     "patch": "0"
   },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=113952",
   "fossicThread": "https://www.fossic.org/thread-21836-1-1.html",
   "fossicTitle": "[0.98-RC8] StarsectorParallel —— 远行星号逻辑侧多线程并行化",
   "fossicOrigin": "original"

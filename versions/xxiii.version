@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/xxiii.version",
+  "modName": "xxiii",
+  "modVersion": {
+    "major": "0",
+    "minor": "0",
+    "patch": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-22028-1-1.html",
+  "fossicTitle": "第XXIII战斗群 星渡军团",
+  "fossicOrigin": "original"
+}

@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/better_slipstream.version",
+  "modName": "better_slipstream",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=114741",
+  "fossicThread": "https://www.fossic.org/thread-21921-1-1.html",
+  "fossicTitle": "出入滑流自动开关持续加速",
+  "fossicOrigin": "original"
+}
