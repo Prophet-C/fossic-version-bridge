@@ -3448,12 +3448,12 @@
   "thread": "https://www.fossic.org/thread-19493-1-1.html",
   "forum": 46,
   "title": "翡翠工程局 0.98",
-  "edited": "2026-11-11 00:00",
-  "version": "1.17",
+  "edited": "2026-11-18 00:00",
+  "version": "1.195",
   "source": "api",
   "origin": "original",
-  "aid": 79171,
-  "download": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=79171"
+  "aid": null,
+  "download": null
  },
  "jc_sf": {
   "id": "jc_sf",
@@ -4119,9 +4119,9 @@
   "id": "MagicLib",
   "thread": "https://www.fossic.org/thread-3753-1-1.html",
   "forum": 60,
-  "title": "【0.98*】MagicLib 1.5.6*",
-  "edited": "2025-05-01 00:00",
-  "version": "1.5.6*",
+  "title": "【0.985*】MagicLib 1.6.1*",
+  "edited": "2026-11-18 00:00",
+  "version": "1.6.1*",
   "source": "api",
   "origin": "repost",
   "aid": null,
@@ -5351,6 +5351,18 @@
   "aid": null,
   "download": null
  },
+ "parts_recovery": {
+  "id": "parts_recovery",
+  "thread": "https://www.fossic.org/thread-22103-1-1.html",
+  "forum": 71,
+  "title": "【0.985】使用人之领零件打捞舰船",
+  "edited": "2026-11-18 00:00",
+  "version": "1.3",
+  "source": "api",
+  "origin": "original",
+  "aid": 116330,
+  "download": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116330"
+ },
  "pc": {
   "id": "PC",
   "thread": "https://www.fossic.org/thread-18064-1-1.html",
@@ -6466,6 +6478,18 @@
   "origin": "original",
   "aid": 85358,
   "download": null
+ },
+ "sgf_galaxy_designer": {
+  "id": "sgf_galaxy_designer",
+  "thread": "https://www.fossic.org/thread-22102-1-1.html",
+  "forum": 71,
+  "title": "【0.98】桌面级星系设计器发布，图形化造你自己的自定义星系！",
+  "edited": "2026-11-18 00:00",
+  "version": "0.3.22",
+  "source": "api",
+  "origin": "original",
+  "aid": 116329,
+  "download": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116329"
  },
  "shaderlib": {
   "id": "shaderLib",
@@ -8510,7 +8534,7 @@
  "warnomusicpack": {
   "id": "warnoMusicPack",
   "thread": "https://www.fossic.org/thread-17552-1-1.html",
-  "forum": 71,
+  "forum": 46,
   "title": "[0.98*] WARNO/合成器浪潮音乐包 1.0",
   "edited": "2025-10-13 00:00",
   "version": "1.0.0",

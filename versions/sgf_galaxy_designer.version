@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sgf_galaxy_designer.version",
+  "modName": "sgf_galaxy_designer",
+  "modVersion": {
+    "major": "0",
+    "minor": "3",
+    "patch": "22"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116329",
+  "fossicThread": "https://www.fossic.org/thread-22102-1-1.html",
+  "fossicTitle": "【0.98】桌面级星系设计器发布，图形化造你自己的自定义星系！",
+  "fossicOrigin": "original"
+}

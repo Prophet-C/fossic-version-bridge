@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/parts_recovery.version",
+  "modName": "parts_recovery",
+  "modVersion": {
+    "major": "1",
+    "minor": "3"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116330",
+  "fossicThread": "https://www.fossic.org/thread-22103-1-1.html",
+  "fossicTitle": "【0.985】使用人之领零件打捞舰船",
+  "fossicOrigin": "original"
+}
