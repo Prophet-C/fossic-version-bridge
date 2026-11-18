@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/colonial%20bureau.version",
+  "modName": "colonial bureau",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-22106-1-1.html",
+  "fossicTitle": "殖民总局 Colonial Bureau——蓝图批量建造与殖民地财政",
+  "fossicOrigin": "original"
+}

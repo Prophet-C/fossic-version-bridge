@@ -4,10 +4,10 @@
   "modVersion": {
     "major": "0",
     "minor": "3",
-    "patch": "1"
+    "patch": "2"
   },
   "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=113032",
   "fossicThread": "https://www.fossic.org/thread-21595-1-1.html",
-  "fossicTitle": "【0.98】控制台前端 Console Frontend v0.3.1",
+  "fossicTitle": "【0.98】控制台前端 Console Frontend v0.3.2",
   "fossicOrigin": "original"
 }
