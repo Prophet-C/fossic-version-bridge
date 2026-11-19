@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/witch_citadel_lotp.version",
+  "modName": "witch_citadel_lotp",
+  "modVersion": {
+    "major": "0",
+    "minor": "9",
+    "patch": "5-preview"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116468",
+  "fossicThread": "https://www.fossic.org/thread-22119-1-1.html",
+  "fossicTitle": "【0.98】女巫秘城·旧日的遗产 [WthC·LotP] 0.9.5-preview",
+  "fossicOrigin": "original"
+}
