@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/starsector3d.version",
+  "modName": "starsector3d",
+  "modVersion": {
+    "major": "0",
+    "minor": "3",
+    "patch": "8.2"
+  },
+  "fossicThread": "https://www.fossic.org/thread-22125-1-1.html",
+  "fossicTitle": "（搬运）3d版远行星号（0.985）",
+  "fossicOrigin": "repost"
+}
