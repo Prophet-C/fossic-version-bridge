@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/explorer_compass.version",
+  "modName": "explorer_compass",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "2"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116556",
+  "fossicThread": "https://www.fossic.org/thread-22134-1-1.html",
+  "fossicTitle": "【功能】探险者指南针（全档实体检索）",
+  "fossicOrigin": "original"
+}
