@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/ba_refit_music.version",
+  "modName": "ba_refit_music",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116749",
+  "fossicThread": "https://www.fossic.org/thread-22149-1-1.html",
+  "fossicTitle": "断箭舰船装配界面音乐包",
+  "fossicOrigin": "original"
+}
