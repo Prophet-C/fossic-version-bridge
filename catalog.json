@@ -407,6 +407,18 @@
   "aid": null,
   "download": null
  },
+ "aotd_vok": {
+  "id": "aotd_vok",
+  "thread": "https://www.fossic.org/thread-22174-1-1.html",
+  "forum": 60,
+  "title": "[0.98a] 人之领烧剩下的灰（个人娱乐版）v0.1 — AoTD 系列个人汉化",
+  "edited": "2026-11-25 00:00",
+  "version": "0.1",
+  "source": "api",
+  "origin": "repost",
+  "aid": null,
+  "download": null
+ },
  "ap_jumpengine": {
   "id": "ap_jumpengine",
   "thread": "https://www.fossic.org/thread-21862-1-1.html",
@@ -2668,8 +2680,8 @@
   "thread": "https://www.fossic.org/thread-20142-1-1.html",
   "forum": 46,
   "title": "[0.98]狐狐船包！(移动殖民地！)",
-  "edited": "2026-11-24 00:00",
-  "version": "1.5.705",
+  "edited": "2026-11-25 00:00",
+  "version": "1.5.706",
   "source": "api",
   "origin": "original",
   "aid": 80642,
@@ -8211,7 +8223,7 @@
   "id": "UGH",
   "thread": "https://www.fossic.org/thread-5839-1-1.html",
   "forum": 60,
-  "title": "【0.96】面板欺诈船插Unusually Gullible Hullmods 0.5.1",
+  "title": "【0.98】面板欺诈船插Unusually Gullible Hullmods 0.5.1",
   "edited": "2026-11-23 00:00",
   "version": "0.5.1-RC5",
   "source": "api",
@@ -8715,7 +8727,7 @@
   "id": "WideHorizons",
   "thread": "https://www.fossic.org/thread-22171-1-1.html",
   "forum": 60,
-  "title": "[0.985]浩瀚银河豪华版 Wide Horizons Basic",
+  "title": "[0.985]浩瀚银河豪华版 Wide Horizons",
   "edited": "2026-11-24 00:00",
   "version": "1.5.1a",
   "source": "api",
@@ -9164,7 +9176,7 @@
   "version": "0.60",
   "source": "api",
   "origin": "original",
-  "aid": null,
+  "aid": 116999,
   "download": null
  },
  "地表突击框架 surface assault framework": {

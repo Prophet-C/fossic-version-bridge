@@ -1,0 +1,11 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/aotd_vok.version",
+  "modName": "aotd_vok",
+  "modVersion": {
+    "major": "0",
+    "minor": "1"
+  },
+  "fossicThread": "https://www.fossic.org/thread-22174-1-1.html",
+  "fossicTitle": "[0.98a] 人之领烧剩下的灰（个人娱乐版）v0.1 — AoTD 系列个人汉化",
+  "fossicOrigin": "repost"
+}
