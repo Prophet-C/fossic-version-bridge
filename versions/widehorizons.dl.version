@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/widehorizons.dl.version",
+  "modName": "WideHorizons",
+  "modVersion": {
+    "major": "1",
+    "minor": "5",
+    "patch": "1a"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116975",
+  "fossicThread": "https://www.fossic.org/thread-22171-1-1.html",
+  "fossicTitle": "[0.985]浩瀚银河豪华版 Wide Horizons Basic",
+  "fossicOrigin": "repost"
+}
