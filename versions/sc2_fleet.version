@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/sc2_fleet.version",
+  "modName": "sc2_fleet",
+  "modVersion": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=117114",
+  "fossicThread": "https://www.fossic.org/thread-22177-1-1.html",
+  "fossicTitle": "【0.98a】【内容mod】StarCraft Fleet - 星际争霸舰队",
+  "fossicOrigin": "original"
+}
