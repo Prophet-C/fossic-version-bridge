@@ -233,11 +233,11 @@
   "forum": 71,
   "title": "【0.98】空战与制空权",
   "edited": "2026-11-24 00:00",
-  "version": "0.8.2",
+  "version": "0.9.1",
   "source": "api",
   "origin": "original",
-  "aid": 116937,
-  "download": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=116937"
+  "aid": 117119,
+  "download": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=117119"
  },
  "aitweaks": {
   "id": "aitweaks",
@@ -262,6 +262,18 @@
   "origin": "repost",
   "aid": null,
   "download": null
+ },
+ "akari_vanilla_expansion": {
+  "id": "akari_vanilla_expansion",
+  "thread": "https://www.fossic.org/thread-22187-1-1.html",
+  "forum": 71,
+  "title": "[mod]阿卡林的原版扩展",
+  "edited": "2026-11-27 00:00",
+  "version": "0.17",
+  "source": "api",
+  "origin": "original",
+  "aid": 117136,
+  "download": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=117136"
  },
  "al17b": {
   "id": "AL17B",
@@ -1191,9 +1203,9 @@
   "id": "bpr_grand_expedition",
   "thread": "https://www.fossic.org/thread-21498-1-1.html",
   "forum": 46,
-  "title": "【0.98】【搜打撤】英仙座裂隙外 正式版 v1.2.0",
-  "edited": "2026-11-26 00:00",
-  "version": "1.2.0",
+  "title": "【0.98】【搜打撤】英仙座裂隙外 正式版 v1.2.3",
+  "edited": "2026-11-27 00:00",
+  "version": "1.2.3",
   "source": "api",
   "origin": "original",
   "aid": 116150,
@@ -8740,7 +8752,7 @@
   "thread": "https://www.fossic.org/thread-22171-1-1.html",
   "forum": 60,
   "title": "[0.98][0.985]浩瀚银河豪华版 Wide Horizons",
-  "edited": "2026-11-26 00:00",
+  "edited": "2026-11-27 00:00",
   "version": "1.5.1a",
   "source": "api",
   "origin": "repost",

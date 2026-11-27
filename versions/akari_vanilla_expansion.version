@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Prophet-C/fossic-version-bridge/main/versions/akari_vanilla_expansion.version",
+  "modName": "akari_vanilla_expansion",
+  "modVersion": {
+    "major": "0",
+    "minor": "17"
+  },
+  "directDownloadURL": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=117136",
+  "fossicThread": "https://www.fossic.org/thread-22187-1-1.html",
+  "fossicTitle": "[mod]阿卡林的原版扩展",
+  "fossicOrigin": "original"
+}
