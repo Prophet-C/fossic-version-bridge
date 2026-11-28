@@ -275,6 +275,18 @@
   "aid": 117136,
   "download": "https://www.fossic.org/forum.php?mod=misc&action=moddownload&aid=117136"
  },
+ "akm": {
+  "id": "AKM",
+  "thread": "https://www.fossic.org/thread-22191-1-1.html",
+  "forum": 71,
+  "title": "奥坎科技",
+  "edited": "2026-11-28 00:00",
+  "version": "0.3.0-beta",
+  "source": "api",
+  "origin": "original",
+  "aid": 117181,
+  "download": null
+ },
  "al17b": {
   "id": "AL17B",
   "thread": "https://www.fossic.org/thread-7860-1-1.html",
